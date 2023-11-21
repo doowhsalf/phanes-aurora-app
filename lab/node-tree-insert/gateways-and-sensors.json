@@ -1,0 +1,67 @@
+{
+    "nodeId": "pod001",
+    "name": "POD 001 - Enkey Demo POD",
+    "labelIcon": "CloudQueueIcon",
+    "entity_class": "enkey-pod",
+    "description": "This is the root node of the POD",
+    "linkToContext": "includes",
+    "linkFromContext": "pending",
+    "children": [
+        {
+            "nodeId": "servicenet",
+            "name": "Service Net",
+            "labelIcon": "LanIcon",
+            "entity_class": "system",
+            "description": "This is the Service Net",
+            "linkToContext": "includes",
+            "linkFromContext": "included",
+            "children": [
+                {
+                    "nodeId": "fibaro-tritonite-proxima-east",
+                    "name": "Fibaro Tritonite Proxima East",
+                    "labelIcon": "RouterIcon",
+                    "entity_class": "gateway",
+                    "description": "Fibaro home system",
+                    "lintFromContext": "included",
+                    "lintToContext": "hasPoint"
+                },
+                {
+                    "nodeId": "fibaro-tritonite-proxima-southeast",
+                    "name": "Fibaro-tritonite-proxima-southeast",
+                    "labelIcon": "RouterIcon",
+                    "entity_class": "gateway",
+                    "description": "Fibaro home system",
+                    "linkToContext": "hasPoint",
+                    "lintFromContext": "included"
+                },
+                {
+                    "nodeId": "p1ib-tritonite-proxima-southeast",
+                    "name": "P1IB - P1 Interface Bridge - Proxima SouthEast ",
+                    "labelIcon": "RouterIcon",
+                    "entity_class": "gateway",
+                    "description": "P1IB - P1 Interface Bridge - Proxima SouthEast ",
+                    "linkToContext": "hasPoint",
+                    "lintFromContext": "included"
+                },
+                {
+                    "nodeId": "KW4AL76310",
+                    "name": "KW4AL76310 - Demo Gateway at Ambiductor  ",
+                    "labelIcon": "RouterIcon",
+                    "entity_class": "gateway",
+                    "description": "KW4AL76310 - Demo Gateway at Ambiductor  ",
+                    "linkToContext": "hasPoint",
+                    "lintFromContext": "included"
+                },
+                {
+                    "nodeId": "fibaro-alpvagen",
+                    "name": "Fibaro home system, Robert Rennel, Alpvägen",
+                    "labelIcon": "RouterIcon",
+                    "entity_class": "gateway",
+                    "description": "Fibaro home system, Robert Rennel, Alpvägen",
+                    "linkToContext": "hasPoint",
+                    "lintFromContext": "included"
+                }
+            ]
+        }
+    ]
+}

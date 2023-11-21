@@ -1,0 +1,34 @@
+FROM tritonite/meteor
+
+# Default values for Meteor environment variables
+ENV APP_DIR=/meteor						\
+	ROOT_URL=http://127.0.0.1		\
+	MAIL_URL=http://127.0.0.1:25		\
+	NODE_ENV=production	\
+	DOOW=WOOD
+
+
+EXPOSE $PORT
+
+# HEALTHCHECK --interval=12s --timeout=12s --start-period=30s CMD node /meteor/healthcheck.js
+
+# Install as root (otherwise node-gyp gets compiled as nobody)
+USER root
+WORKDIR $APP_DIR/programs/server/
+
+# Copy bundle and scripts to the image APP_DIR
+# COPY scripts/ $APP_DIR	# This is now done at bundle time to reduce a layer in the docker image
+COPY ./builds/current.package.build/bundle $APP_DIR
+COPY ./docker_launchapp.sh $APP_DIR
+
+RUN yarn --production 
+
+RUN echo "Updating file permissions for the node user..." \
+	&& chmod -R 750 $APP_DIR \
+	&& chown -R node.node $APP_DIR
+
+# start the app
+WORKDIR $APP_DIR/
+USER node
+CMD ["/meteor/docker_launchapp.sh"]
+

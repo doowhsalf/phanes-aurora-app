@@ -1,0 +1,6 @@
+_id;confirmed_entity_class;agent;updated_string;status
+meter_lora-ota-8c83fc03002e503e_null;energy_meter;Enkey;2023-10-22 09:59:29;active
+meter_lora-ota-70b3d5e75e0191bc_null;combined_meter;Enkey;2023-10-23 22:40:06;active
+meter_lora-ota-70b3d580a010e696_null;humidity_meter;Enkey;2023-10-23 22:54:23;active
+meter_lora-ota-70b3d580a010bfa4_null;temperature_meter;Enkey;2023-10-23 22:58:52;active
+meter_lora-ota-0007090000519089_null;combined_meter;Enkey;2023-10-23 19:19:51;active

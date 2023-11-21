@@ -1,0 +1,75 @@
+{
+    "nodeId": "amf-fastigheter",
+    "name": "AMF Fastigheter",
+    "labelIcon": "CloudQueueIcon",
+    "entity_class": "portfolio",
+    "description": "Example tree for AMF Fastigheter",
+    "linkToContext": "includes",
+    "children": [
+        {
+            "nodeId": "marievik-27",
+            "name": "Marievik 27",
+            "labelIcon": "HomeWorkIcon",
+            "entity_class": "realestate",
+            "description": "Marievik 27 - exempel fastighet ",
+            "linkFromContext": "includedIn",
+            "linkToContext": "includes",
+            "children": [
+                {
+                    "nodeId": "elmatare-001",
+                    "name": "Elmätare 001",
+                    "labelIcon": "MeterIcon",
+                    "entity_class": "energy-meter"
+                },
+                {
+                    "nodeId": "elmatare-002",
+                    "name": "Elmätare 002",
+                    "labelIcon": "MeterIcon",
+                    "entity_class": "energy-meter"
+                },
+                {
+                    "nodeId": "elmatare-003",
+                    "name": "Elmätare 003",
+                    "labelIcon": "MeterIcon",
+                    "entity_class": "energy-meter"
+                },
+                {
+                    "nodeId": "elmatare-004",
+                    "name": "Elmätare 004",
+                    "labelIcon": "MeterIcon",
+                    "entity_class": "energy-meter"
+                },
+                {
+                    "nodeId": "elmatare-005",
+                    "name": "Elmätare 005",
+                    "labelIcon": "MeterIcon",
+                    "entity_class": "energy-meter"
+                },
+                {
+                    "nodeId": "elmatare-006",
+                    "name": "Elmätare 006",
+                    "labelIcon": "MeterIcon",
+                    "entity_class": "energy-meter"
+                },
+                {
+                    "nodeId": "elmatare-007",
+                    "name": "Elmätare 007",
+                    "labelIcon": "MeterIcon",
+                    "entity_class": "energy-meter"
+                },
+                {
+                    "nodeId": "elmatare-008",
+                    "name": "Elmätare 008",
+                    "labelIcon": "MeterIcon",
+                    "entity_class": "energy-meter"
+                },
+                {
+                    "nodeId": "elmatare-009",
+                    "name": "Elmätare 009",
+                    "labelIcon": "MeterIcon",
+                    "entity_class": "energy-meter"
+                }
+            ]
+        }
+    ]
+}

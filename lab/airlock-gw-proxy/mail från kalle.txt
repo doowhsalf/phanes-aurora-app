@@ -1,0 +1,26 @@
+Hej.
+ 
+Senlab T
+Senlab H
+Bifogade js-filer
+ 
+w1t
+Bifogad PDF
+ 
+Watteco vaqa’o+
+https://support.watteco.com/vaqao/
+ 
+Qalcoconic E3
+Bifogad PDF
+ 
+Elmätare EMU Professional II
+Bifogad PDF
+ 
+ Hej.
+Här kommer avkodningshjälp för elmätarna vi kommer använda.
+ 
+LoRa Decoder:             https://github.com/emuag/professional_II_lora
+LoRa Payload configurator: https://github.com/emuag/professional_II_lora
+ 
+ 
+ 

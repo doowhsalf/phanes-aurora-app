@@ -1,0 +1,150 @@
+{
+    "nodeId": "pod001-physical",
+    "name": "POD 001 - Vasakronan",
+    "labelIcon": "CloudQueueIcon",
+    "entity_class": "enkey-pod",
+    "description": "This is the root node of the POD",
+    "linkToContext": "includes",
+    "linkFromContext": "pending",
+    "children": [
+        {
+            "nodeId": "site1",
+            "name": "Site 1",
+            "labelIcon": "BusinessIcon",
+            "entity_class": "site",
+            "description": "This is node of Site 1",
+            "linkToContext": "hasBuilding",
+            "linkFromContext": "hasPart",
+            "children": [
+                {
+                    "nodeId": "building1",
+                    "name": "Building 1",
+                    "labelIcon": "BuildingIcon",
+                    "entity_class": "building",
+                    "description": "This is node of Building 1",
+                    "linkToContext": "hasPart",
+                    "linkFromContext": "isPartOf",
+                    "children": [
+                        {
+                            "nodeId": "level1",
+                            "name": "Level 1",
+                            "labelIcon": "LevelIcon",
+                            "entity_class": "level",
+                            "description": "This is node of Level 1",
+                            "linkToContext": "hasPart",
+                            "linkFromContext": "isPartOf",
+                            "children": [
+                                {
+                                    "nodeId": "room1",
+                                    "name": "Room 1",
+                                    "labelIcon": "RoomIcon",
+                                    "entity_class": "room",
+                                    "description": "This is node of Room 1",
+                                    "linkToContext": "containsEquipment",
+                                    "linkFromContext": "locatedIn",
+                                    "children": [
+                                        {
+                                            "nodeId": "ictequipment1",
+                                            "name": "ICT Equipment",
+                                            "labelIcon": "EquipmentIcon",
+                                            "entity_class": "ictequipment",
+                                            "description": "This is node for ICT Equipment in Room 1",
+                                            "linkToContext": "hasPart",
+                                            "linkFromContext": "isLocatedAt",
+                                            "children": [
+                                                {
+                                                    "nodeId": "sensorequipment1",
+                                                    "name": "Sensor Equipment",
+                                                    "labelIcon": "SensorIcon",
+                                                    "entity_class": "sensorequipment",
+                                                    "description": "This is node of Sensor Equipment",
+                                                    "linkToContext": "hasPart",
+                                                    "linkFromContext": "isPartOf",
+                                                    "children": [
+                                                        {
+                                                            "nodeId": "meter1",
+                                                            "name": "Meter 1",
+                                                            "labelIcon": "MeterIcon", 
+                                                            "entity_class": "meter",
+                                                            "description": "This is node of Meter 1",
+                                                            "linkToContext": "pending",
+                                                            "linkFromContext": "isPartOf" 
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeId": "room2",
+                                    "name": "Room 2",
+                                    "labelIcon": "RoomIcon",
+                                    "entity_class": "room",
+                                    "description": "This is node of Room 2",
+                                    "linkFromContext": "isPartOf"
+                                },
+                                {
+                                    "nodeId": "room3",
+                                    "name": "Room 3",
+                                    "labelIcon": "RoomIcon",
+                                    "entity_class": "room",
+                                    "description": "This is node of Room 3",
+                                    "linkFromContext": "isPartOf"
+                                }
+                            ]
+                        },
+                        {
+                            "nodeId": "level2",
+                            "name": "Level 2",
+                            "labelIcon": "LevelIcon",
+                            "entity_class": "level",
+                            "description": "This is node of Level 2",
+                            "linkFromContext": "isPartOf"
+                        },
+                        {
+                            "nodeId": "level3",
+                            "name": "Level 3",
+                            "labelIcon": "LevelIcon",
+                            "entity_class": "level",
+                            "description": "This is node of Level 3",
+                            "linkFromContext": "isPartOf"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "building2",
+                    "name": "Building 2",
+                    "labelIcon": "BuildingIcon",
+                    "entity_class": "building",
+                    "description": "This is node of Building 2",
+                    "linkFromContext": "isPartOf"
+                },
+                {
+                    "nodeId": "building3",
+                    "name": "Building 3",
+                    "labelIcon": "BuildingIcon",
+                    "entity_class": "building",
+                    "description": "This is node of Building 3",
+                    "linkFromContext": "isPartOf"
+                }
+            ]
+        },
+        {
+            "nodeId": "site2",
+            "name": "Site 2",
+            "labelIcon": "LocationIcon",
+            "entity_class": "site",
+            "description": "This is node of Site 2",
+            "linkFromContext": "isLocatedAt"
+        },
+        {
+            "nodeId": "site3",
+            "name": "Site 3",
+            "labelIcon": "LocationIcon",
+            "entity_class": "site",
+            "description": "This is node of Site 3",
+            "linkFromContext": "isLocatedAt"
+        }
+    ]
+}

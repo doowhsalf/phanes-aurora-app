@@ -1,0 +1,192 @@
+{
+    "Entities": {
+        "Property": {
+            "Description": "Represents a real estate property, such as a building, land parcel, or asset.",
+            "Settings": {
+                "PropertyType": "Residential, Commercial, Industrial, etc.",
+                "YearBuilt": "Year the property was constructed",
+                "OwnershipStatus": "Owner-occupied, Rental, Vacant, etc."
+            },
+            "AllowedRelationships": [
+                "IsLocatedIn",
+                "OwnedBy",
+                "HasLease",
+                "HasFinancialInstrument"
+            ]
+        },
+        "Space": {
+            "Description": "Represents a physical space within a real estate property, such as rooms, offices, or common areas.",
+            "Settings": {
+                "SpaceType": "Office, Living Room, Kitchen, etc.",
+                "Area": "Size of the space in square feet/meters",
+                "OccupancyStatus": "Occupied, Available, Under Renovation, etc."
+            },
+            "AllowedRelationships": [
+                "IsLocatedIn",
+                "PartOf",
+                "Describes"
+            ]
+        },
+        "Asset": {
+            "Description": "Represents individual real estate assets, such as buildings, land parcels, or equipment.",
+            "Settings": {
+                "AssetType": "Building, Land Parcel, Machinery, etc.",
+                "Value": "Monetary value of the asset",
+                "Condition": "New, Used, Good, Fair, Poor, etc."
+            },
+            "AllowedRelationships": [
+                "IsLocatedIn",
+                "OwnedBy",
+                "HasFinancialInstrument"
+            ]
+        },
+        "Agent": {
+            "Description": "Represents entities or individuals involved in real estate transactions or management.",
+            "Settings": {
+                "AgentType": "Individual, Corporation, Brokerage, etc.",
+                "ContactInfo": "Contact information of the agent",
+                "Roles": "Buyer, Seller, Property Manager, etc."
+            },
+            "AllowedRelationships": [
+                "OwnedBy",
+                "Manages",
+                "InvolvedInTransaction"
+            ]
+        },
+        "Transaction": {
+            "Description": "Represents a real estate transaction, such as buying, selling, leasing, or renting a property.",
+            "Settings": {
+                "TransactionType": "Buy, Sell, Lease, Rent, etc.",
+                "TransactionDate": "Date of the transaction",
+                "TransactionValue": "Monetary value of the transaction"
+            },
+            "AllowedRelationships": [
+                "InvolvedInTransaction"
+            ]
+        },
+        "Lease": {
+            "Description": "Represents a lease agreement for a real estate property, specifying terms and conditions.",
+            "Settings": {
+                "LeaseTerm": "Duration of the lease in months or years",
+                "MonthlyRent": "Monthly rent amount",
+                "LeaseStart": "Start date of the lease",
+                "LeaseEnd": "End date of the lease"
+            },
+            "AllowedRelationships": [
+                "HasLease"
+            ]
+        },
+        "FinancialInstrument": {
+            "Description": "Represents financial instruments related to real estate, such as mortgages or loans.",
+            "Settings": {
+                "InstrumentType": "Mortgage, Loan, Bond, etc.",
+                "InterestRate": "Interest rate associated with the instrument",
+                "PrincipalAmount": "Principal amount borrowed or invested"
+            },
+            "AllowedRelationships": [
+                "HasFinancialInstrument"
+            ]
+        },
+        "Location": {
+            "Description": "Represents the geographic location of a real estate property.",
+            "Settings": {
+                "Latitude": "Geographic latitude coordinate",
+                "Longitude": "Geographic longitude coordinate",
+                "Address": "Full address of the location"
+            },
+            "AllowedRelationships": [
+                "IsLocatedIn"
+            ]
+        },
+        "Descriptor": {
+            "Description": "Represents a descriptor or characteristic of a Space, Architecture, or Point.",
+            "Settings": {
+                "DescriptorType": "Physical, Environmental, Functional, etc.",
+                "DescriptorValue": "Value or description of the descriptor"
+            },
+            "AllowedRelationships": [
+                "Describes"
+            ]
+        },
+        "Architecture": {
+            "Description": "Represents architectural features or elements of a real estate property.",
+            "Settings": {
+                "ArchitectureType": "Building Design, Structural Features, etc.",
+                "Description": "Detailed description of the architectural element"
+            },
+            "AllowedRelationships": [
+                "Describes"
+            ]
+        },
+        "Point": {
+            "Description": "Represents specific points or coordinates within a real estate property.",
+            "Settings": {
+                "PointType": "Geographic Coordinate, Reference Point, etc.",
+                "Coordinates": "Geographic coordinates (latitude and longitude)"
+            },
+            "AllowedRelationships": [
+                "Describes"
+            ]
+        }
+    },
+    "Relationships": {
+        "IsLocatedIn": {
+            "Description": "Describes the relationship between a Space or Asset and its Location.",
+            "AllowedDomains": [
+                "Space",
+                "Asset",
+                "Location"
+            ]
+        },
+        "OwnedBy": {
+            "Description": "Describes the ownership relationship between an Agent and a Property.",
+            "AllowedDomains": [
+                "Agent",
+                "Property"
+            ]
+        },
+        "Manages": {
+            "Description": "Describes the management relationship between an Agent and a Property.",
+            "AllowedDomains": [
+                "Agent",
+                "Property"
+            ]
+        },
+        "PartOf": {
+            "Description": "Describes the part-whole relationship between Spaces and Assets within a Property.",
+            "AllowedDomains": [
+                "Space",
+                "Asset"
+            ]
+        },
+        "InvolvedInTransaction": {
+            "Description": "Describes the involvement of Agents in a Transaction.",
+            "AllowedDomains": [
+                "Agent",
+                "Transaction"
+            ]
+        },
+        "HasLease": {
+            "Description": "Describes the relationship between a Property and its Lease agreement.",
+            "AllowedDomains": [
+                "Property",
+                "Lease"
+            ]
+        },
+        "HasFinancialInstrument": {
+            "Description": "Describes the financial instruments associated with a Property.",
+            "AllowedDomains": [
+                "Property",
+                "FinancialInstrument"
+            ]
+        },
+        "Describes": {
+            "Description": "Associates a Descriptor with a Space, Architecture, or Point.",
+            "AllowedDomains": [
+                "Space",
+                "Architecture",
+                "Point"
+            ]
+        }
+    }
+}

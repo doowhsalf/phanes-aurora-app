@@ -1,0 +1,53 @@
+{
+  "year": {
+    "previous": "I fjol",
+    "current": "I år",
+    "next": "Nästa år",
+    "past": "−{0} år",
+    "future": "+{0} år"
+  },
+  "quarter": {
+    "previous": "Förra  kv.",
+    "current": "Detta kv.",
+    "next": "Nästa kv.",
+    "past": "−{0} kv",
+    "future": "+{0} kv."
+  },
+  "month": {
+    "previous": "Förra  mån.",
+    "current": "Denna  mån.",
+    "next": "Nästa mån.",
+    "past": "−{0} mån",
+    "future": "+{0} mån."
+  },
+  "week": {
+    "previous": "Förra  v.",
+    "current": "Denna  v.",
+    "next": "Nästa v.",
+    "past": "−{0} v",
+    "future": "+{0} v."
+  },
+  "day": {
+    "previous": "Igår",
+    "current": "Idag",
+    "next": "Imorgon",
+    "past": "−{0} d",
+    "future": "+{0} d"
+  },
+  "hour": {
+    "current": "Denna timme",
+    "past": "−{0} h",
+    "future": "+{0} h"
+  },
+  "minute": {
+    "current": "Denna minut",
+    "past": "−{0} min",
+    "future": "+{0} min"
+  },
+  "second": {
+    "current": "För någon sekund sedan",
+    "past": "−{0} s",
+    "future": "+{0} s"
+  },
+  "now": "För någon sekund sedan"
+}

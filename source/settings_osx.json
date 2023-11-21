@@ -1,0 +1,33 @@
+{
+  "drupalTokenUrl": "https://oberon.tritonite.io/services/session/token",
+  "drupalLoginUrl": "https://oberon.tritonite.io/gudrun_user/user/login",
+  "drupalTestConnection": "https://oberon.tritonite.io/tri_gudrun_test_connection/json",
+  "drupalGetTax": "https://oberon.tritonite.io/tri_gudrun_get_taxonomy",
+  "drupalQueryTax": "https://oberon.tritonite.io/tri_gudrun_query_taxonomy",
+  "drupalEntityQuery": "https://oberon.tritonite.io/tri_gudrun_entity_search",
+  "drupalUserUrl": "https://oberon.tritonite.io/tri_gudrun_user_query",
+  "drupalCompanyUsersUrl": "https://oberon.tritonite.io/tri_gudrun_company_query",
+  "drupalManageUserUrl": "https://oberon.tritonite.io/tri_gudrun_company_user",
+  "drupalContactUrl": "https://oberon.tritonite.io/tri_gudrun_contact",
+  "drupalGetArticleUrl": "https://oberon.tritonite.io/tri_gudrun_article_query",
+  "drupalFileareaQuery": "https://oberon.tritonite.io/tri_gudrun_filearea_query",
+  "drupalFileareaGetFile": "https://oberon.tritonite.io/tri_gudrun_filearea_getitem",
+  "apiKey": "3MfPYcPrGGBYdRhxks9UCfodTg6aMJzG9c3b_6rxM6A",
+  "relayTimer": 60000,
+  "public": {
+    "minPasswordLength": 8,
+    "listDateTimeFormat": "YYYY-MM-DD HH.mm",
+    "detailsDateFormat": "YYYYMMDD",
+    "detailsDateTimeFormat": "YYYYMMDD HH.mm.ss",
+    "defaultLocale": "sv",
+    "ldapUserDn": "",
+    "ldapUserSearchBy": "sAMAccountName",
+    "ldapBindToDomain": false,
+    "graphQLServerUrl": "http://localhost:48700/graphql",
+    "displayEmptyHelpIcons": true,
+    "pageTermsLink": "/content/info_article_x_16848",
+    "ordersPerPage": 5,
+    "accountLostPassword": "https://oberon.tritonite.io/user/password",
+    "accountRegister": "https://oberon.tritonite.io/user/register"
+  }
+}

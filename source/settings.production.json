@@ -1,0 +1,19 @@
+{
+  "portiaNotificationServiceUrl": "http://edge.portia.tritonite.io/tri_tools_portia_mongo_article_sync/id/",
+  "portiaPreviewServiceUrl": "http://edge.portia.tritonite.io/tri_tools_portia_mongo_article_preview/id/",
+  "portiaPublishServiceUrl": "http://edge.portia.tritonite.io/tri_tools_portia_mongo_article_publish/id/",
+  "filesRootPath": "/",
+  "previewExpirationTimeMinutes": "60",
+  "public": {
+    "minPasswordLength": 8,
+    "listDateTimeFormat": "YYYY-MM-DD HH.mm.ss",
+    "detailsDateFormat": "YYYY-MM-DD",
+    "detailsDateTimeFormat": "YYYY-MM-DD HH.mm.ss",
+    "photoPlaceholderFile": "/images/ic_image_black_120px.svg",
+    "titleImagePlaceholderFile": "/images/articlepic_placeholder.jpg",
+    "defaultLocale": "sv",
+    "displayEmptyHelpIcons": false,
+    "pageTermsLink": "/terms",
+    "articlesPerPage": 25
+  }
+}

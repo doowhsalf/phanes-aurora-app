@@ -1,0 +1,30 @@
+import _users from "./_users";
+import chatlines from "./chatlines";
+import chatrooms from "./chatrooms";
+import secrets from "./secrets";
+import articles from "./articles";
+import mcc from "./mcc_config";
+import signalstate from "./signalstate";
+import nodes from "./nodes";  
+import links from "./links";
+import events from "./events";
+import agents from "./agents";
+import ontology from "./ontology";
+import sensormapping from "./sensor-mapping";
+import meters from "./meters";
+export default function () {
+  _users();
+  chatlines();
+  chatrooms();
+  secrets();
+  articles();
+  mcc();
+  signalstate();
+  nodes();
+  links();
+  events();
+  agents();
+  ontology();
+  sensormapping();
+  meters();
+}

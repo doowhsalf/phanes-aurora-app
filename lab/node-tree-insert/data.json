@@ -1,0 +1,165 @@
+{
+    "nodeId": "pod001",
+    "name": "POD 001 - Vasakronan",
+    "labelIcon": "CloudQueueIcon",
+    "entity_class": "enkey-pod",
+    "description": "This is the root node of the POD",
+    "linkToContext": "Leasee",
+    "children": [
+        {
+            "nodeId": "vasakronan-ab",
+            "name": "Vasakronan",
+            "labelIcon": "BusinessIcon",
+            "entity_class": "agent",
+            "description": "This is node of VasaKronan",
+            "linkToContext": "Owns",
+            "lintFromContext": "Leasor",
+            "children": [
+                {
+                    "nodeId": "vasakronan",
+                    "name": "Organisation",
+                    "labelIcon": "HomeWorkIcon",
+                    "entity_class": "organisation",
+                    "description": "This is node of VasaKronan",
+                    "linkToContext": "Leasee",
+                    "lintFromContext": "ownedBy",
+                    "children": [
+                        {
+                            "nodeId": "bravida",
+                            "name": "Bravida",
+                            "labelIcon": "HomeWorkIcon",
+                            "entity_class": "company",
+                            "description": "This is node of Bravida",
+                            "linkToContext":"Leasee",
+                            "lintFromContext": "pending"
+                        },
+                        {
+                            "nodeId": "Amazon",
+                            "name": "Amazon",
+                            "labelIcon": "HomeWorkIcon",
+                            "entity_class": "Company",
+                            "description": "This is node of Amazon",
+                            "linkToContext": "Leasee",
+                            "lintFromContext": "pending"
+                        },
+                        {
+                            "nodeId": "EON",
+                            "name": "EON",
+                            "labelIcon": "HomeWorkIcon",
+                            "entity_class": "Company",
+                            "description": "This is node of EON",
+                            "linkToContext": "Leasee",
+                            "lintFromContext": "pending"
+                        },
+                        {
+                            "nodeId": "vasakronan",
+                            "name": "Vasakronan City",
+                            "labelIcon": "HomeWorkIcon",
+                            "entity_class": "department",
+                            "description": "This is node of VasaKronan",
+                            "linkToContext": "ownerOf",
+                            "lintFromContext": "Leasor",
+                            "children": [
+                                {
+                                    "nodeId": "city",
+                                    "name": "City",
+                                    "labelIcon": "HomeWorkIcon",
+                                    "entity_class": "premise",
+                                    "description": "This is node of City",
+                                    "linkFromContext": "ownedBy",
+                                    "linkToContext": "pending"
+                                },
+                                {
+                                    "nodeId": "south",
+                                    "name": "South",
+                                    "labelIcon": "HomeWorkIcon",
+                                    "entity_class": "region",
+                                    "description": "This is node of South",
+                                    "linkFromContext": "ownedBy",
+                                    "linkToContext": "pending"
+                                },
+                                {
+                                    "nodeId": "frescati",
+                                    "name": "Frescati",
+                                    "labelIcon": "HomeWorkIcon",
+                                    "entity_class": "Campus",
+                                    "description": "This is node of Frescati",
+                                    "linkFromContext": "ownedBy",
+                                    "linkToContext": "includes",
+                                    "children": [
+                                        {
+                                            "nodeId": "kvarteret-skatan",
+                                            "name": "Kvarteret Skatan",
+                                            "labelIcon": "HomeWorkIcon",
+                                            "entity_class": "realestate",
+                                            "description": "This is node of Kvarteret Skatan",
+                                            "linkFromContext": "includedIn",
+                                            "linkToContext": "includes",
+                                            "children": [
+                                                {
+                                                    "nodeId": "hus-a",
+                                                    "name": "Hus A",
+                                                    "labelIcon": "HomeWorkIcon",
+                                                    "entity_class": "building",
+                                                    "description": "This is node of Hus A",
+                                                    "linkFromContext": "includedIn",
+                                                    "linkToContext": "includes",
+                                                    "children": [
+                                                        {
+                                                            "nodeId": "gateway-002",
+                                                            "name": "Gateway 002",
+                                                            "labelIcon": "HomeWorkIcon",
+                                                            "entity_class": "ictequipment"
+                                                        },
+                                                        {
+                                                            "nodeId": "sensor-001",
+                                                            "name": "Sensor 001",
+                                                            "labelIcon": "HomeWorkIcon",
+                                                            "entity_class": "sensorequipment"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "nodeId": "hus-b",
+                                                    "name": "Hus B",
+                                                    "labelIcon": "HomeWorkIcon",
+                                                    "entity_class": "building",
+                                                    "children": [
+                                                        {
+                                                            "nodeId": "gateway-001",
+                                                            "name": "Gateway 001",
+                                                            "labelIcon": "HomeWorkIcon",
+                                                            "entity_class": "ictequipment"
+                                                        },
+                                                        {
+                                                            "nodeId": "sensor-002",
+                                                            "name": "Sensor 002",
+                                                            "labelIcon": "HomeWorkIcon",
+                                                            "entity_class": "sensorequipment"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "nodeId": "skatan",
+                                    "name": "Skatan",
+                                    "labelIcon": "HomeWorkIcon",
+                                    "entity_class": "portfolio"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nodeId": "Person001",
+            "name": "fn.en@vasakronan.se",
+            "labelIcon": "PersonIcon",
+            "entity_class": "person"
+        }
+    ]
+}

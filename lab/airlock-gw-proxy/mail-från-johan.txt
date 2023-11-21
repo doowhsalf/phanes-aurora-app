@@ -1,0 +1,62 @@
+
+On 17 Nov 2023, at 08:43, Johan Sandberg <johan.sandberg@ambiductor.se> wrote:
+
+Hej,
+
+Kalle bad mig sätta upp en Milesight UG65 för Enkeys räkning.
+En enhet är nu konfigurerad och provisionerad med 5 mätare.
+Integrationen med MQTT är konfigurerad till samma broker som för CloudGate (neptune-pod-gw.deeptracker.io) som nu Milesight UG65 ersätter.
+Uplink data har nu topic application/milesight och kan ändras om du vill.
+
+Provisionerade enheter
+1st Senlab H
+1st Senlab T
+1st Axioma w1t
+1st Watteco vaqa’o+
+1st Qalcoconic E3
+
+Alla utom den sista enheten skickar uppdateringar, Qalcoconic E3 kommer att ansluta när jag flyttar UG65 till kontoret nästa vecka.
+Verifiera gärna att du får in uppdateringar via er MQTT broker. 
+Senlab enheterna har relativt hög TX frekvens, W1t enheten har 4h. 
+
+Exempel:
+{
+  "applicationID" : "1",
+  "applicationName" : "MQTT",
+  "data" : "A+GBFIIsAXMj",
+  "devEUI" : "70b3d580a010e6a9",
+  "deviceName" : "SenlabH",
+  "fCnt" : 582,
+  "fPort" : 3,
+  "rxInfo" : [ {
+    "altitude" : 0,
+    "latitude" : 0,
+    "loRaSNR" : 13.2,
+    "longitude" : 0,
+    "mac" : "24e124fffef788f2",
+    "name" : "Local Gateway",
+    "rssi" : -42,
+    "time" : "2023-11-17T07:37:53.683785Z"
+  } ],
+  "time" : "2023-11-17T07:37:53.683785Z",
+  "txInfo" : {
+    "adr" : true,
+    "codeRate" : "4/5",
+    "dataRate" : {
+      "bandwidth" : 125,
+      "modulation" : "LORA",
+      "spreadFactor" : 7
+    },
+    "frequency" : 868300000
+  }
+}
+
+Med vänlig hälsning / Best Regards
+Johan Sandberg, Product Owner IoT
+
+<image001.png> <image002.png>
+E-mail: johan.sandberg@ambiductor.se
+Mobile: +46 (0)76-872 94 24, Direct: +46 (0)8-409 046 65 
+LinkedIn Company: +46 (0)8-501 676 76
+Address: Propellervägen 8B, 183 62 TÄBY,Sweden
+Web: www.ambiductor.se Facebook
