@@ -39,7 +39,7 @@ const styles = (theme) => ({
 
   login_page: { marginRight: theme.spacing(1) },
 
-  login_container: {
+  login_container_color: {
     color: "white",
     border: "1px solid rgba(255, 255, 255, 0.21)",
     width: 480,
@@ -48,7 +48,7 @@ const styles = (theme) => ({
       "cab-colorShift 100s linear infinite, cab-opacityChange 60s alternate infinite, cab-blurChange 60s alternate infinite ", // Add the float animation
     borderRadius: 3,
     padding: 15,
-    
+
     overflow: "hidden",
     /* Adjust the duration, timing, and other properties as needed */
     background: "linear-gradient(90deg,#552393 5%,  #1A0B2E 50%,#552393 100%)",
@@ -61,8 +61,23 @@ const styles = (theme) => ({
     // "-moz-backdrop-filter": "blur(148px)",
     // "backdrop-filter": "blur(148px)",
   },
+  login_container: {
+    color: "white",
+    border: "1px solid rgba(255, 255, 255, 0.21)",
+    width: 480,
+    margin: "auto",
+    borderRadius: 3,
+    padding: 15,
+    overflow: "hidden",
+    // Apply a blur effect to the background
+    backdropFilter: "blur(48px)", // You can adjust the px value to increase/decrease the blur effect
+    WebkitBackdropFilter: "blur(48px)", // For Safari compatibility
+    "-webkit-backdrop-filter": "blur(48px)",
+    "-o-backdrop-filter": "blur(48px)",
+    "-moz-backdrop-filter": "blur(48px)",
+    "backdrop-filter": "blur(48px)",
+  },
 });
-
 class UserLogin extends React.Component {
   constructor(props) {
     //console.log("In OrderComponent constructor...");

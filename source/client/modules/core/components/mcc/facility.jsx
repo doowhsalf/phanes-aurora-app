@@ -146,7 +146,7 @@ const styles = (theme) => ({
     padding: 0,
     margin: "auto",
     background:
-      "url(https://sycorax.tritonite.io/neptune-pod) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     backgroundSize: "cover",
   },
 
@@ -261,7 +261,7 @@ class Facility extends React.Component {
         <div
           style={{
             background:
-              "url(https://sycorax.tritonite.io/neptune-pod) no-repeat center center fixed",
+              "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
             backgroundSize: "cover",
             position: "fixed",
             minWidth: "100%",

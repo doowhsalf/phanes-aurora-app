@@ -32,7 +32,7 @@ const styles = (theme) => ({
     overflow: "hidden",
 
     background:
-      "url(https://sycorax.tritonite.io/neptune-pod) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     backgroundSize: "cover",
   },
 

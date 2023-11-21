@@ -90,7 +90,7 @@ class DynamicContainer extends React.Component {
 
     Meteor.call(
       "sycorax.dynamic.async",
-      "https://sycorax.tritonite.io/neptune-pod/meta",
+      "https://sycorax.tritonite.io/phanes-aurora/meta",
       (err, result) => {
         DEFCON3 && console.log("Response");
         DEFCON3 && console.log(err);

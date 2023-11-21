@@ -5,6 +5,6 @@ Mdate="$(date +"%Y%m%d_%H%M%S")"
 cd source
 sh ../build_core.sh
 npx browserslist@latest --update-db
-export MONGO_URL='mongodb://localhost:44017/neptune_pod_001'
-meteor  --port 3008 --settings settings_osx_docker.json
+export MONGO_URL='mongodb://localhost:51017/aurora_pod_001'
+meteor  --port 3051 --settings settings_osx_docker.json
 echo "Launched..."

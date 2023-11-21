@@ -61,7 +61,7 @@ class BackdroundImage extends React.Component {
       console.log(xhr.responseText);
     });
     // open the request with the verb and the url
-    xhr.open("GET", "https://sycorax.tritonite.io/neptune-pod");
+    xhr.open("GET", "https://sycorax.tritonite.io/phanes-aurora");
     // send the request
     xhr.send();
   }
@@ -78,7 +78,7 @@ class BackdroundImage extends React.Component {
       <div
         style={{
           background: `linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 80%), 
-                     url(https://sycorax.tritonite.io/neptune-pod) no-repeat center center fixed`,
+                     url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed`,
           backgroundSize: "cover",
           position: "fixed",
           minWidth: "100%",

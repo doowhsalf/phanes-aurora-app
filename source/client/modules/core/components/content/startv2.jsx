@@ -43,7 +43,7 @@ const styles = (theme) => ({
     overflow: "hidden",
 
     background:
-      "url(https://sycorax.tritonite.io/neptune-pod) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     backgroundSize: "cover",
   },
 
@@ -208,46 +208,60 @@ class Start extends React.Component {
       <div className={classes.backGroundImage}>
         <BackgroundDynamic />
 
-        <Grid container spacing={2} style={{ height: "100vh", padding: 24 }}>
+        <Grid container spacing={2} style={{ height: "100vh" }}>
           {/* Upper Left - Title */}
           <Grid
             item
-            xs={12}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center", // Center horizontally and vertically
-            }}
-          >
-            {!user_logged_in && (
-              <div className={classes.loginCard}>
-                <Login className={classes.login} />
-              </div>
-            )}
-          </Grid>
-
-          
-
-          {/* Lower Left - Title */}
-          <Grid
-            item
-            xs={12}
+            xs={6}
             style={{
               display: "flex",
               alignItems: "flex-end",
-              justifyContent: "flex-end", // Center horizontally and vertically
+              justifyContent: "flex-end",
             }}
           >
             {!user_logged_in && (
-              <div>
-                <TitleComponent
-                  title=""
-                  subtitle="Din IOT-partner för enklare mätning i byggnader"
-                  logo={true}
-                />
-              </div>
+              <TitleComponent
+                title="Aurora"
+                subtitle="Insightful Context Awareness"
+              />
             )}
           </Grid>
+
+          {/* Upper Right */}
+          <Grid
+            item
+            xs={6}
+            style={{
+              display: "flex",
+              alignItems: "flex-end", // Align items to the end of the container on the cross axis
+              justifyContent: "center", // Align items to the end of the container on the main axis
+            }}
+          >
+            {!user_logged_in && (
+              <>
+                <div className={classes.loginCard}>
+                  <Login className={classes.login} />
+                </div>
+              </>
+            )}
+          </Grid>
+
+          {/* Lower Left */}
+          <Grid item xs={6}>
+            {/* Content here if needed */}
+          </Grid>
+
+          {/* Lower Right - Login */}
+          <Grid
+            item
+            xs={6}
+            style={{
+              display: "flex",
+              alignItems: "flex-start",
+              justifyContent: "flex-start",
+              paddingLeft: "43px",
+            }}
+          ></Grid>
         </Grid>
 
         <SnackBarMessage

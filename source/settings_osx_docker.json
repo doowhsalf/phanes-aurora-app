@@ -1,34 +1,18 @@
 {
-  "drupalTokenUrl": "http://localhost:44851/services/session/token",
-  "drupalLoginUrl": "http://localhost:44851/neptune_user/user/login",
-  "drupalTestConnection": "http://localhost:44851/tri_gudrun_test_connection/json",
-  "drupalGetTax": "http://localhost:44851/tri_gudrun_get_taxonomy",
-  "drupalQueryTax": "http://localhost:44851/tri_gudrun_query_taxonomy",
-  "drupalEntityQuery": "http://localhost:44851/tri_gudrun_entity_search",
-  "drupalUserUrl": "http://localhost:44851/tri_gudrun_user_query",
-  "drupalCompanyUsersUrl": "http://localhost:44851/tri_gudrun_company_query",
-  "drupalContactUrl": "http://localhost:44851/tri_gudrun_contact",
-  "drupalGetArticleUrl": "http://localhost:44851/tri_gudrun_article_query",
-  "drupalFileareaQuery": "http://localhost:44851/tri_gudrun_filearea_query",
-  "drupalFileareaGetFile": "http://localhost:44851/tri_gudrun_filearea_getitem",
-  "drupalGetUser": "http://localhost:44851/tri_user_user_query",
-  "drupalInsertUser": "http://localhost:44851/tri_user_user_insert",
-  "apiKey": "3MfPYcPrGGBYdRhxks9UCfodTg6aMJzG9c3b_6rxM6A",
   "relayTimer": 60000,
   "public": {
     "minPasswordLength": 8,
     "listDateTimeFormat": "YYYY-MM-DD HH.mm",
     "detailsDateFormat": "YYYYMMDD",
     "detailsDateTimeFormat": "YYYYMMDD HH.mm.ss",
-    "defaultLocale": "sv",
+    "defaultLocale": "en",
     "ldapUserDn": "",
     "ldapUserSearchBy": "sAMAccountName",
     "ldapBindToDomain": false,
-    "graphQLServerUrl": "http://localhost:48700/graphql",
     "displayEmptyHelpIcons": true,
     "pageTermsLink": "/content/info_article_x_16848",
     "ordersPerPage": 5,
-    "accountLostPassword": "http://localhost:44851/user/password",
-    "accountRegister": "http://localhost:44851/register"
+    "accountLostPassword": "/password",
+    "accountRegister": "/register"
   }
 }
