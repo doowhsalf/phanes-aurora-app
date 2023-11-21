@@ -8,16 +8,16 @@ import {
   DEFCON2,
   DEFCON1,
 } from "/debug.json";
-import Typography from "@mui/material/Typography";
-import { alpha } from "@mui/material/styles";
-import withStyles from "@mui/styles/withStyles";
+import Typography from "@material-ui/core/Typography";
+import { withStyles } from "@material-ui/core/styles";
 // const Container = dataComposer(Component);
 import PropTypes from "prop-types";
 import AppConfig from "/client/configs/app";
-import Dividier from "@mui/material/Divider";
+import Dividier from "@material-ui/core/Divider";
 import Bg from "../helpers/dynamic_bg";
-import Link from "@mui/material/Link";
-import LinkIcon from "@mui/icons-material/Link";
+import Link from "@material-ui/core/Link";
+import LinkIcon from "@material-ui/icons/Link";
+import { alpha } from "@material-ui/core/styles/colorManipulator";
 
 const styles = (theme) => ({
   divider: {
@@ -33,19 +33,89 @@ const styles = (theme) => ({
     margin: "auto",
     background:
       "linear-gradient(to bottom, " +
-      alpha(theme.palette.secondary.dark, 0.95) +
+      alpha(theme.palette.secondary.dark, 0.89) +
       " 0%, " +
       alpha(theme.palette.secondary.main, 0.66) +
       " 100%)",
     borderRadius: 3,
     padding: 15,
     overflow: "hidden",
+  },
+  dynamic_container2: {
+    top: 250,
+    width: 300,
+    margin: "auto",
+    marginTop: 100,
+    color: "white",
+    margin: "auto",
+
+    background:
+      "linear-gradient(to top, rgba(123, 68, 126, .66) 0%, " +
+      theme.palette.primary.dark +
+      " 100%)",
     "-webkit-backdrop-filter": "blur(4px)",
     "-o-backdrop-filter": "blur(4px)",
     "-moz-backdrop-filter": "blur(4px)",
     "backdrop-filter": "blur(4px)",
+    borderRadius: 6,
+    padding: 15,
+    overflow: "hidden",
   },
+  dynamic_container5: {
+    top: 250,
+    width: 300,
+    margin: "auto",
+    marginTop: 100,
+    color: "white",
+    margin: "auto",
 
+    background: "linear-gradient(to top, rgba(1, 1, 1, 0.89) 0%, #8E72BD 100%)",
+    borderRadius: 6,
+    padding: 15,
+    overflow: "hidden",
+  },
+  dynamic_container3: {
+    top: 250,
+    width: 300,
+    margin: "auto",
+    marginTop: 100,
+    color: "white",
+    margin: "auto",
+    borderRadius: 6,
+    padding: 15,
+    overflow: "hidden",
+    background:
+      "linear-gradient(0% -5%, rgba(0, 0, 0, 0.08)  0%, #8E72BD 20%, #A473B6 40%, #7F6BBB 60%, #A473B6 70%, rgba(0, 0, 0, 0.08)  100%)",
+    background:
+      "-moz-linear-gradient(0% -5%,rgba(0, 0, 0, 0.08) 0%, #8E72BD 20%, #A473B6 40%, #7F6BBB 60%, #A473B6 70%, rgba(0, 0, 0, 0.08)  100%)",
+    background:
+      "-webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, rgba(0, 0, 0, 0.08)), color-stop(0.2, #8E72BD), color-stop(0.4, #A473B6), color-stop(0.6, #7F6BBB), color-stop(0.8, #A473B6), color-stop(1, rgba(0, 0, 0, 0.08)))",
+    "-o-animation": "anime 17.5s infinite",
+    "-ms-animation": "anime 17.5s infinite",
+    "-moz-animation": "anime 17.5s infinite,",
+    "-webkit-animation": "anime 17.5s infinite",
+  },
+  dynamic_container4: {
+    top: 250,
+    width: 300,
+    margin: "auto",
+    marginTop: 100,
+    color: "white",
+    margin: "auto",
+    borderRadius: 6,
+    padding: 15,
+    overflow: "hidden",
+    background:
+      "linear-gradient(0% -15%, #7F6BBB 0%, #8E72BD 20%, ##A473B6 40%, #C87EA9 60%, #E598A1 80%, #ECA4A5 100%)",
+    background:
+      "-moz-linear-gradient(0% -15%, #7F6BBB 0%, #8E72BD 20%, ##A473B6 40%, #C87EA9 60%, #E598A1 80%, #ECA4A5 100%)",
+    background:
+      "-webkit-gradient(linear, 0% -15%, 100% 100%, color-stop(0, #7F6BBB), color-stop(0.2, #8E72BD), color-stop(0.4, #A473B6), color-stop(0.6, #C87EA9), color-stop(0.8, #E598A1), color-stop(1, #ECA4A5))",
+    "-o-animation": "anime 17.5s infinite",
+    "-ms-animation": "anime 17.5s infinite",
+    "-moz-animation": "anime 17.5s infinite,",
+    "-webkit-animation": "anime 17.5s infinite",
+  },
   "@keyframes anime": {
     "0%": {
       top: "0",
@@ -90,7 +160,7 @@ class DynamicContainer extends React.Component {
 
     Meteor.call(
       "sycorax.dynamic.async",
-      "https://sycorax.tritonite.io/phanes-aurora/meta",
+      "https://sycorax.tritonite.io/titania/meta",
       (err, result) => {
         DEFCON3 && console.log("Response");
         DEFCON3 && console.log(err);

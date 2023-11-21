@@ -1,76 +1,64 @@
-import {
-  DEFCON9,
-  DEFCON7,
-  DEFCON5,
-  DEFCON4,
-  DEFCON3,
-  DEFCON2,
-  DEFCON1
-} from "/debug.json";
-
-import {USER_ACTION_ACTIVATE, USER_ACTION_DEACTIVATE} from "/lib/constants";
-
 export default {
+  add({ Meteor, LocalState, FlowRouter }, data) {
+    //DEFCON5 && console.log ('actions._users.add data', data);
 
-  add({
-        Meteor,
-        LocalState,
-        FlowRouter
-      }, user, callback) {
-    // DEFCON7 && console.log('actions._users.add data', data);
+    const userObject = {
+      email: data.email,
+      profile: {
+        firstName: data.firstName,
+        lastName: data.lastName,
+      },
+    };
 
-    Meteor.call('_users.add', user, (err, response) => {
-      if (callback) {
-        if (err) {
-          callback(err);
-        } else {
-          callback(null, response);
-        }
-      }
+    Meteor.call("_users.add", userObject, (err, response) => {
       if (err) {
-        DEFCON3 && console.log('actions._users.add error: ' + err);
+        return LocalState.set("_users.SAVE_ERROR", err.message);
       }
-
+      if (response._idNew) {
+        FlowRouter.go("/users/" + response._idNew);
+      }
     });
 
+    // const user_id = Accounts.createUser(userObject, (err,res) => {
+    //   if (err && err.reason) {
+    //     return LocalState.set('_colors.SAVE_ERROR', err.reason);
+    //   } else {
+    //
+    //   }
+    // });
+
+    // FlowRouter.go('/users/');
   },
 
-  manage(
-    {
-      Meteor,
-      LocalState,
-      FlowRouter
-    }, uid, action, callback) {
+  update({ Meteor, LocalState, FlowRouter }, data, _id) {
+    //DEFCON5 && console.log  ('actions._users.update _id', _id);
+    //DEFCON5 && console.log  ('actions._users.update data', data);
 
-    if (!uid || (action !== USER_ACTION_ACTIVATE && action !== USER_ACTION_DEACTIVATE)) {
-      if (callback) {
-        callback(`actions._users.manage invalid parameters: ${uid} / ${action}`)
+    Meteor.call("_users.update", data, _id, (err) => {
+      if (err) {
+        return LocalState.set("_users.SAVE_ERROR", err.message);
       }
-    }
+    });
+  },
 
-    DEFCON5 && console.log(`actions._users.manage ${uid} / ${action}`);
-    Meteor.call('_users.manage', uid, action, (err, response) => {
-      if (callback) {
-        if (err) {
-          callback(err);
-        } else {
-          callback(null, response);
-        }
+  delete({ Meteor, LocalState, FlowRouter }, _id) {
+    //DEFCON5 && console.log ('actions._users.delete _id', _id);
+    //DEFCON5 && console.log ('actions._users.delete Meteor.userId()', Meteor.userId());
+
+    Meteor.call("_users.delete", _id, (err) => {
+      if (_id === Meteor.userId()) {
+        //DEFCON5 && console.log ('cant delete self');
+        return LocalState.set("_users.DELETE_ERROR", "Seppuku :-) ");
       }
       if (err) {
-        DEFCON3 && console.log('actions._users.manage error: ' + err);
+        return LocalState.set("_users.DELETE_ERROR", err.message);
       }
-
+      FlowRouter.go(`/users/`);
     });
-
   },
 
-
-  clearErrors({
-                LocalState
-              }) {
-    LocalState.set('_users.DELETE_ERROR', null);
-    return LocalState.set('_users.SAVE_ERROR', null);
-  }
-
+  clearErrors({ LocalState }) {
+    LocalState.set("_users.DELETE_ERROR", null);
+    return LocalState.set("_users.SAVE_ERROR", null);
+  },
 };

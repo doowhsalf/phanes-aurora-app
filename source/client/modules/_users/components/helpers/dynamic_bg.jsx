@@ -8,12 +8,12 @@ import {
   DEFCON2,
   DEFCON1,
 } from "/debug.json";
-import Typography from "@mui/material/Typography";
-import withStyles from "@mui/styles/withStyles";
+import Typography from "@material-ui/core/Typography";
+import { withStyles } from "@material-ui/core/styles";
 // const Container = dataComposer(Component);
 import PropTypes from "prop-types";
 import AppConfig from "/client/configs/app";
-import Dividier from "@mui/material/Divider";
+import Dividier from "@material-ui/core/Divider";
 
 const styles = (theme) => ({});
 
@@ -40,7 +40,7 @@ Meteor.call("channels.add", articleId, channelId, (err, result) => {
 
     Meteor.call(
       "sycorax.dynamic.async",
-      "https://sycorax.tritonite.io/phanes-aurora/meta",
+      "https://sycorax.tritonite.io/titania_common/meta",
       (err, result) => {
         DEFCON3 && console.log("Response");
         DEFCON3 && console.log(err);
@@ -61,7 +61,7 @@ Meteor.call("channels.add", articleId, channelId, (err, result) => {
             background: imageClass,
             backgroundSize: "cover",
           };
-
+          
           this.setState({
             uri: result.uri,
             photographer: result.photographer,

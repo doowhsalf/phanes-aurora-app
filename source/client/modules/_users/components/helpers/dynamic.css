@@ -1,0 +1,13 @@
+.dynamic a:link {
+  color: #ffffff;
+}
+.dynamic a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: auto;
+}
+.dynamic a:visited:active {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=dynamic.css.map */

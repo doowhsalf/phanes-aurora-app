@@ -1,7 +1,7 @@
 import React from 'react';
 
 import dataComposer from '../../composers/account/login.jsx';
-import Component from './_form.jsx';
+import Component from './_NOTUSED_form.jsx';
 
 const Container = dataComposer(Component);
 
@@ -9,7 +9,7 @@ export default class extends React.Component {
 
   render() {
     return (
-      <div className="titania-login">
+      <div className="tri-login">
 
         <div className="bs-docs-section clearfix">
 

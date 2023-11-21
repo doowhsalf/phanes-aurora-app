@@ -1,5 +1,4 @@
 import React from "react";
-import { FlowRouter } from "meteor/ostrio:flow-router-extra";
 import {
   DEFCON9,
   DEFCON7,
@@ -10,17 +9,14 @@ import {
   DEFCON1,
 } from "/debug.json";
 import i18n from "meteor/universe:i18n";
-
-import Button from "@mui/material/Button";
-import TextField from "@mui/material/TextField";
-import withStyles from "@mui/styles/withStyles";
-import Input from "@mui/material/Input";
-import Link from "@mui/material/Link";
-import Typography from "@mui/material/Typography";
-import Dividier from "@mui/material/Divider";
-import { red } from "@mui/material/colors";
-import { alpha, styled } from "@mui/material/styles";
-
+import Button from "@material-ui/core/Button";
+import TextField from "@material-ui/core/TextField";
+import { withStyles } from "@material-ui/core/styles";
+import Input from "@material-ui/core/Input";
+import Link from "@material-ui/core/Link";
+import red from "@material-ui/core/colors/red";
+import Typography from "@material-ui/core/Typography";
+import Dividier from "@material-ui/core/Divider";
 const styles = (theme) => ({
   container: {
     display: "flex",
@@ -35,6 +31,7 @@ const styles = (theme) => ({
     marginTop: theme.spacing(1),
     marginBottom: theme.spacing(1),
     color: "white",
+    borderColor: "white",
   },
   error: {
     color: red[500],
@@ -46,22 +43,12 @@ const styles = (theme) => ({
   link: {
     marginTop: theme.spacing(1),
     marginBottom: theme.spacing(1),
-    color: "white",
   },
   textColor: {
     color: "white",
   },
-  textField: {
-    marginTop: theme.spacing(1.5),
-  },
 });
 
-const StyledTextField = styled(TextField)`
-  .MuiInputBase-root {
-    background-color: ${({ theme, value }) =>
-      !value && theme.palette.background.grey01};
-  }
-`;
 class LoginForm extends React.Component {
   constructor() {
     super();
@@ -95,7 +82,7 @@ class LoginForm extends React.Component {
 
     if (this.state.email === "" || this.state.email.trim() === "") {
       this.setState({
-        emailError: i18n.__("Label_LoginForm_UsernameValidationError"),
+        emailError: i18n.__("Label_LoginForm_EmailValidationError"),
       });
       validationPassed = false;
     }
@@ -127,7 +114,7 @@ class LoginForm extends React.Component {
             </Typography>
           ) : null}
 
-          <StyledTextField
+          <TextField
             InputLabelProps={{
               className: classes.textColor,
               style: {
@@ -138,29 +125,35 @@ class LoginForm extends React.Component {
                 color: "white",
               },
             }}
-            className={classes.textField}
-            type="email"
             autoFocus
             onKeyDown={this.onKeyDown}
+            name="email"
             value={this.state.email}
-            label={i18n.__("Label_LoginForm_Username")}
-            placeholder={i18n.__("Label_LoginForm_UsernamePlaceholder")}
+            label={i18n.__("Label_LoginForm_Email")}
+            placeholder={i18n.__("Label_LoginForm_EmailPlaceholder")}
             helperText={this.state.emailError}
             autoComplete="off"
             fullWidth={true}
+            validations="isEmail"
             onChange={this.handleChange("email")}
-            // validationError={i18n.__('Label_LoginForm_UsernameValidationError')}
+            // validationError={i18n.__('Label_LoginForm_EmailValidationError')}
           />
-          <StyledTextField
+          <TextField
             InputLabelProps={{
               className: classes.textColor,
+              style: {
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+                overflow: "hidden",
+                width: "100%",
+                color: "white",
+              },
             }}
-            className={classes.textField}
-            type="password"
-            autoComplete="off"
             onKeyDown={this.onKeyDown}
+            name="password"
             value={this.state.password}
             label={i18n.__("Label_LoginForm_Password")}
+            type="password"
             placeholder={i18n.__("Label_LoginForm_PasswordPlaceholder")}
             fullWidth={true}
             validations="minLength:4"
@@ -187,19 +180,35 @@ class LoginForm extends React.Component {
         >
           {i18n.__("Link_Login_ForgotPassword")}
         </Button>
-        {/* <Button
+        <Button
+          styles={{ color: "white" }}
           fullWidth
           variant="outlined"
           href={urlAccountRegister}
           className={classes.button}
         >
-          {i18n.__("Link_Login_Register")}
-        </Button> */}
+          {i18n.__("Button_RegisterForm_Register")}
+        </Button>
+        {/* <Dividier className={classes.divider} />
+        {Meteor.settings.public.classicLoginLink ? (
+          <Button
+            styles={{ color: "white" }}
+            fullWidth
+            variant="outlined"
+            href={Meteor.settings.public.classicLoginLink}
+            className={classes.button}
+          >
+            {i18n.__("Link_Classic_Loginlink")}
+          </Button>
+        ) : null} */}
         <Dividier className={classes.divider} />
-        <div className={classes.link}>
-          <Link href="start">
-            <Typography>{i18n.__("Label_LoginForm_GoHome")}</Typography>
-          </Link>
+        <div>
+          <a
+            style={{ color: "white" }}
+            href={Meteor.settings.public.pageTermsLink}
+          >
+            <small>{i18n.__("Link_Login_TermsLink")}</small>
+          </a>
         </div>
       </form>
     );

@@ -1,14 +1,5 @@
 import {useDeps} from 'react-simple-di-extra';
 import {composeWithTracker, composeAll} from 'react-komposer';
-import {
-  DEFCON9,
-  DEFCON7,
-  DEFCON5,
-  DEFCON4,
-  DEFCON3,
-  DEFCON2,
-  DEFCON1
-} from "/debug.json";
 
 export const composer = ({context, clearErrors, token}, onData) => {
   const {LocalState} = context();
