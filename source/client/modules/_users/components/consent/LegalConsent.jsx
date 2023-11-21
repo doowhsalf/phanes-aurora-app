@@ -10,15 +10,15 @@ import {
 } from "/debug.json";
 import i18n from "meteor/universe:i18n";
 
-import Typography from "@material-ui/core/Typography";
-import { withStyles } from "@material-ui/core/styles";
-import Link from "@material-ui/core/Link";
+import Typography from "@mui/material/Typography";
+import withStyles from '@mui/styles/withStyles';
+import Link from "@mui/material/Link";
 import PropTypes from "prop-types";
 import AppConfig from "/client/configs/app";
 import LegalConsentArticle from "../../composers/consent/LegalConsentArticle";
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
-import Card from "@material-ui/core/Card";
+import Button from "@mui/material/Button";
+import Grid from "@mui/material/Grid";
+import Card from "@mui/material/Card";
 const containerSpace = 2;
 
 const styles = (theme) => ({

@@ -3,9 +3,9 @@ import React from "react";
 import dataComposer from "../../composers/account/register.jsx";
 import Component from "./_form.jsx";
 import i18n from "meteor/universe:i18n";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 const Container = dataComposer(Component);
-import Link from "@material-ui/core/Link";
+import Link from "@mui/material/Link";
 import PropTypes from "prop-types";
 import AppConfig from "/client/configs/app";
 import {

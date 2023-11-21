@@ -1,8 +1,8 @@
 import React from "react";
 import i18n from "meteor/universe:i18n";
-import Button from "@material-ui/core/Button";
-import TextField from "@material-ui/core/TextField";
-import { withStyles } from "@material-ui/core/styles";
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
+import withStyles from '@mui/styles/withStyles';
 import PropTypes from "prop-types";
 import {
   DEFCON9,

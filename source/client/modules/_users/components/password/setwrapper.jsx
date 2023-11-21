@@ -5,7 +5,7 @@ import dataComposer from "../../composers/account/setpassword.jsx";
 import Component from "./_setform.jsx";
 import _ from "lodash";
 import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 
 const Container = dataComposer(Component);
 import {

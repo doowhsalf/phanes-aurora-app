@@ -81,7 +81,7 @@ const labelIcon = node && node.labelIcon !== undefined ? node.labelIcon : null;
       <CardHeader
         action={
           <>
-            <IconButton aria-label="settings" onClick={handleClick}>
+            <IconButton aria-label="settings" onClick={handleClick} size="large">
               <MoreVertIcon />
             </IconButton>
             <Menu

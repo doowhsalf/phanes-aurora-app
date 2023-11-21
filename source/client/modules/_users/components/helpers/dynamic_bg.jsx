@@ -8,12 +8,12 @@ import {
   DEFCON2,
   DEFCON1,
 } from "/debug.json";
-import Typography from "@material-ui/core/Typography";
-import { withStyles } from "@material-ui/core/styles";
+import Typography from "@mui/material/Typography";
+import withStyles from '@mui/styles/withStyles';
 // const Container = dataComposer(Component);
 import PropTypes from "prop-types";
 import AppConfig from "/client/configs/app";
-import Dividier from "@material-ui/core/Divider";
+import Dividier from "@mui/material/Divider";
 
 const styles = (theme) => ({});
 

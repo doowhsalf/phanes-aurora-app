@@ -9,15 +9,15 @@ import {
   DEFCON1,
 } from "/debug.json";
 import i18n from "meteor/universe:i18n";
-import Checkbox from "@material-ui/core/Checkbox";
-import Card from "@material-ui/core/Card";
-import CardHeader from "@material-ui/core/CardHeader";
-import CardContent from "@material-ui/core/CardContent";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
+import Card from "@mui/material/Card";
+import CardHeader from "@mui/material/CardHeader";
+import CardContent from "@mui/material/CardContent";
+import FormControlLabel from "@mui/material/FormControlLabel";
 
-import IconButton from "@material-ui/core/IconButton";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import Collapse from "@material-ui/core/Collapse";
+import IconButton from "@mui/material/IconButton";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Collapse from "@mui/material/Collapse";
 
 export default class extends React.Component {
   constructor() {
@@ -77,7 +77,7 @@ export default class extends React.Component {
                   label={i18n.__("Label_ConsentArticle_Hint")}
                 />
 
-                <IconButton>
+                <IconButton size="large">
                   <ExpandMoreIcon />
                 </IconButton>
               </div>

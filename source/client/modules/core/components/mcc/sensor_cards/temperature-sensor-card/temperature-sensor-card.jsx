@@ -175,7 +175,7 @@ function SensorCard({ sensorData, historyData }) {
       <CardHeader
         action={
           <>
-            <IconButton aria-label="settings" onClick={handleClick}>
+            <IconButton aria-label="settings" onClick={handleClick} size="large">
               <MoreVertIcon />
             </IconButton>
             <Menu
@@ -283,7 +283,7 @@ function SensorCard({ sensorData, historyData }) {
       <CardHeader
         action={
           <>
-            <IconButton aria-label="settings" onClick={handleClick}>
+            <IconButton aria-label="settings" onClick={handleClick} size="large">
               <MoreVertIcon />
             </IconButton>
             <Menu

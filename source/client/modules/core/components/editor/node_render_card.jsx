@@ -96,7 +96,7 @@ function NodeCard({ node, title, description, body }) {
       <CardHeader
         action={
           <>
-            <IconButton aria-label="settings" onClick={handleClick}>
+            <IconButton aria-label="settings" onClick={handleClick} size="large">
               <MoreVertIcon />
             </IconButton>
             <Menu

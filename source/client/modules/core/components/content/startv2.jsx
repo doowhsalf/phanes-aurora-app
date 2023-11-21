@@ -68,7 +68,7 @@ const styles = (theme) => ({
     // right: "105px", // Start from the center horizontally
 
     // Responsive adjustments for smaller screens
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down('sm')]: {
       width: "90%",
       height: "auto",
       top: "105px", // Keep the top distance constant

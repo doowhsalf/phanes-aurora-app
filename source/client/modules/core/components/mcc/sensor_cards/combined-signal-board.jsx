@@ -13,7 +13,7 @@ const SensorPanel = ({ sensorData }) => {
       gap={3}
       padding={2}
       // boxShadow={3}
-      borderRadius={3}
+      borderRadius="3px"
       bgcolor="background.default"
     >
       {/* do not render if the sensor data is not available */}

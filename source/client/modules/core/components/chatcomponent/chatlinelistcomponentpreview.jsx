@@ -61,7 +61,7 @@ const styles = (theme) => ({
     //   ", rgba(0, 0, 0, 0)) 1 100%",
     margin: 0,
     padding: theme.spacing(0),
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       display: "none",
     },
     [theme.breakpoints.up("sm")]: {

@@ -35,38 +35,36 @@ export default function CustomizedDialogs({
     handleClose();
   };
 
-  return (
-    <>
-      <BootstrapDialog
-        onClose={handleClose}
-        aria-labelledby="customized-dialog-title"
-        open={open}
-        PaperProps={{ style: { minWidth: "480px" } }} // Adjust the PaperProps
-      >
-        <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
-          Select Sensors
-        </DialogTitle>
-        <IconButton
-          aria-label="close"
-          onClick={handleClose}
-          sx={{
-            position: "absolute",
-            right: 8,
-            top: 8,
-            color: (theme) => theme.palette.grey[500],
-          }}
-        >
-          <CloseIcon />
-        </IconButton>
-        <DialogContent dividers>
-          <Tree onSelectionChange={handleTreeSelectionChange}></Tree>
-        </DialogContent>
-        <DialogActions>
-          <Button autoFocus onClick={handleSaveChanges}>
-            Save changes
-          </Button>
-        </DialogActions>
-      </BootstrapDialog>
-    </>
-  );
+  return <>
+    <BootstrapDialog
+      onClose={handleClose}
+      aria-labelledby="customized-dialog-title"
+      open={open}
+      PaperProps={{ style: { minWidth: "480px" } }} // Adjust the PaperProps
+    >
+      <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
+        Select Sensors
+      </DialogTitle>
+      <IconButton
+        aria-label="close"
+        onClick={handleClose}
+        sx={{
+          position: "absolute",
+          right: 8,
+          top: 8,
+          color: (theme) => theme.palette.grey[500],
+        }}
+        size="large">
+        <CloseIcon />
+      </IconButton>
+      <DialogContent dividers>
+        <Tree onSelectionChange={handleTreeSelectionChange}></Tree>
+      </DialogContent>
+      <DialogActions>
+        <Button autoFocus onClick={handleSaveChanges}>
+          Save changes
+        </Button>
+      </DialogActions>
+    </BootstrapDialog>
+  </>;
 }

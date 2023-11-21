@@ -142,7 +142,7 @@ const styles = (theme) => ({
     // [theme.breakpoints.down("xs")]: {
     //   display: "none",
     // },
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('lg')]: {
       display: "none",
     },
     [theme.breakpoints.up("md")]: {
@@ -165,7 +165,7 @@ const styles = (theme) => ({
   },
 
   selectButton: {
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       display: "inline",
     },
     [theme.breakpoints.up("sm")]: {
@@ -182,7 +182,7 @@ const styles = (theme) => ({
     paddingBottom: 0,
     marginTop: theme.spacing(3),
 
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
     },
     [theme.breakpoints.up("sm")]: {
@@ -208,7 +208,7 @@ const styles = (theme) => ({
     flexDirection: "column",
   },
   chatLineRoot: {
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       maxWidth: "100%",
     },
     [theme.breakpoints.up("sm")]: {
@@ -225,7 +225,7 @@ const styles = (theme) => ({
   },
   cardHeaderContent: {
     overflow: "hidden",
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       display: "none",
     },
     [theme.breakpoints.up("sm")]: {

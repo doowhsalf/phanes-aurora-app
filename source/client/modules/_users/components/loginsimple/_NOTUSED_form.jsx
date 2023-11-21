@@ -9,14 +9,14 @@ import {
   DEFCON1,
 } from "/debug.json";
 import i18n from "meteor/universe:i18n";
-import Button from "@material-ui/core/Button";
-import TextField from "@material-ui/core/TextField";
-import { withStyles } from "@material-ui/core/styles";
-import Input from "@material-ui/core/Input";
-import Link from "@material-ui/core/Link";
-import red from "@material-ui/core/colors/red";
-import Typography from "@material-ui/core/Typography";
-import Dividier from "@material-ui/core/Divider";
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
+import withStyles from '@mui/styles/withStyles';
+import Input from "@mui/material/Input";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
+import Dividier from "@mui/material/Divider";
+import { red } from '@mui/material/colors';
 const styles = (theme) => ({
   container: {
     display: "flex",

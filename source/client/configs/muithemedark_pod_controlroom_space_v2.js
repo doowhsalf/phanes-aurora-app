@@ -1,6 +1,6 @@
-import { createTheme } from "@mui/material/styles";
+import { createTheme, adaptV4Theme } from "@mui/material/styles";
 
-const theme = createTheme({
+const theme = createTheme(adaptV4Theme({
   palette: {
     primary: {
       main: "#0ff", // Neon cyan, matching the span background
@@ -62,6 +62,6 @@ const theme = createTheme({
     },
     // ... Additional component style overrides if needed
   },
-});
+}));
 
 export default theme;

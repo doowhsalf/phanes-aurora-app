@@ -24,7 +24,6 @@ import Start from "./containers/start";
 import Filearea from "./containers/filearea";
 import MccMaster from "./containers/mcc_master";
 import Facilityroom from "./containers/facility";
-import Reset from "../_users/components/resetprocess/wrapper";
 import Settings from "./containers/settings";
 import EditModel from "./containers/edit_model_master.js";
 

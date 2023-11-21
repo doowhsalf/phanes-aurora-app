@@ -77,7 +77,7 @@ function FlippableCard({
           {backContent}
           <CardHeader
             action={
-              <IconButton aria-label="go-back" onClick={toggleFlip}>
+              <IconButton aria-label="go-back" onClick={toggleFlip} size="large">
                 <ArrowBackIcon />
               </IconButton>
             }

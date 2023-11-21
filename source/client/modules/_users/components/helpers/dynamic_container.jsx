@@ -8,16 +8,16 @@ import {
   DEFCON2,
   DEFCON1,
 } from "/debug.json";
-import Typography from "@material-ui/core/Typography";
-import { withStyles } from "@material-ui/core/styles";
+import Typography from "@mui/material/Typography";
+import { alpha } from "@mui/material/styles";
+import withStyles from '@mui/styles/withStyles';
 // const Container = dataComposer(Component);
 import PropTypes from "prop-types";
 import AppConfig from "/client/configs/app";
-import Dividier from "@material-ui/core/Divider";
+import Dividier from "@mui/material/Divider";
 import Bg from "../helpers/dynamic_bg";
-import Link from "@material-ui/core/Link";
-import LinkIcon from "@material-ui/icons/Link";
-import { alpha } from "@material-ui/core/styles/colorManipulator";
+import Link from "@mui/material/Link";
+import LinkIcon from "@mui/icons-material/Link";
 
 const styles = (theme) => ({
   divider: {

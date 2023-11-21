@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import Box from "@material-ui/core/Box";
+import withStyles from '@mui/styles/withStyles';
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 
 //import "react-clock/dist/Clock.css";
 
@@ -12,14 +12,14 @@ const styles = (theme) => ({
     fontFamily: "Poppins",
 
     marginTop: -28,
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down('sm')]: {
       marginTop: -26,
     },
   },
   clock: {
     fontFamily: "Poppins",
 
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down('sm')]: {
       fontSize: "2rem",
     },
   },
@@ -30,7 +30,7 @@ const styles = (theme) => ({
   title: {
     fontFamily: "Poppins",
 
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down('sm')]: {
       fontSize: "1rem",
     },
     [theme.breakpoints.up("md")]: {
@@ -47,14 +47,14 @@ const styles = (theme) => ({
   },
   text1: {
     color: "white",
-    [theme.breakpoints.down("xs")]: { paddingTop: 0, fontSize: "1rem" },
+    [theme.breakpoints.down('sm')]: { paddingTop: 0, fontSize: "1rem" },
   },
   text2: {
     fontFamily: "Poppins",
 
     paddingTop: 22,
     paddingLeft: 4,
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down('sm')]: {
       paddingTop: 0,
       paddingLeft: 4,
       fontSize: "1rem",
