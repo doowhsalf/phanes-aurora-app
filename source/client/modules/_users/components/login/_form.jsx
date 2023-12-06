@@ -11,12 +11,12 @@ import {
 import i18n from "meteor/universe:i18n";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
-import withStyles from '@mui/styles/withStyles';
+import withStyles from "@mui/styles/withStyles";
 import Input from "@mui/material/Input";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import Dividier from "@mui/material/Divider";
-import { red } from '@mui/material/colors';
+import { red } from "@mui/material/colors";
 const styles = (theme) => ({
   container: {
     display: "flex",
@@ -162,30 +162,46 @@ class LoginForm extends React.Component {
           />
         </fieldset>
         <Button
-          fullWidth
-          onKeyDown={this.onKeyDown}
-          className={classes.button}
+          className={classes.button + " glass-effect"}
           variant="contained"
-          color="primary"
+          style={{
+            backgroundColor: "rgba(255, 255, 255, 0.21)", // Neutral, semi-transparent background
+            border: "1px solid rgba(255, 255, 255, 0.5)", // Light border for a glass effect
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Subtle shadow for depth
+            borderRadius: "8px", // Rounded corners
+            padding: "4px 6px", // Padding inside the button
+          }}
+          onKeyDown={this.onKeyDown}
           onClick={() => this.validateAndLogin()}
         >
           {i18n.__("Button_LoginForm_Login")}
         </Button>{" "}
         <Dividier className={classes.divider} />
         <Button
-          fullWidth
-          variant="outlined"
+          className={classes.button + " glass-effect"}
+          variant="contained"
+          style={{
+            backgroundColor: "rgba(255, 255, 255, 0.21)", // Neutral, semi-transparent background
+            border: "1px solid rgba(255, 255, 255, 0.5)", // Light border for a glass effect
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Subtle shadow for depth
+            borderRadius: "8px", // Rounded corners
+            padding: "4px 6px", // Padding inside the button
+          }}
           href={urlForgotPassword}
-          className={classes.button}
         >
           {i18n.__("Link_Login_ForgotPassword")}
         </Button>
         <Button
-          styles={{ color: "white" }}
-          fullWidth
-          variant="outlined"
+          className={classes.button + " glass-effect"}
+          variant="contained"
+          style={{
+            backgroundColor: "rgba(255, 255, 255, 0.21)", // Neutral, semi-transparent background
+            border: "1px solid rgba(255, 255, 255, 0.5)", // Light border for a glass effect
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Subtle shadow for depth
+            borderRadius: "8px", // Rounded corners
+            padding: "4px 6px", // Padding inside the button
+          }}
           href={urlAccountRegister}
-          className={classes.button}
         >
           {i18n.__("Button_RegisterForm_Register")}
         </Button>

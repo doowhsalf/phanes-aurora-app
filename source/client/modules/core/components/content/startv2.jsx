@@ -24,7 +24,7 @@ import { renderLogo } from "../helpers/app-logo";
 import { contactInfo } from "../helpers/contact-info";
 import Login from "../../../_users/components/loginsimple/wrapper";
 import BackgroundDynamic from "../fields/backgroundimage";
-import TitleComponent from "./TitleComponent";
+import TitleComponent from "../fields/title-component";
 function _uniqueKey() {
   return Math.random() * Math.random();
 }
@@ -38,14 +38,14 @@ import Paper from "@mui/material/Paper";
 */
 
 const styles = (theme) => ({
-  backGroundImage: {
-    height: "100%",
-    overflow: "hidden",
+  // backGroundImage: {
+  //   height: "100%",
+  //   overflow: "hidden",
 
-    background:
-      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
-    backgroundSize: "cover",
-  },
+  //   background:
+  //     "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
+  //   backgroundSize: "cover",
+  // },
 
   contentContainer: {
     backgroundColor: "rgba(32, 29, 38, 0.95)",

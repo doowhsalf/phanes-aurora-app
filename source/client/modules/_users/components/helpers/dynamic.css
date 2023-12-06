@@ -11,3 +11,28 @@
 }
 
 /*# sourceMappingURL=dynamic.css.map */
+.glass-effect-x {
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.glass-effect-x:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly more opaque on hover */
+}
+
+
+.glass-effect {
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    transition: background-color 0.3s ease, 
+                box-shadow 0.3s ease, 
+                transform 0.3s ease; /* Smooth transitions for multiple properties */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light white border for glass effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    will-change: transform; /* Optimizes for animations */
+}
+
+.glass-effect:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly more opaque on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+    transform: scale(1.05); /* Slightly scale up the button */
+}

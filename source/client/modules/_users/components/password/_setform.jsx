@@ -1,9 +1,9 @@
-import React from 'react';
-import i18n from 'meteor/universe:i18n';
+import React from "react";
+import i18n from "meteor/universe:i18n";
 
-import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
-import withStyles from '@mui/styles/withStyles';
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
+import withStyles from "@mui/styles/withStyles";
 import PropTypes from "prop-types";
 
 import {
@@ -39,7 +39,7 @@ const styles = (theme) => ({
     padding: 0,
     margin: "auto",
     background:
-      "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     backgroundSize: "cover",
   },
 
@@ -72,7 +72,7 @@ const styles = (theme) => ({
   },
   blur: {
     background:
-      "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     top: 250,
     width: 300,
     position: "relative",
@@ -184,7 +184,7 @@ class UserSetPasswordForm extends React.Component {
 
     //);
   }
-};
+}
 
 UserSetPasswordForm.propTypes = {
   classes: PropTypes.object.isRequired,

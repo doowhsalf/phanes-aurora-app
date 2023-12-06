@@ -1,4 +1,5 @@
 import React from "react";
+import { FlowRouter } from "meteor/ostrio:flow-router-extra";
 import {
   DEFCON9,
   DEFCON7,
@@ -10,36 +11,49 @@ import {
 } from "/debug.json";
 import i18n from "meteor/universe:i18n";
 import dataComposer from "../../composers/account/login.jsx";
-import Component from "../login/_form.jsx";
+import Component from "./_form.jsx";
 import Typography from "@mui/material/Typography";
-import withStyles from '@mui/styles/withStyles';
+import withStyles from "@mui/styles/withStyles";
 const Container = dataComposer(Component);
 import Link from "@mui/material/Link";
 import PropTypes from "prop-types";
 import AppConfig from "/client/configs/app";
+import { createTheme } from "@mui/material/styles";
+import { isWithinInterval } from "date-fns";
+import DynamicContainer from "../helpers/dynamic_container";
 
+function hexToRGBA(hex, alpha) {
+  let r = parseInt(hex.slice(1, 3), 16);
+  let g = parseInt(hex.slice(3, 5), 16);
+  let b = parseInt(hex.slice(5, 7), 16);
+
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
 
 const styles = (theme) => ({
   link: {
     marginTop: theme.spacing(2),
+    float: "right",
   },
 
-  login_page: {},
+  login_page: { marginRight: theme.spacing(1) },
 
   login_container: {
     color: "white",
-    width: "100%",
-    // minWidth: 240,
+    "mix-blend-mode": "normal",
+    border: "1px solid rgba(255, 255, 255, 0.21)",
+    width: 480,
     margin: "auto",
-    background:
-      "linear-gradient(to top, " +
-      theme.palette.secondary.light +
-      " 0%, " +
-      theme.palette.secondary.dark +
-      " 100%)",
     borderRadius: 3,
     padding: 15,
     overflow: "hidden",
+    // Apply a blur effect to the background
+    backdropFilter: "blur(48px)", // You can adjust the px value to increase/decrease the blur effect
+    WebkitBackdropFilter: "blur(48px)", // For Safari compatibility
+    "-webkit-backdrop-filter": "blur(48px)",
+    "-o-backdrop-filter": "blur(48px)",
+    "-moz-backdrop-filter": "blur(48px)",
+    "backdrop-filter": "blur(48px)",
   },
 });
 
@@ -50,7 +64,7 @@ class UserLogin extends React.Component {
   }
 
   render() {
-    const { classes } = this.props;
+    const { classes, theme } = this.props;
 
     return (
       <div className={classes.login_page}>

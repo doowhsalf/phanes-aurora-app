@@ -1,0 +1,81 @@
+{
+    "current_time": "2020-09-09T12:32:21.000Z",
+    "status": "7c",
+    "status_dec": 124,
+    "current_volume": 302.578,
+    "water_temperature": 25.78,
+    "last_hist_value_time": "2020-09-08T22:00:00.000Z",
+    "last_hist_volume": 284.554,
+    "historical_data": [
+        {
+            "delta_volume": 1.229,
+            "cumulative_volume": 285.78299999999996,
+            "timestamp": "2020-09-08T22:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.227,
+            "cumulative_volume": 287.00999999999993,
+            "timestamp": "2020-09-08T23:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.228,
+            "cumulative_volume": 288.23799999999994,
+            "timestamp": "2020-09-09T00:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.229,
+            "cumulative_volume": 289.4669999999999,
+            "timestamp": "2020-09-09T01:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.226,
+            "cumulative_volume": 290.6929999999999,
+            "timestamp": "2020-09-09T02:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.22,
+            "cumulative_volume": 291.91299999999995,
+            "timestamp": "2020-09-09T03:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.221,
+            "cumulative_volume": 293.13399999999996,
+            "timestamp": "2020-09-09T04:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.22,
+            "cumulative_volume": 294.354,
+            "timestamp": "2020-09-09T05:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.264,
+            "cumulative_volume": 295.618,
+            "timestamp": "2020-09-09T06:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.254,
+            "cumulative_volume": 296.872,
+            "timestamp": "2020-09-09T07:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.244,
+            "cumulative_volume": 298.11600000000004,
+            "timestamp": "2020-09-09T08:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.238,
+            "cumulative_volume": 299.35400000000004,
+            "timestamp": "2020-09-09T09:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.465,
+            "cumulative_volume": 300.819,
+            "timestamp": "2020-09-09T10:00:00.000Z"
+        },
+        {
+            "delta_volume": 1.401,
+            "cumulative_volume": 302.22,
+            "timestamp": "2020-09-09T11:00:00.000Z"
+        }
+    ]
+}

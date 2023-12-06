@@ -22,7 +22,7 @@ import MuiThemeDarkx from "/client/configs/muithemedark_pod_controlroom";
 import MuiThemeDarkXsss from "/client/configs/muithemedark_pod_spacestation2";
 import MuiThemeDark from "/client/configs/muithemedark_pod_controlroom_space";
 
-// 
+//
 import MuiThemeLight from "/client/configs/muithemelight";
 import ListItemIcon from "@mui/material/ListItemIcon";
 //import AppToolbar from "./AppToolbarEnkey";
@@ -316,11 +316,6 @@ class Layout extends React.Component {
 
   menuList = () => {
     const userLoggedIn = !!Meteor.userId();
-
-
-
-
-
 
     let navigationListElements = [
       userLoggedIn ? (

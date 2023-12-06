@@ -9,10 +9,17 @@ import {
   DEFCON2,
   DEFCON1,
 } from "/debug.json";
-import { ThemeProvider, StyledEngineProvider, createTheme } from "@mui/material/styles";
+import {
+  ThemeProvider,
+  StyledEngineProvider,
+  createTheme,
+} from "@mui/material/styles";
 import MuiTheme from "/client/configs/muitheme";
 import MuiThemeDark from "/client/configs/muithemedark";
 import MuiThemeLight from "/client/configs/muithemelight";
+import CssBaseline from "@mui/material/CssBaseline";
+import { MuiPickersUtilsProvider } from "@material-ui/pickers";
+import DateFnsUtils from "@date-io/date-fns";
 
 import AppNavDrawer from "./AppNavDrawer";
 import IconButton from "@mui/material/IconButton";
@@ -25,7 +32,39 @@ import Login from "../../_users/components/login/wrapper";
 
 /* theme stuff */
 import LoginItemsList from "./LoginListItem";
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { error: null, errorInfo: null };
+  }
 
+  componentDidCatch(error, errorInfo) {
+    // Catch errors in any components below and re-render with error message
+    this.setState({
+      error: error,
+      errorInfo: errorInfo,
+    });
+    // You can also log error messages to an error reporting service here
+  }
+
+  render() {
+    if (this.state.errorInfo) {
+      // Error path
+      return (
+        <div>
+          <h2>Something went wrong.</h2>
+          <details style={{ whiteSpace: "pre-wrap" }}>
+            {this.state.error && this.state.error.toString()}
+            <br />
+            {this.state.errorInfo.componentStack}
+          </details>
+        </div>
+      );
+    }
+    // Normally, just render children
+    return this.props.children;
+  }
+}
 const styles = (theme) => ({
   root: {
     width: "100%",
@@ -145,12 +184,17 @@ export default class extends React.Component {
     return (
       <StyledEngineProvider injectFirst>
         <ThemeProvider
-          theme={MuiThemeDark}
+          theme={this.state.themeIconClicked ? MuiThemeLight : MuiThemeDark}
         >
-          <div
-            className={isLoginContent ? "tri-not-loggedin" : "tri-content-open"}
-          >
-            <IconButton
+          <MuiPickersUtilsProvider utils={DateFnsUtils}>
+            <ErrorBoundary>
+              <CssBaseline>
+                <div
+                  className={
+                    isLoginContent ? "tri-not-loggedin" : "tri-content-open"
+                  }
+                >
+                  {/* <IconButton
               onClick={() => this.handleNavigation(true)}
               className={
                 this.state.navigationOpen ? "menu-icon-clicked" : "menu-icon"
@@ -158,11 +202,11 @@ export default class extends React.Component {
               size="large"
             >
               <MenuIcon nativecolor="rgba(156,39,176,0.88)" />
-            </IconButton>
+            </IconButton> */}
 
-            {this.getContent(isLoginContent)}
+                  {this.getContent(isLoginContent)}
 
-            <Drawer
+                  {/* <Drawer
               style={{ width: 240, zIndex: 111000 }}
               open={this.state.navigationOpen}
               onClose={() => this.handleNavigation(false)}
@@ -181,8 +225,11 @@ export default class extends React.Component {
                 <LanguageItemsList key="2" itemKey="2" />
                 <LoginItemsList key="3" itemKey="3" />
               </List>
-            </Drawer>
-          </div>
+            </Drawer> */}
+                </div>
+              </CssBaseline>
+            </ErrorBoundary>
+          </MuiPickersUtilsProvider>
         </ThemeProvider>
       </StyledEngineProvider>
     );

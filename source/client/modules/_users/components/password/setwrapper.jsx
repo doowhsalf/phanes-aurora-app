@@ -5,7 +5,7 @@ import dataComposer from "../../composers/account/setpassword.jsx";
 import Component from "./_setform.jsx";
 import _ from "lodash";
 import PropTypes from "prop-types";
-import withStyles from '@mui/styles/withStyles';
+import withStyles from "@mui/styles/withStyles";
 
 const Container = dataComposer(Component);
 import {
@@ -35,7 +35,7 @@ const styles = (theme) => ({
     padding: 0,
     margin: "auto",
     background:
-      "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     backgroundSize: "cover",
   },
 });

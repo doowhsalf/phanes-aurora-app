@@ -11,7 +11,7 @@ import {
 import i18n from "meteor/universe:i18n";
 
 import Typography from "@mui/material/Typography";
-import withStyles from '@mui/styles/withStyles';
+import withStyles from "@mui/styles/withStyles";
 import Link from "@mui/material/Link";
 import PropTypes from "prop-types";
 import AppConfig from "/client/configs/app";
@@ -50,7 +50,7 @@ const styles = (theme) => ({
     padding: 0,
     margin: "auto",
     background:
-      "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     backgroundSize: "cover",
   },
 
@@ -83,7 +83,7 @@ const styles = (theme) => ({
   },
   blur: {
     background:
-      "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     top: 250,
     width: 300,
     position: "relative",

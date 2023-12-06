@@ -2,7 +2,7 @@ import React from "react";
 import i18n from "meteor/universe:i18n";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
-import withStyles from '@mui/styles/withStyles';
+import withStyles from "@mui/styles/withStyles";
 import PropTypes from "prop-types";
 import {
   DEFCON9,
@@ -36,7 +36,7 @@ const styles = (theme) => ({
     padding: 0,
     margin: "auto",
     background:
-      "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     backgroundSize: "cover",
   },
 
@@ -69,7 +69,7 @@ const styles = (theme) => ({
   },
   blur: {
     background:
-      "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     top: 250,
     width: 300,
     position: "relative",
@@ -246,9 +246,16 @@ class UserRegisterForm extends React.Component {
           </fieldset>
         </form>
         <Button
+          className={classes.button + " glass-effect"}
           variant="contained"
-          color="primary"
-          fullWidth
+          style={{
+            backgroundColor: "rgba(255, 255, 255, 0.21)", // Neutral, semi-transparent background
+            border: "1px solid rgba(255, 255, 255, 0.5)", // Light border for a glass effect
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Subtle shadow for depth
+            borderRadius: "8px", // Rounded corners
+            padding: "4px 6px", // Padding inside the button
+          }}
+          
           onClick={() => this.validateAndSubmit()}
         >
           {i18n.__("Button_RegisterForm_Register")}

@@ -1,5 +1,4 @@
 import React from "react";
-import { FlowRouter } from "meteor/ostrio:flow-router-extra";
 import {
   DEFCON9,
   DEFCON7,
@@ -11,119 +10,250 @@ import {
 } from "/debug.json";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import withStyles from "@mui/styles/withStyles";
+import { withStyles } from "@material-ui/core/styles";
+import Link from "@material-ui/core/Link";
+import LinkIcon from "@material-ui/icons/Link";
+import Typography from "@material-ui/core/Typography";
+import { alpha } from "@material-ui/core/styles/colorManipulator";
 
 const styles = (theme) => ({
-  container: {
-    display: "flex",
+  overlayCss: {
+    background:
+      "linear-gradient(to top, " +
+      alpha(theme.palette.background.default, 0.0) +
+      " 0%, " +
+      alpha(theme.palette.background.default, 0.0) +
+      " 100%)",
+
+    position: "fixed",
+    top: 0,
+    left: 0,
+    height: "calc(100vh)",
+    width: "100%",
+    zIndex: -9999,
   },
-  textField: {
-    marginLeft: theme.spacing(1),
-    marginRight: theme.spacing(1),
+  overlayCssFromTheme: {
+    background:
+      "linear-gradient(to top, " +
+      alpha(theme.palette.primary.dark, 0.21) +
+      " 0%, " +
+      alpha(theme.palette.primary.main, 0.34) +
+      " 100%)",
+
+    position: "fixed",
+    top: 0,
+    left: 0,
+    height: "calc(100vh)",
+    width: "100%",
+    zIndex: -9999,
   },
-  dense: {
-    marginTop: 19,
-  },
-  menu: {
-    width: 200,
-  },
-  avatar: {
-    marginRight: 10,
-    marginTop: 5,
-  },
-  row: {
-    display: "flex",
-    justifyContent: "marginLeft",
-    marginTop: 19,
+  linkPosition: {
+    position: "fixed",
+    bottom: theme.spacing(2),
+    left: theme.spacing(1),
+    margin: theme.spacing(1),
   },
 });
 
-class BackdroundImage extends React.Component {
+// background:  "linear-gradient(to top, rgb(121, 108, 191, .21) 0%, rgba(123, 68, 126, 0.90)  100%)",
+
+const initialState = {
+  uri: "",
+  photographer: "",
+  publisher: "",
+  publisherUri: "",
+  publisherName: "",
+  bgcss: { zIndex: 0 },
+  themeUri: "",
+};
+
+class BackgroundImage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { number: 1 };
+    this.state = initialState;
+
+    let bgImage = this.props.themeImageUrl ? this.props.themeImageUrl : "";
+
+    DEFCON3 && console.log("Starting up background image");
+
+    DEFCON3 && console.log(this.props.themeImageUrl);
+
+    this.state = {
+      themeUri: bgImage,
+    };
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.themeImageUrl !== this.props.themeImageUrl) {
+      this._getThemeStuff();
+    }
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => {
-      DEFCON9 && console.log(this.state.number);
-      this.setState({ number: this.state.number + 1 });
-    }, 1000);
+    DEFCON3 && console.log("Making componentDidMount");
+    this._getThemeStuff();
   }
 
-  _getData() {
-    // create a new XMLHttpRequest
-    var xhr = new XMLHttpRequest();
+  _getThemeStuff() {
+    DEFCON3 && console.log("Making request");
+    const { classes, themeImageUrl, context, noOverlay } = this.props;
+    DEFCON3 && console.log(themeImageUrl);
 
-    // get a callback when the server responds
-    xhr.addEventListener("load", () => {
-      // update the state of the component with the result here
-      console.log(xhr.responseText);
-    });
-    // open the request with the verb and the url
-    xhr.open("GET", "https://sycorax.tritonite.io/phanes-aurora");
-    // send the request
-    xhr.send();
-  }
+    if (themeImageUrl) {
+      var themeStuff = themeImageUrl.split("/");
+    }
 
-  componentWillUnmount() {
-    clearInterval(this.interval);
+    let thisContext = context !== undefined ? context : "phanes-aurora";
+
+    let callMethod = themeImageUrl
+      ? themeStuff[2] + "/query"
+      : thisContext + "/meta";
+
+    Meteor.call(
+      "sycorax.dynamic.async",
+      "https://sycorax.tritonite.io/" + callMethod,
+      (err, result) => {
+        DEFCON3 && console.log("Response");
+        DEFCON3 && console.log(err);
+        DEFCON3 && console.log(result);
+        DEFCON3 && console.log(themeImageUrl);
+
+        let overlayGradiantCss = {
+          background:
+            "linear-gradient(to top, rgb(121, 108, 191, .21) 0%, rgba(123, 68, 126, 0.90)  100%)",
+          position: "fixed",
+          top: 0,
+          left: 0,
+          height: "calc(100vh)",
+          width: "100%",
+          zIndex: -9999,
+        };
+
+        let overlayGradient = noOverlay ? {} : classNames.overlayCss;
+
+        if (!err) {
+          let imageClass =
+            " url(" +
+            (themeImageUrl
+              ? themeImageUrl + ") no-repeat center center fixed "
+              : result.uri + ") no-repeat center center fixed ");
+          let bgCss = {
+            position: "fixed",
+            top: 0,
+            left: 0,
+            height: "calc(100vh)",
+            width: "100%",
+            minHeight: "100%",
+            minWidth: "100%",
+            background: imageClass,
+            backgroundSize: "cover",
+            WebkitBackgroundSize: "cover",
+            MozBackgroundSize: "cover",
+            OBackgroundSize: "cover",
+            zIndex: -10000,
+          };
+
+          this.setState({
+            uri: result.uri,
+            photographer: result.photographer,
+            bgcss: bgCss,
+            overlayCss: overlayGradient,
+            publisherUri: result.publisherUri,
+            publisherName: result.publisherName,
+          });
+        }
+      }
+    );
   }
 
   render() {
-    DEFCON9 && console.log("In BackdroundImage...");
+    DEFCON9 && console.log("In BackgroundImage...");
 
-    const { classes } = this.props;
+    const { classes, noOverlay } = this.props;
+
+    // let bgImage = themeImageUrl ? themeImageUrl : this.state.uri;
+    DEFCON5 && console.log(this.state);
+
     return (
-      <div
-        style={{
-          background: `linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 80%), 
-                     url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed`,
-          backgroundSize: "cover",
-          position: "fixed",
-          minWidth: "100%",
-          minHeight: "100%",
-          right: 0,
-          bottom: 0,
-          zIndex: -10000,
-          left: 0,
-          top: 0,
-          opacity: this.state.loading ? 0 : 1,
-          transition: "opacity 2s ease-in-out",
-        }}
-      ></div>
+      <div>
+        <div style={this.state.bgcss}></div>
+        <div className={noOverlay ? null : classes.overlayCss}></div>
+        <div
+          className={"dynamic " + classes.linkPosition}
+          // style={{ position: "fixed", bottom: 20, left: 20 }}
+        >
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              flexWrap: "wrap",
+              justifyContent: "space-around",
+            }}
+          >
+            <LinkIcon
+              style={{
+                fontSize: 16,
+                color: "rgba(255, 255, 255, 0.6)",
+              }}
+            />
+            <span
+              style={{
+                color: "rgba(255, 255, 255, 0.6)",
+                marginLeft: 5,
+                marginRight: 5,
+              }}
+            >
+              <Typography
+                style={{
+                  fontSize: 10,
+                }}
+                variant="subtitle2"
+              >
+                {"Photo by "}
+              </Typography>
+            </span>
+            <span>
+              <Link
+                href={this.state.publisherUri}
+                className={classes.link}
+                target="_blank"
+                underline="hover"
+                color="textPrimary"
+              >
+                <Typography
+                  style={{
+                    fontSize: 10,
+                  }}
+                  variant="subtitle2"
+                >
+                  {this.state.photographer +
+                    " from " +
+                    this.state.publisherName}
+                </Typography>{" "}
+              </Link>
+            </span>
+          </div>
+        </div>
+      </div>
     );
   }
 }
 
-BackdroundImage.propTypes = {
+BackgroundImage.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(BackdroundImage);
+export default withStyles(styles)(BackgroundImage);
+
 /*
 
-componentWillMount() {
-    this.getData()
-  }
+ /* contentContainer: {
+        background:
+            "linear-gradient(to top, rgb(121, 108, 191, .21) 0%, " +
+            "rgba(123, 68, 126, 0.90) " +
+            " 100%)",
+        minWidth: "100%",
+        minHeight: "100vh",
 
-  getData() {
-    // create a new XMLHttpRequest
-    var xhr = new XMLHttpRequest()
-
-    // get a callback when the server responds
-    xhr.addEventListener('load', () => {
-      // update the state of the component with the result here
-      console.log(xhr.responseText)
-    })
-    // open the request with the verb and the url
-    xhr.open('GET', 'https://dog.ceo/api/breeds/list/all')
-    // send the request
-    xhr.send()
-  }
-
-
-
-
-
-*/
+        : "linear-gradient(to bottom, rgba(29, 30, 31, 0.89), rgba(117, 19, 93, 0.0)),";
+    },*/

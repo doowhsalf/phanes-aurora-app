@@ -3,7 +3,7 @@ import dataComposer from "../../composers/account/password.jsx";
 // import dataComposer from '../../composers/passwordForm.jsx';
 import Component from "./_form.jsx";
 import i18n from "meteor/universe:i18n";
-import withStyles from '@mui/styles/withStyles';
+import withStyles from "@mui/styles/withStyles";
 const Container = dataComposer(Component);
 import Link from "@mui/material/Link";
 import PropTypes from "prop-types";
@@ -25,19 +25,24 @@ const styles = (theme) => ({
     marginTop: theme.spacing(2),
   },
 
-  login_page: {
-    position: "absolute",
-    width: "100%",
-    height: "100%",
-    zIndex: 1,
-    top: 0,
-    left: 0,
-    padding: 0,
-    margin: "auto",
-    background:
-      "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
-    backgroundSize: "cover",
-  },
+  login_page: { marginRight: theme.spacing(1) },
+
+  // login_container: {
+  //   color: "white",
+  //   border: "1px solid rgba(255, 255, 255, 0.21)",
+  //   width: 480,
+  //   margin: "auto",
+  //   borderRadius: 3,
+  //   padding: 15,
+  //   // overflow: "hidden",
+  //   // Apply a blur effect to the background
+  //   backdropFilter: "blur(48px)", // You can adjust the px value to increase/decrease the blur effect
+  //   WebkitBackdropFilter: "blur(48px)", // For Safari compatibility
+  //   "-webkit-backdrop-filter": "blur(48px)",
+  //   "-o-backdrop-filter": "blur(48px)",
+  //   "-moz-backdrop-filter": "blur(48px)",
+  //   "backdrop-filter": "blur(48px)",
+  // },
 });
 class UserPassword extends React.Component {
   constructor(props) {
@@ -59,14 +64,13 @@ class UserPassword extends React.Component {
     );
     return (
       <div className={classes.login_page}>
-        <div className={classes.login_page}>
+        <div className={classes.login_container}>
           <DynamicContainer
             subtitle={i18n.__("Header_ForgotPassword_Password")}
             container={<Container />}
             more={morestuff}
           ></DynamicContainer>
         </div>
-        ;
       </div>
     );
   }

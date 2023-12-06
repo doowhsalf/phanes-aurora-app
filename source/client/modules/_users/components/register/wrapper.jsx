@@ -26,17 +26,17 @@ const styles = (theme) => ({
   },
 
   login_page: {
-    position: "absolute",
-    width: "100%",
-    height: "100%",
-    zIndex: 1,
-    top: 0,
-    left: 0,
-    padding: 0,
-    margin: "auto",
-    background:
-      "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
-    backgroundSize: "cover",
+    // position: "absolute",
+    // width: "100%",
+    // height: "100%",
+    // zIndex: 1,
+    // top: 0,
+    // left: 0,
+    // padding: 0,
+    // margin: "auto",
+    // background:
+    //   "url(https://sycorax.tritonite.io/titania_common) no-repeat center center fixed",
+    // backgroundSize: "cover",
   },
 });
 
@@ -50,7 +50,7 @@ class UserRegister extends React.Component {
     const { classes } = this.props;
     let morestuff = (
       <div>
-        <p className="text-muted text-center">
+        <p className="">
           <small>{i18n.__("Label_RegisterForm_AccountExists")}</small>
         </p>
         <a style={{ color: "white" }} href="/login">

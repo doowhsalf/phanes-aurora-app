@@ -12,7 +12,7 @@ import i18n from "meteor/universe:i18n";
 import dataComposer from "../../composers/account/login.jsx";
 import Component from "./_form.jsx";
 import Typography from "@mui/material/Typography";
-import withStyles from '@mui/styles/withStyles';
+import withStyles from "@mui/styles/withStyles";
 const Container = dataComposer(Component);
 import Link from "@mui/material/Link";
 import PropTypes from "prop-types";
@@ -31,7 +31,7 @@ const styles = (theme) => ({
     padding: 0,
     margin: "auto",
     background:
-      "url(https://sycorax.tritonite.io/titania) no-repeat center center fixed",
+      "url(https://sycorax.tritonite.io/phanes-aurora) no-repeat center center fixed",
     backgroundSize: "cover",
   },
 });
@@ -46,7 +46,7 @@ class UserLogin extends React.Component {
     const { classes } = this.props;
 
     return (
-      <div >
+      <div>
         <DynamicContainer
           subtitle={i18n.__("Header_Login_Login")}
           hint={i18n.__("Header_Login_EnterHint")}

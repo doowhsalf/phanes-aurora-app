@@ -65,7 +65,7 @@ const TitleComponent = ({ title, subtitle, logo = false }) => {
     fontFamily: "EuroStyle Normal, sans-serif", // Assign EuroStyle Normal to the
   };
   const dividerStyle = {
-    borderTop: "1px solid rgba(255, 255, 255, 0.89)", // Change color and size as needed
+    borderTop: "1px solid rgba(255, 255, 255, 0.21)", // Change color and size as needed
     width: "100%", // Adjust the width as needed
     margin: "0 auto", // This will center the divider if the container has a specific width
     marginTop: "0.8em", // Add some space between the title and divider
