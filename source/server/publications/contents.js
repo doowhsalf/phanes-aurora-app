@@ -1,7 +1,7 @@
 // subscribe on node and node children
 import { Meteor } from "meteor/meteor";
 import { check } from "meteor/check";
-import { Nodes, NodeLinks } from "/lib/collections";
+import { Contents } from "/lib/collections";
 import {
   DEFCON9,
   DEFCON7,
@@ -15,51 +15,47 @@ import {
 //subscribe on nodes and node children
 export default function () {
   // subscribe on all nodes
-  Meteor.publish("nodes.all", function () {
+  Meteor.publish("contents.all", function () {
     if (!this.userId) {
       throw new Meteor.Error(401, "Access denied");
     }
-    // DEFCON5 && console.log("nodes.all");
+    DEFCON5 && console.log("Contents.all");
 
     this.autorun(function (computation) {
       const nodesSelector = {
-        status: "active",
+        
       };
 
       DEFCON5 && console.log("Get all nodes");
 
-      // DEFCON5 && console.log(usersWithAvatars);
-      return [Nodes.find(nodesSelector)];
+      return [Contents.find(nodesSelector)];
     });
   });
 
-  Meteor.publish("nodes.access", function (nodeId) {
+  Meteor.publish("contents.get", function (nodeId) {
     if (!this.userId) {
       throw new Meteor.Error(401, "Access denied");
     }
     check(nodeId, String);
-    // DEFCON5 && console.log("In publication/nodes.access");
-    // DEFCON5 && console.log(nodeId);
+    DEFCON5 && console.log("In publication/Content.get");
+    DEFCON5 && console.log(nodeId);
 
     this.autorun(function (computation) {
       const nodesSelector = {
         _id: nodeId,
-        status: "active",
       };
 
-      DEFCON5 && console.log("Find nodes");
-
-      // DEFCON5 && console.log(usersWithAvatars);
-      return [Nodes.find(nodesSelector)];
+      DEFCON5 && console.log("Find node with id: ", nodeId);
+      return [Contents.find(nodesSelector)];
     });
   });
-  Meteor.publish("nodes.getTree", function (nodeId) {
+  Meteor.publish("Contents.getTree", function (nodeId) {
     if (!this.userId) {
       throw new Meteor.Error(401, "Access denied");
     }
     check(nodeId, String);
-    // DEFCON5 && console.log("In publication/nodes.getTree");
-    // DEFCON5 && console.log(nodeId);
+    DEFCON5 && console.log("In publication/Contents.getTree");
+    DEFCON5 && console.log(nodeId);
 
     const queue = [nodeId];
     const seenNodeIds = new Set();
@@ -84,10 +80,10 @@ export default function () {
 
     
 
-    // DEFCON5 && console.log("Found nodes and links:", seenNodeIds, seenLinkIds);
+    DEFCON5 && console.log("Found nodes and links:", seenNodeIds, seenLinkIds);
 
     return [
-      Nodes.find({ _id: { $in: [...seenNodeIds] } }),
+      Contents.find({ _id: { $in: [...seenNodeIds] } }),
       NodeLinks.find({ _id: { $in: [...seenLinkIds] } }),
     ];
 
@@ -98,7 +94,7 @@ export default function () {
 // function that reads the node and returns the node and all children based on the NodeLinks collection
 function _getNodesAndChildren(nodeId, deepth, maxDeepth) {
   // get the node
-  const node = Nodes.findOne({ _id: nodeId });
+  const node = Contents.findOne({ _id: nodeId });
   // get the children of the node based on the NodeLinks collection
   const children = NodeLinks.find({ source: nodeId }).fetch();
 

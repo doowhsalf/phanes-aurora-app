@@ -21,6 +21,12 @@ export function getField(row, field) {
   return "";
 }
 
+export function getFieldBoolean(row, field) {
+  if (row) {
+    if (row[field]) return "true";
+  }
+  return "false";
+}
 export function getFieldDate(row, field) {
   if (row) {
     if (getField(row, field)) {

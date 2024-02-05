@@ -68,7 +68,7 @@ async function authorize() {
  */
 async function downloadSheetAsText(auth) {
   const sheets = google.sheets({ version: "v4", auth });
-  const spreadsheetId = "1m0hrsWq5xi4kb5Bzszvo_VVB1Eyr2IzcwaJgTEfC4hE";
+  const spreadsheetId = "1c3Xw96aOPn1Oh0E5a5qus-0RT84lrFsLnD0KApNDTTc";
   const sheetName = "machine_copy";
 
   try {

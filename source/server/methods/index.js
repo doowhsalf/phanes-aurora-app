@@ -11,6 +11,7 @@ import sycorax from "./sycorax";
 import nodes from "./nodes";
 import chatrooms from "./chatrooms";
 import events from "./events";
+import workorders from "./workorders";
 
 export default function() {
   _users();
@@ -25,4 +26,5 @@ export default function() {
   nodes();
   chatrooms();
   events();
+  workorders();
 }

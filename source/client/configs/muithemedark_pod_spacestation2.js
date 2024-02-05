@@ -11,6 +11,18 @@ export default createTheme(
         main: "#D93853", // Fiery red derived from some of the controls, offering contrast
         contrastText: "#FEE6E9", // Light rosy hue for legibility on red backgrounds
       },
+      info: {
+        main: "#17a2b8", // Light teal for info
+      },
+      warning: {
+        main: "#ffc107", // Bright amber for warning
+      },
+      success: {
+        main: "#28a745", // Luminous green for success
+      },
+      error: {
+        main: "#dc3545", // Darker crimson for error
+      },
       mode: "dark",
       background: {
         paper: "rgba(16, 16, 22, 0.9)", // Slightly off-black, evoking the metal interiors

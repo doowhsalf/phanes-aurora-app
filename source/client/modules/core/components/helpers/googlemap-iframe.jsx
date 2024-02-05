@@ -32,7 +32,7 @@ export function renderGoogleMap(classes, embedCode) {
   const iframeGoogle = [
     <div className={classes.iframeBox} key={generatedKey}>
       <Iframe
-        url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028.290049473407!2d18.116054277881567!3d59.444914501762625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9b0e8651f50f%3A0xa7444d5a7eae52aa!2sPropellerv%C3%A4gen%208B%2C%20183%2062%20T%C3%A4by!5e0!3m2!1ssv!2sse!4v1692914040126!5m2!1ssv!2sse"
+        url="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16275.952811037801!2d18.047031999999998!3d59.34139964999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssv!2sse!4v1705921068932!5m2!1ssv!2sse"
         width="100%"
         height="100%"
         id="googlemaps"
@@ -50,7 +50,9 @@ export function renderGoogleMap(classes, embedCode) {
 
 export function renderGoogleMapCompany(classes) {
   const embedCode =
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028.290049473407!2d18.116054277881567!3d59.444914501762625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9b0e8651f50f%3A0xa7444d5a7eae52aa!2sPropellerv%C3%A4gen%208B%2C%20183%2062%20T%C3%A4by!5e0!3m2!1ssv!2sse!4v1692914040126!5m2!1ssv!2sse";
+    "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16275.952811037801!2d18.047031999999998!3d59.34139964999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssv!2sse!4v1705921068932!5m2!1ssv!2sse";
   return renderGoogleMap(classes, embedCode);
 }
 /* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028.290049473407!2d18.116054277881567!3d59.444914501762625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9b0e8651f50f%3A0xa7444d5a7eae52aa!2sPropellerv%C3%A4gen%208B%2C%20183%2062%20T%C3%A4by!5e0!3m2!1ssv!2sse!4v1692914040126!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */
+
+

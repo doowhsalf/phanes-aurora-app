@@ -1,0 +1,20 @@
+{
+    "_id": "20240105112419TrDoc",
+    "contentId": "16810",
+    "workorderclass": "TranslateDocumentStandard",
+    "payload": {
+        "documentId": "16810",
+        "instructions": "Please translate this document to Swedish, French and Romanian",
+        "sourceLanguage": "en",
+        "targetLanguage": [
+            "sv",
+            "fr",
+            "ro"
+        ]
+    },
+    "status": NumberInt(500),
+    "created": ISODate("2024-01-05T11:24:19.311+0000"),
+    "modified": ISODate("2024-01-05T11:24:19.311+0000"),
+    "createdBy": "Svpnq3kPQcjAtXG7A",
+    "modifiedBy": "Svpnq3kPQcjAtXG7A"
+}

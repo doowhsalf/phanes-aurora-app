@@ -19,13 +19,12 @@ import ClientSearch from "./containers/clientsearch";
 import ClientSearchDetailsRelations from "./containers/clientsearchdetailsrelations";
 import About from "./containers/about";
 import Dox from "./containers/dox";
-
+import Content from "./components/mcc/content-screen/content-main-proxy";
 import Start from "./containers/start";
 import Filearea from "./containers/filearea";
 import MccMaster from "./containers/mcc_master";
-import Facilityroom from "./containers/facility";
 import Settings from "./containers/settings";
-import EditModel from "./containers/edit_model_master.js";
+
 
 export default function (injectDeps, { FlowRouter }) {
   const MainLayoutCtx = injectDeps(LayoutDefault);
@@ -108,11 +107,11 @@ export default function (injectDeps, { FlowRouter }) {
     },
   });
 
-  FlowRouter.route("/facility/:facilityId", {
-    name: "facilityId",
-    action({ facilityId }) {
+  FlowRouter.route("/content/:id", {
+    name: "id",
+    action({ id }) {
       mount(MainLayoutCtx, {
-        content: () => <Facilityroom facilityId={facilityId} />,
+        content: () => <Content nodeId={id} />,
       });
     },
   });

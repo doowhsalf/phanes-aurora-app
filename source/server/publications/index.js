@@ -3,15 +3,10 @@ import chatlines from "./chatlines";
 import chatrooms from "./chatrooms";
 import secrets from "./secrets";
 import articles from "./articles";
+import contents from "./contents";
+import workorders from "./workorders";
+
 import mcc from "./mcc_config";
-import signalstate from "./signalstate";
-import nodes from "./nodes";  
-import links from "./links";
-import events from "./events";
-import agents from "./agents";
-import ontology from "./ontology";
-import sensormapping from "./sensor-mapping";
-import meters from "./meters";
 export default function () {
   _users();
   chatlines();
@@ -19,12 +14,6 @@ export default function () {
   secrets();
   articles();
   mcc();
-  signalstate();
-  nodes();
-  links();
-  events();
-  agents();
-  ontology();
-  sensormapping();
-  meters();
+  contents();
+  workorders();
 }

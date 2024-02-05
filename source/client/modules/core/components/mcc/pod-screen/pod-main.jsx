@@ -7,14 +7,14 @@ import PodStatistics from "./pod-statistics";
 import PodPerformance from "./pod-performance-main";
 
 const samplePod = {
-  name: "Enkey Demo POD",
+  name: "Aurora Demo POD",
   description:
-    "This is the Enkey Demo POD used to prototype the usage of the Enkey platform.",
+    "This is the Aurora Demo POD used to prototype the usage of the Aurora platform.",
   activationDate: "2023-10-08 12:48:08",
 };
 
 const sampleEntityStats = [
-  { label: "Enkey-pod", category: "Entity class", kpi: 1 },
+  { label: "Aurora-pod", category: "Entity class", kpi: 1 },
   { label: "System", category: "Entity class", kpi: 1 },
   { label: "Gateway", category: "Entity class", kpi: 5 },
   { label: "Meter", category: "Entity class", kpi: 161 },

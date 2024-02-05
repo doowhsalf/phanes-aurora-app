@@ -12,7 +12,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
-import {_getLogoUrl } from "../../core/components/helpers/app-logo.jsx";
+import { _getLogoUrl } from "../../core/components/helpers/app-logo.jsx";
 
 const pages = ["POD", "Gateway", "Sensor", "Energy", "Power", "Volume"];
 const settings = ["Shop", "Profile", "Account", "Dashboard", "Logout"];
@@ -65,7 +65,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            EnKey
+            Aurora
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -130,7 +130,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            EnKey
+            Aurora
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
@@ -146,7 +146,11 @@ function ResponsiveAppBar() {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }} size="large">
+              <IconButton
+                onClick={handleOpenUserMenu}
+                sx={{ p: 0 }}
+                size="large"
+              >
                 <Avatar alt="Remy Sharp" src={_getLogoUrl()} />
               </IconButton>
             </Tooltip>

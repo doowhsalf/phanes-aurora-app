@@ -17,7 +17,7 @@ export const composer = ({ context, nodeId, embedded }, onData) => {
   const { Meteor, Collections } = context();
   DEFCON5 && console.log("Get Node Tree");
 
-  let theNodeId = nodeId ? nodeId : "enkey-pod.pod";
+  let theNodeId = nodeId ? nodeId : "Aurora-pod.pod";
   DEFCON5 && console.log("Do the request");
 
   if (Meteor.subscribe("nodes.getTree", theNodeId).ready()) {

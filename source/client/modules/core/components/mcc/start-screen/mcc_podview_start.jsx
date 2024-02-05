@@ -7,8 +7,6 @@ import Sunburst from "../sunburst";
 import SunburstDynamic from "../sunburst_dynamic";
 import GraphDynamic from "../graph_dynamic";
 import GraphDynamicFunction from "../graph_dynamic_function";
-import TempSensorCard from "../sensor_cards/temperature-sensor-card/temperature-sensor-card-master";
-import HumiditySensorCard from "../sensor_cards/humidity-sensor-card/humidity-sensor-card-master";
 import Typography from "@mui/material/Typography";
 
 import {
@@ -42,40 +40,11 @@ export default function FullWidthGrid() {
 
       <Grid container spacing={3}>
         <Grid item xs={4}>
-          <TempSensorCard
-            nodeId={"meter_48_tvoc01_temperature_sensor"}
-          ></TempSensorCard>
+          <SunburstDynamic
+            
+          ></SunburstDynamic>
         </Grid>
-        <Grid item xs={4}>
-          <HumiditySensorCard
-            nodeId={"meter_50_tvoc01_humidity_sensor"}
-          ></HumiditySensorCard>
-        </Grid>
-        <Grid item xs={4}>
-          <TempSensorCard
-            nodeId={"meter_lora-ota-70b3d580a010bfa4_null"}
-          ></TempSensorCard>
-        </Grid>
-        <Grid item xs={4}>
-          <TempSensorCard
-            nodeId={"meter_lora-ota-0007090000519089_null"}
-          ></TempSensorCard>
-        </Grid>
-        <Grid item xs={4}>
-          <TempSensorCard
-            nodeId={"meter_25_temperature_sensor_kylskåp"}
-          ></TempSensorCard>
-        </Grid>
-        <Grid item xs={4}>
-          <TempSensorCard
-            nodeId={"meter_29_temperature_sensor"}
-          ></TempSensorCard>
-        </Grid>
-        <Grid item xs={4}>
-          <HumiditySensorCard
-            nodeId={"meter_lora-ota-70b3d580a010e696_null"}
-          ></HumiditySensorCard>
-        </Grid>
+        
       </Grid>
     </div>
   );

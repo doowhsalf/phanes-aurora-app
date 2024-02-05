@@ -30,7 +30,12 @@ import Avatar from "@mui/material/Avatar";
 import Flag from "react-world-flags";
 import Badge from "@mui/material/Badge";
 import { _uniqueKey } from "../../helpers/helper";
-import { getField, getFieldObject, getFieldDate, getFieldDateTime } from "../../helpers/getField";
+import {
+  getField,
+  getFieldObject,
+  getFieldDate,
+  getFieldDateTime,
+} from "../../helpers/getField";
 import {
   red,
   yellow,
@@ -43,7 +48,7 @@ import {
    
   "_id" : "meter_1191_ljussensor_",
     "confirmed_entity_class" : "meter",
-    "agent" : "Enkey",
+    "agent" : "Aurora",
     "updated_string" : "2023-11-18 16:19:49",
     "status" : "unconfirmed"
 }
@@ -60,29 +65,41 @@ const rows = [
   },
 
   {
-    id: "confirmed_entity_class",
+    id: "typeOfArticle",
     numeric: false,
     disablePadding: false,
-    label: "Confirmed entity class",
+    label: "Type",
   },
   {
-    id: "agent",
+    id: "title",
     numeric: false,
     disablePadding: false,
-    label: "Agent",
+    label: "Title",
   },
   {
-    id: "updated_string",
+    id: "updatedAt",
     numeric: false,
     disablePadding: false,
-    label: "Updated string",
+    label: "Ingress",
+  },
+  {
+    id: "language",
+    numeric: false,
+    disablePadding: false,
+    label: "Language",
+  },
+  {
+    id: "revision",
+    numeric: false,
+    disablePadding: false,
+    label: "Revision",
   },
   {
     id: "status",
     numeric: false,
     disablePadding: false,
     label: "Status",
-  }
+  },
 ];
 
 class SearchlistHead extends React.Component {
@@ -97,27 +114,68 @@ class SearchlistHead extends React.Component {
         label = "#";
         break;*/
       case "_id":
-        label = "#";
+        label = i18n.__("Label_podview_articles_master_id");
         break;
-      case "confirmed_entity_class":
-        label = "Confirmed entity class";
+      case "typeOfArticle":
+        label = i18n.__("Label_podview_articles_master_typeOfArticle");
         break;
-      case "agent":
-        label = "Agent";
+      case "title":
+        label = i18n.__("Label_podview_articles_master_title");
         break;
-      case "updated_string":
-        label = "Updated string";
+      case "updatedAt":
+        label = i18n.__("Label_podview_articles_master_updatedAt");
+        break;
+      case "language":
+        label = i18n.__("Label_podview_articles_master_language");
+        break;
+
+      case "revision":
+        label = i18n.__("Label_podview_articles_master_revision");
         break;
       case "status":
-        label = "Status";
+        label = i18n.__("Label_podview_articles_master_status");
         break;
 
-
       default:
+        label = "*** label unknown: " + labelid;
         break;
     }
     return label;
   }
+
+  /*
+Label_podview_articles_master_id");
+        break;
+      case "article_class":
+        label = i18n.__("Label_podview_articles_master_article_class");
+        break;
+      case "title":
+        label = i18n.__("Label_podview_articles_master_title");
+        break;
+      case "ingress":
+        label = i18n.__("Label_podview_articles_master_ingress");
+        break;
+        case "language":
+        label = i18n.__("Label_podview_articles_master_language");
+        break;
+        
+      case "revision":
+        label = i18n.__("Label_podview_articles_master_revision");
+        break;
+      case "status":
+        label = i18n.__("Label_podview_articles_master_status");
+
+lable_poodview_articles_master_id
+lable_poodview_articles_master_article_class
+lable_poodview_articles_master_title
+lable_poodview_articles_master_ingress
+lable_poodview_articles_master_language
+lable_poodview_articles_master_revision
+lable_poodview_articles_master_status
+
+
+
+  */
 
   render() {
     const { order, orderBy } = this.props;
@@ -299,7 +357,7 @@ class Searchlist extends React.Component {
 
   handleClick = (event, id) => {
     if (id) {
-      FlowRouter.go(`/entity_class/${id}`);
+      FlowRouter.go(`/content/${id}`);
     }
   };
 
@@ -370,7 +428,7 @@ class Searchlist extends React.Component {
 }
 */
     return (
-      <Paper className={classes.paper}>
+      <>
         <div className={classes.tableWrapper}>
           <Table
             className={classes.table}
@@ -391,11 +449,11 @@ class Searchlist extends React.Component {
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((n) => {
                   const textColorClass =
-                    n.status === "approved"
+                    n.status === "draft"
                       ? classes.tableRowApproved
-                      : n.status === "proposed"
+                      : n.status === "published"
                       ? classes.tableRowProposed
-                      : n.status === "suspense"
+                      : n.status === "review"
                       ? classes.tableRowSuspenced
                       : classes.tableRowRequested;
 
@@ -403,7 +461,7 @@ class Searchlist extends React.Component {
                     <TableRow
                       //className={classNames(textColorClass)}
                       hover
-                      // onClick={(event) => this.handleClick(event, n._id)}
+                      onClick={(event) => this.handleClick(event, n._id)}
                       tabIndex={-1}
                       key={_uniqueKey()}
                       // className={getRowClassNameByPrio(n.priority, classes)}
@@ -415,17 +473,27 @@ class Searchlist extends React.Component {
                       </TableCell>
                       <TableCell align="left">
                         <span className={classNames(textColorClass)}>
-                          {getField(n, "confirmed_entity_class") || "-"}
+                          {getField(n, "typeOfArticle") || "-"}
                         </span>
                       </TableCell>
                       <TableCell align="left">
                         <span className={classNames(textColorClass)}>
-                          {getField(n, "agent") || "-"}
+                          {getField(n, "title") || "-"}
                         </span>
                       </TableCell>
                       <TableCell align="left">
                         <span className={classNames(textColorClass)}>
-                          {getFieldDate(n, "updated_string") || "-"}
+                          {getFieldDate(n, "updatedAt") || "-"}
+                        </span>
+                      </TableCell>
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getField(n, "language") || "-"}
+                        </span>
+                      </TableCell>
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getField(n, "revision") || "-"}
                         </span>
                       </TableCell>
                       <TableCell align="left">
@@ -433,7 +501,6 @@ class Searchlist extends React.Component {
                           {getField(n, "status") || "-"}
                         </span>
                       </TableCell>
-
                     </TableRow>
                   );
                 })}
@@ -460,7 +527,7 @@ class Searchlist extends React.Component {
           onPageChange={this.handleChangePage}
           onRowsPerPageChange={this.handleChangeRowsPerPage}
         />
-      </Paper>
+      </>
     );
   }
   _renderSuperClass = (n) => {

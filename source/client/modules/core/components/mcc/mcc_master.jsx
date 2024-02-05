@@ -53,24 +53,11 @@ import CardContent from "@mui/material/CardContent";
 import Drawer from "@mui/material/Drawer";
 import Hidden from "@mui/material/Hidden";
 import { renderLogo, _getLogoUrl } from "../helpers/app-logo";
-import MccConfigTable from "./mcc_config_table";
-import PodViewDashboard from "./mcc_podview_dashboardV3";
-import PodViewDashboardV2 from "./mcc_podview_dashboardV2";
-import PodViewDashboardV4 from "./mcc_podview_dashboardV4";
-import PodViewDashboardSquare from "./mcc_podview_dashboardSquares";
+
 import PodViewStart from "./start-screen/mcc_podview_start";
-import PodViewPod from "./mcc_podview_pod";
-import PodViewGateways from "./pod-gateways/pod-gw-main";
-import PodViewSuspence from "./mcc_podview_suspence";
-import PodViewAgents from "./mcc_podview_agents";
-import PodScreen  from "./pod-screen/pod-main";
-import PodExportCenter from "./pod-exportcenter/pod-exportcenter-main";
+
 import Worldclock from "./worldclockV3";
 // add icons for menu
-import SuspenceMaster from "./mcc_podview_suspence_master";
-import SensorMaster from "./mcc_podview_sensor_master";
-import DataMaster from "./mcc_podview_data_master";
-import OntologyMaster from "./mcc_podview_ontology_master";
 import RouterIcon from "@mui/icons-material/Router";
 import SensorIcon from "@mui/icons-material/SensorDoor";
 import HouseIcon from "@mui/icons-material/House";
@@ -95,7 +82,7 @@ import EditIcon from "@mui/icons-material/Edit";
 
 import EditModel from "../../containers/edit_model_master.js";
 import SensorMasterMaster from "./mcc_podview_sensormapping_master";
-import MetersMaster from "./meters-table/mcc_podview_meters_master";
+import ArticlesMaster from "./articles-table/mcc_podview_articles_master";
 TimeAgo.locale(en);
 const drawerWidth = 240;
 function _uniqueKey() {
@@ -250,98 +237,38 @@ const menuItems = [
     method: "internal",
   },
   { divider: true },
-
-  {
-    id: 2,
-    name: "Nav_DropDownItem_MCCPOD",
-    icon: <SettingsInputSvideoOutlinedIcon />,
-    component: <PodScreen />,
-    link: "/mcc/pod",
-    method: "internal",
-  },
   {
     id: 3,
-    name: "Nav_DropDownItem_MCCGateways",
+    name: "Nav_DropDownItem_Articles",
     icon: <RouterIcon />,
-    component: <PodViewGateways />,
-    link: "/mcc/gateways",
+    component: <ArticlesMaster />,
+    link: "/mcc/articles",
     method: "internal",
   },
   {
     id: 4,
-    name: "Nav_DropDownItem_EditModel",
+    name: "Nav_DropDownItem_Snippets",
     icon: <CloudIcon />,
-    component: <EditModel embedded={true} />,
+    component: <ArticlesMaster />,
     link: "/edit",
     method: "internal",
   },
   {
     id: 5,
-    name: "Nav_DropDownItem_MCCSensors",
+    name: "Nav_DropDownItem_Labels",
     icon: <SensorIcon />,
-    component: <SensorMaster />,
+    component: <ArticlesMaster />,
     link: "/mcc/events",
     method: "internal",
   },
   {
     id: 6,
-    name: "Nav_DropDownItem_Events",
+    name: "Nav_DropDownItem_Configuration",
     icon: <BatteryChargingFullIcon />,
-    component: <DataMaster />,
+    component: <ArticlesMaster />,
     link: "/mcc/energy",
     method: "internal",
   },
-  {
-    id: 7,
-    name: "Nav_DropDownItem_Suspence",
-    icon: <PowerIcon />,
-    component: <SuspenceMaster />,
-    link: "/mcc/power",
-    method: "internal",
-  },
-
-  {
-    id: 8,
-    name: "Nav_DropDownItem_Ontology",
-    icon: <AccountBoxIcon />,
-    component: <OntologyMaster />,
-    link: "/mcc/agent",
-    method: "internal",
-  },
-
-  {
-    id: 9,
-    name: "Nav_DropDownItem_Agents",
-    icon: <AccountBoxIcon />,
-    component: <PodViewAgents />,
-    link: "/mcc/agent",
-    method: "internal",
-  },
-
-  {
-    id: 10,
-    name: "Nav_DropDownItem_SensorMapping",
-    icon: <EditIcon />,
-    component: <SensorMasterMaster />,
-    link: "/sensormapping",
-    method: "internal",
-  },
-  {
-    id: 11,
-    name: "Nav_DropDownItem_ExportCenter",
-    icon: <ImportExportIcon />,
-    component: <PodExportCenter />,
-    link: "/podexportdCenter",
-    method: "internal",
-  },
-  {
-    id: 12,
-    name: "Nav_DropDownItem_Meters",
-    icon: <DataObjectIcon />,
-    component: <MetersMaster />,
-    link: "/meters",
-    method: "internal",
-  }
 ];
 
 class MccMaster extends React.Component {

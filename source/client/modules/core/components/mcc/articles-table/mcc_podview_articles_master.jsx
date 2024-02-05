@@ -40,7 +40,7 @@ import ListItemSecondaryAction from "@mui/material/ListItemSecondaryAction";
 import Avatar from "@mui/material/Avatar";
 import Paper from "@mui/material/Paper";
 import DebouncedTextField from "../../fields/debouncedtextfield";
-import Proxy from "./mcc_podview_meters_proxy";
+import Proxy from "./mcc_podview_articles_proxy";
 
 import { grey } from "@mui/material/colors";
 import IconButton from "@mui/material/IconButton";
@@ -248,11 +248,13 @@ class MccPodviewDataMaster extends React.Component {
 
     return (
       <div className={classes.root}>
-        <Typography variant="h4">Sensor mapping definitions</Typography>
+        <Typography variant="h4">
+          {i18n.__("Label_podview_articles_master_title")}
+        </Typography>
 
         <Grid container spacing={2}>
           <Grid item xs={12} md={12}>
-            <Paper className={classes.card}>
+            <Paper variant="outlined" className={classes.card}>
               <DebouncedTextField
                 id="filter"
                 label={i18n.__("Entity_Label_Filter")}
@@ -267,7 +269,7 @@ class MccPodviewDataMaster extends React.Component {
             </Paper>
           </Grid>
           <Grid item xs={12} md={12}>
-            <Paper className={classes.card}>
+            <Paper variant="outlined" className={classes.card}>
               <Proxy searchText={this.state.filter}></Proxy>
             </Paper>
           </Grid>

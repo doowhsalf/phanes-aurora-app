@@ -222,7 +222,8 @@ class Start extends React.Component {
             {!user_logged_in && (
               <TitleComponent
                 title="Aurora"
-                subtitle="Insightful Context Awareness"
+                subtitle="Advancing Knowledge, Defining Tomorrow."
+                manufactory="tritonite.io"
               />
             )}
           </Grid>

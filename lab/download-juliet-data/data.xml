@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <nodes>
   <node>
+    <Nid>17178</Nid>
+    <Title>How to write a good introduction</Title>
+    <Body>&lt;p&gt;The preamble is the first opening sentences of your article, which are usually in bold. The introduction is your chance to convince the reader in a few seconds that your article is worth reading. It should therefore be short and to the point and preferably evoke emotions.&lt;/p&gt;
+&lt;p&gt;What do you think is most important, most interesting or surprising in your article? Is there something that evokes emotions in you? Highlight it in the preamble!&lt;/p&gt;
+&lt;p&gt;Tips for those who want to write a good introduction:&lt;/p&gt;
+&lt;p&gt;1. Think about what in your article is new, important, surprising or emotional.&lt;/p&gt;
+&lt;p&gt;2, Now choose ONE of the most interesting things in your text and highlight it in the introduction. You can tell us about the rest further down in the article.&lt;/p&gt;
+&lt;p&gt;3. Feel free to use strong words or expressions that attract the reader's attention.&lt;/p&gt;
+&lt;p&gt;4. Keep it short, no more than five sentences.&lt;/p&gt;
+&lt;p&gt;5. Wash unnecessary words out of your introduction. &lt;/p&gt;
+</Body>
+    <Article-code>richText.field_ingress</Article-code>
+    <Language>English</Language>
+    <Translation-set-node-ID>0</Translation-set-node-ID>
+    <Type>Info article</Type>
+    <Type-of-article>Help text</Type-of-article>
+  </node>
+  <node>
     <Nid>17177</Nid>
     <Title>Elevpublicistens ansvar</Title>
     <Body>&lt;p&gt;Mobile Stories har samma värdegrund som skolan. Den vill vi att du ska hålla dig till när du arbetar med vårt verktyg och publicerar dina arbeten på mobilestories.se.&lt;br /&gt;
@@ -996,7 +1014,7 @@ Do you know that you can use the chat to communicate with your friends who are i
   <node>
     <Nid>17090</Nid>
     <Title>Underrubrik</Title>
-    <Body>&lt;p&gt;Underrubriken används bara i reportage. Om du inte gör ett reportage ska du lämna denna rad tom.&lt;/p&gt;
+    <Body>&lt;p&gt;Underrubriken blir bara synlig i artikeltypen reportage.&lt;/p&gt;
 </Body>
     <Article-code>article.subtitle</Article-code>
     <Language>Swedish</Language>
@@ -1007,7 +1025,7 @@ Do you know that you can use the chat to communicate with your friends who are i
   <node>
     <Nid>17089</Nid>
     <Title>Rubrik</Title>
-    <Body>&lt;p&gt;Skriv en rubrik som griper tag i läsaren. Vad är nytt eller överraskande i din artikel? Finns det något som väcker känslor? Använd det i rubriken! Rubriken får gärna vara kort, helst mellan 6 och 8 ord. &lt;/p&gt;
+    <Body>&lt;p&gt;Skriv en övertygande rubrik som fångar de mest överraskande, intressanta och viktiga aspekterna av din artikel. Utmaningen är att skapa en rubrik som fångar uppmärksamhet och ger information. Du måste locka läsare utan att använda en sensationell rubrik som inte stämmer överens med artikelns innehåll. Läs rubriker på olika nyhetssajter för inspiration. Vilka typer av rubriker får dig att vilja läsa hela historien?&lt;/p&gt;
 </Body>
     <Article-code>article.name</Article-code>
     <Language>Swedish</Language>
@@ -1161,7 +1179,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>17081</Nid>
     <Title>Slideshow</Title>
-    <Body>&lt;p&gt;To create a slideshow, you need at least three good images. The images must be a maximum of 5.0 MB. Here it works best if you decide to have either landscape or portrait images. A landscape image is wider than tall and vice versa for portrait. Use the image formats JPG or PNG! Always write a caption with the names of the people in the picture and carefully write down who has the copyright to the picture, i.e. who is the photographer or illustrator. Use your own images in the slideshow.&lt;/p&gt;
+    <Body>&lt;p&gt;You need at least three images to create a gallery. The maximum size of the images is 5 MB in JPG or PNG format. You should decide on the same format for all images - landscape (horizontal) or portrait (vertical). Always include the names of the people in the images in the caption and add the name of the author. Use your own pictures.&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_slideshowcomplete_bilder</Article-code>
     <Language>English</Language>
@@ -1172,7 +1190,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>17080</Nid>
     <Title>Body text</Title>
-    <Body>&lt;p&gt;The body text must answer questions such as when, where, how, who and why. Regardless of whether you are writing a news article, a report, debate article or column, it is important to support what you write with facts, for example statistics or research. Do not forget to mention in the text from which source you have obtained your factual information. In the info texts about the different article types under "Create new article" it is described how to report sources in your text. Text length: The body text of a news article must be a minimum of 1,500 and a maximum of 5,000 characters including spaces. The same applies to the body of a review, column or debate article. In storytelling, a longer text is needed, 3000 - 8000 characters with spaces.&lt;/p&gt;
+    <Body>&lt;p&gt;The body text should answer questions like who, when, where, how, and why. Use facts, statistics, research, eyewitness accounts, and quotes from those involved to support your writing. Remember to cite your sources. The "Learn" sections under the "Create new article" tab provide guidance on gathering information, conducting interviews, and writing articles. Read them and watch the videos for tips from journalists. The body text of an article is typically 1,500 to 5,000 characters (including spaces) or about 200 to 1,200 words. Feature articles can be longer, about 3,000 to 8,000 characters (including spaces) or about 400 to 2,000 words.&lt;/p&gt;
 </Body>
     <Article-code>richText.body</Article-code>
     <Language>English</Language>
@@ -1183,7 +1201,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>17079</Nid>
     <Title>Subtitle</Title>
-    <Body>&lt;p&gt;The subtitle is only visible in the article type storytelling.&lt;/p&gt;
+    <Body>&lt;p&gt;The subtitle will only appear on feature stories.&lt;/p&gt;
 </Body>
     <Article-code>article.subtitle</Article-code>
     <Language>English</Language>
@@ -1360,7 +1378,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>17062</Nid>
     <Title>Collaborate or peer review?</Title>
-    <Body>&lt;p&gt;Who can review and who can be involved in editing? Add by clicking on the names.&lt;/p&gt;
+    <Body>&lt;p&gt;Choose who can only review your article without making changes and who can also edit and collaborate.&lt;/p&gt;
 </Body>
     <Article-code>userActionRoles</Article-code>
     <Language>English</Language>
@@ -1619,8 +1637,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>17036</Nid>
     <Title>The purpose of your story</Title>
-    <Body>&lt;p&gt;Describe why you do this work. What are you going to learn, investigate further and teach others? Feel free to write something about your target group, (which you intend to read / watch / listen), your topic, angle and which sources you intend to use.&lt;/p&gt;
-&lt;p&gt;In this &lt;a href="http://drive.google.com/drive/folders/1gsuACZRmP8gAumKli8kWla6zEcEcv7sJ?usp=sharing"&gt;link&lt;/a&gt; you can download a template called "The Newsroom". The template will guide you to come up with great ideas on how to shape your journalism.&lt;/p&gt;
+    <Body>&lt;p&gt;Describe the purpose of your story and its context. What is your goal? What do you want to tell others? What you write here will not be published. Only other members of your team and your teacher will see this description.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 </Body>
     <Article-code>article.synopsis</Article-code>
@@ -2120,8 +2137,8 @@ Discuss. By turning and turning each individual case, you get experience that he
   </node>
   <node>
     <Nid>16986</Nid>
-    <Title>Feature story, large image</Title>
-    <Body>&lt;p dir="ltr"&gt;For a feature story to be complete, you need two wide images. If you don't upload at least one image in this box, the headline won't appear in the preview, since the headline is white and is located above the image. You can use the same images here as in the boxes "main image". In Mobile Stories articles, horizontal images are preferred, i.e. images that are wider than they are tall. Don't forget the copyright!&lt;/p&gt;
+    <Title>Feature story, background image</Title>
+    <Body>&lt;p dir="ltr"&gt;NEW VERSION: For a feature story to be complete, you need at least one background image. This image will appear in the background of your story, like a wall paper. I. Primarily use your own image or illustration. The background image needs to be horizontal. You can reuse the same image you used for the “main image” box. Add a description in the caption and include the name of the photographer. If you are republishing a photo taken by someone else, make sure you have permission to.&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_storytelling_bilder</Article-code>
     <Language>English</Language>
@@ -2132,7 +2149,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16985</Nid>
     <Title>Main image</Title>
-    <Body>&lt;p dir="ltr"&gt;The Main image is the first and largest image inside your article. A Main image also appears in the front page of Mobilestories.se. On the Mobile Stories platform, horizontal images will be the best fit. Don´t forget to include information about copyright in your caption! &lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;The main image is the first and largest image in your article. It should be a horizontal image. Preferably use your own image or illustration. If you are republishing a photo taken by someone else, make sure you have permission to. Add a description in the caption and include the name of the copyright owner or licence.&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_puffbild, ERROR_IMAGE_PUFF_MISSING</Article-code>
     <Language>English</Language>
@@ -2154,8 +2171,8 @@ Discuss. By turning and turning each individual case, you get experience that he
   </node>
   <node>
     <Nid>16983</Nid>
-    <Title>Heading</Title>
-    <Body>&lt;p dir="ltr"&gt;The headline may be your only opportunity to capture the reader. What do you find most surprising, interesting or important in your article? Write it in the headline. Feel free to study the headlines on a few different news sites. Which headlines make you want to read on or watch the video? Of course, the headline must also be true and should say something about the content of the article.&lt;/p&gt;
+    <Title>Headline</Title>
+    <Body>&lt;p dir="ltr"&gt;Write a compelling headline that captures the most surprising, interesting, and important aspects of your article. The challenge is to create a headline that grabs attention and provides information. You need to attract readers without using a sensationalistic headline that doesn't match the article's content. Read headlines on various news sites for inspiration. What types of headlines make you want to read the entire story?&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 </Body>
     <Article-code>article.name</Article-code>
@@ -2167,8 +2184,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16982</Nid>
     <Title>Lead</Title>
-    <Body>&lt;p dir="ltr"&gt;The lead is the first lines of the text of an article. The lead should preferably be between 200 and 500 characters including spaces. On Mobilestories.se, the lead Is also shown as "first page  text", i.e. the text that appears on the front page under the heading. The lead should summarize what is in the text, but should also make the reader want to know more. What is the most important or most interesting thing in your article? Highlight this in the lead.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;The lead is the first few sentences of an article used to introduce it. The lead should preferably be between 200 to 500 characters including spaces or about 30 to 130 words. The lead should summarize the text but also interest the reader in finding out more. Highlight some of your most interesting findings in the lead.&lt;/p&gt;
 </Body>
     <Article-code>richText.field_ingress</Article-code>
     <Language>English</Language>
@@ -2214,7 +2230,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16978</Nid>
     <Title>Roles – who did what?</Title>
-    <Body>&lt;p dir="ltr"&gt;Who did what? Who took the photos, who did the videorecording and who wrote the text? You can add multiple people to the same role. Note that the names you select in this box will appear at the bottom of the published story and will be visible to others. Note: Those who searched for and downloaded material such as pictures or videos should be listed under “Research” and not “Photographer”.&lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;Who did what? Who took the photos, who recorded the video and who wrote the text? You can add multiple people to the same role. Note that the names you select in this box will appear at the bottom of the published story and will be visible to others. Those who searched for and downloaded material such as pictures or videos should be listed under “Research” and not “Photographer”.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 </Body>
     <Article-code>userEditRoles</Article-code>
@@ -2238,7 +2254,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16976</Nid>
     <Title>Small image in text</Title>
-    <Body>&lt;p dir="ltr"&gt;This image will appear in your text and will be smaller than the other pictures. You can use this box for example for someone who is interviewed in your story text or for a close-up of a detail that says something about the interviewed persons, or the environment or the topic of your story. Note that the image will not be visible in the published article if your body text is too short. Don´t forget to include information about the copyright in your caption! &lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;Images uploaded here will appear in your text and be smaller than the other pictures. You can use them to add smaller photos of people you have interviewed or to add a detail that says something about the person, the environment, or topic of your story. Note that your body text needs to be at least 230 words long before you can add pictures to the text. Preferably use your own photos or illustrations. If you are republishing a photo taken by someone else, make sure you have permission to. Add a description in the caption and include the name of the author, date of the photo, location, and the outlet where it was published.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 </Body>
     <Article-code>imageList.field_bild_i_artikeltext</Article-code>
@@ -2262,7 +2278,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16974</Nid>
     <Title>Sources</Title>
-    <Body>&lt;p dir="ltr"&gt;&lt;strong&gt;Required.&lt;/strong&gt; A source can be, for example, a website, a news site or a person. Write the name and a short description of the source. Also add the links, if there are any, and one or two sentences about why you think the source is credible. You can add more sources by pressing the plus sign.&lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;What sources have you used in your article? You can list websites, news sites, documents or people as your sources. Write the name and a short description of the source. Make sure you include attribution to sources within the article as well. &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 </Body>
     <Article-code>articleReferences</Article-code>
@@ -2274,7 +2290,12 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16973</Nid>
     <Title>Embedded items</Title>
-    <Body>&lt;p dir="ltr"&gt;Embed video clips or audio files. You will first need to upload the clip to a Vimeo, SoundCloud, Anchor or YouTube account and then find and copy the "Embedded code". Once the embedded link is saved, go to your "Body text” box. There you place the cursor in the text where you want the clip to appear. Then select your item from the "Embedded Items" drop-down menu. Create a new test article to see the result.&lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;1. First publish the video or audio clip on Vimeo, Youtube, Anchor or Soundcloud. &lt;/p&gt;
+&lt;p dir="ltr"&gt;2. Find what is called "Embedded code". Save it in the box with any title. &lt;/p&gt;
+&lt;p dir="ltr"&gt;3. Go to the "Body text" box. Place the cursor in the text where the clip should show. &lt;/p&gt;
+&lt;p dir="ltr"&gt;4. Select your item (the title of your choice) from the "Embedded Items" drop down menu. &lt;/p&gt;
+&lt;p dir="ltr"&gt;5. Create a test article to see how your clip looks if you were to publish it on Mobilestories.se.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 </Body>
     <Article-code>embeddedItems</Article-code>
@@ -2391,8 +2412,8 @@ Discuss. By turning and turning each individual case, you get experience that he
   </node>
   <node>
     <Nid>16963</Nid>
-    <Title>Workgroup</Title>
-    <Body>&lt;p dir="ltr"&gt;Select workgroup for your new article. &lt;/p&gt;
+    <Title>Working group</Title>
+    <Body>&lt;p dir="ltr"&gt;Select the working group to which your article should belong. Don't see a workgroup here? The administrator must then approve you in the group, under "My groups".&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 </Body>
     <Article-code>article.workgroup</Article-code>
@@ -2416,7 +2437,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16961</Nid>
     <Title>Article info</Title>
-    <Body>&lt;p dir="ltr"&gt;In this section, you describe the purpose of your article and change your title. At the bottom you see who is listed as the sender, for example the name of your school. The line can only be changed by an administrator in "my groups".&lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;Describe the purpose of the article and change your headline. The sender can only be changed by an administrator in the group.&lt;/p&gt;
 </Body>
     <Article-code>articleInfo</Article-code>
     <Language>English</Language>
@@ -2483,41 +2504,6 @@ Discuss. By turning and turning each individual case, you get experience that he
 &lt;p dir="ltr"&gt;Last updated: 03.10.22&lt;/p&gt;
 </Body>
     <Article-code></Article-code>
-    <Language>English</Language>
-    <Translation-set-node-ID>0</Translation-set-node-ID>
-    <Type>Info article</Type>
-    <Type-of-article>Open info</Type-of-article>
-  </node>
-  <node>
-    <Nid>16957</Nid>
-    <Title>Tips for a successful interview</Title>
-    <Body>&lt;p&gt;The interview can be done via a digital meeting (such as Zoom, Skype or Google Hangout), via email or telephone. The most fun and often the best way is to meet the person for real! It makes the interview more "alive".&lt;/p&gt;
-&lt;p&gt;In order to do a good interview, you need the courage to make contact with someone you may not know, sometimes also some stubbornness to reach the right person and get them to come forward. During the interview itself, it is important to listen and ask follow-up questions. Also, interviewing someone in a respectful way is a great way to make more connections, perhaps in a field you're curious about yourself. You never know what a meeting might lead to – an internship? A friendship? A new perspective on something? Understanding what the person is saying and asking good follow-up questions to get the person to elaborate or explain requires that you are well-read and have knowledge of the subject.&lt;/p&gt;
-&lt;p&gt;The interview can be divided into three stages:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Preparation&lt;/strong&gt;&lt;br /&gt;
-1. Read up on the subject.&lt;br /&gt;
-2. Develop questions. Remember that you will get answers to the questions How? Who? What? and why?&lt;br /&gt;
-3. Prepare the technology (check the recording function on the mobile if you are going to record the call, for example).&lt;br /&gt;
-4. Get in touch with the interviewee - via e-mail, social media or phone, for example.&lt;/p&gt;
-&lt;p&gt;The first contact with the interviewee can take place via e-mail or phone, a little depending on which contact details you can get hold of. The easiest way is usually to look on the website of the organization where the person works. Calling someone's private phone number can be a bit sensitive, if you don't know the person before.&lt;/p&gt;
-&lt;p&gt;Feel free to practice introducing yourself in a role-play to increase the chance of getting the interviewees to come forward. This is something journalist Björn af Kleen is good at. Please read the article "How to get the interviewee to come forward".&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Implementation&lt;/strong&gt;&lt;br /&gt;
-1. Telephone, digital, email or physical&lt;br /&gt;
-2. Record the quotes if you need to print them out later (but ask the interviewee first!)&lt;br /&gt;
-3. Don't forget follow-up questions! Examples of follow-up questions are "Why then?", "Tell me more!", "What do you mean?" and "Can you elaborate on that?".&lt;br /&gt;
-4. Take a good picture, alternatively ask if the interviewee can send one. If so, be sure to ask who took it. If you're doing the interview via, say, Skype - take a picture of the screen with your mobile phone - but don't forget to ask first!&lt;br /&gt;
-5. Ask if the person wants to see the quotes! Decide how this will be done. Should you email? Then make sure you have the person's email address.&lt;/p&gt;
-&lt;p&gt;It can be difficult to ask questions, listen to the answers and also take notes at the same time. One way to remember the interviewee's answers is to use a mobile phone with a recording function, and perhaps at the same time write down supporting notes during the meeting. Back at home, the quotes can be printed in peace and quiet. Be sure to first ask the interviewee if it feels okay to be recorded! Otherwise, you have to try to get by with notes.&lt;/p&gt;
-&lt;p&gt;If the interview takes place on video or in a podcast, it is good to have a ready-made script beforehand as support.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Post-work and publication&lt;/strong&gt;&lt;br /&gt;
-1. Process text/audio/film, don't forget the name of the author of any image, film, sound.&lt;br /&gt;
-2. Let the interviewee see their quotes - if they are in written form! It is important that the interviewee only corrects his own quotes and does not go in and change the rest of the text - unless there are pure factual errors. It is always the person who writes the article who decides on their text.&lt;br /&gt;
-3. Use hyphens (—) when printing out the interviewee's answers.&lt;/p&gt;
-&lt;p&gt;If you're going to write down the quotes and use in an article, it's good if the answers feel alive, so feel free to keep some of the spoken language. But keep in mind that it must be easy for the reader to understand.&lt;/p&gt;
-&lt;p&gt;If the interview is done in a podcast or video, the material may need to be edited and cut. It is then important that the meaning of what someone said does not change or that it is cut into a completely new context.&lt;/p&gt;
-&lt;p&gt;Last updated: 20230421&lt;/p&gt;
-</Body>
-    <Article-code>richText.body</Article-code>
     <Language>English</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
@@ -2886,7 +2872,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16943</Nid>
     <Title>Article Tags</Title>
-    <Body>&lt;p&gt;By "tagging" your story, you make it easier for others to find. Tagging your story with the word "environment" increases the chances that it will appear in the search results when someone uses that particular keyword on a search engine, such as Google. There are a large number of words to choose from, but you will certainly find that not all words are included in our “tag library”. Try to find at least one word that fits your story.&lt;/p&gt;
+    <Body>&lt;p&gt;By adding tags, you make it easier for others to find your story. For example, tagging it with the word "environment" increases the chances that it will appear in the search results when someone uses that keyword on a search engine, such as Google. There are a large number of words to choose from, but you will certainly find that not all words are included in our “tag library”. Try to find at least one word that fits your story.&lt;/p&gt;
 </Body>
     <Article-code>articleTags</Article-code>
     <Language>English</Language>
@@ -2919,7 +2905,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16940</Nid>
     <Title>Subject</Title>
-    <Body>&lt;p&gt;Select the subject that best suits your story.&lt;/p&gt;
+    <Body>&lt;p&gt;Which of these areas best fits the topic you are writing about? Select one to proceed.&lt;/p&gt;
 </Body>
     <Article-code>article.category</Article-code>
     <Language>English</Language>
@@ -2929,8 +2915,8 @@ Discuss. By turning and turning each individual case, you get experience that he
   </node>
   <node>
     <Nid>16939</Nid>
-    <Title>Workgroup</Title>
-    <Body>&lt;p dir="ltr"&gt;Select the working group where your article belongs. You can belong to more than one workgroup. A workgroup can only be created by an administrator, for example a teacher or a librarian. &lt;/p&gt;
+    <Title>Working group</Title>
+    <Body>&lt;p dir="ltr"&gt;Select the working group to which your article should belong. Don't see a workgroup here? The administrator must then approve you in the group, under "My groups".&lt;/p&gt;
 </Body>
     <Article-code>article.workgroup</Article-code>
     <Language>English</Language>
@@ -3045,7 +3031,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16935</Nid>
     <Title>Artikelinfo</Title>
-    <Body>&lt;p&gt;Här beskriver du syftet med din artikel. Du kan också ändra din rubrik. Längst ner ser du publiceringsnamnet, till exempel vilken skola eller klass som står bakom artikeln. Publiceringsnamnet kan bara ändras av en administratör, under "Mina grupper" i huvudmenyn.&lt;/p&gt;
+    <Body>&lt;p&gt;Beskriv syftet med artikeln och ändra din rubrik. Avsändaren kan endast ändras av en administratör i arbetsgruppen.&lt;/p&gt;
 </Body>
     <Article-code>articleInfo</Article-code>
     <Language>Swedish</Language>
@@ -3068,7 +3054,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16933</Nid>
     <Title>Ämnesområde</Title>
-    <Body>&lt;p&gt;Välj det ämnesområde som du tycker bäst passar din artikel. &lt;/p&gt;
+    <Body>&lt;p&gt;Vilket av dessa områden passar bäst till ämnet du skriver om? Välj ett för att gå vidare.&lt;/p&gt;
 </Body>
     <Article-code>article.category, ERROR_CATEGORY_MISSING</Article-code>
     <Language>Swedish</Language>
@@ -3260,7 +3246,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16918</Nid>
     <Title>Taggar</Title>
-    <Body>&lt;p&gt;Skriv något eller några ord som du tycker beskriver det ämne artikeln handlar om. Detta kallas för att "tagga" en artikel. Det gör den lättare att hitta på internet. Välj gärna ord som du tror att din läsare skulle använda som sökord för att hitta din artikel. Artiklar som har taggar blir ofta mer lästa.&lt;/p&gt;
+    <Body>&lt;p&gt;Genom att lägga till taggar gör du det lättare för andra att hitta din artikel. Att till exempel "tagga" med ordet "miljö" ökar chanserna att artikeln visas i sökresultaten när någon använder det sökordet på en sökmotor, som Google. Det finns ett stort antal ord att välja mellan, men du kommer säkerligen att upptäcka att inte alla ord finns med i vårt "taggbibliotek". Försök att hitta minst ett ord som passar din berättelse.&lt;/p&gt;
 </Body>
     <Article-code>ArticleTags</Article-code>
     <Language>Swedish</Language>
@@ -3584,7 +3570,11 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16893</Nid>
     <Title>Inbäddade objekt</Title>
-    <Body>&lt;p&gt;Här kan du bädda in filmklipp eller ljudfiler. Du måste ladda upp klippet på ett Vimeo-, Soundcloud- eller Youtube-konto och sedan plocka fram det som kallas "Embedded code". När den inbäddade länken är sparad går du vidare till din "brödtext-box". Där ställer du markören i texten där klippet ska hamna. Välj sedan ditt objekt från drop down-menyn "inbäddade objekt". Rendera en ny testartikel för att se resultatet.&lt;/p&gt;
+    <Body>&lt;p&gt;1. Publicera först videon eller ljudklippet på Vimeo, Youtube, Anchor eller Soundcloud.&lt;br /&gt;
+2. Hitta det som kallas "Inbäddad kod". Spara den i rutan med valfri titel.&lt;br /&gt;
+3. Gå till rutan "Brödtext". Placera markören i texten där klippet ska visas.&lt;br /&gt;
+4. Välj ditt objekt (titeln du väljer) från rullgardinsmenyn "Inbäddade objekt".&lt;br /&gt;
+5. Skapa en testartikel för att se hur ditt klipp ser ut om du skulle publicera det på Mobile Stories plattform.&lt;/p&gt;
 </Body>
     <Article-code>EmbeddedItems</Article-code>
     <Language>Swedish</Language>
@@ -3595,7 +3585,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16891</Nid>
     <Title>Källor</Title>
-    <Body>&lt;p&gt;Vilka källor har du använt i din artikel? En källa kan vara till exempel en hemsida, en nyhetssajt eller en person. &lt;/p&gt;
+    <Body>&lt;p&gt;Vilka källor har du använt i din artikel? Du kan lista webbplatser, nyhetssajter, dokument eller personer som dina källor. Skriv namnet och en kort beskrivning av källan i boxen "Källor". Se till att du hänvisar till källorna i din text också genom att i texten berätta varifrån du fått informationen när du nämner dina fakta. Detta ökar din trovärdighet.&lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/mBVd5O_kVyM?si=dvVWnUnyFyXVGqsq" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>articleReferences</Article-code>
@@ -3618,7 +3608,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16888</Nid>
     <Title>Liten bild i text</Title>
-    <Body>&lt;p&gt;Den här bilden kommer ligga i din text och vara ganska liten. Här är det bra att ha en bild på någon som uttalar sig i texten eller en närbild på en detalj som leder läsaren vidare i artikeln. Använd i första hand en egen bild eller illustration. Se videon för mer information.&lt;/p&gt;
+    <Body>&lt;p&gt;Bilder som laddas upp här kommer att visas i din text och vara mindre än de andra bilderna. Du kan använda dem för att lägga till mindre bilder på personer du har intervjuat eller för att lägga till en detalj som säger något om personen, miljön eller ämnet i din berättelse. Observera att din brödtext måste vara minst 230 ord lång innan du kan lägga till bilder i texten. Använd helst egna foton eller illustrationer. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn, datum för fotot, plats och butiken där det publicerades. Se instruktionsvideon för mer information.&lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/BTMT-q4Ygh8?si=n90pUQNgEjckuhl7" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_bild_i_artikeltext</Article-code>
@@ -3641,7 +3631,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16886</Nid>
     <Title>Roller, fyll i vem som gör vad i gruppen</Title>
-    <Body>&lt;p&gt;Vem har fotograferat, filmat eller skrivit? Det går att lägga till flera personer på samma roll. Namnet som du fyllt i när du skapade ditt konto eller fyllt i under "min profil" är det namn som kommer synas utåt när du sedan publicerar. &lt;/p&gt;
+    <Body>&lt;p&gt;Vem gjorde vad? Vem tog bilderna, vem spelade in videon och vem skrev texten? Du kan lägga till flera personer i samma roll. Observera att namnen du väljer i den här rutan kommer att visas längst ned i den publicerade artikeln och kommer att vara synliga för andra. De som sökt material och laddat ner till exempel bilder eller ljud ska listas under "Research".&lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/jEZmpU4rQfw?si=r1uoDukbGjJmVX8Z" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>userEditRoles</Article-code>
@@ -3653,8 +3643,8 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16885</Nid>
     <Title>Roller och möjligheter</Title>
-    <Body>&lt;p&gt;Här väljer du vilka av dina kompisar som ska vara med och samarbeta kring din artikel. Vilka kan granska och vilka kan vara med och redigera?&lt;/p&gt;
-&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/hNFxEZUxANY?si=DVtXI1eNXvZIW_3g" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+    <Body>&lt;p&gt;Välj vem som bara kan granska din artikel utan att göra ändringar och vem som också kan redigera och samarbeta. Se instruktionsvideon för mer information.&lt;/p&gt;
+&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/hNFxEZUxANY?si=DVtXI1eNXvZIW_3g" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;
 </Body>
     <Article-code>userActionRoles</Article-code>
     <Language>Swedish</Language>
@@ -3705,8 +3695,8 @@ Discuss. By turning and turning each individual case, you get experience that he
   </node>
   <node>
     <Nid>16877</Nid>
-    <Title>Synopsis</Title>
-    <Body>&lt;p&gt;Här beskriver du syftet med artikeln och i vilket sammanhang den skapats. Det publiceras inte utåt, bara de som är inbjudna till artikeln och din lärare kan se vad du skrivit. &lt;/p&gt;
+    <Title>Purpose</Title>
+    <Body>&lt;p&gt;Beskriv syftet med din artikel och sammanhanget. Vad är ditt mål? Vad vill du berätta för andra? Det du skriver här kommer inte att publiceras. Endast andra medlemmar i ditt team och din lärare kommer att se den här beskrivningen.&lt;/p&gt;
 </Body>
     <Article-code>article.synopsis</Article-code>
     <Language>Swedish</Language>
@@ -3792,7 +3782,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16862</Nid>
     <Title>Huvudbild</Title>
-    <Body>&lt;p&gt;Huvudbilden är den första och största bilden inne i din artikel i alla artikeltyper utom reportage. Använd i första hand en egen bild eller illustration. Se videon för mer information.&lt;/p&gt;
+    <Body>&lt;p&gt;Huvudbilden är den första och största bilden i din artikel (med undantag för artikeltypen reportage). Det ska vara en horisontell bild, alltså en bild tagen på bredden. Använd helst din egen bild eller illustration. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Se videon för mer information.&lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/nFlcV3x3ij8?si=AAfKrRwnGJ7zEDav" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_puffbild</Article-code>
@@ -3856,7 +3846,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16830</Nid>
     <Title>Bildspel</Title>
-    <Body>&lt;p&gt;För att skapa ett bildspel behöver du minst tre bra bilder. Se videon för mer information. &lt;/p&gt;
+    <Body>&lt;p&gt;Du behöver minst tre bilder för att skapa ett galleri. Maxstorleken på bilderna är 5 MB i JPG- eller PNG-format. Du bör välja samma format för alla bilder - liggande (horisontellt) eller stående (vertikalt). Inkludera alltid namnen på personerna i bilderna i bildtexten och lägg till namnet på fotografen. Se instruktionsvideon för mer information. &lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/_FIT_fjb2IU?si=jcd4s7CT9w2EJ2LT" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_slideshowcomplete_bilder</Article-code>
@@ -3867,8 +3857,9 @@ Discuss. By turning and turning each individual case, you get experience that he
   </node>
   <node>
     <Nid>16826</Nid>
-    <Title>Reportage, stor bild</Title>
-    <Body>&lt;p&gt;För att ett reportage ska bli komplett behöver du två stora och bra bilder. Det går bra att använda samma bilder här som i boxen för "Huvudbild". För att din rubrik ska synas när du publicerar din artikel måste du ha en bild här, eftersom rubriken ligger över bilden och är vit. I Mobile Stories artiklar fungerar horisontella bilder bäst. Använd i första hand en egen bild eller illustration.&lt;/p&gt;
+    <Title>Reportage, bakgrundsbild</Title>
+    <Body>&lt;p&gt;För att ett reportage ska bli komplett behöver du minst en bakgrundsbild. Den här bilden kommer synas som en bakgrund till ditt reportage, bakom rubriken. Du kan återanvända samma bild som du använde för rutan "huvudbild". Det behöver vara en horisontell bild, alltså en bild i liggande format. Använd i första hand en egen bild eller illustration. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
 </Body>
     <Article-code>imageList.field_storytelling_bilder</Article-code>
     <Language>Swedish</Language>
@@ -3879,7 +3870,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16822</Nid>
     <Title>Ingress och pufftext</Title>
-    <Body>&lt;p&gt;Ingressen är de första raderna av en artikel. Den ska helst vara 200 till 500 tecken med blanksteg och locka in läsaren i texten. Den ska beskriva vad artikeln handlar om, men helst inte avslöja för mycket! &lt;/p&gt;
+    <Body>&lt;p&gt;Ingressen är de första meningarna i en artikel som används för att introducera den. Ingressen ska helst vara mellan 200 till 500 tecken inklusive mellanslag eller cirka 30 till 130 ord. Ingressen ska sammanfatta texten men också intressera läsaren för att få veta mer. Se instruktionsvideon om du vill veta mer.&lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/D1nhikPqvZ4?si=YS514GXAsr8V-haP" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>richText.field_ingress</Article-code>
@@ -3902,7 +3893,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16816</Nid>
     <Title>Brödtext</Title>
-    <Body>&lt;p&gt;Brödtexten ska svara på frågor som när, var, hur, vem och varför. Oavsett om du skriver en nyhetsartikel, ett reportage, debattartikel eller krönika är det viktigt att underbygga det du skriver med fakta, till exempel statistik eller forskning. Tala om i texten från vilken källa du har hämtat dina faktauppgifter. &lt;strong&gt;Textlängd: &lt;/strong&gt;minst 1 500 och max 5 000 tecken inklusive blanksteg. I reportaget behöver texten vara längre minst 2 500- 6 000 tecken.&lt;/p&gt;
+    <Body>&lt;p&gt;Brödtexten ska svara på frågor som vem, när, var, hur och varför. Använd fakta, statistik, forskning, ögonvittnesskildringar och citat från de inblandade för att stödja ditt skrivande. Kom ihåg att citera dina källor. Avsnitten under fliken "Skapa ny artikel" ger vägledning om att samla information, genomföra intervjuer och skriva artiklar. Läs dem och se filmerna för tips från journalister. Brödtexten i en artikel är vanligtvis 1 500 till 5 000 tecken (inklusive mellanslag) eller cirka 200 till 1 200 ord. Artikelartiklar kan vara längre, cirka 3 000 till 8 000 tecken (inklusive mellanslag) eller cirka 400 till 2 000 ord. Se instruktionsvideon för mer information.&lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/g0DxolxNATY?si=cQ1pPc8EufmHc292" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>richText.body</Article-code>

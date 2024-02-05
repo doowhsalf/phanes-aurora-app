@@ -59,7 +59,7 @@ const updateData = {
 // Login data (replace with your user credentials)
 const loginData = {
   username: "admin",
-  password: "Mupervoff888!",
+  password: "doow112358!",
 };
 
 // Function to log in and get a CSRF token
@@ -114,23 +114,32 @@ const convertXmlToJsonAndSave = async () => {
             ? "translationSetNodeId"
             : convertToCamelCase(key);
         modifiedNode[convertToCamelCase(key)] = node[key][0];
+
+        if (key === "Type-of-article") {
+          modifiedNode["typeOfArticle"] = lowercase(removeSpace(node[key][0]));
+          // if the value is "" set it to "snippet"
+          modifiedNode["typeOfArticle"] =
+            modifiedNode["typeOfArticle"] === ""
+              ? "snippet"
+              : modifiedNode["typeOfArticle"];
+        }
+
         modifiedNode["version"] = "1"; // all nodes are version 1 at the start
         // create fields createdAt, updatedAt, createdBy, updatedBy
         modifiedNode["createdAt"] = new Date().toISOString();
         modifiedNode["updatedAt"] = new Date().toISOString();
         modifiedNode["createdBy"] = "system";
         modifiedNode["updatedBy"] = "system";
-        modifiedNode["contentType"] =
-          modifiedNode["type"] === "Info article" ? "article" : "snippet";
-
-        if (modifiedNode["contentType"] === "article")
-          modifiedNode["typeOfArticle"] =
-            modifiedNode["typeOfArticle"] === "Open info"
-              ? "openinfoArticle"
-              : modifiedNode["typeOfArticle"] === "Help text"
-              ? "helpArticle"
-              : "legalArticle";
-        else modifiedNode["typeOfArticle"] = "helpArticle";
+        // modifiedNode["contentType"] = modifiedNode["type"]; //=== "article" ? "article" : "article";
+        // modifiedNode["typeOfArticle"] = modifiedNode["type-of-article"];
+        // if (modifiedNode["contentType"] === "article")
+        //   modifiedNode["typeOfArticle"] =
+        //     modifiedNode["typeOfArticle"] === "Open info"
+        //       ? "openinfoArticle"
+        //       : modifiedNode["typeOfArticle"] === "Help text"
+        //       ? "helpArticle"
+        //       : "legalArticle";
+        // else modifiedNode["typeOfArticle"] = "helpArticle";
         // remove type
         delete modifiedNode["type"];
         let originalLanguage = node.Language[0];
@@ -238,6 +247,16 @@ const main = async () => {
     // Handle errors here
     console.error("Main function error:", error);
   }
+};
+
+// function to remove space with _
+const removeSpace = (str) => {
+  return str.replace(/\s/g, "_");
+};
+
+// make string to lowercase
+const lowercase = (str) => {
+  return str.toLowerCase();
 };
 
 main();

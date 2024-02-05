@@ -19,13 +19,13 @@ import {
 import makeStyles from "@mui/styles/makeStyles";
 
 import MuiThemeDarkx from "/client/configs/muithemedark_pod_controlroom";
-import MuiThemeDarkXsss from "/client/configs/muithemedark_pod_spacestation2";
-import MuiThemeDark from "/client/configs/muithemedark_pod_controlroom_space";
+import MuiThemeDarkxxxx from "/client/configs/muithemedark_pod_spacestation2";
+import MuiThemeDark from "/client/configs/muithemedark_pod_controlroom_space_v3";
 
 //
 import MuiThemeLight from "/client/configs/muithemelight";
 import ListItemIcon from "@mui/material/ListItemIcon";
-//import AppToolbar from "./AppToolbarEnkey";
+//import AppToolbar from "./AppToolbarAurora";
 import AppToolbar from "../containers/AppToolbar";
 
 import LanguageItemsList from "./LanguageItemsList";
@@ -342,54 +342,7 @@ class Layout extends React.Component {
           <ListItemText primary={i18n.__("Nav_DropDownItem_Profilesettings")} />
         </ListItem>
       ) : null,
-      userLoggedIn ? (
-        <ListItem
-          key={_uniqueKey()}
-          button
-          onClick={() => this.menuElementClicked("/databrowser")}
-        >
-          <ListItemIcon>
-            <DashboardOutlinedIcon />
-          </ListItemIcon>
-          <ListItemText primary={i18n.__("Nav_DropDownItem_Databrowser")} />
-        </ListItem>
-      ) : null,
-      userLoggedIn ? (
-        <ListItem
-          key={_uniqueKey()}
-          button
-          onClick={() => this.menuElementClicked("/suspence")}
-        >
-          <ListItemIcon>
-            <DashboardOutlinedIcon />
-          </ListItemIcon>
-          <ListItemText primary={i18n.__("Nav_DropDownItem_Suspence")} />
-        </ListItem>
-      ) : null,
-      userLoggedIn ? (
-        <ListItem
-          key={_uniqueKey()}
-          button
-          onClick={() => this.menuElementClicked("/orderhistory")}
-        >
-          <ListItemIcon>
-            <DashboardOutlinedIcon />
-          </ListItemIcon>
-          <ListItemText primary={i18n.__("Nav_DropDownItem_OrderHistory")} />
-        </ListItem>
-      ) : null,
-      userLoggedIn ? (
-        <ListItem
-          key={_uniqueKey()}
-          button
-          onClick={() => this.menuElementClicked("/alarms")}
-        >
-          <ListItemIcon>
-            <DashboardOutlinedIcon />
-          </ListItemIcon>
-          <ListItemText primary={i18n.__("Nav_DropDownItem_Alarmlist")} />
-        </ListItem>
-      ) : null,
+
       userLoggedIn ? (
         <ListItem
           key={_uniqueKey()}

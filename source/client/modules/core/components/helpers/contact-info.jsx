@@ -22,25 +22,24 @@ function _uniqueKey() {
   return Math.random() * Math.random();
 }
 export function contactInfo(classes) {
-  
   // calculate the current year
   const currentYear = new Date().getFullYear();
-  const copyRight = `© ${currentYear} EnKey`;
+  const copyRight = `© ${currentYear} Tritonite AB. All rights reserved.`;
 
   const contactInfo = [
     <div key={_uniqueKey()}>
       <br />
-      <Typography variant={"h4"}>EnKey</Typography>
+      <Typography variant={"h4"}>Aurora</Typography>
       <br /> <hr />
       <Typography variant={"body1"}>
         <strong>Adress:</strong> <br />
         <br />
-        Propellervägen 8B <br />
-        183 62 TÄBY
+        Fleminggatan 23 <br />
+        112 26 Stockholm
         <br />
         Sweden&nbsp;
         <br />
-        hello@enkey.se <br />
+        hello@tritonite.io <br />
         <br />
         {copyRight}
         <br />

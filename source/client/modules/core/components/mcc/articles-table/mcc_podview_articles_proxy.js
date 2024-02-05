@@ -1,4 +1,4 @@
-import NodesTableData from "./mcc_podview_meters_table.jsx";
+import NodesTableData from "./mcc_podview_articles_table.jsx";
 import Loading from "/client/loading.js";
 import { useDeps, composeWithTracker, composeAll } from "mantra-core-extra";
 import {
@@ -10,7 +10,6 @@ import {
   DEFCON2,
   DEFCON1,
 } from "/debug.json";
-
 
 DEFCON5 && console.log("In meters component, kicknodesing stuff");
 /* 
@@ -41,17 +40,17 @@ export const composer = ({ context, searchText }, onData) => {
         //     : "";
         // let nameSearch = article.name.en !== undefined ? article.name.en : "";
 
-        const searchString = `${article._id} ${article.topic} ${article.sensorClass} ${article.status} ${article.context} `;
+        const searchString = `${article._id} ${article.ingress} ${article.status} ${article.status} ${article.languge} ${article.originalLanguage} ${article.originalLanguage} ${article.title} ${article.title} ${article.body} ${article.body} ${article.subheader} ${article.subheader} ${article.weight} ${article.weight} ${article.articleCode} ${article.articleCode} ${article.typeOfArticle} ${article.typeOfArticle} ${article.contentType} ${article.contentType} ${article._id} ${article._id} ${article.nid} `;
         return regex.test(searchString);
       });
       return filtered;
     }
   };
 
-  if (Meteor.subscribe("meters.all").ready()) {
+  if (Meteor.subscribe("contents.all").ready()) {
     const Selector = {};
 
-    const nodes = Collections.Meters.find(Selector).fetch();
+    const nodes = Collections.Contents.find(Selector).fetch();
 
     let nodeConfigs =
       searchText !== undefined ? filter(nodes, searchText) : nodes;

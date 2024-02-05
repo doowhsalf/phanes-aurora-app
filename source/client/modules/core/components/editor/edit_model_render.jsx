@@ -24,9 +24,7 @@ import { TreeItem, treeItemClasses } from "@mui/x-tree-view/TreeItem";
 // import NodeRender from "./archive/node_render";
 import NodeRenderCard from "../editor/node_render_card";
 import NodeRenderAgentCard from "../editor/node_render_agent_card";
-import TempSensorCardMaster from "../mcc/sensor_cards/temperature-sensor-card/temperature-sensor-card-master";
-import HumiditySensorCardMaster from "../mcc/sensor_cards/humidity-sensor-card/humidity-sensor-card-master";
-import PowerSensorCardMaster from "../mcc/sensor_cards/combined-power-sensor-card/combined-power-sensor-card-master";
+
 
 import Container from "@mui/material/Container";
 import Card from "@mui/material";

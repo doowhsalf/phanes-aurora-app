@@ -3,8 +3,8 @@
     "DEFCON8": false,
     "DEFCON7": false,
     "DEFCON6": false,
-    "DEFCON5": false,
-    "DEFCON4": false,
+    "DEFCON5": true,
+    "DEFCON4": true,
     "DEFCON3": true,
     "DEFCON2": true,
     "DEFCON1": true

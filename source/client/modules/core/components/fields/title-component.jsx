@@ -1,7 +1,7 @@
 import React from "react";
 import { renderLogo } from "../helpers/app-logo";
 
-const TitleComponent = ({ title, subtitle, logo = false }) => {
+const TitleComponent = ({ title, subtitle, logo = false, manufactory }) => {
   const containerStyle = {
     // position: "relative", // Positioning relative to the nearest positioned ancestor
     // top: "55px", // Set the top edge of the container to the center of the parent
@@ -58,6 +58,15 @@ const TitleComponent = ({ title, subtitle, logo = false }) => {
     // make shadow
     // textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)", // Lighter shadow with reduced opacity
   };
+  const manufactoryStyle = {
+    fontSize: "1.5rem", // Slightly smaller font size for the subtitle
+    color: "rgba(255, 255, 255, 0.34)", // White with transparency
+    fontWeight: "bold", // Bold font for the subtitle as well
+    margin: 0, // Reset margin
+    marginTop: "0em", // Slight space between title and subtitle
+    fontFamily: "Eurostile, sans-serif", // Assign EuroStyle Normal to the
+    textAlign: "right",
+  };
   const subtitleStyleVersion = {
     fontSize: "1rem", // Slightly smaller font size for the subtitle
     color: "rgba(255, 255, 255, 0.34)", // White with transparency
@@ -80,6 +89,7 @@ const TitleComponent = ({ title, subtitle, logo = false }) => {
       <div style={titleStyleTransparent}>{title}</div>
       <div style={dividerStyle} /> {/* This is the divider */}
       <div style={subtitleStyle}>{subtitle}</div>
+      <div style={manufactoryStyle}>{"A service from " + manufactory}</div>
       {logo ? (
         <div style={iconStyle}>
           {renderLogo(classesLogo, 48, "auto", "light")}
