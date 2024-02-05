@@ -1,8 +1,8 @@
 {
   "name": "neptune-pod",
-  "version": "0.5.11",
+  "version": "0.5.12",
   "version_focus": "Pod",
-  "version_build_date": "20231107",
+  "version_build_date": "20240205",
   "description": "Neptune POD - Mission Control Center",
   "scripts": {
     "lint": "eslint ./lib ./client ./server --ext .js --ext .jsx",
