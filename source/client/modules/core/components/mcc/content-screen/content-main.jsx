@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Grid, Container, Paper, Typography, Divider } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import Meta from "./content-meta";
 import ContentMeta from "./conten-meta-render";
+import ContentMetaRevision from "./content-meta-revision";
 import BodyRender from "./conten-body-render";
 import MarkdownRender from "./conten-body-render-markdown";
 import ContentCode from "./content-codes";
@@ -11,10 +12,11 @@ import {
   getFieldObject,
   getFieldDate,
   getFieldDateTime,
+  getFieldBoolean,
 } from "../../helpers/getField";
 import { Switch, FormControlLabel } from "@mui/material";
 import OrderTable from "./workorder/workOrdersCustomerOrder";
-
+import RequestTranslationOrder from "./workorder/wo_request_translation_order";
 import {
   DEFCON9,
   DEFCON7,
@@ -72,11 +74,42 @@ import Translations from "./content-translations";
 */
 
 function ContentScreen(data) {
-  const [showContent, setShowContent] = React.useState(true);
+  const [showContent, setShowContent] = React.useState(false);
 
+  // make sure selectedRevision is using the first revision as default that is published and master as default
+
+  // Assuming we want the first "published" revision or just the first revision if none are marked as "published"
+  // For demonstration, this example will just use the first revision as a fallback
+  const defaultRevision = data.contentNode.revisions[0] || {};
+
+  const [selectedRevision, setSelectedRevision] = useState({
+    title: defaultRevision.title || data.contentNode.title,
+    summary: "", // Placeholder for summary as it's not included in your provided data structure
+    body: defaultRevision.body || data.contentNode.body,
+    language: defaultRevision.language || data.contentNode.language,
+    status: defaultRevision.status || data.contentNode.status,
+    version: defaultRevision.version || data.contentNode.version,
+    updatedAt: defaultRevision.updatedAt || data.contentNode.updatedAt,
+    updatedBy: defaultRevision.updatedBy || data.contentNode.updatedBy,
+  });
   let theme = useTheme();
   DEFCON5 && console.log("Display content screen component");
   DEFCON5 && console.log(data.contentNode);
+  const handleRevisionSelect = (revision) => {
+    DEFCON5 && console.log("Selected revision: ", revision);
+
+    setSelectedRevision({
+      title: revision.title,
+      summary: revision.summary || "", // Fallback to an empty string if summary isn't available
+      body: revision.body,
+      language: revision.language,
+      status: revision.status,
+      masterArticle: revision.masterArticle,
+      version: revision.version,
+      updatedAt: revision.updatedAt,
+      updatedBy: revision.updatedBy,
+    });
+  };
 
   return (
     // write the title of the page here
@@ -88,6 +121,7 @@ function ContentScreen(data) {
         <Typography variant="h4" gutterBottom>
           Content screen
         </Typography>
+
         <Grid container spacing={2}>
           <Grid item xs={12}>
             {/* Toggle Switch for Showing/Hiding Content */}
@@ -161,16 +195,57 @@ function ContentScreen(data) {
               <Grid item xs={12}>
                 <Paper variant="outlined" style={{ padding: theme.spacing(2) }}>
                   <Typography variant="h6">
-                    {getField(data.contentNode, "title")}
+                    {getField(selectedRevision, "title")}
                   </Typography>
+                  <Divider
+                    style={{
+                      marginTop: 4,
+                      marginBottom: 4,
+                      borderTop: "dotted 1px",
+                      borderColor: "rgba(128, 128, 128, 0.21)",
+                    }}
+                  />
+                  <ContentMetaRevision contentNode={selectedRevision} />
                 </Paper>
               </Grid>
+
               <Grid item xs={12}>
                 <Paper
                   variant="outlined"
                   style={{ padding: "16px", minHeight: "348px" }}
                 >
-                  <Typography variant="h6">Rendered document</Typography>
+                  <Typography variant="h6">Ingress</Typography>
+                  <Divider
+                    style={{
+                      marginTop: 4,
+                      marginBottom: 4,
+                      borderTop: "dotted 1px",
+                      borderColor: "rgba(128, 128, 128, 0.21)",
+                    }}
+                  />
+                  <Paper
+                    style={{
+                      marginTop: "8px",
+                      marginBottom: "8px",
+
+                      paddingTop: "4px",
+                      paddingBottom: "4px",
+                      paddingRight: "8px",
+                      paddingLeft: "8px",
+                      minHeight: "50px",
+                    }}
+                  >
+                    <Typography variant="Body2 ">
+                      <div styles={{ fontSize: "12px" }}>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: getField(selectedRevision, "summary"),
+                          }}
+                        />
+                      </div>
+                    </Typography>
+                  </Paper>
+                  <Typography variant="h6">Body</Typography>
                   <Divider
                     style={{
                       marginTop: 4,
@@ -195,7 +270,7 @@ function ContentScreen(data) {
                       <div styles={{ fontSize: "12px" }}>
                         <div
                           dangerouslySetInnerHTML={{
-                            __html: data.contentNode.body,
+                            __html: getField(selectedRevision, "body"),
                           }}
                         />
                       </div>
@@ -212,23 +287,6 @@ function ContentScreen(data) {
                   variant="outlined"
                   style={{ padding: "16px", minHeight: "348px" }}
                 >
-                  <Typography variant="h6">Translations</Typography>
-                  <Divider
-                    style={{
-                      marginTop: 4,
-                      marginBottom: 4,
-                      borderTop: "dotted 1px",
-                      borderColor: "rgba(128, 128, 128, 0.21)",
-                    }}
-                  />
-                  {/* <Translations contentNode={data.contentNode} /> */}
-                </Paper>
-              </Grid>
-              <Grid item xs={12}>
-                <Paper
-                  variant="outlined"
-                  style={{ padding: "16px", minHeight: "348px" }}
-                >
                   <Typography variant="h6">Revisions</Typography>
                   <Divider
                     style={{
@@ -238,26 +296,14 @@ function ContentScreen(data) {
                       borderColor: "rgba(128, 128, 128, 0.21)",
                     }}
                   />
-                  <Revisions contentNode={data.contentNode} />
-                </Paper>
-              </Grid>
-              <Grid item xs={12}>
-                <Paper
-                  variant="outlined"
-                  style={{ padding: "16px", minHeight: "348px" }}
-                >
-                  <Typography variant="h6">Orders</Typography>
-                  <Divider
-                    style={{
-                      marginTop: 4,
-                      marginBottom: 4,
-                      borderTop: "dotted 1px",
-                      borderColor: "rgba(128, 128, 128, 0.21)",
-                    }}
+                  <Revisions
+                    contentNode={data.contentNode}
+                    onSelect={handleRevisionSelect}
                   />
-                  <OrderTable
-                    contentId={data.contentNode.nid}
-                  ></OrderTable>
+                  <RequestTranslationOrder
+                    title="Request Translation Order"
+                    order={data.contentNode}
+                  ></RequestTranslationOrder>
                 </Paper>
               </Grid>
             </Grid>
@@ -280,7 +326,7 @@ function ContentScreen(data) {
                           borderColor: "rgba(128, 128, 128, 0.21)",
                         }}
                       />
-                      <BodyRender contentNode={data.contentNode} />
+                      <BodyRender contentNode={selectedRevision} />
                     </Paper>
                   </Grid>
                   <Grid item xs={6}>
@@ -294,11 +340,28 @@ function ContentScreen(data) {
                           borderColor: "rgba(128, 128, 128, 0.21)",
                         }}
                       />
-                      <MarkdownRender initialHtml={data.contentNode.body} />
+                      <MarkdownRender initialHtml={selectedRevision.body} />
                     </Paper>
                   </Grid>
                 </>
               )}
+              <Grid item xs={12}>
+                <Paper
+                  variant="outlined"
+                  style={{ padding: "16px", minHeight: "348px" }}
+                >
+                  <Typography variant="h6">Orders</Typography>
+                  <Divider
+                    style={{
+                      marginTop: 4,
+                      marginBottom: 4,
+                      borderTop: "dotted 1px",
+                      borderColor: "rgba(128, 128, 128, 0.21)",
+                    }}
+                  />
+                  <OrderTable contentId={data.contentNode.nid}></OrderTable>
+                </Paper>
+              </Grid>
               <Grid item xs={12}>
                 <Paper
                   variant="outlined"

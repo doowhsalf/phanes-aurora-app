@@ -40,12 +40,12 @@ export default function () {
           new Date()
             .toISOString()
             .replace(/[^0-9]/g, "")
-            .substring(0, 14) + workorderclass.substring(0, 4);
+            .substring(0, 14) + workorderclass.substring(0, 6);
 
         // now create the mongo document
         let workorder = {
           _id: workorderId,
-          customerOrderId: customerOrderId,
+          contentId: customerOrderId,
           workorderclass: workorderclass,
           payload: payload,
           status: 1000,

@@ -11,15 +11,14 @@ import {
 } from "@mui/material";
 import TimeAgoLive from "../../fields/timeagolive/timeagolive";
 
-const DocumentRevisions = ({ contentNode }) => {
-  const [order, setOrder] = useState("asc");
-  const [orderBy, setOrderBy] = useState("version");
-
+const DocumentRevisions = ({ contentNode, onSelect }) => {
   const handleRequestSort = (property) => {
     const isAsc = orderBy === property && order === "asc";
     setOrder(isAsc ? "desc" : "asc");
     setOrderBy(property);
   };
+  const [order, setOrder] = useState("asc");
+  const [orderBy, setOrderBy] = useState("version");
 
   const stableSort = (array, comparator) => {
     const stabilizedThis = array.map((el, index) => [el, index]);
@@ -53,42 +52,47 @@ const DocumentRevisions = ({ contentNode }) => {
     return new Date(lastTimestamp);
   };
 
+  const handleRowClick = (revision) => {
+    if (onSelect) onSelect(revision);
+  };
+
   return (
     <Paper style={{ height: "100%" }}>
       <Table>
         <TableHead>
           <TableRow>
-            {["version", "title", "updatedAt", "updatedBy", "status"].map(
-              (headCell) => (
-                <TableCell
-                  key={headCell}
-                  sortDirection={orderBy === headCell ? order : false}
+            {["Version", "Language", "Status", "UpdatedAt"].map((headCell) => (
+              <TableCell
+                key={headCell}
+                sortDirection={orderBy === headCell ? order : false}
+              >
+                <TableSortLabel
+                  active={orderBy === headCell}
+                  direction={orderBy === headCell ? order : "asc"}
+                  onClick={() => handleRequestSort(headCell)}
                 >
-                  <TableSortLabel
-                    active={orderBy === headCell}
-                    direction={orderBy === headCell ? order : "asc"}
-                    onClick={() => handleRequestSort(headCell)}
-                  >
-                    {headCell}
-                  </TableSortLabel>
-                </TableCell>
-              )
-            )}
+                  {headCell}
+                </TableSortLabel>
+              </TableCell>
+            ))}
           </TableRow>
         </TableHead>
         <TableBody>
           {stableSort(contentNode.revisions, getComparator(order, orderBy)).map(
             (revision, index) => (
-              <TableRow key={index}>
+              <TableRow
+                key={index}
+                hover
+                onClick={() => handleRowClick(revision)}
+              >
                 <TableCell>{revision.version}</TableCell>
-                <TableCell>{revision.title}</TableCell>
+                <TableCell>{revision.language}</TableCell>
+                <TableCell>{revision.status}</TableCell>
                 <TableCell>
                   <TimeAgoLive
                     dateToProcess={formatTimeAgo(revision.updatedAt)}
-                  />{" "}
+                  />
                 </TableCell>
-                <TableCell>{revision.updatedBy}</TableCell>
-                <TableCell>{revision.status}</TableCell>
               </TableRow>
             )
           )}

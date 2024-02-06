@@ -11,6 +11,164 @@ const baseUrl = "https://julietr2.mobilestories.se";
 //const serviceEndpoint = "/neptune_user/node";
 const serviceEndpoint = "/oberon_user/node";
 
+const languages = [
+  {
+    language: "BG",
+    name: "Bulgarian",
+    supports_formality: false,
+  },
+  {
+    language: "CS",
+    name: "Czech",
+    supports_formality: false,
+  },
+  {
+    language: "DA",
+    name: "Danish",
+    supports_formality: false,
+  },
+  {
+    language: "DE",
+    name: "German",
+    supports_formality: true,
+  },
+  {
+    language: "EL",
+    name: "Greek",
+    supports_formality: false,
+  },
+  {
+    language: "EN-GB",
+    name: "English (British)",
+    supports_formality: false,
+  },
+  {
+    language: "EN-US",
+    name: "English (American)",
+    supports_formality: false,
+  },
+  {
+    language: "ES",
+    name: "Spanish",
+    supports_formality: true,
+  },
+  {
+    language: "ET",
+    name: "Estonian",
+    supports_formality: false,
+  },
+  {
+    language: "FI",
+    name: "Finnish",
+    supports_formality: false,
+  },
+  {
+    language: "FR",
+    name: "French",
+    supports_formality: true,
+  },
+  {
+    language: "HU",
+    name: "Hungarian",
+    supports_formality: false,
+  },
+  {
+    language: "ID",
+    name: "Indonesian",
+    supports_formality: false,
+  },
+  {
+    language: "IT",
+    name: "Italian",
+    supports_formality: true,
+  },
+  {
+    language: "JA",
+    name: "Japanese",
+    supports_formality: true,
+  },
+  {
+    language: "KO",
+    name: "Korean",
+    supports_formality: false,
+  },
+  {
+    language: "LT",
+    name: "Lithuanian",
+    supports_formality: false,
+  },
+  {
+    language: "LV",
+    name: "Latvian",
+    supports_formality: false,
+  },
+  {
+    language: "NB",
+    name: "Norwegian (Bokmål)",
+    supports_formality: false,
+  },
+  {
+    language: "NL",
+    name: "Dutch",
+    supports_formality: true,
+  },
+  {
+    language: "PL",
+    name: "Polish",
+    supports_formality: true,
+  },
+  {
+    language: "PT-BR",
+    name: "Portuguese (Brazilian)",
+    supports_formality: true,
+  },
+  {
+    language: "PT-PT",
+    name: "Portuguese (European)",
+    supports_formality: true,
+  },
+  {
+    language: "RO",
+    name: "Romanian",
+    supports_formality: false,
+  },
+  {
+    language: "RU",
+    name: "Russian",
+    supports_formality: true,
+  },
+  {
+    language: "SK",
+    name: "Slovak",
+    supports_formality: false,
+  },
+  {
+    language: "SL",
+    name: "Slovenian",
+    supports_formality: false,
+  },
+  {
+    language: "SV",
+    name: "Swedish",
+    supports_formality: false,
+  },
+  {
+    language: "TR",
+    name: "Turkish",
+    supports_formality: false,
+  },
+  {
+    language: "UK",
+    name: "Ukrainian",
+    supports_formality: false,
+  },
+  {
+    language: "ZH",
+    name: "Chinese (simplified)",
+    supports_formality: false,
+  },
+];
+
 // Function to get a Drupal 7 node
 const getNode = async ({ csrfToken, cookie, nodeId }) => {
   try {
@@ -144,24 +302,41 @@ const convertXmlToJsonAndSave = async () => {
         delete modifiedNode["type"];
         let originalLanguage = node.Language[0];
         // set langeuage to lowercase but check if the key exists first and in that case set it to lowercase. if not set it to en (iso code). Also check if the language is Swedish and if so set it to sv, if English set it to en
-        modifiedNode["language"] = modifiedNode["language"]
-          ? modifiedNode["language"].toLowerCase()
-          : "en";
+        // modifiedNode["language"] = modifiedNode["language"]
+        //   ? modifiedNode["language"].toLowerCase()
+        //   : "en";
         modifiedNode["language"] =
           originalLanguage === "Swedish"
-            ? "sv"
+            ? "SV"
             : originalLanguage === "English"
-            ? "en"
-            : "en";
+            ? "EN-GB"
+            : "EN-GB";
         modifiedNode["originalLanguage"] = originalLanguage;
+        // console.log("originalLanguage", originalLanguage);
+        // console.log("modifiedNode[language]", modifiedNode["language"]);
+
+        // set the language to the correct iso code and set name from the languages array
+        languages.forEach((lang) => {
+          // console.log("lang.language", lang.language);
+          if (lang.language === modifiedNode["language"]) {
+            modifiedNode["language"] = lang.language;
+
+            modifiedNode["languageName"] = lang.name;
+            console.log("match lang.language", lang.language);
+          }
+
+        });
+
         // _id to nid
         modifiedNode["_id"] = modifiedNode["nid"];
         // create a field called status that is set to "approved" if the node is approved or "draft" if it is not. Default is draft and shall be set now for all nodes
         modifiedNode["status"] = "draft";
 
         // create a revision array with the first revision as the original node in order to keep track of all revisions
+        // set article to master if the language is Swedish
         modifiedNode["revisions"] = [
           {
+            masterArticle: modifiedNode["language"] === 'SV' ? true : false,
             createdAt: modifiedNode["createdAt"],
             createdBy: modifiedNode["createdBy"],
             updatedAt: modifiedNode["updatedAt"],
@@ -170,21 +345,28 @@ const convertXmlToJsonAndSave = async () => {
             status: modifiedNode["status"],
             language: modifiedNode["language"],
             originalLanguage: modifiedNode["originalLanguage"],
+            languageName: modifiedNode["languageName"],
             title: modifiedNode["title"],
             body: modifiedNode["body"],
             subheader: modifiedNode["subheader"],
+            summary: modifiedNode["summary"],
             weight: modifiedNode["weight"],
             articleCode: modifiedNode["articleCode"],
-            typeOfArticle: modifiedNode["typeOfArticle"],
-            contentType: modifiedNode["contentType"],
-            _id: modifiedNode["_id"],
-            nid: modifiedNode["nid"],
           },
         ];
         if (node["node"]) {
           modifiedNode.body = htmlToMarkdown(node["node"][0]);
         }
       }
+      // do not add body and title to main object and language fields
+      delete modifiedNode["body"];
+      delete modifiedNode["title"];
+      delete modifiedNode["subheader"];
+      delete modifiedNode["summary"];
+      delete modifiedNode["language"];
+      delete modifiedNode["originalLanguage"];
+      delete modifiedNode["languageName"];
+      delete modifiedNode["status"];
 
       return modifiedNode;
     });

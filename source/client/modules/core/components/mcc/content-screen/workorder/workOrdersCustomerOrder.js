@@ -1,4 +1,4 @@
-import NodesTableData from "../../order_workorders.jsx";
+import NodesTableData from "./order_workorders.jsx";
 import Loading from "../../../../../../loading.js";
 import { useDeps, composeWithTracker, composeAll } from "mantra-core-extra";
 import {

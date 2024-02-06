@@ -17,6 +17,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Imagine you have three seconds to persuade someone to read your article. What would you then highlight to arouse interest? If you have the answer to that question - then you have also found your entrance!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17177</Nid>
@@ -46,6 +48,8 @@
     <Translation-set-node-ID>16848</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Legal</Type-of-article>
+    <Summary>&lt;p&gt;Du bor i ett land där du har rätt att fritt uttrycka dig i tal, bild och skrift. Yttrandefriheten är en av grundstenarna i ett demokratiskt samhälle. Genom den kan media, men också du som medborgare, granska makthavare och göra skillnad. Men yttrandefriheten medför också ansvar. Det här är några saker som vi vill att du ska tänka på.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17176</Nid>
@@ -58,6 +62,8 @@
     <Translation-set-node-ID>16852</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Mobile Stories stöttar unga i att delta i det demokratiska samtalet. Det gör vi genom ett utbildande publiceringsverktyg, som kan användas i undervisningen, i biblioteksverksamhet, av ungdomsråd – eller för att starta en digital skoltidning! &lt;a href="https://publiceringsverktyg.mobilestories.se/testkonto/"&gt;Skaffa ett testkonto&lt;/a&gt; eller logga in för första gången? &lt;a href="https://youtu.be/OYohmsdpWRc"&gt;Kom igång med Mobile Stories 2.0 &lt;/a&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17175</Nid>
@@ -68,6 +74,7 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary></Summary>
   </node>
   <node>
     <Nid>17174</Nid>
@@ -93,6 +100,9 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Legal</Type-of-article>
+    <Summary>&lt;p&gt;The website mobilestories.se and mobilestories.com uses cookies. According to the law, all visitors to a website that uses cookies must be informed that the website contains cookies, what they are used for, and how to opt out of them.&lt;/p&gt;
+&lt;p&gt;A cookie is a small text file stored on the visitor's computer and contains information. Cookies are typically used to enhance the website for the visitor.&lt;/p&gt;
+&lt;p&gt;There are two types of cookies: one type saves a file that remains on the visitor's computer. This file is used, for example, to make it easier for the visitor to use the website according to their preferences and interests. The other type is called a session cookie. It is temporarily stored in the visitor's computer's memory while the visitor is on a webpage. Session cookies disappear when the visitor closes their browser. No personal information, such as email or name, is saved about the visitor.&lt;/p&gt;</Summary>
   </node>
   <node>
     <Nid>17173</Nid>
@@ -104,6 +114,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;In this video, Lisa Horn, video reporter at the Swedish newspaper Aftonbladet, gives her best tips for conducting a successful interview. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17172</Nid>
@@ -115,6 +127,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Natalie Demirian är nöjesreporter på Aftonbladet. Hennes jobb handlar mycket om att våga kontakta människor och att fortsätta "jaga på pucken" även om det ibland känns tufft. I den här videon ger hon sina bästa tips till dig som vill skriva en riktigt bra artikel.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17171</Nid>
@@ -126,6 +140,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Lisa Horn är videoreporter på Aftonbladet. I den här videon berättar Lisa Horn hur du kan göra en riktigt bra intervju.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17170</Nid>
@@ -142,6 +158,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Imagine you have a few seconds to convince someone that your story is worth reading. What in your story would you choose to highlight? If you have the answer to that question – then you have also found a good lead to your article!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17169</Nid>
@@ -161,6 +179,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Tänk dig att du har tre sekunder på dig att övertala någon att läsa din artikel. Vad skulle du då lyfta fram för att väcka intresse? Om du har svaret på den frågan – då har du också hittat din ingress!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17168</Nid>
@@ -172,6 +192,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Credibility in your work will be greater if you fill in who contributed to the article in the box "Byline".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17167</Nid>
@@ -183,6 +205,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Sara och Yara är utredare på Myndigheten för psykologiskt försvar. I den här videon berättar de om hur starka krafter försöker påverka dina åsikter och dina val. Du kan hjälpa till att stoppa spridningen av falsk information genom att vara källkritisk.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17166</Nid>
@@ -193,6 +217,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;I den här videon guidas du som är administratör i Mobile Stories till att skapa en arbetsgrupp. Se sedan nästa video "Kom igång med Mobile Stories 2.0".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17165</Nid>
@@ -204,6 +230,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;I den här videon går vi igenom de olika publiceringstegen. "Redigeringsläge", "Granskningsläge" och "Förfrågan om publicering".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17164</Nid>
@@ -215,6 +243,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You need a headline for a complete article. Write one!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17163</Nid>
@@ -226,6 +256,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du behöver ha en rubrik för att din artikel ska vara komplett. Skriv en rubrik!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17162</Nid>
@@ -237,6 +269,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du måste gå igenom checklistan för att kunna lägga artikeln i "Granskningsläge".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17161</Nid>
@@ -248,6 +282,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Put at least three pictures in the box "Pictures for slideshow". This is mandatory in the template "Gallery".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17160</Nid>
@@ -259,6 +295,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Lägg till bilder i boxen "Bilder för bildspel". I artikeltypen "Galleri" är detta obligatoriskt.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17159</Nid>
@@ -270,6 +308,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You need a "storytelling image" to see your headline because it appears on top of the image.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17158</Nid>
@@ -281,6 +321,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;To increase the credibility of your article, add an additional source.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17157</Nid>
@@ -292,6 +334,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;För att höja trovärdigheten ytterligare för din artikel, lägg till ytterligare en källa.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17156</Nid>
@@ -303,6 +347,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Lägg till minst en källa i din artikel för att höja trovärdigheten och ha större möjlighet att påverka.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17155</Nid>
@@ -314,6 +360,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Add at least one source to your article.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17154</Nid>
@@ -325,6 +373,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;write some more.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17153</Nid>
@@ -336,6 +386,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Your lead is to short. This is needed if you want to proceed. Read the help text in the question mark in the box "lead".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17152</Nid>
@@ -346,6 +398,7 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary></Summary>
   </node>
   <node>
     <Nid>17151</Nid>
@@ -357,6 +410,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You need a storytelling image to see your headline because it appears on top of the image.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17150</Nid>
@@ -368,6 +423,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Den här videon fungerar som ett stöd när du skapar konto i nya Mobile Stories 2.0 med din grupp första gången. Videon är 22 minuter lång.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17149</Nid>
@@ -378,6 +435,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Lär dig att göra en omvänd bildsökning för att granska bilder.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17148</Nid>
@@ -389,6 +448,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Gör som journalisterna. Granska lateralt, eller sidledes. Det betyder att du söker information om vad andra källor har att säga om den första källan eller påståendet.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17146</Nid>
@@ -400,6 +461,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Betygsätt det du recenserar på en skala mellan ett och fem.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17145</Nid>
@@ -411,6 +474,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Rate what you are reviewing on a scale between one and five.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17144</Nid>
@@ -422,6 +487,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You must have an embedded file in "Embedded Item". Please read the information about how to add the code in your body text.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17143</Nid>
@@ -433,6 +500,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du måste ha en kod för inbäddat material i boxen "Inbäddat objekt). Läs informationen under infotecknet i boxen Inbäddat material.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17142</Nid>
@@ -444,6 +513,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du måste ha en kod för inbäddat material i boxen "Inbäddat objekt). Läs informationen under infotecknet i boxen Inbäddat material.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17141</Nid>
@@ -455,6 +526,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You must have an emedded file in "Embedded Item". Please read the information about how to add the code in your body text. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17140</Nid>
@@ -465,6 +538,7 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary></Summary>
   </node>
   <node>
     <Nid>17139</Nid>
@@ -475,6 +549,7 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary></Summary>
   </node>
   <node>
     <Nid>17138</Nid>
@@ -486,6 +561,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Lägg till en - eller flera taggar för att din artikel ska bli lättare att hitta på internet.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17137</Nid>
@@ -497,6 +574,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Add one or more tags to make your article easier to find on the internet.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17136</Nid>
@@ -508,6 +587,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Om du har många bra bilder kan du lägga till dem i "Bildspel".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17135</Nid>
@@ -519,6 +600,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;If you have many great pictures you can add them in the section for "slideshow".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17134</Nid>
@@ -530,6 +613,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Om du vill publicera måste du välja minst en publiceringssida här.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17133</Nid>
@@ -541,6 +626,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;If you want to publish you must choose at least one site here.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17132</Nid>
@@ -552,6 +639,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du måste ha en rubrik för att kunna gå vidare.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17131</Nid>
@@ -563,6 +652,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You must have a headline to proceed.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17130</Nid>
@@ -574,6 +665,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;In Storytelling, you need at least one - preferably two good pictures in the "Storytelling pictures box". Otherwise, the title will not appear in the finished article. The pictures must be photographed in landscape format.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17129</Nid>
@@ -585,6 +678,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;I reportaget behövs minst en - helst två bra bilder i boxen reportagebilder. Annars syns inte rubiken eftersom den ligger ovanpå bilden. Bilderna ska vara tagna på bredden, alltså i liggande format.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17128</Nid>
@@ -596,6 +691,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Din ingress är för kort. Lägg till några ord.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17127</Nid>
@@ -607,6 +704,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Your lead is too short. Add a few words.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17126</Nid>
@@ -618,6 +717,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du måste lägga till minst en trovärdig källa i boxen, "Källor". En källa kan vara till exempel en nyhetsartikel, en forskningsrapport, en myndighet eller en person.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17125</Nid>
@@ -629,6 +730,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You must add at least one source to the box "Sources". A source can be, for example, a website, a news story or a person.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17124</Nid>
@@ -640,6 +743,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du måste välja en grupp för din artikel för att gå vidare.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17123</Nid>
@@ -651,6 +756,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You must fill in a group for your article to proceed.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17122</Nid>
@@ -662,6 +769,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du har ingen ingress. Detta behövs för en komplett artikel.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17121</Nid>
@@ -673,6 +782,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You have no lead. This is needed if you want to proceed. Read the help text in the question mark in the box "lead".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17120</Nid>
@@ -684,6 +795,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du vet väl att du kan använda chatfunktionen för att kommunicera med andra som har tillgång till artikeln?&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17119</Nid>
@@ -695,6 +808,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Lägg gärna till en kort video eller ett ljudklipp för att förhöja upplevelsen av ditt reportage. Läs instruktionerna under infotecknet i boxen "Inbäddat objekt".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17118</Nid>
@@ -706,6 +821,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You can add a short video or audio clip to enhance the experience in your feature story. Read the instructions under the info sign in the box "Embedded object".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17117</Nid>
@@ -717,6 +834,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du behöver en "huvudbild" till din artikel. Huvudbilden ska helst vara i liggande format, alltså tagen på bredden.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17116</Nid>
@@ -728,6 +847,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Your article needs a "Main Image", otherwise your article is incomplete. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17115</Nid>
@@ -740,6 +861,9 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;The friends you invited as "peer reviewers" have not yet reviewed your article. Please remind them!&lt;/p&gt;
+&lt;p&gt;Vännerna du bjöd in som kamratgranskare har ännu inte granskat din artikel. Påminn dem!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17114</Nid>
@@ -751,6 +875,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;The friends you invited as "peer reviewers" have not yet reviewed your article. Please remind them!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17113</Nid>
@@ -762,6 +888,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du måste ha en brödtext för att fortsätta. Brödtexten ska svara på frågor som när, var, hur, vem och varför. Oavsett vilken typ av artikel du skriver är det viktigt att underbygga det du skriver med fakta, till exempel statistik eller forskning. Få fler tips under frågetecknet i boxen, "Brödtext".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17112</Nid>
@@ -774,6 +902,9 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You must have a body text to continue. The body text must answer questions such as when, where, how, who and why. Regardless of the type of article you write, it is important to support what you write with facts, such as statistics or research. Get more body text tips under the question mark.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17111</Nid>
@@ -785,6 +916,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du har för kort brödtext. Skriv lite till.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17110</Nid>
@@ -797,6 +930,9 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You have too short a body text, write a little bit more.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17109</Nid>
@@ -808,6 +944,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Om du lägger till ytterligare en reportagebild så blir ditt reportage ännu bättre. Bilden måste vara tagen i liggande format, det vill säga på bredden.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17108</Nid>
@@ -819,6 +957,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;If you add another feature image, your feature story will be even better. The image must be in landscape format.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17107</Nid>
@@ -829,6 +969,7 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary></Summary>
   </node>
   <node>
     <Nid>17106</Nid>
@@ -839,6 +980,7 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary></Summary>
   </node>
   <node>
     <Nid>17105</Nid>
@@ -850,6 +992,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Använd chatfunktionen för att kommunicera med andra som har tillgång till din artikel.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17104</Nid>
@@ -861,6 +1005,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You need a video to create a video or podcast article. Read the instructions under the info sign in the box "Embedded object"&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17103</Nid>
@@ -872,6 +1018,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You must go through the checklist in order to proceed.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17102</Nid>
@@ -883,6 +1031,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du måste göra checklistan för att kunna gå vidare.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17101</Nid>
@@ -894,6 +1044,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Trovärdigheten i din artikel blir högre om du berättar vem/vilka som gjort artikeln. Välj roller i boxen "Byline".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17100</Nid>
@@ -905,6 +1057,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Please add a byline to make your article more credible.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17099</Nid>
@@ -916,6 +1070,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du har en artikel som verkar vara färdig. Dags att skicka den vidare för granskning i "Granskningsläge" och sedan till "Förfrågan om publicering"? Gör först en testartikel för att se så att allt ser fint ut. Kontrollera upphovsrätten till de bilder du använt.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17098</Nid>
@@ -927,6 +1083,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You have an article that seems to be finished. Time to send it on for "review" and maybe then "Request for publication"? Do a preview to make sure your article looks good. Check the copyright of the images you used.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17097</Nid>
@@ -938,6 +1096,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;To add an extra image that ends up in the text looks nice and help the recipient to continue the Reading. You put the picture in the "Image in text" box. Note! If your body text is too short, "Image in text" will not appear in your test article.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17096</Nid>
@@ -949,6 +1109,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Att lägga till en extra bild som hamnar i texten ser bra ut och hjälper mottagaren att fortsätta läsa. Du lägger bilden i boxen "Bild i text". Obs! Om din brödtext är för kort visas inte "Bild i text" i din testartikel.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17095</Nid>
@@ -962,6 +1124,10 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du ska här beskriva varför du gör detta arbete. Vad är det du ska lära dig, undersöka närmare och lära andra? Beskriv gärna din målgrupp, (vilka du tänker ska läsa/titta/lyssna) ditt ämne, vinkel och vilka källor du har tänkt att använda. &lt;/p&gt;
+&lt;p&gt;Den här bilden som vi kallar "Redaktionsmötet" kan vara bra att titta på när du ska planera ditt arbete, speciellt om ni är flera som samarbetar. Ladda ner mallen &lt;a href="https://drive.google.com/drive/folders/1gsuACZRmP8gAumKli8kWla6zEcEcv7sJ?usp=sharing"&gt;här:&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17094</Nid>
@@ -974,6 +1140,9 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Describe why you do this work. What are you going to learn, investigate further and teach others? Feel free to write something about your target group, (which you intend to read / watch / listen), your topic, angle and which sources you intend to use.&lt;/p&gt;
+&lt;p&gt;In this &lt;a href="http://drive.google.com/drive/folders/1gsuACZRmP8gAumKli8kWla6zEcEcv7sJ?usp=sharing"&gt;link&lt;/a&gt; you can download a template called "The Newsroom". The template will guide you to come up with great ideas on how to shape your journalism.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17093</Nid>
@@ -985,6 +1154,8 @@
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You need a video to create a video or podcast article. Read the instructions under the info sign in the box "Embedded object".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17092</Nid>
@@ -999,6 +1170,11 @@ Do you know that you can use the chat to communicate with your friends who are i
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;
+Do you know that you can use the chat to communicate with your friends who are invited in the article? Support each other and the articles will be better.&lt;/p&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+</Summary>
   </node>
   <node>
     <Nid>17091</Nid>
@@ -1010,6 +1186,8 @@ Do you know that you can use the chat to communicate with your friends who are i
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;If you want to publish your article, you need to select publication location, which sites on Mobile Stories media platform you want your article to appear on.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17090</Nid>
@@ -1021,6 +1199,8 @@ Do you know that you can use the chat to communicate with your friends who are i
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Underrubriken blir bara synlig i artikeltypen reportage.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17089</Nid>
@@ -1032,6 +1212,8 @@ Do you know that you can use the chat to communicate with your friends who are i
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Skriv en övertygande rubrik som fångar de mest överraskande, intressanta och viktiga aspekterna av din artikel. Utmaningen är att skapa en rubrik som fångar uppmärksamhet och ger information. Du måste locka läsare utan att använda en sensationell rubrik som inte stämmer överens med artikelns innehåll. Läs rubriker på olika nyhetssajter för inspiration. Vilka typer av rubriker får dig att vilja läsa hela historien?&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17088</Nid>
@@ -1054,6 +1236,8 @@ Do you know that you can use the chat to communicate with your friends who are i
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;In a news article, the reporter must be factual and correct. Any opinions about or analyzes of the news must be expressed through interviewees.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17087</Nid>
@@ -1077,6 +1261,8 @@ Do you know that you can use the chat to communicate with your friends who are i
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;If you don´t have an opportunity to take your own picture or illustrate, you can search for free pictures via Google. Even if you do a search this way, you have to be very careful and double check the rights for use.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17086</Nid>
@@ -1100,6 +1286,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;When you publish an article on Mobilestories.se, you always state where the information comes from in running text, or if you state something in a podcast or film.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17085</Nid>
@@ -1118,6 +1306,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;As a reporter for Mobile Stories, you use many different sources. It can be interviewees who have been involved in something you tell about, researchers and other experts or information from other media.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17084</Nid>
@@ -1137,6 +1327,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;När du publicerar en artikel på Mobile Stories anger du alltid var informationen kommer från i löpande text, eller om du påstår något i en podd eller film.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17083</Nid>
@@ -1157,6 +1349,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Osäker på vilka källor du kan använda? I den här artikeln listar vi de källor som du troligtvis kommer i kontakt med när du skapar journalistiskt material. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17082</Nid>
@@ -1175,6 +1369,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Att granska källor är elevpublicistens kanske allra viktigaste uppgift. Den som har fel förlorar sin trovärdighet och riskerar att ge spridning åt rykten, desinformation eller tjäna någon annans kommersiella intressen.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17081</Nid>
@@ -1186,6 +1382,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;You need at least three images to create a gallery. The maximum size of the images is 5 MB in JPG or PNG format. You should decide on the same format for all images - landscape (horizontal) or portrait (vertical). Always include the names of the people in the images in the caption and add the name of the author. Use your own pictures.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17080</Nid>
@@ -1197,6 +1395,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;The body text should answer questions like who, when, where, how, and why. Use facts, statistics, research, eyewitness accounts, and quotes from those involved to support your writing. Remember to cite your sources. The "Learn" sections under the "Create new article" tab provide guidance on gathering information, conducting interviews, and writing articles. Read them and watch the videos for tips from journalists. The body text of an article is typically 1,500 to 5,000 characters (including spaces) or about 200 to 1,200 words. Feature articles can be longer, about 3,000 to 8,000 characters (including spaces) or about 400 to 2,000 words.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17079</Nid>
@@ -1208,6 +1408,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;The subtitle will only appear on feature stories.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17078</Nid>
@@ -1220,6 +1422,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Mikaela Matar, filmfotograf på UR har jobbat över 20 år i TV-branschen. Här ger Mikaela sina fem bästa tips till dig som vill göra en bättre video.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17076</Nid>
@@ -1233,6 +1437,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Nivette Dawod är reporter på tidningen Aftonbladet. I den här videon, berättar hon för tittarna om hennes uppdrag som reporter och om varför hon tycker att hennes jobb är viktigt.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17075</Nid>
@@ -1244,6 +1450,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Nivette Dawod is a reporter for the newspaper Aftonbladet. In this video, she tells viewers about what she does in Ukraine and why her mission is important.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17074</Nid>
@@ -1256,6 +1464,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Fotografen Pontus Höök i New York berättar om sitt arbete och varför han älskar att fotografera. I den här videon får du som vill bli en bättre fotograf tre viktiga tips.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17073</Nid>
@@ -1267,6 +1477,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Elevreporterns etiska regler används av elever som publicerar på mobilestories.se, men de kan också vara ett stöd för alla som vill göra sin röst hörd på nätet. Ladda ner och skriv ut affischen och sätt upp i ditt klassrum eller skolkorridor!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17072</Nid>
@@ -1282,6 +1495,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Hur skapar man närvarokänsla i ett reportage? Hur får man bra kontakt med intervjupersonen? Och hur börjar man egentligen att skriva?&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17071</Nid>
@@ -1293,6 +1508,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/Nbsj8kV2pcA" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17069</Nid>
@@ -1303,6 +1520,7 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary></Summary>
   </node>
   <node>
     <Nid>17067</Nid>
@@ -1314,6 +1532,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Den här videon handlar om att gå igenom Mobile Stories mest grundläggande delar. För Mobile Stories "classic".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17066</Nid>
@@ -1326,6 +1546,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;&lt;img alt="" src="https://mobilestories.se/sites/default/files/images/Niklas%20Loman.png" style="height:1065px; width:1600px" /&gt;Niklas Loman är reporter på lokaltidningen Mitt i Upplands-Bro. I den här videon berättar han hur journalister arbetar med källkritik och varför han tycker att hans jobb är viktigt.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17065</Nid>
@@ -1351,6 +1573,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Rubriken kan vara din enda chans att få människor att vilja klicka på och ta del av din artikel.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17064</Nid>
@@ -1363,6 +1587,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Allmänhetens medieombudsman (MO), Caspar Opitz berättar om sitt arbete som medieombudsman och trycker också på vikten av att själv vara schyst när man publicerar saker som handlar om andra.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17063</Nid>
@@ -1374,6 +1600,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;The traditional source-critical method is based on the criteria Authenticity, Time, Dependence and Tendency. To include all criteria, you can ask the questions Who? What? why? When?&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17062</Nid>
@@ -1385,6 +1613,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Choose who can only review your article without making changes and who can also edit and collaborate.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17060</Nid>
@@ -1397,6 +1627,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Do you need inspiration and tips for creating podcasts? Watch the video with Jenny Ågren on Aftonbladet Daily.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" src="https://player.vimeo.com/video/459298364?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" title="Jenny &amp;Aring;gren tipsar om poddar"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17059</Nid>
@@ -1408,6 +1641,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;.. and I'm a meerkat. I am an observant and smart animal who is very good at cooperating. Just as I am observant of my surroundings, I want you to be vigilant when you are online, both when you share other people's content and when you create your own. Just as I help my friends to keep watch and to dig, I also want you to support your friends and to be helped, for example by examining each other's sources. I will appear from time to time in your chat and give you tips on how your articles can be even better. Also click on the small question marks in the tool if you have any questions or find more tips in "The Newsroom". Together we make internet to a better place. See you!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17058</Nid>
@@ -1419,6 +1654,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Fill in at least one tag to proceed. Your article will be easier to find online as others search for your particular topic.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17057</Nid>
@@ -1430,6 +1667,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You must fill in a group to proceed.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17056</Nid>
@@ -1441,6 +1680,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You can increase the quality of your article by inviting peer reviewers under "Choose your team".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17055</Nid>
@@ -1452,6 +1693,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Credibility in your work will be greater if you fill in who contributed to the article in the box "Byline".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17054</Nid>
@@ -1465,6 +1708,10 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;If you add another feature image, your feature story will be even better. The image must be in landscape format.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17053</Nid>
@@ -1476,6 +1723,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You need a feature image to see your headline because it is on top of the image.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17052</Nid>
@@ -1487,6 +1736,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You have no lead. This is needed if you want to proceed. Read the help text in the question mark in the box "lead".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17051</Nid>
@@ -1498,6 +1749,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You have too short a body text, write a little more.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17050</Nid>
@@ -1509,6 +1762,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You must have a body text to proceed.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17049</Nid>
@@ -1520,6 +1775,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;The friends you invited as "peer reviewers" have not yet reviewed your article. Please remind them!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17048</Nid>
@@ -1531,6 +1788,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Your article needs a "Main Image", otherwise your article is incomplete. The "Main image" is the first and largest image inside your article. A "Main image" also appears in the front page of Mobilestories.se. On the Mobile Stories platform, horizontal images will be the best fit. Don´t forget to include information about copyright in your caption! &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17047</Nid>
@@ -1542,6 +1801,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Do you know that you can use the chat to communicate with your friends who are invited in the article? Support each other and the articles will be better.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17045</Nid>
@@ -1553,6 +1814,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You need a video to create a video or podcast article. Read the instructions under the info sign in the box "Embedded object".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17044</Nid>
@@ -1564,6 +1827,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Please, insert your embedded code. In the article type "Video" and "Pod" this is mandatory. Read the instructions under the info sign in the "Embedded Object" box.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17043</Nid>
@@ -1575,6 +1840,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You have an article that seems to be finished. Time to send it on for review and maybe then publication? Preview your article before review!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17042</Nid>
@@ -1586,6 +1853,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Good job with the publication! Now you have made a difference for others who can learn more from your article. You have worked with journalistic methods to reach out and influence in society.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17041</Nid>
@@ -1597,6 +1866,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Well done! Now you are a credible source if you choose to publish. You have reflected on three different sources and in this way you have strengthened your ability to find good information online in the future as well.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17040</Nid>
@@ -1608,6 +1879,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You have now worked according to journalistic methods and according to similar ethical rules used in serious newsrooms. Keep the ethical rules in mind, wherever you publish or share something.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17039</Nid>
@@ -1622,6 +1895,11 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;With the help of this video, you can create your own workgroup.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div style="padding:56.25% 0 0 0;position:relative;"&gt;
+&lt;iframe frameborder="0" src="https://player.vimeo.com/video/372870093?h=839e3b7358&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Skapa grupper version2"&gt;&lt;/iframe&gt;&lt;/div&gt;
+</Summary>
   </node>
   <node>
     <Nid>17038</Nid>
@@ -1633,6 +1911,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;In this video you can see how you, both as an administrator and a student, can become a member of a new group.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17036</Nid>
@@ -1645,6 +1925,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Describe the purpose of your story and its context. What is your goal? What do you want to tell others? What you write here will not be published. Only other members of your team and your teacher will see this description.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17034</Nid>
@@ -1656,6 +1939,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;You have an article that appears to be finished. Time to pass it on for review in "Review Mode" and then to "Request for publication"? First do a preview to make sure everything looks good. Double check the copyright of the images you used. Don't forget to fill in "Publishing location" and "Tags" if you want to publish.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17033</Nid>
@@ -1667,6 +1952,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Very good. Now you have also helped a friend become a more credible source online. If we all help each other, it will be easier to find trustworthy information online, which can lead to better decisions for both individuals and society.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17032</Nid>
@@ -1678,6 +1965,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Allt är fint med artikeln! Bra jobbat!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17030</Nid>
@@ -1692,6 +1981,11 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du ska här beskriva varför du gör detta arbete. Vad är det du ska lära dig, undersöka närmare och lära andra? Beskriv gärna din målgrupp, (vilka du tänker ska läsa/titta/lyssna) ditt ämne, vinkel och vilka källor du har tänkt att använda. &lt;/p&gt;
+&lt;p&gt;Den här bilden som vi kallar "Redaktionsmötet" kan vara bra att titta på när du lägger upp ditt arbete, speciellt om ni är flera som samarbetar. Ladda ner mallen &lt;a href="https://drive.google.com/file/d/1UxMmx1UOXp0EYUD00akcPnZ3apJzC1De/view?usp=sharing"&gt;här:&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17029</Nid>
@@ -1704,6 +1998,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;I den här videon kan du se hur du, både som administratör och elev kan bli medlem i en ny grupp.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17028</Nid>
@@ -1718,6 +2015,11 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Med hjälp av den här videon kan du skapa en egen arbetsgrupp. Du måste själv vara admin för en publiceringssida för att kunna skapa en egen arbetsgrupp. Kontakta oss på &lt;a href="mailto:support@mobilestories.se"&gt;support@mobilestories.se&lt;/a&gt; för att få hjälp.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div style="padding:56.25% 0 0 0;position:relative;"&gt;
+&lt;iframe frameborder="0" src="https://player.vimeo.com/video/372870093?h=839e3b7358&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Skapa grupper version2"&gt;&lt;/iframe&gt;&lt;/div&gt;
+</Summary>
   </node>
   <node>
     <Nid>17027</Nid>
@@ -1732,6 +2034,11 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;In this video, we show the most important parts of the Mobile Stories tool. You can pause the video yourself and try to make an article of your own.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div style="padding:56.25% 0 0 0;position:relative;"&gt;
+&lt;iframe frameborder="0" src="https://player.vimeo.com/video/613686670?h=8e6e805da3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Intro till publiceringsverktyget Mobile Stories"&gt;&lt;/iframe&gt;&lt;/div&gt;
+</Summary>
   </node>
   <node>
     <Nid>17026</Nid>
@@ -1744,6 +2051,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;I den här videon går vi igenom de viktigaste delarna i Mobile Stories verktyg. Perfekt när du ska starta upp arbetet med din klass. Obs! Du behöver ha en arbetsgrupp för att kunna genomföra uppstarten. &lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/OYohmsdpWRc" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17023</Nid>
@@ -1755,6 +2065,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Väldigt bra. Nu har du även hjälpt en vän att bli en mer trovärdig källa på nätet. Om vi alla hjälps åt kommer det vara lättare att hitta bra information på nätet vilket kan leda till bättre beslut både för individer och samhälle.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17022</Nid>
@@ -1766,6 +2078,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du har nu jobbat enligt journalistiska metoder och enligt liknande etiska regler som används på seriösa redaktioner. Ha de etiska reglerna med dig i bakhuvudet, var du än publicerar eller delar något.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17021</Nid>
@@ -1777,6 +2091,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Snyggt! Nu är du en trovärdig källa om du väljer att publicera. Du har reflekterat över tre olika källor och på så vis har du stärkt din förmåga att även i framtiden hitta bra information på nätet.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17020</Nid>
@@ -1788,6 +2104,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Bra jobbat med publiceringen! Nu har du gjort skillnad för andra som kan lära sig mer av just din artikel. Du har jobbat med journalistiska metoder för att nå ut och påverka i samhället.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17019</Nid>
@@ -1799,6 +2117,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du har en artikel som verkar vara färdig. Dags att skicka den vidare för granskning i "Granskningsläge" och sedan till "Förfrågan om publicering"? Gör först en "Testartikel" för att se så att allt ser fint ut. Dubbelkolla upphovsrätten till de bilder du använt. Glöm inte att fylla i "Publiceringsplats" och "Taggar" om du vill publicera.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17018</Nid>
@@ -1810,6 +2130,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Lägg in en "inbäddad kod". I artikeltyperna "Video" och "Podd" är detta obligatoriskt. Läs instruktionen under infotecknet i boxen för "Inbäddat objekt".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17017</Nid>
@@ -1821,6 +2143,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du behöver ha en video för att skapa en film/podd-artikel. Läs instruktionen under infotecknet i boxen för "Inbäddat objekt".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17016</Nid>
@@ -1832,6 +2156,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du vet väl att du kan använda chatten för att kommunicera med dina vänner som är inbjudna i artikeln? Tipsa varandra så blir artiklarna bättre.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17015</Nid>
@@ -1843,6 +2169,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Din artikel behöver en "Huvudbild", annars blir det lite tomt i din artikel. Läs gärna "&lt;a href="https://newsroom-beta.mobilestories.se/openarticle/17074?returnUrl=%2Fworkgroupnewsroom%2FCmNLRrHmf3uKHaTsf"&gt;Så fångar du nyhetsbilden&lt;/a&gt;" och &lt;a href="https://newsroom-beta.mobilestories.se/openarticle/16805?returnUrl=%2Fworkgroupnewsroom%2FCmNLRrHmf3uKHaTsf"&gt;"Hitta gratis bilder? Läs detta först"&lt;/a&gt; för att få inspiration.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17014</Nid>
@@ -1854,6 +2182,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;De vänner du bjudit in som "kamratgranskare" har ännu inte granskat din artikel. Påminn dem!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17013</Nid>
@@ -1865,6 +2195,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du måste ha en brödtext för att gå vidare.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17012</Nid>
@@ -1876,6 +2208,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du har för kort brödtext, skriv lite till.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17011</Nid>
@@ -1887,6 +2221,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du har ingen ingress. Detta behövs om du vill gå vidare.Ta del av hjälptexten i frågetecknet i boxen "Ingress".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17010</Nid>
@@ -1898,6 +2234,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du har för kort ingress. Skriv lite till.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17009</Nid>
@@ -1909,6 +2247,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du behöver en reportagebild för att se din rubrik eftersom den ligger ovanpå bilden.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17008</Nid>
@@ -1920,6 +2260,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Om du lägger till en reportagebild till så blir ditt reportage ännu bättre. Bilden ska vara tagen på bredden, det vill säga liggande format.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17007</Nid>
@@ -1931,6 +2273,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Trovärdigheten blir större om du fyller i vilka som bidragit till artikeln i boxen "Byline".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17006</Nid>
@@ -1942,6 +2286,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du kan höja kvaliteten i din artikel genom att bjuda in kamratgranskare under "Välj ditt team".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17005</Nid>
@@ -1953,6 +2299,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du måste fylla i en grupp för att gå vidare.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17004</Nid>
@@ -1964,6 +2312,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Fyll i minst en tagg för att gå vidare. Din artikel blir lättare att hitta på nätet då andra söker på just ditt ämne.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17003</Nid>
@@ -1975,6 +2325,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du kan inte publicera om du inte fyllt i Publiceringsregion. Du kan fylla i en region även om du inte tänkt publicera din artikel för att komma vidare. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>17002</Nid>
@@ -1986,6 +2338,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;.. och jag är en surikat. Jag är ett observant och smart djur som är väldigt bra på att samarbeta. Precis som jag är observant på min omgivning vill jag att du ska vara vaksam när du befinner dig på nätet, både när du tar del av andras innehåll och när du skapar eget. Precis som jag hjälper mina vänner att hålla vakt och att gräva vill jag också att du ska stötta dina vänner och att ni hjälps åt, till exempel genom att granska varandras källor. Jag kommer att dyka upp då och då i din chatt och ge dig tips om hur dina artiklar kan bli ännu bättre. Klicka också på de små frågetecknen i verktyget då du undrar något. Tillsammans gör vi nätet till en bättre plats. Vi ses!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16998</Nid>
@@ -1999,6 +2353,10 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Behöver du inspiration och tips gällande att skapa poddar? Se videon med Jenny Ågren på Aftonbladet Daily.&lt;/p&gt;
+&lt;div style="padding:56.25% 0 0 0;position:relative;"&gt;
+&lt;iframe frameborder="0" src="https://player.vimeo.com/video/459298364?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Jenny &amp;Aring;gren tipsar om poddar"&gt;&lt;/iframe&gt;&lt;/div&gt;
+</Summary>
   </node>
   <node>
     <Nid>16997</Nid>
@@ -2013,6 +2371,11 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du har ingen bild i den här boxen för "Huvudbild", Detta är obligatoriskt för att artikeln ska bli bra. Du skulle kunna läsa artikeln &lt;a href="https://app.mobilestories.se/content/info_article_x_16835"&gt;"Så fångar du nyhetsbilden"&lt;/a&gt; för att inspireras att ta egna bilder eller se filmen här nedan för att lära dig att hitta bilder som du kan få lov att använda.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div style="padding:56.25% 0 0 0;position:relative;"&gt;
+&lt;iframe frameborder="0" src="https://player.vimeo.com/video/522226013?h=475e33843b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Bilder"&gt;&lt;/iframe&gt;&lt;/div&gt;
+</Summary>
   </node>
   <node>
     <Nid>16995</Nid>
@@ -2024,6 +2387,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Hur förbereder jag inför inspelning? Varför ska jag ha ett manus? Hur fixar jag bra ljud? Poddprofilen Jenny Ågren från Aftonbladet Daily ger sina bästa tips till dig som vill göra en riktigt proffsig podd.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16993</Nid>
@@ -2035,6 +2400,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Hur förbereder jag inför inspelning? Måste jag ha ett manus? Hur får jag till ett bra ljud? Poddprofilen Jenny Ågren från Aftonbladet Daily ger sina bästa tips till dig som vill göra en riktigt proffsig podd.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16992</Nid>
@@ -2047,6 +2414,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Vill du lära dig att nå ut och påverka samhället? Då ska du lyssna på Aftonbladets debattredaktör Kristofer Forssblad Olsson.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16990</Nid>
@@ -2071,6 +2440,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Legal</Type-of-article>
+    <Summary>&lt;p&gt;You live in a country where you have the right to express yourself freely in speech, in images and in writing. Freedom of expression is one of the cornerstones of a democratic society.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16989</Nid>
@@ -2109,6 +2480,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Connect to current events, stick to facts and be personal - Aftonbladet's debate editor gives his best tips on how to reach out with your debate article.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16987</Nid>
@@ -2134,6 +2507,14 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Legal</Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;You live in a country where you have the right to express yourself freely in speech, in images and in writing. Freedom of expression is one of the cornerstones of a democratic society. Through it, the media, but also you as a citizen, can examine those in power and make a difference. But freedom of speech also entails responsibility. These are some things we want you to keep in mind.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Mobile Stories has the same values ​​as the school. We want you to stick to these when you work with our tool and publish your work on mobilestories.se.&lt;/p&gt;
+&lt;p dir="ltr"&gt;The values ​​include:&lt;/p&gt;
+&lt;p dir="ltr"&gt;the inviolability of human life&lt;/p&gt;
+&lt;p dir="ltr"&gt;the freedom and integrity of the individual&lt;/p&gt;
+&lt;p dir="ltr"&gt;the equal value of all human beings&lt;/p&gt;
+&lt;p dir="ltr"&gt;equality between the sexes&lt;/p&gt;
+&lt;p dir="ltr"&gt;solidarity between people&lt;/p&gt;</Summary>
   </node>
   <node>
     <Nid>16986</Nid>
@@ -2145,6 +2526,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;NEW VERSION: For a feature story to be complete, you need at least one background image. This image will appear in the background of your story, like a wall paper. I. Primarily use your own image or illustration. The background image needs to be horizontal. You can reuse the same image you used for the “main image” box. Add a description in the caption and include the name of the photographer. If you are republishing a photo taken by someone else, make sure you have permission to.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16985</Nid>
@@ -2156,6 +2539,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;The main image is the first and largest image in your article. It should be a horizontal image. Preferably use your own image or illustration. If you are republishing a photo taken by someone else, make sure you have permission to. Add a description in the caption and include the name of the copyright owner or licence.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16984</Nid>
@@ -2168,6 +2553,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;You should go through these check questions before you invite your peer reviewers to check your work or send a publication request to your teacher. You cannot publish until this is done.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16983</Nid>
@@ -2180,6 +2568,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Write a compelling headline that captures the most surprising, interesting, and important aspects of your article. The challenge is to create a headline that grabs attention and provides information. You need to attract readers without using a sensationalistic headline that doesn't match the article's content. Read headlines on various news sites for inspiration. What types of headlines make you want to read the entire story?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16982</Nid>
@@ -2191,6 +2582,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;The lead is the first few sentences of an article used to introduce it. The lead should preferably be between 200 to 500 characters including spaces or about 30 to 130 words. The lead should summarize the text but also interest the reader in finding out more. Highlight some of your most interesting findings in the lead.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16981</Nid>
@@ -2203,6 +2596,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Describe the purpose of your story and in what context it was created. What is your assignment? What you write here will not published. Only those who are part of your co-creating team and your teacher can see what you have written.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16980</Nid>
@@ -2214,6 +2610,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Here the name of your school or the name of a project should be visible. This is changed by your administrator in your workgroup.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16979</Nid>
@@ -2226,6 +2624,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;This is the place where you and your co-creation team members can chat. Click on the pen symbol to save your comments. It is not possible to delete comments already made.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16978</Nid>
@@ -2238,6 +2639,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Who did what? Who took the photos, who recorded the video and who wrote the text? You can add multiple people to the same role. Note that the names you select in this box will appear at the bottom of the published story and will be visible to others. Those who searched for and downloaded material such as pictures or videos should be listed under “Research” and not “Photographer”.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16977</Nid>
@@ -2250,6 +2654,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Here you can see the position of your article in the publishing chain. Is it open for peer review or is it waiting to be approved by the teacher (or other administrator)? All users that can edit the article can also push it forward in the publishing chain. Select status and confirm by clicking on the check symbol underneath. Your article will then be pushed forward in the chain. Note that it is only possible to edit the story when it is "Open". You can always move the article back to "Open" to make changes.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16976</Nid>
@@ -2262,6 +2669,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Images uploaded here will appear in your text and be smaller than the other pictures. You can use them to add smaller photos of people you have interviewed or to add a detail that says something about the person, the environment, or topic of your story. Note that your body text needs to be at least 230 words long before you can add pictures to the text. Preferably use your own photos or illustrations. If you are republishing a photo taken by someone else, make sure you have permission to. Add a description in the caption and include the name of the author, date of the photo, location, and the outlet where it was published.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16975</Nid>
@@ -2274,6 +2684,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Rate what you are reviewing on a scale between one and five.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16974</Nid>
@@ -2286,6 +2699,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;What sources have you used in your article? You can list websites, news sites, documents or people as your sources. Write the name and a short description of the source. Make sure you include attribution to sources within the article as well. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16973</Nid>
@@ -2303,6 +2719,14 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;1. First publish the video or audio clip on Vimeo, Youtube, Anchor or Soundcloud. &lt;/p&gt;
+&lt;p dir="ltr"&gt;2. Find what is called "Embedded code". Save it in the box with any title. &lt;/p&gt;
+&lt;p dir="ltr"&gt;3. Go to the "Body text" box. Place the cursor in the text where the clip should show. &lt;/p&gt;
+&lt;p dir="ltr"&gt;4. Select your item (the title of your choice) from the "Embedded Items" drop down menu. &lt;/p&gt;
+&lt;p dir="ltr"&gt;5. Create a test article to see how your clip looks if you were to publish it on Mobilestories.se.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16972</Nid>
@@ -2315,6 +2739,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Write an enticing headline. The headline may be your only opportunity to capture the reader. What do you find most surprising, interesting or important in your article? Write it in the headline. Feel free to study the headlines on a few different news sites. Which headlines make you want to read on or watch the video? Of course, the headline must also be true and should say something about the content of the article.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16971</Nid>
@@ -2326,6 +2753,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Write an enticing headline. The headline may be your only opportunity to capture the reader. What do you find most surprising, interesting or important in your article? Write it in the headline. Feel free to study the headlines on a few different news sites. Which headlines make you want to read on or watch the video? Of course, the headline must also be true and should say something about the content of the article.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16970</Nid>
@@ -2338,6 +2767,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Write an enticing headline. The headline may be your only opportunity to capture the reader. What do you find most surprising, interesting or important in your article? Write it in the headline. Feel free to study the headlines on a few different news sites. Which headlines make you want to read on or watch the video? Of course, the headline must also be true and should say something about the content of the article.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16969</Nid>
@@ -2350,6 +2782,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Write a good headline that entices the reader. Choose your workgroup and the keyword that best suits your article.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16968</Nid>
@@ -2361,6 +2796,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Write an enticing headline. The headline may be your only opportunity to capture the reader. What do you find most surprising, interesting or important in your article? Write it in the headline. Feel free to study the headlines on a few different news sites. Which headlines make you want to read on or watch the video? Of course, the headline must also be true and should say something about the content of the article.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16967</Nid>
@@ -2373,6 +2810,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Write an enticing headline. The headline may be your only opportunity to capture the reader. What do you find most surprising, interesting or important in your article? Write it in the headline. Feel free to study the headlines on a few different news sites. Which headlines make you want to read on or watch the video? Of course, the headline must also be true and should say something about the content of the article.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16966</Nid>
@@ -2385,6 +2825,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Write an enticing headline. The headline may be your only opportunity to capture the reader. What do you find most surprising, interesting or important in your article? Write it in the headline. Feel free to study the headlines on a few different news sites. Which headlines make you want to read on or watch the video? Of course, the headline must also be true and should say something about the content of the article.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16965</Nid>
@@ -2397,6 +2840,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Choose what date you want your story to be published. If you leave this blank, your story will be published immediately when you press "publish".&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16964</Nid>
@@ -2409,6 +2855,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Decide on which sites (publishing regions) on Mobilestories.se you want to publish your story. Most users have access to a school page or a project page and a municipal page.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16963</Nid>
@@ -2421,6 +2870,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Select the working group to which your article should belong. Don't see a workgroup here? The administrator must then approve you in the group, under "My groups".&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16962</Nid>
@@ -2433,6 +2885,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;&lt;strong&gt;Required&lt;/strong&gt;. Choose the category that best suits your story.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16961</Nid>
@@ -2444,6 +2899,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Describe the purpose of the article and change your headline. The sender can only be changed by an administrator in the group.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16959</Nid>
@@ -2474,6 +2931,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Everybody who publish something on Mobilestories.se must follow The Mobile Stories Code of Ethics.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16958</Nid>
@@ -2508,6 +2967,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;A profile is often based on an interview where the person you are talking to is in focus.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16956</Nid>
@@ -2572,6 +3033,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;In the feature story, image, text, sound and video interact to make a coherent whole.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16955</Nid>
@@ -2604,6 +3067,14 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;For a podcast story, in addition to the audio file from SoundCloud, only a title, an introduction and an image are needed. You should upload the audio file in SoundCloud and then cut in the embedded link in the "Embedded material" box. Write a headline on your clip. Then go to the "Body text" box, place the cursor where you want the audio clip to be displayed and select a title. A code will appear in your text field. When you create a new preview, you will see how the clip will appear in the text when the story is published.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;What your podcast story should contain:&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;Audio. The embedded code from your audio file on SoundCloud.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;Heading. This should make others want to listen to your podcast. What was the most remarkable or interesting quote in your podcast? Use that as a headline if you want. &lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;</Summary>
   </node>
   <node>
     <Nid>16954</Nid>
@@ -2646,6 +3117,16 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Writing an opinion piece is a way to influence and participate in the public debate. Unlike in a news story, you should highlight your own opinions and use arguments to convince others. Try to find at least three arguments that strengthen your stance. Don´t forget to substantiate your arguments with facts - it makes your piece more credible.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;TO THINK ABOUT IN AN OPINION PIECE&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;Heading. Remember that the headline should arouse the reader's curiosity. The headline must say something about the content of your piece. &lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;Text. Read more about the structure of the text below.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;Text length. An opinion piece on Mobile Stories should be at least 1500 characters including spaces and preferably no longer than 4000 characters including spaces.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;</Summary>
   </node>
   <node>
     <Nid>16953</Nid>
@@ -2671,6 +3152,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;A chronicle is a personal story, based on one's own experiences. Take the chance to write about a topic that feels relevant, either at school or in the public debate. The chronicle will be best if you write about something that really matters to you.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16952</Nid>
@@ -2695,6 +3178,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;A slideshow is a series of photos or drawn images. Has the class had an exhibition? Have you created a comic strip or do you want to tell a story about something with images alone? Don´t forget to add captions. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16951</Nid>
@@ -2720,6 +3205,12 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Provide accurate news. Be critical of news sources and check your facts as carefully as circumstances allow. Be clear about what are facts and what are someone's comments.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;Let people reply when they are criticized. [A9] Incorrect information must be corrected. Give people the opportunity to respond without delay to allegations concerning them.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;Respect privacy. Refrain from publications that violate people's privacy. Avoid writing about suicide or suicide attempts. Show respect for relatives of crime and accident victims. Don´t emphasize a person's ethnic origin, gender, nationality, profession, political affiliation, religious beliefs or sexual orientation if it is irrelevant or disrespectful in the context.&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;</Summary>
   </node>
   <node>
     <Nid>16950</Nid>
@@ -2744,6 +3235,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;The video story requires the embedded video link, a heading, a lead paragraph and an image.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16949</Nid>
@@ -2778,6 +3271,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;In a review, the author describes a service, product or cultural experience. The review can be about a book, a Netflix movie or a concert, a computer game, an app or a YouTube clip.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16948</Nid>
@@ -2800,6 +3295,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Each story on the Mobile Stories media platform must have at least one image. In the feature story the image is an important component and the pictures are large in the published story.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16947</Nid>
@@ -2827,6 +3324,15 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;You can easily embed video or audio clips in your story by using "Embedded" codes from YouTube, Vimeo or SoundCloud:&lt;/p&gt;
+&lt;p dir="ltr"&gt;1. Publish your video or audio clip to Vimeo, YouTube or SoundCloud. These services work best with Mobilestories.se.&lt;/p&gt;
+&lt;p dir="ltr"&gt;2. Upload the "Embedded" code for your video or audio clip (see step-by-step instructions below). Copy the code and paste it in the box "Embedded material".&lt;/p&gt;
+&lt;p dir="ltr"&gt;3. Create a title for your clip. Save.&lt;/p&gt;
+&lt;p dir="ltr"&gt;4. Go to the "Body text" box. Place the cursor in your text where you want the clip to show.&lt;/p&gt;
+&lt;p dir="ltr"&gt;5. Select your item in the "Embedded Material" drop-down menu. The embedded item is now visible as a code in your text field.&lt;/p&gt;
+&lt;p dir="ltr"&gt;6. Create a preview to see what your video or sound clip will look like in your published story.&lt;/p&gt;
+&lt;p dir="ltr"&gt;How to download the Embedded code ...&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;... from YouTube:&lt;/strong&gt;&lt;/p&gt;</Summary>
   </node>
   <node>
     <Nid>16946</Nid>
@@ -2838,6 +3344,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Who has photographed, illustrated, written, made the audio recording or searched for information that the story is based on? Everyone who has contributed should have their name at the bottom of the published story. This is called byline. Keep in mind that if someone does NOT want his or her name to be published, you should not it here. If anyone in the group has found a free image or video online, he or she should not be added  as "Photographer," but under "Research". Everyone who has contributed by finding information for your story should be added under "Research".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16945</Nid>
@@ -2857,6 +3365,16 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Select your co-creators from your workgroup (under "can edit") in order to invite them to edit your story . Also select your peer reviewers (under "can give feedback"). An administrator, such as your teacher or another adult, must approve your piece before you can publish it. You can see who has the authority to approve your piece under "can approve".&lt;/p&gt;
+&lt;p dir="ltr"&gt; &lt;/p&gt;
+&lt;p dir="ltr"&gt;Peer reviewer checklist:&lt;/p&gt;
+&lt;p dir="ltr"&gt;What sources have been used?&lt;/p&gt;
+&lt;p dir="ltr"&gt;Are the sources credible and why?&lt;/p&gt;
+&lt;p dir="ltr"&gt;Is the image and headline appealing?&lt;/p&gt;
+&lt;p dir="ltr"&gt;Is the text grammatically correct?&lt;/p&gt;
+&lt;p dir="ltr"&gt;Are there any typos?&lt;/p&gt;
+&lt;p dir="ltr"&gt;Has copyright been respected?&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16944</Nid>
@@ -2868,6 +3386,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Here is where you and the people invited to work on the same piece communicate. Peer reviewers can write their comments and reminders. Feedback helps the story, and the person who created it. Remember to give feedback in a nice way.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16943</Nid>
@@ -2879,6 +3399,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;By adding tags, you make it easier for others to find your story. For example, tagging it with the word "environment" increases the chances that it will appear in the search results when someone uses that keyword on a search engine, such as Google. There are a large number of words to choose from, but you will certainly find that not all words are included in our “tag library”. Try to find at least one word that fits your story.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16942</Nid>
@@ -2890,6 +3412,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;If you want to publish your story publicly, you need to select publishing regions, that is, which sites on the Mobile Stories media platform you want your story to appear on. Examples of publishing regions are your school page (for example "Storskolan"), your municipality page (for example "Gothenburg") or the Mobile Stories' front page ("Sweden"). Is the story about something that mainly affects or can interest others at your school, or might it be interesting for others in your municipality, or on a national level? It is always the creator of the story who decides whether your story should be published publicly. If you work in a team, everybody in the team must discuss from the beginning whether the story should be published or not. Remember that anyone can find your published story on the internet.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16941</Nid>
@@ -2901,6 +3425,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;If you want to publish your story, you need to select publishing regions, that is, which sites on the Mobile Stories media platform you want your story to appear on. You can usually select your school page, your municipality page and the Mobile Stories’ first page – “Sweden”. It is always the creator of the story who decides whether your story should be published publicly. If you work in a team, everybody in the team must discuss from the beginning whether the story should be published or not. Remember that anyone can find your published story on the internet.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16940</Nid>
@@ -2912,6 +3438,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Which of these areas best fits the topic you are writing about? Select one to proceed.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16939</Nid>
@@ -2923,6 +3451,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p dir="ltr"&gt;Select the working group to which your article should belong. Don't see a workgroup here? The administrator must then approve you in the group, under "My groups".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16938</Nid>
@@ -2959,6 +3489,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Intervjun är den kanske vanligaste journalistiska metoden för att hämta information. Intervjun kan också användas om man vill ha någons kommentar eller åsikt om en viss fråga.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16937</Nid>
@@ -2994,6 +3526,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Vilka bilder får jag använda i en artikel som publiceras på nätet? Är det okej att bädda in en Youtube-video i sin artikel eller använda en skärmdump av någon annans material?&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16936</Nid>
@@ -3027,6 +3561,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Ett personporträtt bygger ofta på en intervju där den man pratar med är i fokus för texten. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16935</Nid>
@@ -3038,6 +3574,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Beskriv syftet med artikeln och ändra din rubrik. Avsändaren kan endast ändras av en administratör i arbetsgruppen.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16934</Nid>
@@ -3050,6 +3588,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Här väljer du den arbetsgrupp du tillhör. Medlemmar i samma arbetsgrupp kan bjuda in varandra och samarbeta i artiklar. Du som har skapat artikeln kan välja vilka andra i gruppen som kan redigera artikeln och vilka som kan kamratgranska. &lt;/p&gt;
+&lt;p&gt;Du kan tillhöra flera olika arbetsgrupper. Arbetsgrupperna kan bara skapas av någon som är administratör - till exempel en lärare eller bibliotekarie. Det är också administratören som bjuder in användare till olika arbetsgrupper. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16933</Nid>
@@ -3061,6 +3602,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Vilket av dessa områden passar bäst till ämnet du skriver om? Välj ett för att gå vidare.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16932</Nid>
@@ -3072,6 +3615,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Vilket av dessa områden passar det ämne du skriver om bäst in på? Välj ett för att gå vidare.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16931</Nid>
@@ -3083,6 +3628,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Om du vill publicera din artikel måste du välja publiceringsplatser, det vill säga vilka sajter på Mobile Stories medieplattform du vill att din artikel ska synas på. Exempel på publiceringsplats är er skolsida (exempelvis "Storskolan"), er kommunsida (exempelvis "Göteborg") eller Mobile Stories förstasida (som heter "Sweden"). Det är alltid du som bestämmer om din artikel ska publiceras så att andra kan se den. Arbetar ni i grupp så är det bra om alla är överens och har pratat igenom hur man vill ha det redan från början. Tänk på att vem som helst kan hitta er artikel på internet, oavsett vilken sajt den publiceras på!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16930</Nid>
@@ -3094,6 +3641,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Välj den arbetsgrupp som din artikel ska tillhöra. Ser du ingen arbetsgrupp här? Administratören måste då godkänna dig i gruppen, under "Mina grupper".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16929</Nid>
@@ -3118,6 +3667,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Legal</Type-of-article>
+    <Summary>&lt;p&gt;Mobilestories.se webbplats och mobilestories.com använder cookies. Alla som besöker en webbplats som använder cookies måste enligt lag få information om att webbplatsen innehåller cookies, vad de används till och hur man kan välja bort dem. &lt;/p&gt;
+&lt;p&gt;En cookie är en liten textfil som lagras på besökarens dator och innehåller information. Cookies används normalt för att förbättra webbplatsen för besökaren. &lt;/p&gt;
+&lt;p&gt;Det finns två typer: Den ena typen sparar en fil som ligger kvar på besökarens dator. Filen används t.ex. för att besökaren lättare ska kunna använda webbplatsen utifrån sina önskemål och intressen. Den andra typen kallas sessionscookie. Under tiden en besökare är inne på en webbsida lagras den temporärt i besökarens dators minne. Sessionscookies försvinner när besökaren stänger sin webbläsare. Ingen personlig information, t.ex. e-post eller namn, sparas om besökaren. &lt;/p&gt;</Summary>
   </node>
   <node>
     <Nid>16928</Nid>
@@ -3152,6 +3704,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Att skriva längre texter kan vara en utmaning. En som är duktig på att hålla greppet om läsaren hela vägen in i mål är den prisbelönte journalisten Björn af Kleen.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16926</Nid>
@@ -3180,6 +3734,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Han har intervjuat Zlatan, skrivit en bok om den svenska adeln och ett hyllat reportage om nazister i det egna hemlänet Dalarna.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16924</Nid>
@@ -3209,6 +3765,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Du bor i ett land där du har rätt att fritt uttrycka dig i tal och skrift. Yttrandefriheten är en av grundstenarna i ett demokratiskt samhälle.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16922</Nid>
@@ -3220,6 +3778,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Om du vill publicera din artikel måste du välja publiceringsplats, det vill säga vilka sajter på  Mobile Stories medieplattform du vill att din artikel ska synas på. Exempel på publiceringsregioner är er skolsida (exempelvis "Storskolan"), er kommunsida (exempelvis "Göteborg") eller Mobile Stories förstasida ("Sweden"). Handlar artikeln om något som främst berör eller kan intressera andra på din skola, eller kan det vara intressant för en publik i hela kommunen, eller i hela Sverige? Kom ihåg också att det är frivilligt att publicera sin artikel. Det är alltid den som är med och skapar artikeln som bestämmer om den ska publiceras så att andra kan se den. Arbetar ni i grupp så är det bra om alla är överens och har pratat igenom redan från början om artikeln ska publiceras eller inte. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16921</Nid>
@@ -3231,6 +3791,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Välj vilken eller vilka sajter du vill publicera på (om du vill publicera din artikel). De flesta kan välja mellan en skolsajt, en kommunsajt samt förstasidan på Mobilestories.se, "Sweden". &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16919</Nid>
@@ -3242,6 +3804,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Genom att "tagga" din artikel blir den lättare att hitta för andra. Om du taggar din artikel med ordet "miljö", ökar chansen att den kommer upp i sökträffarna när någon använder just det sökordet på Google. Det finns ett stort antal ord du kan välja mellan, men du kommer säkert upptäcka att alla ord inte finns med. Försök att hitta minst ett ord som passar din artikel.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16918</Nid>
@@ -3253,6 +3817,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Genom att lägga till taggar gör du det lättare för andra att hitta din artikel. Att till exempel "tagga" med ordet "miljö" ökar chanserna att artikeln visas i sökresultaten när någon använder det sökordet på en sökmotor, som Google. Det finns ett stort antal ord att välja mellan, men du kommer säkerligen att upptäcka att inte alla ord finns med i vårt "taggbibliotek". Försök att hitta minst ett ord som passar din berättelse.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16917</Nid>
@@ -3264,6 +3830,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;I chatten kan alla som arbetar med en artikel i verktyget kommunicera. Här kan kamratgranskarna skriva sina kommentarer och påminnelser till den som skapat artikeln, för att artikeln ska bli ännu bättre. Ge feedback (återkoppling) på ett sätt som du själv skulle uppskattat. Kom ihåg att feedback gör artikeln bättre!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16916</Nid>
@@ -3284,6 +3852,17 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;&lt;strong&gt;OBLIGATORISK.&lt;/strong&gt; Här väljer du vilka i din arbetsgrupp som ska kunna samarbeta med dig (under "kan redigera") i artikeln. Här väljer du även vilka som kan kamratgranska ditt innehåll (under "kan ge feedback"). Din lärare eller annan administratör måste godkänna din artikel innan du kan publicera den. Vem eller vilka som kan godkänna din artikel ser du under "kan godkänna".&lt;/p&gt;
+&lt;p&gt;Tips till dig som kamratgranskar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vilka källor har använts?&lt;/li&gt;
+&lt;li&gt;Är källorna trovärdiga och varför?&lt;/li&gt;
+&lt;li&gt;Lockar bild och rubrik till läsning?&lt;/li&gt;
+&lt;li&gt;Är texten grammatiskt korrekt?&lt;/li&gt;
+&lt;li&gt;Finns det stavfel?&lt;/li&gt;
+&lt;li&gt;Har upphovsrätten respekterats?&lt;/li&gt;
+&lt;/ul&gt;
+</Summary>
   </node>
   <node>
     <Nid>16915</Nid>
@@ -3295,6 +3874,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Här ska ni som jobbar med en artikel fylla i vem som gjort vad i gruppen. Vem har fotograferat, illustrerat, skrivit, gjort ljudinspelningen eller sökt information som används i artikeln? Alla som bidragit får sitt namn utskrivet längst ned i den publicerade artikeln. Detta kallas för byline. Tänk på att om någon INTE vill ha sitt namn med i den publicerade artikeln så ska man inte klicka i den personen här. Om någon i gruppen hittat en gratis bild eller video på nätet, ska den personen inte finnas med som "Fotograf" utan under "Research". Under "Research" kan du lägga in alla de personer som hjälpt till med att hitta information till artikeln. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16914</Nid>
@@ -3306,6 +3887,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Om du vet vilken dag du har tänkt att publicera din artikel kan du fylla i det här. Om du inte fyller i ett speciellt datum publiceras den direkt då du trycker på "publicera".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16913</Nid>
@@ -3317,6 +3900,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Här fyller du i rubrik, din arbetsgrupp och ett ämnesområde.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16912</Nid>
@@ -3328,6 +3913,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Skriv en rubrik som griper tag i läsaren. Vad är nytt eller överraskande i din artikel? Finns det något som väcker känslor? Använd det i rubriken! Rubriken får gärna vara kort, helst mellan 6 och 8 ord. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16911</Nid>
@@ -3339,6 +3926,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Skriv en rubrik som griper tag i läsaren. Vad är nytt eller överraskande i din artikel? Finns det något som väcker känslor? Använd det i rubriken! Rubriken får gärna vara kort, helst mellan 6 och 8 ord. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16910</Nid>
@@ -3350,6 +3939,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Skriv en rubrik som griper tag i läsaren. Vad är nytt eller överraskande i din artikel? Finns det något som väcker känslor? Använd det i rubriken! Rubriken får gärna vara kort, helst mellan 6 och 8 ord. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16909</Nid>
@@ -3361,6 +3952,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Skriv en rubrik som griper tag i läsaren. Vad är nytt eller överraskande i din artikel? Finns det något som väcker känslor? Använd det i rubriken! Rubriken får gärna vara kort, helst mellan 6 och 8 ord. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16907</Nid>
@@ -3372,6 +3965,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Skriv en rubrik som griper tag i läsaren. Vad är nytt eller överraskande i din artikel? Finns det något som väcker känslor? Använd det i rubriken! Rubriken får gärna vara kort, helst mellan 6 och 8 ord. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16906</Nid>
@@ -3383,6 +3978,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Skriv en rubrik som griper tag i läsaren. Vad är nytt eller överraskande i din artikel? Finns det något som väcker känslor? Använd det i rubriken! Rubriken får gärna vara kort, helst mellan 6 och 8 ord. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16905</Nid>
@@ -3394,6 +3991,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Skriv en rubrik som griper tag i läsaren. Vad är nytt eller överraskande i din artikel? Finns det något som väcker känslor? Använd det i rubriken! Rubriken får gärna vara kort, helst mellan 6 och 8 ord. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16904</Nid>
@@ -3405,6 +4004,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Skriv en rubrik som griper tag i läsaren. Vad är nytt eller överraskande i din artikel? Finns det något som väcker känslor? Använd det i rubriken! Rubriken får gärna vara kort, helst mellan 6 och 8 ord. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16901</Nid>
@@ -3461,6 +4062,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Mobile Stories har i samarbete med Medieombudsmannen, MO, tagit fram etiska regler för de som publicerar artiklar på Mobilestories.se.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16802</Nid>
@@ -3499,6 +4102,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Koppla till aktuella händelser, håll dig till fakta och var personlig – Aftonbladets debattredaktör ger sina bästa tips om hur du når ut med din debattartikel (och får den publicerad!).&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16900</Nid>
@@ -3515,6 +4120,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Den som publicerar bilder, film eller text på nätet måste följa vissa lagar och regler. Lär dig mer om lagarna så att du vet vad som gäller på nätet.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16895</Nid>
@@ -3531,6 +4138,13 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Här kan du bädda in video- eller ljudfiler.&lt;/p&gt;
+&lt;p&gt;1. Publicera först video- eller ljudklippet på Vimeo, Youtube, Anchor eller Soundcloud.&lt;br /&gt;
+2. Hitta det som kallas "Embedded code" eller "Inbäddad kod". Spara den i boxen med valfri titel. &lt;br /&gt;
+3. Gå vidare till boxen "Brödtext". Ställ markören i texten där klippet ska visas.&lt;br /&gt;
+4. Välj ditt objekt (titeln som du valt) från drop down-menyn "Inbäddade objekt". &lt;br /&gt;
+5. Skapa en testartikel för att se hur ditt klipp ser ut om du skulle publicera det på Mobilestories.se.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16894</Nid>
@@ -3566,6 +4180,14 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Video- eller ljudklipp bäddar du enkelt in i din artikel genom att använda "Embedded"-koden från  Youtube, Vimeo eller Soundcloud. &lt;/p&gt;
+&lt;p&gt;Gör så här: &lt;/p&gt;
+&lt;p&gt;1. Publicera ditt video- eller ljudklipp på Vimeo, Youtube eller Soundcloud. Dessa tjänster fungerar bäst ihop Mobilestories.se.&lt;/p&gt;
+&lt;p&gt;2. Leta upp "Embedded"-koden för din video- eller ljudklipp (se steg för steg-instruktion nedan). Kopiera koden och klipp in i boxen "Inbäddat material".&lt;/p&gt;
+&lt;p&gt;3. Välj en rubrik för ditt klipp. Spara.&lt;/p&gt;
+&lt;p&gt;4. Gå vidare och in i boxen "Brödtext". Ställ markören i din text där du vill att klippet ska visas.&lt;/p&gt;
+&lt;p&gt;5. Välj ditt objekt i dropdown-menyn "Inbäddat material". Det inbäddade objektet visas nu som en kod i texten.&lt;/p&gt;
+&lt;p&gt;6. Skapa en testartikel för att se hur ditt ljud- eller videoklipp kommer att se ut i din publicerade artikel. &lt;/p&gt;</Summary>
   </node>
   <node>
     <Nid>16893</Nid>
@@ -3581,6 +4203,12 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;1. Publicera först videon eller ljudklippet på Vimeo, Youtube, Anchor eller Soundcloud.&lt;br /&gt;
+2. Hitta det som kallas "Inbäddad kod". Spara den i rutan med valfri titel.&lt;br /&gt;
+3. Gå till rutan "Brödtext". Placera markören i texten där klippet ska visas.&lt;br /&gt;
+4. Välj ditt objekt (titeln du väljer) från rullgardinsmenyn "Inbäddade objekt".&lt;br /&gt;
+5. Skapa en testartikel för att se hur ditt klipp ser ut om du skulle publicera det på Mobile Stories plattform.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16891</Nid>
@@ -3593,6 +4221,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Vilka källor har du använt i din artikel? Du kan lista webbplatser, nyhetssajter, dokument eller personer som dina källor. Skriv namnet och en kort beskrivning av källan i boxen "Källor". Se till att du hänvisar till källorna i din text också genom att i texten berätta varifrån du fått informationen när du nämner dina fakta. Detta ökar din trovärdighet.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/mBVd5O_kVyM?si=dvVWnUnyFyXVGqsq" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16890</Nid>
@@ -3604,6 +4235,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Här kan du ge ett omdöme för det du recenserar 1-5 stjärnor.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16888</Nid>
@@ -3616,6 +4249,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Bilder som laddas upp här kommer att visas i din text och vara mindre än de andra bilderna. Du kan använda dem för att lägga till mindre bilder på personer du har intervjuat eller för att lägga till en detalj som säger något om personen, miljön eller ämnet i din berättelse. Observera att din brödtext måste vara minst 230 ord lång innan du kan lägga till bilder i texten. Använd helst egna foton eller illustrationer. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn, datum för fotot, plats och butiken där det publicerades. Se instruktionsvideon för mer information.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/BTMT-q4Ygh8?si=n90pUQNgEjckuhl7" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16887</Nid>
@@ -3627,6 +4263,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Här ser du i vilket läge din artikel är i publiceringskedjan. Är den öppen för kamratgranskning eller väntar den på att bli godkänd av läraren (eller annan admininstratör)? Det är ni som kan redigera artikeln som pushar den framåt i publiceringskedjan genom att ändra status. Välj status och bekräfta sedan genom att klicka på den lilla bocken under. Observera att det bara går att redigera i artikeln när den ligger i "Open"! Det går att flytta tillbaka artikeln till "Open" för att göra ändringar. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16886</Nid>
@@ -3639,6 +4277,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Vem gjorde vad? Vem tog bilderna, vem spelade in videon och vem skrev texten? Du kan lägga till flera personer i samma roll. Observera att namnen du väljer i den här rutan kommer att visas längst ned i den publicerade artikeln och kommer att vara synliga för andra. De som sökt material och laddat ner till exempel bilder eller ljud ska listas under "Research".&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/jEZmpU4rQfw?si=r1uoDukbGjJmVX8Z" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16885</Nid>
@@ -3651,6 +4292,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Välj vem som bara kan granska din artikel utan att göra ändringar och vem som också kan redigera och samarbeta. Se instruktionsvideon för mer information.&lt;/p&gt;
+&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/hNFxEZUxANY?si=DVtXI1eNXvZIW_3g" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;
+</Summary>
   </node>
   <node>
     <Nid>16882</Nid>
@@ -3662,6 +4306,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Här kan du chatta med alla som är inbjudna att arbeta med din artikel. Klicka på pennan för att spara din kommentar. Det går inte att radera kommentarer i efterhand. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16881</Nid>
@@ -3681,6 +4327,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Varje artikel på Mobile Stories elevsajt ska ha minst en bild. I reportaget är bilden extra viktig eftersom bilderna blir så stora i den publicerade artikeln! &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16880</Nid>
@@ -3692,6 +4340,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Denna rad ändras av den som är administraör i gruppen. Här ska till exempel din skolas namn stå. Du kan inte ändra detta i din egen artikel.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16877</Nid>
@@ -3703,11 +4353,13 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Beskriv syftet med din artikel och sammanhanget. Vad är ditt mål? Vad vill du berätta för andra? Det du skriver här kommer inte att publiceras. Endast andra medlemmar i ditt team och din lärare kommer att se den här beskrivningen.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16875</Nid>
     <Title>Recension</Title>
-    <Body>&lt;p&gt;I en recension beskriver skribenten sina upplevelser av en tjänst, produkt eller upplevelse. Recensionen kan handla om en bok, en Netflix-film eller en konsert, men lika gärna om ett dataspel, en app eller ett Youtube-klipp. Allt kan recenseras! En recension beskriver både det som är bra och det som är dåligt. Syftet är att guida andra. Är det värt att lägga tid på att läsa en viss bok? Är det nya dataspelet värt pengarna? Hur väl står sig en viss film jämfört med andra filmer? Osv.&lt;/p&gt;
+    <Body>&lt;p&gt;Allt kan recenseras! En recension beskriver både det som är bra och det som är dåligt. Syftet är att guida andra. Är det värt att lägga tid på att läsa en viss bok? Är det nya dataspelet värt pengarna? Hur väl står sig en viss film jämfört med andra filmer? Osv.&lt;/p&gt;
 &lt;p&gt;ATT TÄNKA PÅ I EN RECENSION&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Rubrik. &lt;/strong&gt;Rubriken får gärna säga något om vad du tycker om det du recenserar, till exempel "En app som ger mersmak" eller "Tummen ner för nya Netflix-serien".&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bild.&lt;/strong&gt; Ta helst egna bilder! Om recensionen gäller en bok behöver du få med lite av omgivningen också i din bild, för att inte riskera att bryta mot upphovsrätten. Om du vill använda förlagets bild på bokomslaget är det alltid bäst att kontakta förlaget och fråga först. De flesta tycker att det är okej!&lt;/p&gt;
@@ -3725,6 +4377,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;I en recension beskriver skribenten sina upplevelser av en tjänst, produkt eller upplevelse. Recensionen kan handla om en bok, en Netflix-film eller en konsert, men lika gärna om ett dataspel, en app eller ett Youtube-klipp.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16874</Nid>
@@ -3745,6 +4399,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;I filmartikeln behövs den inbäddade videolänken, en rubrik, en ingress och en bild.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16868</Nid>
@@ -3756,6 +4412,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Väck intresse redan i rubriken – det kan vara din enda chans att fånga tittaren! Vad är överraskande med din film? Vad är det viktigaste? Studera gärna rubrikerna på några olika nyhetssajter. Vilka rubriker gör att du vill veta mer? Tänk på att rubriken måste säga något om vad filmen handlar om och inte lura tittaren. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16866</Nid>
@@ -3767,6 +4425,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Fyll i något eller några ord som du tycker bäst passar din artikel. En artikel som "taggas" med passande ämnesord blir lättare att hitta på internet. Fundera gärna över vad de som du vill ska hitta artikeln skulle kunna använda för sökord. Dessa sökord ska du använda som "taggar". &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16863</Nid>
@@ -3778,6 +4438,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;De här checkfrågorna ska du gå igenom innan du är klar med din artikel. Du kan inte publicera innan detta är gjort.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16862</Nid>
@@ -3790,6 +4452,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Huvudbilden är den första och största bilden i din artikel (med undantag för artikeltypen reportage). Det ska vara en horisontell bild, alltså en bild tagen på bredden. Använd helst din egen bild eller illustration. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Se videon för mer information.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/nFlcV3x3ij8?si=AAfKrRwnGJ7zEDav" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16861</Nid>
@@ -3801,6 +4466,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Den här bilden kan hamna i bildspelet högst upp på sajten när artikeln är publicerad. Använd bildformaten JPG eller PNG. Bilden får max vara 5,0 MB och bör vara "liggande", det vill säga mer bred än hög.  I Mobile Stories artiklar fungerar horisontella bilder bäst. Glöm inte att inkludera information om upphovsrätten i din bildtext! Använd i första hand en egen bild eller illustration. Om du ändå vill använda bilder från nätet behöver du följa instruktionerna i artikeln "&lt;a href="https://julietr2.mobilestories.se/node/16805"&gt;Det här behöver du veta om bilder&lt;/a&gt;".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16852</Nid>
@@ -3813,6 +4480,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>16852</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Mobile Stories stöttar unga i att delta i det demokratiska samtalet. Det gör vi genom ett utbildande publiceringsverktyg, som kan användas i undervisningen, i biblioteksverksamhet, av ungdomsråd – eller för att starta en digital skoltidning! &lt;a href="https://publiceringsverktyg.mobilestories.se/testkonto/"&gt;Skaffa ett testkonto&lt;/a&gt; eller logga in för första gången? &lt;a href="https://youtu.be/OYohmsdpWRc"&gt;Kom igång med Mobile Stories 2.0 &lt;/a&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16848</Nid>
@@ -3842,6 +4511,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>16848</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Legal</Type-of-article>
+    <Summary>&lt;p&gt;Du bor i ett land där du har rätt att fritt uttrycka dig i tal, bild och skrift. Yttrandefriheten är en av grundstenarna i ett demokratiskt samhälle. Genom den kan media, men också du som medborgare, granska makthavare och göra skillnad. Men yttrandefriheten medför också ansvar. Det här är några saker som vi vill att du ska tänka på.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16830</Nid>
@@ -3854,6 +4525,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Du behöver minst tre bilder för att skapa ett galleri. Maxstorleken på bilderna är 5 MB i JPG- eller PNG-format. Du bör välja samma format för alla bilder - liggande (horisontellt) eller stående (vertikalt). Inkludera alltid namnen på personerna i bilderna i bildtexten och lägg till namnet på fotografen. Se instruktionsvideon för mer information. &lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/_FIT_fjb2IU?si=jcd4s7CT9w2EJ2LT" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16826</Nid>
@@ -3866,6 +4540,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;För att ett reportage ska bli komplett behöver du minst en bakgrundsbild. Den här bilden kommer synas som en bakgrund till ditt reportage, bakom rubriken. Du kan återanvända samma bild som du använde för rutan "huvudbild". Det behöver vara en horisontell bild, alltså en bild i liggande format. Använd i första hand en egen bild eller illustration. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16822</Nid>
@@ -3878,6 +4555,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Ingressen är de första meningarna i en artikel som används för att introducera den. Ingressen ska helst vara mellan 200 till 500 tecken inklusive mellanslag eller cirka 30 till 130 ord. Ingressen ska sammanfatta texten men också intressera läsaren för att få veta mer. Se instruktionsvideon om du vill veta mer.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/D1nhikPqvZ4?si=YS514GXAsr8V-haP" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16818</Nid>
@@ -3889,6 +4569,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;&lt;strong&gt;D&lt;/strong&gt;en här bilden kan hamna i bildspelet på sajtens förstasida när artikeln är publicerad. Använd en av dina bästa bilder! Om du inte har en ny bild kan du använda samma bild som för "Puffbild" men du måste ladda upp den här igen. I Mobile Stories artiklar fungerar liggande bilder bäst, dvs bilder som är mer breda än höga .I Mobile Stories artiklar fungerar horisontella bilder bäst. Glöm inte att inkludera information om upphovsrätten i din bildtext! Använd i första hand en egen bild eller illustration. Om du ändå vill använda bilder från nätet behöver du följa instruktionerna i artikeln "&lt;a href="https://julietr2.mobilestories.se/node/16805"&gt;Det här behöver du veta om bilder&lt;/a&gt;".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16816</Nid>
@@ -3901,6 +4583,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Brödtexten ska svara på frågor som vem, när, var, hur och varför. Använd fakta, statistik, forskning, ögonvittnesskildringar och citat från de inblandade för att stödja ditt skrivande. Kom ihåg att citera dina källor. Avsnitten under fliken "Skapa ny artikel" ger vägledning om att samla information, genomföra intervjuer och skriva artiklar. Läs dem och se filmerna för tips från journalister. Brödtexten i en artikel är vanligtvis 1 500 till 5 000 tecken (inklusive mellanslag) eller cirka 200 till 1 200 ord. Artikelartiklar kan vara längre, cirka 3 000 till 8 000 tecken (inklusive mellanslag) eller cirka 400 till 2 000 ord. Se instruktionsvideon för mer information.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/g0DxolxNATY?si=cQ1pPc8EufmHc292" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16815</Nid>
@@ -3912,6 +4597,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
+    <Summary>&lt;p&gt;Väck intresse redan i rubriken! Det kan vara din enda chans att fånga läsaren. Vad är överraskande i din artikel? Vad är nyheten? Studera gärna rubrikerna på några olika nyhetssajter. Vilka rubriker gör att du vill läsa vidare? Rubriken måste förstås också vara sann och säga något om vad texten handlar om. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16814</Nid>
@@ -3929,6 +4616,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Vi på Mobile Stories tycker att dina berättelser, åsikter och tankar är viktiga och vi vet många andra som också är intresserade av dem – andra unga, vårdnadshavare, politiker, journalister med flera!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16813</Nid>
@@ -3956,6 +4645,14 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;h1&gt;De medieetiska reglerna&lt;/h1&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;&lt;strong&gt;Ge korrekta nyheter. &lt;/strong&gt;Var kritisk mot nyhetskällorna och kontrollera sakuppgifter så noggrant som omständigheterna medger. Var tydlig med vad som är fakta och vad som är någons kommentarer.&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Var generös med bemötanden. &lt;/strong&gt;Felaktiga uppgifter skall rättas. Ge berörda personer möjlighet att utan dröjsmål bemöta påståenden som rör dem.&lt;br /&gt;
+	 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Respektera den personliga integriteten. &lt;/strong&gt;Avstå från publiceringar som kränker människors privatliv. Undvik att skriva om självmord eller självmordsförsök. Visa respekt för anhöriga till brotts- och olycksoffer. Framhäv inte personers etniska ursprung, kön, nationalitet, yrke, politisk tillhörighet, religiös åskådning eller sexuell läggning om det saknar betydelse i sammanhanget eller är missaktande. &lt;br /&gt;
+	 &lt;/li&gt;&lt;/ul&gt;</Summary>
   </node>
   <node>
     <Nid>16812</Nid>
@@ -3972,6 +4669,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;På en nyhetsredaktion går allt snabbt, samtidigt som det som publiceras måste vara korrekt. Därför måste journalisterna hitta smarta sätt att granska sina källor.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16811</Nid>
@@ -3990,6 +4689,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Du kanske har gjort ett bildspel som du vill visa. Kanske ritat en serie? Har klassen haft en utställning? Här står bilderna för sig själva. Men glöm inte att skriva bildtexter. Här är det fritt fram för kreativitet. Lägg bilderna för bildspel i "bildspelsboxen".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16810</Nid>
@@ -4014,6 +4715,8 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;En krönika är en personligt hållen artikel, där skribenten reflekterar kring egna erfarenheter eller upplevelser. &lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16809</Nid>
@@ -4036,6 +4739,9 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;Att skriva en debattartikel är ett sätt att påverka och väcka diskussion. Till skillnad från i en nyhetsartikel så ska du här lyfta fram dina egna åsikter ooch argumentera för dem. Försök att hitta minst tre argument som stärker din tes.  Glöm inte att förankra i fakta – då kommer fler att ta din åsikt på allvar. &lt;/p&gt;
+&lt;p&gt;Så här brukar en debattartikel vara uppbyggd: 1. Din tes. 2. Tre argument som underbyggs med fakta. 3. Din uppmaning till någon som har möjlighet att förändra.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Din tes. &lt;/strong&gt;Inled med att berätta för läsaren vilken fråga du tänker skriva om. Lyft fram din åsikt!&lt;/p&gt;</Summary>
   </node>
   <node>
     <Nid>16808</Nid>
@@ -4059,11 +4765,13 @@ Lägg också in länkarna till alla digitala källor i fältet för källor, s
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;En podd är ett samtal som är inspelat som går att lyssna på. I poddartikeln behövs, förutom själva podden, en rubrik, en ingress och en bild. Ljudfilen behöver du först ladda upp i Soundcloud eller på Spotifys poddtjänst Anchor. Därefter klistrar du in filens inbäddningskod i boxen "Inbäddat material".&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16807</Nid>
     <Title>Reportage</Title>
-    <Body>&lt;p dir="ltr"&gt;I ett reportage finns plats för ett målande språk och stora bilder. Du som skriver ska ta med din läsare till platsen! Det gör du genom att förmedla dina egna intryck. Hur doftar det? Hur låter det? Hur beter sig människor på platsen? Öppna dina sinnen!&lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;I ett reportage finns plats för ett målande språk och stora bilder. Du som skriver ska ta med din läsare till platsen! Det gör du genom att förmedla dina egna intryck. Hur doftar det? Hur låter det? Hur beter sig människor på platsen? Men kom ihåg att reportaget också är en faktatext, precis som nyhetsartikeln och ska alltså inte innehålla skribentens egna åsikter i sakfrågor!&lt;/p&gt;
 &lt;p dir="ltr"&gt;I ett reportage kan texten vara lite längre. 3000 - 7000 tecken, inklusive blanksteg, brukar vara lagom. Du bör ha två stora bilder, helst en eller flera små och gärna en ljudfil eller ett videoklipp. Det går utmärkt att stoppa in ett bildspel också, om du har många bra bilder! Ljudfilen eller videoklippet ska du ladda upp i Soundcloud, Vimeo eller Youtube. Därefter klipps det in den inbäddade länken i boxen för inbäddat material. Gå sedan in i boxen för brödtext, ställ markören där du vill att klippet ska hamna och välj ditt klipp från drop down-menyn. En kod kommer synas i ditt textfält. Det är först när du gör en renderad testartikel som du kommer se hur det inbäddade klippet ser ut i ditt reportage.&lt;/p&gt;
 &lt;p dir="ltr"&gt;Tips för ett bra reportage:&lt;/p&gt;
 &lt;p dir="ltr"&gt;• Ta med läsaren till platsen! Beskriv miljöer, människor, doft och ljud. &lt;/p&gt;
@@ -4088,7 +4796,8 @@ Lägg också in länkarna till alla digitala källor i fältet för källor, s
 &lt;li&gt;Lägg slutligen in länkarna till alla dina källor i boxen "Källor".&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Läs mer om hur du skriver ditt reportage på Mediekompass skrivarskola. Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branchorganisationen TU – Medier i Sverige.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mediekompass.se/wp-content/uploads/2014/09/Reportaget.pdf"&gt;Nyhetsartikeln | Mediekompass skrivarskola (PDF) &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mediekompass.se/wp-content/uploads/2014/09/Reportaget.pdf"&gt;Reportage | Mediekompass skrivarskola (PDF) &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
 &lt;h4 dir="ltr"&gt; &lt;/h4&gt;
 </Body>
     <Article-code>article.base_article_type_x_27, articleType.Reportage, new.article.Reportage</Article-code>
@@ -4096,6 +4805,8 @@ Lägg också in länkarna till alla digitala källor i fältet för källor, s
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;I Reportaget eller Storytelling-artikeln skapar bild, text, ljud och film en sammanhängande helhet.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16806</Nid>
@@ -4119,6 +4830,8 @@ Lägg också in länkarna till alla digitala källor i fältet för källor, s
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
+    <Summary>&lt;p&gt;En nyhetsartikel ska vara en informerande text som handlar om någonting som hänt eller om nya uppgifter har kommit fram.&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16805</Nid>
@@ -4151,5 +4864,7 @@ Lägg också in länkarna till alla digitala källor i fältet för källor, s
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
+    <Summary>&lt;p&gt;Om du inte vill ta en egen bild eller illustrera kan du söka efter gratis bilder på nätet. I den här artikeln går vi igenom steg för steg hur du gör för att hitta och använda gratis bilder. &lt;/p&gt;
+</Summary>
   </node>
 </nodes>

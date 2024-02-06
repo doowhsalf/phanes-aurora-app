@@ -2,7 +2,7 @@ import React from "react";
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
-import { isObject, last } from "lodash";
+import { get, isObject, last } from "lodash";
 import { FlowRouter } from "meteor/ostrio:flow-router-extra";
 import MatrixRender from "../matrix_render";
 import Divider from "@mui/material/Divider";
@@ -62,7 +62,15 @@ import { getField, getFieldBoolean, getFieldDate } from "../../helpers/getField"
     "title" : "Elevpublicistens ansvar",
     "body" : "<p>Mobile Stories har samma värdegrund som skolan. Den vill vi att du ska hålla dig till när du arbetar med vårt verktyg och publicerar dina arbeten på mobilestories.se.<br />\n </p>\n<p><strong>Värdegrunden omfattar:</strong></p>\n<ul>\n<li>människolivets okränkbarhet</li>\n<li>individens frihet och integritet</li>\n<li>alla människors lika värde</li>\n<li>jämställdhet mellan könen</li>\n<li>solidaritet mellan människor</li>\n</ul>\n<ol>\n<li>Det du publicerar på Mobile Stories blir tillgängligt för alla. Genomslagskraften av det du skriver kan vara stor. Även om du väljer att publicera endast på din skola så kan alla läsa eller titta på just din artikel.</li>\n<li>Tänk på att det du skriver kan delas och spridas i andra forum. Där kan kommentarer dyka upp. Mobile Stories har inte kommentarsfält på sajten.</li>\n<li>När du publicerar artiklar på Mobile Stories så ansvarar du själv för innehållet. Du själv ansvarar alltså för att din artikel inte bryter mot några lagar och regler. Det du skriver får därför inte innehålla t ex förtal, förolämpning, hets mot folkgrupp, sexualiserat våld mot barn eller våldspornografi. Du får inte heller använda material som någon annan har upphovsrätten till utan att den personen har gett sitt tillstånd.                      </li>\n<li>Undvik att publicera uppgifter som kan leda till att din uppgiftslämnare får problem. Tänk alltid igenom eventuella konsekvenser för den som gett dig uppgifter eller för personer som berörs i ditt material.</li>\n<li>Undvik att publicera material från personer som vill vara anonyma, eftersom det alltid är svårt att garantera en person anonymitet. Om en uppgiftslämnare är anonym är det också svårare för den som tar del av ditt material att granska de källor som används. </li>\n</ol>\n<p><strong>Jag har tagit del av Mobile Stories regler och de lagar som gäller vid publiceringar på nätet.</strong></p>\n<p><em>Grattis! Du är nu elevpublicist och är en del av ett nätverk av unga som skapar genomarbetat innehåll för att inspirera, berätta, förklara, granska och göra skillnad. Lycka till!</em></p>\n",
     "typeOfArticle" : "legal"
-}
+}<Typography variant="body2">
+                    Master Article: {getFieldBoolean(selectedRevision, "masterArticle")}
+                  </Typography>
+                  <Typography variant="body2">
+                    Language: {getField(selectedRevision, "language")}
+                  </Typography>
+                  <Typography variant="body2">
+                    Status: {getField(selectedRevision, "status")}
+                  </Typography>
 */
 const DocumentRenderer = ({ contentNode, title, suppress, force }) => {
   const theme = useTheme();
@@ -104,23 +112,17 @@ const DocumentRenderer = ({ contentNode, title, suppress, force }) => {
 
   let matrixDataBlock1 = {
     labels: [
-      "Id",
-      "Version",
-      "Type of article",
+      "Master Article",
+      "Language",
+      "Status",
+      "Version"
     ],
     values: [
-      getField(contentNode, "_id"),
+      getFieldBoolean(contentNode, "masterArticle"),
+      getField(contentNode, "language"),
+      getField(contentNode, "status"),
       getField(contentNode, "version"),
-      getField(contentNode, "typeOfArticle"),
 
-    ],
-  };let matrixDataBlock2 = {
-    labels: ["Created by", "Updated by", "Created at", "Updated at"],
-    values: [
-      getField(contentNode, "createdBy"),
-      getField(contentNode, "updatedBy"),
-      getFieldDate(contentNode, "createdAt"),
-      getFieldDate(contentNode, "updatedAt"),
     ],
   };
 
@@ -132,17 +134,7 @@ const DocumentRenderer = ({ contentNode, title, suppress, force }) => {
         onClick={(event) => handleClick(event, contentNode._id)}
       >
         <MatrixRender data={matrixDataBlock1} />{" "}
-        <Divider
-          style={{
-            marginTop: 4,
-            marginBottom: 4,
-            borderTop: "dotted 1px",
-            borderColor: "rgba(128, 128, 128, 0.55)",
-          }}
-        />
-        <div>
-          <MatrixRender data={matrixDataBlock2} />
-        </div>
+       
         <Divider
           style={{
             marginTop: 4,

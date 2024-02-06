@@ -70,12 +70,7 @@ const rows = [
     disablePadding: false,
     label: "Workorder Id",
   },
-  {
-    id: "customerOrderId",
-    numeric: false,
-    disablePadding: false,
-    label: "Customer Order",
-  },
+  
   {
     id: "workorderclass",
     numeric: false,
@@ -484,11 +479,7 @@ class Searchlist extends React.Component {
                       <TableCell align="left">
                         <span style={{}}>{getField(item, "_id") || "-"}</span>
                       </TableCell>
-                      <TableCell align="left">
-                        <span style={{}}>
-                          {getField(item, "customerOrderId") || "-"}
-                        </span>
-                      </TableCell>
+                      
                       <TableCell align="left">
                         <span style={{}}>
                           {getField(item, "workorderclass") || "-"}

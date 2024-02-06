@@ -5,6 +5,14 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 const HtmlToMarkdownConverter = ({ initialHtml }) => {
+
+  // check if initialHtml is empty and if so, return an empty string
+  if (initialHtml === undefined || initialHtml === "" || initialHtml === null) {
+    return "";
+  } else {
+    console.log(initialHtml);
+  }
+
   const [markdown, setMarkdown] = useState("");
   const converter = new Showdown.Converter({
     tables: true,
