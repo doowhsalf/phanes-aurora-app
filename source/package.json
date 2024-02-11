@@ -1,6 +1,6 @@
 {
   "name": "neptune-pod",
-  "version": "0.5.13",
+  "version": "0.5.14",
   "version_focus": "Pod",
   "version_build_date": "20240211",
   "description": "Neptune POD - Mission Control Center",
