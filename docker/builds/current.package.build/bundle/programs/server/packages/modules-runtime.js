@@ -6,15 +6,15 @@ var global = Package.meteor.global;
 var meteorEnv = Package.meteor.meteorEnv;
 
 /* Package-scope variables */
-var makeInstaller, meteorInstall;
+var makeInstaller, imports, cannotFindMeteorPackage, meteorInstall, verifyErrors;
 
-///////////////////////////////////////////////////////////////////////////////
-//                                                                           //
-// packages/modules-runtime/.npm/package/node_modules/install/install.js     //
-// This file is in bare mode and is not in its own closure.                  //
-//                                                                           //
-///////////////////////////////////////////////////////////////////////////////
-                                                                             //
+//////////////////////////////////////////////////////////////////////////////////////
+//                                                                                  //
+// packages/modules-runtime/.npm/package/node_modules/install/install.js            //
+// This file is in bare mode and is not in its own closure.                         //
+//                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////
+                                                                                    //
 makeInstaller = function (options) {
   "use strict";
 
@@ -572,7 +572,7 @@ if (typeof exports === "object") {
   exports.makeInstaller = makeInstaller;
 }
 
-///////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -582,12 +582,106 @@ if (typeof exports === "object") {
 
 (function(){
 
-///////////////////////////////////////////////////////////////////////////////
-//                                                                           //
-// packages/modules-runtime/server.js                                        //
-//                                                                           //
-///////////////////////////////////////////////////////////////////////////////
-                                                                             //
+//////////////////////////////////////////////////////////////////////////////////////
+//                                                                                  //
+// packages/modules-runtime/errors/importsErrors.js                                 //
+//                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////
+                                                                                    //
+/**
+ *
+ * @param id{string}
+ * @return {{fromServer: (function(): Error), from: (function(location: string): boolean), fromClient: (function(): Error)}}
+ */
+imports = function (id) {
+  /**
+   *
+   * @param location{string}
+   * @return {boolean}
+   */
+  var from =
+    function (location) {
+      if (!id) {
+        return false;
+      }
+
+      // XXX: removed last part of path so that it does not trigger false positives
+      var path = String(id).split('/').slice(0, -1);
+
+      return path.some(function (subPath) {
+        return subPath === location;
+      });
+    };
+
+  var fromClientError =
+    function () {
+      return new Error(
+        'Unable to import on the server a module from a client directory: "' + id + '" \n (cross-boundary import) see: https://guide.meteor.com/structure.html#special-directories'
+      );
+    };
+
+
+  var fromServerError =
+    function () {
+      return new Error(
+        'Unable to import on the client a module from a server directory: "' + id + '" \n (cross-boundary import) see: https://guide.meteor.com/structure.html#special-directories'
+      );
+    };
+
+  return {
+    from: from,
+    fromClientError: fromClientError,
+    fromServerError: fromServerError
+  };
+};
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+}).call(this);
+
+
+
+
+
+
+(function(){
+
+//////////////////////////////////////////////////////////////////////////////////////
+//                                                                                  //
+// packages/modules-runtime/errors/cannotFindMeteorPackage.js                       //
+//                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////
+                                                                                    //
+/**
+ * @description Default error message for when a package is not found
+ * @param id{string}
+ * @return {Error}
+ */
+cannotFindMeteorPackage = function(id) {
+  var packageName = id.split('/', 2)[1];
+  return new Error(
+    'Cannot find package "' + packageName + '". ' +
+    'Try "meteor add ' + packageName + '".'
+  );
+};
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+}).call(this);
+
+
+
+
+
+
+(function(){
+
+//////////////////////////////////////////////////////////////////////////////////////
+//                                                                                  //
+// packages/modules-runtime/server.js                                               //
+//                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////
+                                                                                    //
 // Options that will be populated below and then passed to makeInstaller.
 var makeInstallerOptions = {};
 
@@ -618,7 +712,7 @@ makeInstallerOptions.fallback = function (id, parentId, error) {
       return Npm.require(id, error);
     }
   }
-
+  verifyErrors(id, parentId, error);
   throw error;
 };
 
@@ -638,35 +732,26 @@ var Module = meteorInstall.Module;
 Module.prototype.useNode = function () {
   if (typeof npmRequire !== "function") {
     // Can't use Node if npmRequire is not defined.
-    return false;
-  }
-
-  var parts = this.id.split("/");
-  var start = 0;
-  if (parts[start] === "") ++start;
-  if (parts[start] === "node_modules" &&
-      parts[start + 1] === "meteor") {
-    start += 2;
-  }
-
-  if (parts.indexOf("node_modules", start) < 0) {
-    // Don't try to use Node for modules that aren't in node_modules
-    // directories.
-    return false;
+    throw new Error('npmRequire must be defined to use useNode');
   }
 
   try {
     npmRequire.resolve(this.id);
   } catch (e) {
-    return false;
+    throw new Error(
+      `Cannot find module "${this.id}". ` +
+      `Try installing the npm package or make sure it is not a devDependency.`
+    );
   }
 
+  // See tools/static-assets/server/npm-require.js for the implementation
+  // of npmRequire. Note that this strategy fails when importing ESM
+  // modules (typically, a .js file in a package with "type": "module" in
+  // its package.json), as of Node 12.16.0 (Meteor 1.9.1).
   this.exports = npmRequire(this.id);
-
-  return true;
 };
 
-///////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
 
 }).call(this);
 
@@ -677,12 +762,12 @@ Module.prototype.useNode = function () {
 
 (function(){
 
-///////////////////////////////////////////////////////////////////////////////
-//                                                                           //
-// packages/modules-runtime/profile.js                                       //
-//                                                                           //
-///////////////////////////////////////////////////////////////////////////////
-                                                                             //
+//////////////////////////////////////////////////////////////////////////////////////
+//                                                                                  //
+// packages/modules-runtime/profile.js                                              //
+//                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////
+                                                                                    //
 if (typeof Profile === "function" &&
     process.env.METEOR_PROFILE) {
   var Mp = meteorInstall.Module.prototype;
@@ -691,14 +776,67 @@ if (typeof Profile === "function" &&
   }, Mp.require);
 }
 
-///////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+}).call(this);
+
+
+
+
+
+
+(function(){
+
+//////////////////////////////////////////////////////////////////////////////////////
+//                                                                                  //
+// packages/modules-runtime/verifyErrors.js                                         //
+//                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////
+                                                                                    //
+
+/**
+ *
+ * @param id{string}
+ * @param parentId{string}
+ * @param err {Error}
+ */
+verifyErrors = function (id, parentId,err)  {
+
+  if (id && id.startsWith('meteor/')) {
+    throw cannotFindMeteorPackage(id);
+  }
+
+  if(!(id.startsWith('.') || id.startsWith('/'))) {
+    throw err;
+  }
+
+  if (imports(id).from('node_modules')) {
+    // Problem with node modules
+    throw err;
+  }
+
+  // custom errors
+  if (Meteor.isServer && imports(id).from('client')) {
+    throw imports(id).fromClientError();
+  }
+  if (Meteor.isClient && imports(id).from('server')) {
+    throw imports(id).fromServerError();
+  }
+
+  if (err) {
+    throw err;
+  }
+};
+
+//////////////////////////////////////////////////////////////////////////////////////
 
 }).call(this);
 
 
 /* Exports */
 Package._define("modules-runtime", {
-  meteorInstall: meteorInstall
+  meteorInstall: meteorInstall,
+  verifyErrors: verifyErrors
 });
 
 })();

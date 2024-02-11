@@ -595,7 +595,7 @@ function fetchMissing(missingTree) {
   var disableLocationOriginIframe = dynamicImportSettings.disableLocationOriginIframe;
 
   if (useLocationOrigin && location && !(disableLocationOriginIframe && inIframe())) {
-    url = location.origin.concat(url);
+    url = location.origin.concat(__meteor_runtime_config__.ROOT_URL_PATH_PREFIX || '', url);
   } else {
     url = Meteor.absoluteUrl(url);
   }
@@ -670,7 +670,7 @@ exports.fetchURL = "/__meteor__/dynamic-import/fetch";
 // modules, for use in client.js and cache.js.
 var versions = {};
 
-const METEOR_PREFIX = '/node_modules/meteor/';
+var METEOR_PREFIX = '/node_modules/meteor/';
 
 exports.get = function (id) {
   var tree = versions;

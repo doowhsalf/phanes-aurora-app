@@ -4,7 +4,10 @@
   "load": [
     {
       "node_modules": "npm/node_modules/meteor/meteor/node_modules",
-      "path": "packages/meteor.js"
+      "path": "packages/meteor.js",
+      "assets": {
+        "meteor.d.ts": "assets/packages/meteor/meteor.d.ts"
+      }
     },
     {
       "path": "packages/meteor-base.js"
@@ -14,7 +17,10 @@
     },
     {
       "node_modules": "npm/node_modules/meteor/npm-mongo/node_modules",
-      "path": "packages/npm-mongo.js"
+      "path": "packages/npm-mongo.js",
+      "assets": {
+        "index.d.ts": "assets/packages/npm-mongo/index.d.ts"
+      }
     },
     {
       "path": "packages/ecmascript-runtime.js"
@@ -28,7 +34,10 @@
       "path": "packages/modules.js"
     },
     {
-      "path": "packages/modern-browsers.js"
+      "path": "packages/modern-browsers.js",
+      "assets": {
+        "modern.d.ts": "assets/packages/modern-browsers/modern.d.ts"
+      }
     },
     {
       "node_modules": "npm/node_modules/meteor/es5-shim/node_modules",
@@ -36,7 +45,10 @@
     },
     {
       "node_modules": "npm/node_modules/meteor/promise/node_modules",
-      "path": "packages/promise.js"
+      "path": "packages/promise.js",
+      "assets": {
+        "promise.d.ts": "assets/packages/promise/promise.d.ts"
+      }
     },
     {
       "node_modules": "npm/node_modules/meteor/ecmascript-runtime-client/node_modules",
@@ -63,7 +75,10 @@
     },
     {
       "node_modules": "npm/node_modules/meteor/fetch/node_modules",
-      "path": "packages/fetch.js"
+      "path": "packages/fetch.js",
+      "assets": {
+        "fetch.d.ts": "assets/packages/fetch/fetch.d.ts"
+      }
     },
     {
       "node_modules": "npm/node_modules/meteor/inter-process-messaging/node_modules",
@@ -78,7 +93,10 @@
     },
     {
       "sourceMap": "packages/ejson.js.map",
-      "path": "packages/ejson.js"
+      "path": "packages/ejson.js",
+      "assets": {
+        "ejson.d.ts": "assets/packages/ejson/ejson.d.ts"
+      }
     },
     {
       "sourceMap": "packages/diff-sequence.js.map",
@@ -93,7 +111,10 @@
     },
     {
       "sourceMap": "packages/random.js.map",
-      "path": "packages/random.js"
+      "path": "packages/random.js",
+      "assets": {
+        "random.d.ts": "assets/packages/random/random.d.ts"
+      }
     },
     {
       "sourceMap": "packages/mongo-id.js.map",
@@ -105,7 +126,10 @@
     },
     {
       "sourceMap": "packages/tracker.js.map",
-      "path": "packages/tracker.js"
+      "path": "packages/tracker.js",
+      "assets": {
+        "tracker.d.ts": "assets/packages/tracker/tracker.d.ts"
+      }
     },
     {
       "node_modules": "npm/node_modules/meteor/mongo-decimal/node_modules",
@@ -118,7 +142,10 @@
     },
     {
       "sourceMap": "packages/check.js.map",
-      "path": "packages/check.js"
+      "path": "packages/check.js",
+      "assets": {
+        "check.d.ts": "assets/packages/check/check.d.ts"
+      }
     },
     {
       "sourceMap": "packages/retry.js.map",
@@ -146,7 +173,11 @@
       "path": "packages/ddp-client.js"
     },
     {
-      "path": "packages/underscore.js"
+      "node_modules": "npm/node_modules/meteor/underscore/node_modules",
+      "path": "packages/underscore.js",
+      "assets": {
+        "underscore.d.ts": "assets/packages/underscore/underscore.d.ts"
+      }
     },
     {
       "sourceMap": "packages/rate-limit.js.map",
@@ -154,12 +185,21 @@
     },
     {
       "sourceMap": "packages/ddp-rate-limiter.js.map",
-      "path": "packages/ddp-rate-limiter.js"
+      "path": "packages/ddp-rate-limiter.js",
+      "assets": {
+        "ddp-rate-limiter.d.ts": "assets/packages/ddp-rate-limiter/ddp-rate-limiter.d.ts"
+      }
+    },
+    {
+      "path": "packages/typescript.js"
     },
     {
       "node_modules": "npm/node_modules/meteor/logging/node_modules",
       "sourceMap": "packages/logging.js.map",
-      "path": "packages/logging.js"
+      "path": "packages/logging.js",
+      "assets": {
+        "logging.d.ts": "assets/packages/logging/logging.d.ts"
+      }
     },
     {
       "sourceMap": "packages/routepolicy.js.map",
@@ -177,7 +217,10 @@
     {
       "node_modules": "npm/node_modules/meteor/webapp/node_modules",
       "sourceMap": "packages/webapp.js.map",
-      "path": "packages/webapp.js"
+      "path": "packages/webapp.js",
+      "assets": {
+        "webapp.d.ts": "assets/packages/webapp/webapp.d.ts"
+      }
     },
     {
       "path": "packages/audit-argument-checks.js"
@@ -188,7 +231,10 @@
       "path": "packages/ddp-server.js"
     },
     {
-      "path": "packages/ddp.js"
+      "path": "packages/ddp.js",
+      "assets": {
+        "ddp.d.ts": "assets/packages/ddp/ddp.d.ts"
+      }
     },
     {
       "sourceMap": "packages/allow-deny.js.map",
@@ -201,24 +247,26 @@
     {
       "node_modules": "npm/node_modules/meteor/mongo/node_modules",
       "sourceMap": "packages/mongo.js.map",
-      "path": "packages/mongo.js"
+      "path": "packages/mongo.js",
+      "assets": {
+        "mongo.d.ts": "assets/packages/mongo/mongo.d.ts"
+      }
     },
     {
-      "path": "packages/session.js"
+      "path": "packages/session.js",
+      "assets": {
+        "session.d.ts": "assets/packages/session/session.d.ts"
+      }
     },
     {
       "path": "packages/jquery.js"
     },
     {
       "sourceMap": "packages/reactive-dict.js.map",
-      "path": "packages/reactive-dict.js"
-    },
-    {
-      "path": "packages/reactive-var.js"
-    },
-    {
-      "node_modules": "npm/node_modules/meteor/kadira_flow-router/node_modules",
-      "path": "packages/kadira_flow-router.js"
+      "path": "packages/reactive-dict.js",
+      "assets": {
+        "reactive-dict.d.ts": "assets/packages/reactive-dict/reactive-dict.d.ts"
+      }
     },
     {
       "node_modules": "npm/node_modules/meteor/fortawesome_fontawesome/node_modules",
@@ -230,14 +278,21 @@
     },
     {
       "sourceMap": "packages/accounts-base.js.map",
-      "path": "packages/accounts-base.js"
+      "path": "packages/accounts-base.js",
+      "assets": {
+        "accounts-base.d.ts": "assets/packages/accounts-base/accounts-base.d.ts"
+      }
     },
     {
       "path": "packages/sha.js"
     },
     {
       "node_modules": "npm/node_modules/meteor/email/node_modules",
-      "path": "packages/email.js"
+      "sourceMap": "packages/email.js.map",
+      "path": "packages/email.js",
+      "assets": {
+        "email.d.ts": "assets/packages/email/email.d.ts"
+      }
     },
     {
       "node_modules": "npm/node_modules/meteor/accounts-password/node_modules",
@@ -312,19 +367,34 @@
       "path": "packages/static-html.js"
     },
     {
+      "path": "packages/zodern_types.js"
+    },
+    {
       "node_modules": "npm/node_modules/meteor/reywood_publish-composite/node_modules",
       "sourceMap": "packages/reywood_publish-composite.js.map",
       "path": "packages/reywood_publish-composite.js"
     },
     {
-      "path": "packages/fourseven_scss.js"
+      "path": "packages/reactive-var.js",
+      "assets": {
+        "reactive-var.d.ts": "assets/packages/reactive-var/reactive-var.d.ts"
+      }
     },
     {
-      "path": "packages/service-configuration.js"
+      "sourceMap": "packages/service-configuration.js.map",
+      "path": "packages/service-configuration.js",
+      "assets": {
+        "service-configuration.d.ts": "assets/packages/service-configuration/service-configuration.d.ts"
+      }
     },
     {
       "sourceMap": "packages/http.js.map",
       "path": "packages/http.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ostrio_flow-router-extra/node_modules",
+      "sourceMap": "packages/ostrio_flow-router-extra.js.map",
+      "path": "packages/ostrio_flow-router-extra.js"
     },
     {
       "path": "packages/hot-code-push.js"

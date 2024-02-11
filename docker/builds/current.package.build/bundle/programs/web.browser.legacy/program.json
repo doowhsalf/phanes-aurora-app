@@ -2,35 +2,55 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "c40bc0533c48cfcb7a5bbeda35b15da47337b5ed.js",
+      "path": "4a828810e0f4d4ca5c358767cb5a9b2bf45f15bb.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/c40bc0533c48cfcb7a5bbeda35b15da47337b5ed.js?meteor_js_resource=true",
+      "url": "/4a828810e0f4d4ca5c358767cb5a9b2bf45f15bb.js?meteor_js_resource=true",
       "replaceable": false,
-      "size": 7767871,
-      "hash": "c40bc0533c48cfcb7a5bbeda35b15da47337b5ed",
-      "sri": "EN8pp2lG1ac/5Fl8xinkwMwSMJGQjO4URJVzD204KUE0SotHtdQ1aTokeM+dEd5ePEVSVm+bqQVOaN3O0zFooA=="
+      "size": 20117039,
+      "hash": "4a828810e0f4d4ca5c358767cb5a9b2bf45f15bb",
+      "sri": "C+8FeoW8vA+MDbJ+RVXG0l48q1cQxVaBZ+z5xzFBfkEZDyrChXf8pxVsUEU2OyLWfhC6+offlCh4HQAk1aof6A=="
     },
     {
-      "path": "c40bc0533c48cfcb7a5bbeda35b15da47337b5ed.stats.json",
+      "path": "4a828810e0f4d4ca5c358767cb5a9b2bf45f15bb.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/c40bc0533c48cfcb7a5bbeda35b15da47337b5ed.stats.json?meteor_js_resource=true",
-      "size": 181293,
-      "hash": "a0313f98c22f23e712cf925247339359adc8948a",
-      "sri": "uE+zzqY6mUcmwe+EVr/tTrw+XnsjflYzkH8/kYV+x7IQWNE9TeEO7vCDokw8MKgl2lh92M1nfOSMoXe9gkAywQ=="
+      "url": "/4a828810e0f4d4ca5c358767cb5a9b2bf45f15bb.stats.json?meteor_js_resource=true",
+      "size": 723779,
+      "hash": "d9af03e3c955b15c55ced3ce5ed546a02bf95a29",
+      "sri": "aW9j5rzQ6k7kaxNIV1Uaek3YVHrcTaUAjOr+GFNQlTeccfYbOjiyxMeuYBZVJWAbJNO61iNCTVsN3TBraHiufg=="
     },
     {
-      "path": "9a27ed650ea2290c291a2ab9db899b77099370c0.css",
+      "path": "9bfe412163d4640209bac0e2210dd98960b3e0c2.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/9a27ed650ea2290c291a2ab9db899b77099370c0.css?meteor_css_resource=true",
-      "size": 49689,
-      "hash": "9a27ed650ea2290c291a2ab9db899b77099370c0",
-      "sri": "0QMDsUK93FB/BEuDNyqdaQbygwh0MwVas8lPVWzkCVw9kCXZMD6HefTytIYlHwQpV1FR+wbuZmrSSOAOU1IRQw=="
+      "url": "/9bfe412163d4640209bac0e2210dd98960b3e0c2.css?meteor_css_resource=true",
+      "size": 52413,
+      "hash": "9bfe412163d4640209bac0e2210dd98960b3e0c2",
+      "sri": "CN3Aq5EP9c/eq0anE5cTGmWA7XFwFRE77kmU9YUMvxMyYtfVJlL5nW70+DgHlbsWJmN7I2Sb8XEmz1OZLaVTMA=="
+    },
+    {
+      "path": "packages/promise/promise.d.ts",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/promise/promise.d.ts",
+      "size": 633,
+      "hash": "4aa461da7ad90c74a51ddfccc84b055fc0403119",
+      "sri": "6MVw86BmnkmTtXXlCxaH8k7xIUcMZK4O57Nnu82uI5MJT9Fbru7Yv71SuHx+giKUM9wkRs7WkpqPWjADS+U2qw=="
+    },
+    {
+      "path": "packages/tracker/tracker.d.ts",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/tracker/tracker.d.ts",
+      "size": 6096,
+      "hash": "93ebe1d7d6aed2b029129079014e3ebfd5e8bb8c",
+      "sri": "D7pwjdFz5YPTxAyDXrqMNZ9v65eWU+XZ8ASp8aLJaTSkoBScGaLOCxlnSzLKyfsYugreqjaynnaiUGpNhW/ldw=="
     },
     {
       "path": "packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.eot",
@@ -99,7 +119,7 @@
       "cacheable": false,
       "url": "/buildstuff/tri_build_meta.txt",
       "size": 130,
-      "hash": "e02c972103e828fa5194aed638eb84740ec5eac8",
+      "hash": "4c6cc70b4ab1e5c5c30507271e3457688e1d856f",
       "sri": null
     },
     {
@@ -109,7 +129,27 @@
       "cacheable": false,
       "url": "/buildstuff/tri_build_number.txt",
       "size": 11,
-      "hash": "001dd72b37e8bbca1e2df5885ae518a4e4e9c3e7",
+      "hash": "2bd93a5e7387210f39af3a407dd5b8a6c9ee6c84",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/EuroStyle Normal.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/EuroStyle Normal.woff",
+      "size": 17620,
+      "hash": "a5c22296fa60c07c4e5ec2b3267abad3f3770c13",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/eurostile.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/eurostile.woff",
+      "size": 21256,
+      "hash": "75e4b8434dadbbfbde77897974de43a4baf93532",
       "sri": null
     },
     {
@@ -163,13 +203,53 @@
       "sri": null
     },
     {
+      "path": "app/images/custom-gauge-panel.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/custom-gauge-panel.png",
+      "size": 13745,
+      "hash": "81e719c769ac8e16e9d80147181ff29a42d964c0",
+      "sri": null
+    },
+    {
+      "path": "app/images/dark_logo copy.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/dark_logo copy.png",
+      "size": 593357,
+      "hash": "06881484e692d706711d0eba46b2ceaa36fcd7dc",
+      "sri": null
+    },
+    {
       "path": "app/images/dark_logo.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
       "url": "/images/dark_logo.png",
-      "size": 28978,
-      "hash": "a99f1c1de035f425cc3d019bfcd68da3657540a8",
+      "size": 593357,
+      "hash": "06881484e692d706711d0eba46b2ceaa36fcd7dc",
+      "sri": null
+    },
+    {
+      "path": "app/images/dark_logo_variant1.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/dark_logo_variant1.png",
+      "size": 610032,
+      "hash": "1970c2ac9b1324eb59d57815ecb1dd24d64679cb",
+      "sri": null
+    },
+    {
+      "path": "app/images/light_logo-x.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/light_logo-x.png",
+      "size": 3239,
+      "hash": "f67b2ea1c5233941ef782d39b16c5d782ad4612f",
       "sri": null
     },
     {
@@ -178,8 +258,48 @@
       "type": "asset",
       "cacheable": false,
       "url": "/images/light_logo.png",
-      "size": 28978,
-      "hash": "a99f1c1de035f425cc3d019bfcd68da3657540a8",
+      "size": 593357,
+      "hash": "06881484e692d706711d0eba46b2ceaa36fcd7dc",
+      "sri": null
+    },
+    {
+      "path": "app/images/light_logo_variant1.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/light_logo_variant1.png",
+      "size": 610032,
+      "hash": "1970c2ac9b1324eb59d57815ecb1dd24d64679cb",
+      "sri": null
+    },
+    {
+      "path": "app/images/logo-light-old.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo-light-old.png",
+      "size": 2425,
+      "hash": "c210e538baeb123f9793a30fd7af7d8479914f9c",
+      "sri": null
+    },
+    {
+      "path": "app/images/logo-p-dark.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo-p-dark.png",
+      "size": 3736,
+      "hash": "6787b7618150fa81fc49003d74c3dc52dd5d7aa8",
+      "sri": null
+    },
+    {
+      "path": "app/images/phanes-white copy.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/phanes-white copy.png",
+      "size": 593357,
+      "hash": "06881484e692d706711d0eba46b2ceaa36fcd7dc",
       "sri": null
     },
     {
@@ -1170,6 +1290,56 @@
       "url": "/tri-flags/la.jpg",
       "size": 88978,
       "hash": "07b89f30820ec29c17c8ff6e0b394380667b5036",
+      "sri": null
+    },
+    {
+      "path": "app/tri-flags/lang-en-gb.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/tri-flags/lang-en-gb.jpg",
+      "size": 297487,
+      "hash": "0bac721059dfac8e8e2375e581359860312cddc5",
+      "sri": null
+    },
+    {
+      "path": "app/tri-flags/lang-fi.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/tri-flags/lang-fi.jpg",
+      "size": 50379,
+      "hash": "4dcc82f5e4ef8c9ae3cfda136a0a2258ede5e524",
+      "sri": null
+    },
+    {
+      "path": "app/tri-flags/lang-fr.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/tri-flags/lang-fr.jpg",
+      "size": 43758,
+      "hash": "c8715364d3589f11416a3f0fb666ec03c61ae7a3",
+      "sri": null
+    },
+    {
+      "path": "app/tri-flags/lang-ro.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/tri-flags/lang-ro.jpg",
+      "size": 46393,
+      "hash": "de69d767cc1cd94c406e367f369ab967fe2af376",
+      "sri": null
+    },
+    {
+      "path": "app/tri-flags/lang-sv.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/tri-flags/lang-sv.jpg",
+      "size": 25760,
+      "hash": "2b4441d369bc55ff07d21d96acd4bfa6757c25a0",
       "sri": null
     },
     {
@@ -2203,41 +2373,61 @@
       "sri": null
     },
     {
-      "path": "app/images/stockholmshem/dark_logo.png",
+      "path": "app/images/archive/dark_log_x.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/images/stockholmshem/dark_logo.png",
+      "url": "/images/archive/dark_log_x.png",
+      "size": 56504,
+      "hash": "148fe78f36fec5152f2e4bbd7dff745e342c15dc",
+      "sri": null
+    },
+    {
+      "path": "app/images/archive/light_logo_x.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/archive/light_logo_x.png",
+      "size": 56504,
+      "hash": "148fe78f36fec5152f2e4bbd7dff745e342c15dc",
+      "sri": null
+    },
+    {
+      "path": "app/images/archive/stockholmshem/dark_logo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/archive/stockholmshem/dark_logo.png",
       "size": 28978,
       "hash": "a99f1c1de035f425cc3d019bfcd68da3657540a8",
       "sri": null
     },
     {
-      "path": "app/images/stockholmshem/light_logo.png",
+      "path": "app/images/archive/stockholmshem/light_logo.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/images/stockholmshem/light_logo.png",
+      "url": "/images/archive/stockholmshem/light_logo.png",
       "size": 28978,
       "hash": "a99f1c1de035f425cc3d019bfcd68da3657540a8",
       "sri": null
     },
     {
-      "path": "app/images/sunwheel/dark_logo.png",
+      "path": "app/images/archive/sunwheel/dark_logo.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/images/sunwheel/dark_logo.png",
+      "url": "/images/archive/sunwheel/dark_logo.png",
       "size": 23345,
       "hash": "6dac023e90e438337985c208a5da338dc47a937c",
       "sri": null
     },
     {
-      "path": "app/images/sunwheel/light_logo.png",
+      "path": "app/images/archive/sunwheel/light_logo.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/images/sunwheel/light_logo.png",
+      "url": "/images/archive/sunwheel/light_logo.png",
       "size": 23345,
       "hash": "6dac023e90e438337985c208a5da338dc47a937c",
       "sri": null
