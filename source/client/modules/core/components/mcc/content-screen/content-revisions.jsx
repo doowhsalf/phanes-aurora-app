@@ -10,6 +10,7 @@ import {
   Paper,
 } from "@mui/material";
 import TimeAgoLive from "../../fields/timeagolive/timeagolive";
+import LanguageAvatar from "./languageAvatar";
 
 const DocumentRevisions = ({ contentNode, onSelect }) => {
   const handleRequestSort = (property) => {
@@ -61,7 +62,7 @@ const DocumentRevisions = ({ contentNode, onSelect }) => {
       <Table>
         <TableHead>
           <TableRow>
-            {["Version", "Language", "Status", "UpdatedAt"].map((headCell) => (
+            {["Version", "Language", "Translation status", "Updated At"].map((headCell) => (
               <TableCell
                 key={headCell}
                 sortDirection={orderBy === headCell ? order : false}
@@ -86,8 +87,10 @@ const DocumentRevisions = ({ contentNode, onSelect }) => {
                 onClick={() => handleRowClick(revision)}
               >
                 <TableCell>{revision.version}</TableCell>
-                <TableCell>{revision.language}</TableCell>
-                <TableCell>{revision.status}</TableCell>
+                <TableCell>
+                  <LanguageAvatar languageCode={revision.language} small />
+                </TableCell>
+                <TableCell>{revision.translationStatus}</TableCell>
                 <TableCell>
                   <TimeAgoLive
                     dateToProcess={formatTimeAgo(revision.updatedAt)}

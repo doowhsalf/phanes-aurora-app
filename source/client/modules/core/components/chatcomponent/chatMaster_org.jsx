@@ -112,7 +112,7 @@ const styles = (theme) => ({
       ", rgba(0, 0, 0, 0)) 1 100%",
     margin: 0,
     padding: theme.spacing(0),
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('lg')]: {
       display: "none",
     },
     [theme.breakpoints.up("sm")]: {
@@ -143,7 +143,7 @@ const styles = (theme) => ({
     bottom: 1,
     padding: theme.spacing(1),
     paddingBottom: 0,
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('lg')]: {
       width: "100%",
     },
     [theme.breakpoints.up("sm")]: {

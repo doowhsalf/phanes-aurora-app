@@ -10,11 +10,11 @@ import {
 } from "/debug.json";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { withStyles } from "@material-ui/core/styles";
-import Link from "@material-ui/core/Link";
-import LinkIcon from "@material-ui/icons/Link";
-import Typography from "@material-ui/core/Typography";
-import { alpha } from "@material-ui/core/styles/colorManipulator";
+import { alpha } from "@mui/material/styles";
+import withStyles from '@mui/styles/withStyles';
+import Link from "@mui/material/Link";
+import LinkIcon from "@mui/icons-material/Link";
+import Typography from "@mui/material/Typography";
 
 const styles = (theme) => ({
   overlayCss: {

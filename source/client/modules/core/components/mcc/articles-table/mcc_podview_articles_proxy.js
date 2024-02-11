@@ -40,7 +40,19 @@ export const composer = ({ context, searchText }, onData) => {
         //     : "";
         // let nameSearch = article.name.en !== undefined ? article.name.en : "";
 
-        const searchString = `${article._id} ${article.ingress} ${article.status} ${article.status} ${article.languge} ${article.originalLanguage} ${article.originalLanguage} ${article.title} ${article.title} ${article.body} ${article.body} ${article.subheader} ${article.subheader} ${article.weight} ${article.weight} ${article.articleCode} ${article.articleCode} ${article.typeOfArticle} ${article.typeOfArticle} ${article.contentType} ${article.contentType} ${article._id} ${article._id} ${article.nid} `;
+        // create a search string from revision data add add it to the search string
+        var revisionSearch = "";
+        if (article.revisions !== undefined) {
+          article.revisions.forEach((revision) => {
+            revisionSearch += revision.description;
+            revisionSearch += revision.title;
+            revisionSearch += revision.body;
+            revisionSearch += revision.subheader;
+            revisionSearch += revision.summary;
+          });
+        }
+
+        const searchString = `${revisionSearch} ${article._id} ${article.ingress} ${article.status} ${article.status} ${article.languge} ${article.originalLanguage} ${article.originalLanguage} ${article.title} ${article.title} ${article.body} ${article.body} ${article.subheader} ${article.subheader} ${article.weight} ${article.weight} ${article.articleCode} ${article.articleCode} ${article.typeOfArticle} ${article.typeOfArticle} ${article.contentType} ${article.contentType} ${article._id} ${article._id} ${article.nid} `;
         return regex.test(searchString);
       });
       return filtered;

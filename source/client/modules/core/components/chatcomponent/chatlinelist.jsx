@@ -68,7 +68,7 @@ const styles = (theme) => ({
   },
   chatlineText: {
     zIindex: +1,
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('lg')]: {
       marginBottom: theme.spacing(8),
     },
     [theme.breakpoints.up("sm")]: {
@@ -132,7 +132,7 @@ const styles = (theme) => ({
     // marginRight: theme.spacing(2),
     float: "right",
     color: "white",
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('lg')]: {
       marginLeft: "20%",
       float: "right",
       marginRight: theme.spacing(2),

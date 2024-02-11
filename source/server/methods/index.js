@@ -12,7 +12,7 @@ import nodes from "./nodes";
 import chatrooms from "./chatrooms";
 import events from "./events";
 import workorders from "./workorders";
-
+import notices from "./notices";
 export default function() {
   _users();
   chatlinelists();
@@ -27,4 +27,5 @@ export default function() {
   chatrooms();
   events();
   workorders();
+  notices();
 }

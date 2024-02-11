@@ -76,29 +76,37 @@ const rows = [
     disablePadding: false,
     label: "Title",
   },
+
   {
-    id: "updatedAt",
+    id: "masterLanguage",
     numeric: false,
     disablePadding: false,
-    label: "Ingress",
+    label: "Master language",
   },
   {
-    id: "language",
+    id: "version",
     numeric: false,
     disablePadding: false,
-    label: "Language",
+    label: "Version",
   },
   {
-    id: "revision",
+    id: "publish_status",
     numeric: false,
     disablePadding: false,
-    label: "Revision",
+    label: "Publishs",
   },
   {
     id: "status",
     numeric: false,
     disablePadding: false,
     label: "Status",
+  },
+
+  {
+    id: "updatedAt",
+    numeric: false,
+    disablePadding: false,
+    label: "Ingress",
   },
 ];
 
@@ -122,18 +130,22 @@ class SearchlistHead extends React.Component {
       case "title":
         label = i18n.__("Label_podview_articles_master_title");
         break;
-      case "updatedAt":
-        label = i18n.__("Label_podview_articles_master_updatedAt");
-        break;
-      case "language":
+      case "masterLanguage":
         label = i18n.__("Label_podview_articles_master_language");
         break;
-
-      case "revision":
-        label = i18n.__("Label_podview_articles_master_revision");
+      case "version":
+        label = i18n.__("Label_podview_articles_master_version");
         break;
+
       case "status":
         label = i18n.__("Label_podview_articles_master_status");
+        break;
+
+      case "publish_status":
+        label = i18n.__("Label_podview_articles_master_publish_status");
+        break;
+      case "updatedAt":
+        label = i18n.__("Label_podview_articles_master_updatedAt");
         break;
 
       default:
@@ -407,6 +419,23 @@ class Searchlist extends React.Component {
     DEFCON5 && console.log(this.state);
     DEFCON5 && console.log(this.props);
     DEFCON5 && console.log(nodeConfigs);
+
+    nodeConfigs.forEach((article) => {
+      DEFCON5 && console.log(article);
+      if (nodeConfigs.revisions !== undefined) {
+        article.revisions.forEach((revision) => {
+          // check if masterLanguage is equal to the language of the revision and then set the title to the revision title
+          if (article.mainLanguage === revision.language) {
+            article.title = revision.title;
+          }
+        });
+      }
+    });
+
+    DEFCON5 && console.log(nodeConfigs);
+
+    // in the table we shall use the mainLanguage field to set the title of the article that is in the revision-table
+
     /* 
    {
     "_id" : "chilled_water_system",
@@ -456,6 +485,20 @@ class Searchlist extends React.Component {
                       : n.status === "review"
                       ? classes.tableRowSuspenced
                       : classes.tableRowRequested;
+                  // get the revision title if the mainLanguage is equal to the revision language
+                  let renderTitle = "-"; // Default value
+                  DEFCON5 && console.log(n.masterLanguage);
+
+                  for (const revision of n.revisions) {
+                    DEFCON5 && console.log(revision.language);
+                    if (n.masterLanguage === revision.language) {
+                      renderTitle = revision.title;
+                      break; // Exit the loop once the matching language is found
+                    }
+                  }
+
+                  DEFCON5 && console.log(renderTitle);
+                  renderTitle = renderTitle || "-"; // This line might be redundant if '-' is already the default
 
                   return (
                     <TableRow
@@ -478,27 +521,34 @@ class Searchlist extends React.Component {
                       </TableCell>
                       <TableCell align="left">
                         <span className={classNames(textColorClass)}>
-                          {getField(n, "title") || "-"}
+                          {renderTitle}
                         </span>
                       </TableCell>
                       <TableCell align="left">
                         <span className={classNames(textColorClass)}>
-                          {getFieldDate(n, "updatedAt") || "-"}
+                          {getField(n, "masterLanguage") || "-"}
                         </span>
                       </TableCell>
                       <TableCell align="left">
                         <span className={classNames(textColorClass)}>
-                          {getField(n, "language") || "-"}
+                          {getFieldDate(n, "version") || "-"}
                         </span>
                       </TableCell>
+
                       <TableCell align="left">
                         <span className={classNames(textColorClass)}>
-                          {getField(n, "revision") || "-"}
+                          {getField(n, "publish_status") || "-"}
                         </span>
                       </TableCell>
                       <TableCell align="left">
                         <span className={classNames(textColorClass)}>
                           {getField(n, "status") || "-"}
+                        </span>
+                      </TableCell>
+
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getFieldDate(n, "updatedAt") || "-"}
                         </span>
                       </TableCell>
                     </TableRow>

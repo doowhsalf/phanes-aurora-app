@@ -1,6 +1,6 @@
 import { createTheme, adaptV4Theme } from "@mui/material/styles";
 
-export default createTheme({
+export default createTheme(adaptV4Theme({
   palette: {
     primary: {
       main: "#0ff", // Neon cyan for a more futuristic look
@@ -64,4 +64,4 @@ export default createTheme({
     },
     // ... Additional component style overrides if needed
   },
-});
+}));

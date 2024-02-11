@@ -10,7 +10,12 @@ const baseUrl = "https://julietr2.mobilestories.se";
 // Service endpoint for REST Server provided by the Drupal Services module
 //const serviceEndpoint = "/neptune_user/node";
 const serviceEndpoint = "/oberon_user/node";
-
+const availableLanguages = [
+  { code: "EN-GB", label: "English" },
+  { code: "SV", label: "Swedish" },
+  { code: "FI", label: "Finnish" },
+  { code: "RO", label: "Romanian" },
+];
 const languages = [
   {
     language: "BG",
@@ -288,6 +293,7 @@ const convertXmlToJsonAndSave = async () => {
         modifiedNode["updatedAt"] = new Date().toISOString();
         modifiedNode["createdBy"] = "system";
         modifiedNode["updatedBy"] = "system";
+        modifiedNode["languages"] = availableLanguages;
         // modifiedNode["contentType"] = modifiedNode["type"]; //=== "article" ? "article" : "article";
         // modifiedNode["typeOfArticle"] = modifiedNode["type-of-article"];
         // if (modifiedNode["contentType"] === "article")
@@ -305,6 +311,13 @@ const convertXmlToJsonAndSave = async () => {
         // modifiedNode["language"] = modifiedNode["language"]
         //   ? modifiedNode["language"].toLowerCase()
         //   : "en";
+        const masterLanguage =
+          originalLanguage === "Swedish"
+            ? "SV"
+            : originalLanguage === "English"
+            ? "EN-GB"
+            : "EN-GB";
+
         modifiedNode["language"] =
           originalLanguage === "Swedish"
             ? "SV"
@@ -324,27 +337,26 @@ const convertXmlToJsonAndSave = async () => {
             modifiedNode["languageName"] = lang.name;
             console.log("match lang.language", lang.language);
           }
-
         });
+        modifiedNode["masterLanguage"] = masterLanguage;
 
         // _id to nid
         modifiedNode["_id"] = modifiedNode["nid"];
         // create a field called status that is set to "approved" if the node is approved or "draft" if it is not. Default is draft and shall be set now for all nodes
-        modifiedNode["status"] = "draft";
-
+        modifiedNode["status"] = 'active'
+        modifiedNode["publish_status"] = "draft";
         // create a revision array with the first revision as the original node in order to keep track of all revisions
         // set article to master if the language is Swedish
         modifiedNode["revisions"] = [
           {
-            masterArticle: modifiedNode["language"] === 'SV' ? true : false,
             createdAt: modifiedNode["createdAt"],
             createdBy: modifiedNode["createdBy"],
             updatedAt: modifiedNode["updatedAt"],
             updatedBy: modifiedNode["updatedBy"],
             version: modifiedNode["version"],
             status: modifiedNode["status"],
+            published_status: modifiedNode["published_status"],
             language: modifiedNode["language"],
-            originalLanguage: modifiedNode["originalLanguage"],
             languageName: modifiedNode["languageName"],
             title: modifiedNode["title"],
             body: modifiedNode["body"],
@@ -352,8 +364,34 @@ const convertXmlToJsonAndSave = async () => {
             summary: modifiedNode["summary"],
             weight: modifiedNode["weight"],
             articleCode: modifiedNode["articleCode"],
+            translationStatus: "translated",
           },
         ];
+
+        // now create a new revision for each language that is not the original language
+        availableLanguages.forEach((lang) => {
+          if (lang.code !== modifiedNode["language"]) {
+            modifiedNode["revisions"].push({
+              createdAt: modifiedNode["createdAt"],
+              createdBy: modifiedNode["createdBy"],
+              updatedAt: modifiedNode["updatedAt"],
+              updatedBy: modifiedNode["updatedBy"],
+              version: modifiedNode["version"],
+              status: modifiedNode["status"],
+              published_status: modifiedNode["published_status"],
+              language: lang.code,
+              languageName: lang.label,
+              title: "",
+              body: "",
+              subheader: "",
+              summary: "",
+              weight: 0,
+              articleCode: modifiedNode["articleCode"],
+              translationStatus: "pending",
+            });
+          }
+        });
+
         if (node["node"]) {
           modifiedNode.body = htmlToMarkdown(node["node"][0]);
         }
@@ -366,7 +404,7 @@ const convertXmlToJsonAndSave = async () => {
       delete modifiedNode["language"];
       delete modifiedNode["originalLanguage"];
       delete modifiedNode["languageName"];
-      delete modifiedNode["status"];
+      delete modifiedNode["masterArticle"];
 
       return modifiedNode;
     });

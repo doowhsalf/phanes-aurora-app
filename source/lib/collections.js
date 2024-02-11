@@ -12,6 +12,10 @@ import {
 export const Users = new Mongo.Collection("Users");
 
 export const SystemConfig = new Mongo.Collection("systemconfig");
+export const ActionLog = new Mongo.Collection("actionLog");
+export const TextsVersions = new Mongo.Collection("textsversions");
+export const Notices = new Mongo.Collection("notices");
+export const NoticesUserStatus = new Mongo.Collection("notices_userstatus");
 
 export const ChatLines = new Mongo.Collection("chatlines");
 export const ChatRooms = new Mongo.Collection("chatrooms");

@@ -32,7 +32,7 @@ cd $rootFolder
 gittag="$(git log -1 --pretty=%h)"
 echo $gittag
 cd docker
-docker build --rm -f "dockerfile" -t tritonite/neptune-pod-app:latest -t tritonite/neptune-pod-app:$versionNumber .
+docker build --rm -f "dockerfile" -t tritonite/aurora-pod-app:latest -t tritonite/aurora-pod-app:$versionNumber .
 cd $rootFolder
 echo "Gittab"
 echo $gittag
@@ -42,5 +42,5 @@ echo $versionNumber
 # git tag -a v$versionNumber -m "Autotagged new version to v$versionNumber"
 git push origin master
 cat ~/.docker/stuff.txt | docker login --username doowhsalf --password-stdin
-docker push tritonite/neptune-pod-app:$versionNumber
-docker push tritonite/neptune-pod-app:latest
+docker push tritonite/aurora-pod-app:$versionNumber
+docker push tritonite/aurora-pod-app:latest

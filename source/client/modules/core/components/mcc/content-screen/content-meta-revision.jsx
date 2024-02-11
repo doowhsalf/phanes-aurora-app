@@ -8,6 +8,7 @@ import MatrixRender from "../matrix_render";
 import Divider from "@mui/material/Divider";
 import TimeAgoLive from "../../fields/timeagolive/timeagolive";
 import { Avatar } from "@mui/material";
+import LanguageAvatar from "./languageAvatar";
 
 import {
   DEFCON9,
@@ -19,7 +20,11 @@ import {
   DEFCON1,
 } from "/debug.json";
 import CardHeader from "@mui/material";
-import { getField, getFieldBoolean, getFieldDate } from "../../helpers/getField";
+import {
+  getField,
+  getFieldBoolean,
+  getFieldDate,
+} from "../../helpers/getField";
 
 /*
 /* the documemnt 
@@ -111,18 +116,12 @@ const DocumentRenderer = ({ contentNode, title, suppress, force }) => {
   );
 
   let matrixDataBlock1 = {
-    labels: [
-      "Master Article",
-      "Language",
-      "Status",
-      "Version"
-    ],
+    labels: ["Master Article", "Language", "Status", "Version"],
     values: [
       getFieldBoolean(contentNode, "masterArticle"),
-      getField(contentNode, "language"),
+      <LanguageAvatar languageCode={contentNode.language} small />,
       getField(contentNode, "status"),
       getField(contentNode, "version"),
-
     ],
   };
 
@@ -134,7 +133,6 @@ const DocumentRenderer = ({ contentNode, title, suppress, force }) => {
         onClick={(event) => handleClick(event, contentNode._id)}
       >
         <MatrixRender data={matrixDataBlock1} />{" "}
-       
         <Divider
           style={{
             marginTop: 4,

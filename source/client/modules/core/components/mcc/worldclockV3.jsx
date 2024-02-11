@@ -12,14 +12,14 @@ const styles = (theme) => ({
     fontFamily: "Poppins",
 
     marginTop: -28,
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       marginTop: -26,
     },
   },
   clock: {
     fontFamily: "Poppins",
 
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       fontSize: "2rem",
     },
   },
@@ -30,7 +30,7 @@ const styles = (theme) => ({
   title: {
     fontFamily: "Poppins",
 
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       fontSize: "1rem",
     },
     [theme.breakpoints.up("md")]: {
@@ -47,14 +47,14 @@ const styles = (theme) => ({
   },
   text1: {
     color: "white",
-    [theme.breakpoints.down('sm')]: { paddingTop: 0, fontSize: "1rem" },
+    [theme.breakpoints.down('md')]: { paddingTop: 0, fontSize: "1rem" },
   },
   text2: {
     fontFamily: "Poppins",
 
     paddingTop: 22,
     paddingLeft: 4,
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('md')]: {
       paddingTop: 0,
       paddingLeft: 4,
       fontSize: "1rem",

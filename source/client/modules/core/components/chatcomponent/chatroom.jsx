@@ -133,7 +133,7 @@ export default function ResponsiveDrawer(props) {
             {drawer}
           </Drawer>
         </Hidden>
-        <Hidden mdDown implementation="css">
+        <Hidden lgDown implementation="css">
           <Drawer
             classes={{
               paper: classes.drawerPaper,

@@ -88,6 +88,7 @@
     "react-trianglify": "^3.0.3",
     "react-world-flags": "^1.5.1",
     "require": "^2.4.20",
+    "rss-parser": "^3.13.0",
     "showdown": "^2.1.0",
     "tcomb-form": "^0.9.21",
     "throttle-debounce": "^1.0.1",

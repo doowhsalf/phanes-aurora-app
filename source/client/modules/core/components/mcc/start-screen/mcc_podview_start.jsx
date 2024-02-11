@@ -8,7 +8,7 @@ import SunburstDynamic from "../sunburst_dynamic";
 import GraphDynamic from "../graph_dynamic";
 import GraphDynamicFunction from "../graph_dynamic_function";
 import Typography from "@mui/material/Typography";
-
+import Notices from "../../notices/notices"
 import {
   DEFCON9,
   DEFCON7,
@@ -40,11 +40,11 @@ export default function FullWidthGrid() {
 
       <Grid container spacing={3}>
         <Grid item xs={4}>
-          <SunburstDynamic
-            
-          ></SunburstDynamic>
+          <SunburstDynamic></SunburstDynamic>
         </Grid>
-        
+        <Grid item xs={4}>
+          <Notices></Notices>
+        </Grid>
       </Grid>
     </div>
   );

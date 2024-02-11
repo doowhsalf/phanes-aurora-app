@@ -5,7 +5,7 @@ import secrets from "./secrets";
 import articles from "./articles";
 import contents from "./contents";
 import workorders from "./workorders";
-
+import notices from "./notices";
 import mcc from "./mcc_config";
 export default function () {
   _users();
@@ -16,4 +16,5 @@ export default function () {
   mcc();
   contents();
   workorders();
+  notices();
 }
