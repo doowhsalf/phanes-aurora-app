@@ -7322,11 +7322,11 @@ module.exports = {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                                                                     //
 module.exports = {
-  "name": "neptune-pod",
-  "version": "0.5.16",
+  "name": "aurora",
+  "version": "0.5.17",
   "version_focus": "Pod",
   "version_build_date": "20240212",
-  "description": "Neptune POD - Mission Control Center",
+  "description": "Aurora POD - Translation and Localization Management System",
   "scripts": {
     "lint": "eslint ./lib ./client ./server --ext .js --ext .jsx",
     "lintfix": "npm run lint -- --fix",
