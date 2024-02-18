@@ -7323,7 +7323,7 @@ module.exports = {
                                                                                                                     //
 module.exports = {
   "name": "aurora",
-  "version": "0.5.18",
+  "version": "0.5.19",
   "version_focus": "Pod",
   "version_build_date": "20240219",
   "description": "Aurora POD - Translation and Localization Management System",
