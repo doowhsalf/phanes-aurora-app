@@ -11,6 +11,16 @@ import {
 } from "@mui/material";
 import TimeAgoLive from "../../fields/timeagolive/timeagolive";
 import LanguageAvatar from "./languageAvatar";
+import ChangeRevisionLanguage from "./changeRevisionLanguage/content-update-RevisionLanguage-proxy";
+import EditContent from "./editContent/content-update-editContent-proxy";
+import {
+  getField,
+  getFieldObject,
+  getFieldDate,
+  getFieldDateTime,
+  getFieldBoolean,
+} from "../../helpers/getField";
+
 
 const DocumentRevisions = ({ contentNode, onSelect }) => {
   const handleRequestSort = (property) => {
@@ -62,7 +72,15 @@ const DocumentRevisions = ({ contentNode, onSelect }) => {
       <Table>
         <TableHead>
           <TableRow>
-            {["Version", "Language", "Translation status", "Updated At"].map((headCell) => (
+            {[
+              "Version",
+              "Language",
+              "Update mode",
+              "Translation status",
+              "Updated At",
+              "Edit ",
+              "Switch language",
+            ].map((headCell) => (
               <TableCell
                 key={headCell}
                 sortDirection={orderBy === headCell ? order : false}
@@ -90,10 +108,32 @@ const DocumentRevisions = ({ contentNode, onSelect }) => {
                 <TableCell>
                   <LanguageAvatar languageCode={revision.language} small />
                 </TableCell>
+                <TableCell>{getField(revision, "updateMode")}</TableCell>
                 <TableCell>{revision.translationStatus}</TableCell>
                 <TableCell>
                   <TimeAgoLive
                     dateToProcess={formatTimeAgo(revision.updatedAt)}
+                  />
+                </TableCell>
+                {/* make edit possible if the revision langauge is equal with the masterlanguage */}
+                <TableCell>
+                  {revision.language === contentNode.masterLanguage ? (
+                    <EditContent
+                      contentId={contentNode._id}
+                      content={revision}
+                      revisionIndex={index}
+                    ></EditContent>
+                  ) : null}
+                </TableCell>
+                <TableCell>
+                  <ChangeRevisionLanguage
+                    contentId={contentNode._id}
+                    currentLanguage={revision.language}
+                    languages={contentNode.languages}
+                    onLanguageChange={(newLanguage) => {
+                      console.log("newLanguage", newLanguage);
+                    }}
+                    revisonIndex={index}
                   />
                 </TableCell>
               </TableRow>

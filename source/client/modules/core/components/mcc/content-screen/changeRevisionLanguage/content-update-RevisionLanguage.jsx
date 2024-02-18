@@ -9,7 +9,6 @@ import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import LanguageAvatar from "../languageAvatar"; // Adjust the import path as needed
 import Box from "@mui/material/Box";
-import IconButton from "@mui/material/IconButton";
 
 const ChangeMasterLanguageDialog = ({
   contentId,
@@ -18,6 +17,7 @@ const ChangeMasterLanguageDialog = ({
   languages,
   currentLanguage,
   onChange,
+  revisonIndex,
 }) => {
   const [selectedLanguage, setSelectedLanguage] = useState(currentLanguage);
 
@@ -30,19 +30,26 @@ const ChangeMasterLanguageDialog = ({
 
     /*  "content.update": function (_id, fieldsToUpdate) { */
     // call the meteor method to set the new masterLanguage
-    const fieldsToUpdate = { masterLanguage: selectedLanguage };
+    const fieldsToUpdate = {
+      [`revisions.${revisonIndex}.language`]: selectedLanguage,
+    };
 
-    Meteor.call("content.update", contentId, "Master langue", fieldsToUpdate);
+    Meteor.call(
+      "content.update",
+      contentId,
+      "Revision language",
+      fieldsToUpdate
+    );
     onClose(); // Close dialog after changing the language
   };
 
   return (
     <Dialog open={open} onClose={onClose}>
-      <DialogTitle>Change Master Language</DialogTitle>
+      <DialogTitle>Change Revision Language</DialogTitle>
       <DialogContent>
         <RadioGroup
-          aria-label="master-language"
-          name="master-language"
+          aria-label="revision-language"
+          name="revision-language"
           value={selectedLanguage}
           onChange={handleLanguageChange}
           sx={{

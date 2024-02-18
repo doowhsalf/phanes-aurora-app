@@ -1,17 +1,25 @@
 import React, { useState } from "react";
-import Button from "@mui/material/Button";
-import ChangeMasterLanguageDialog from "./content-update-masterLanguage"; // Adjust the import path as needed
+import IconButton from "@mui/material/IconButton";
+import EditIcon from "@mui/icons-material/Edit"; // or UpdateIcon for a different style
 import LanguageIcon from "@mui/icons-material/Language";
-import IconButton from "@mui/material/IconButton"; // This seems unused based on the current code snippet
+import ChangeLanguageDialog from "./content-update-RevisionLanguage"; // Adjust the import path as needed
 
-// This proxy component receives the current language, available languages, and a callback function to handle the language change
 const ChangeMasterLanguageProxy = ({
   contentId,
   currentLanguage,
   languages,
   onLanguageChange,
+  revisonIndex,
 }) => {
   const [dialogOpen, setDialogOpen] = useState(false);
+
+  // print all the props to the console
+  console.log("currentLanguage", currentLanguage);
+  console.log("languages", languages);
+  //console.log("onLanguageChange", onLanguageChange);
+  console.log("revisonIndex", revisonIndex);
+
+
 
   const handleOpenDialog = () => {
     setDialogOpen(true);
@@ -23,19 +31,20 @@ const ChangeMasterLanguageProxy = ({
 
   return (
     <>
-      <Button
-        variant="outlined"
+      <IconButton
         onClick={handleOpenDialog}
-        startIcon={<LanguageIcon />}
+        aria-label="change revision language"
       >
-        Change Master Language
-      </Button>
-      <ChangeMasterLanguageDialog
+        <LanguageIcon />
+        {/* Replace EditIcon with UpdateIcon or any other icon as needed */}
+      </IconButton>
+      <ChangeLanguageDialog
         contentId={contentId}
         open={dialogOpen}
         onClose={handleCloseDialog}
         languages={languages}
         currentLanguage={currentLanguage}
+        revisonIndex={revisonIndex}
         onChange={(newLanguage) => {
           onLanguageChange(newLanguage);
           handleCloseDialog();

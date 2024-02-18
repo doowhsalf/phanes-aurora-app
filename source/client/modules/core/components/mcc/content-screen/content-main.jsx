@@ -40,7 +40,7 @@ import Revisions from "./content-revisions";
 import Translations from "./content-translations";
 import LanguageAvatar from "./languageAvatar";
 import ChangeMasterLanguageProxy from "./changeMasterLanguage/content-update-masterLanguage-proxy";
-
+import UpdateStatusToArchiveOrActive from "./archiveContent/content-update-archiveContent-proxy";
 function ContentScreen(data) {
   const [showContent, setShowContent] = React.useState(false);
 
@@ -94,6 +94,12 @@ function ContentScreen(data) {
         <Typography variant="h4" gutterBottom>
           Content screen
         </Typography>
+        {/* make a label if the content is archived, set color to error light */}
+        {getField(data.contentNode, "status") === "archived" && (
+          <Typography variant="h6" gutterBottom color="error.light">
+            Please not that this content is archived
+          </Typography>
+        )}
 
         <Grid container spacing={2}>
           <Grid item xs={12}>
@@ -116,17 +122,14 @@ function ContentScreen(data) {
               />
               <RequestTranslationOrder
                 order={data.contentNode}
-                
               ></RequestTranslationOrder>
-              <Button variant="outlined" color="primary">
-                Change status
-              </Button>
+              <UpdateStatusToArchiveOrActive
+                contentId={data.contentNode._id}
+                status={data.contentNode.status}
+              ></UpdateStatusToArchiveOrActive>
+
               <Button variant="outlined" color="primary">
                 New revision
-              </Button>
-              
-              <Button variant="outlined" color="primary">
-                Edit content
               </Button>
             </CardActions>
           </Grid>
@@ -190,17 +193,6 @@ function ContentScreen(data) {
             <Grid container spacing={2}>
               <Grid item xs={12}>
                 <Paper variant="outlined" style={{ padding: theme.spacing(2) }}>
-                  <Typography variant="h6">
-                    {getField(selectedRevision, "title")}
-                  </Typography>
-                  <Divider
-                    style={{
-                      marginTop: 4,
-                      marginBottom: 4,
-                      borderTop: "dotted 1px",
-                      borderColor: "rgba(128, 128, 128, 0.21)",
-                    }}
-                  />
                   <ContentMetaRevision contentNode={selectedRevision} />
                 </Paper>
               </Grid>
@@ -210,6 +202,22 @@ function ContentScreen(data) {
                   variant="outlined"
                   style={{ padding: "16px", minHeight: "348px" }}
                 >
+                  <div>
+                    <div
+                      style={{ fontSize: "24px" }}
+                      dangerouslySetInnerHTML={{
+                        __html: getField(selectedRevision, "title"),
+                      }}
+                    />
+                  </div>
+                  <Divider
+                    style={{
+                      marginTop: 4,
+                      marginBottom: 4,
+                      borderTop: "dotted 1px",
+                      borderColor: "rgba(128, 128, 128, 0.21)",
+                    }}
+                  />{" "}
                   <Typography variant="h6">Ingress</Typography>
                   <Divider
                     style={{
@@ -272,6 +280,38 @@ function ContentScreen(data) {
                       </div>
                     </Typography>
                   </Paper>
+                  
+                  <Typography variant="h6">Meta</Typography>
+                  <Divider
+                    style={{
+                      marginTop: 4,
+                      marginBottom: 4,
+                      borderTop: "dotted 1px",
+                      borderColor: "rgba(128, 128, 128, 0.21)",
+                    }}
+                  />
+                  <Paper
+                    style={{
+                      marginTop: "8px",
+                      marginBottom: "4px",
+
+                      paddingTop: "4px",
+                      paddingBottom: "4px",
+                      paddingRight: "8px",
+                      paddingLeft: "8px",
+                      minHeight: "320px",
+                    }}
+                  >
+                    <Typography variant="Body2 ">
+                      <div styles={{ fontSize: "12px" }}>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: getField(selectedRevision, "meta"),
+                          }}
+                        />
+                      </div>
+                    </Typography>
+                  </Paper>
                 </Paper>
               </Grid>
             </Grid>
@@ -296,12 +336,14 @@ function ContentScreen(data) {
                     contentNode={data.contentNode}
                     onSelect={handleRevisionSelect}
                   />
-                  <RequestTranslationOrder
-                    title="Request Translation Order"
-                    order={data.contentNode}
-                    language={selectedRevision.language}
-                    revision={selectedRevision.revision}
-                  ></RequestTranslationOrder>
+                  <CardActions style={{ paddingLeft: 0 }}>
+                    <RequestTranslationOrder
+                      title="Request Translation Order"
+                      order={data.contentNode}
+                      language={selectedRevision.language}
+                      revision={selectedRevision.revision}
+                    ></RequestTranslationOrder>
+                  </CardActions>
                 </Paper>
               </Grid>
             </Grid>

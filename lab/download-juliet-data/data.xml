@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <nodes>
   <node>
+    <Nid>17179</Nid>
+    <Title>Etiska regler för publicering</Title>
+    <Body>&lt;p&gt;Reglerna utgår från de Medieetiska reglerna, men har anpassats för dig som är elevpublicist. Läs reglerna innan du börjar!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Håll dig till sanningen:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Undvik att sprida rykten och felaktiga uppgifter. Den som skapar en artikel på Mobile Stories ska så långt det är möjligt kontrollera att alla uppgifter som publiceras är korrekta. &lt;/li&gt;
+&lt;li&gt;Var kritisk mot dina källor. Kontrollera sakuppgifter så noggrant som det går, även de som redan tidigare publicerats någon annanstans. Om det är möjligt: Gå till originalkällan.&lt;/li&gt;
+&lt;li&gt;Skilj på åsikter och fakta. Det ska vara tydligt för läsaren, tittaren eller lyssnaren vad som är faktaredovisning och vad som är en åsikt eller kommentar. &lt;/li&gt;
+&lt;li&gt;Låt båda sidor komma till tals &lt;em&gt;(gäller ej krönikor och debattartiklar).&lt;/em&gt; Om någon kritiseras i en artikel, måste den personen få bemöta kritiken. Om en åsikt lyfts fram är det viktigt att även ge utrymme åt den andra sidan av saken.  &lt;/li&gt;
+&lt;li&gt;Håll vad du lovar i din rubrik. Rubriken ska alltid ha täckning i texten, filmen eller podden.&lt;/li&gt;
+&lt;li&gt;Gör inte reklam. Dina artiklar ska inte publiceras för att gynna någon person eller ett företag ekonomiskt. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Respektera andras integritet&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Publicera inte sådant om andra som du inte vill att någon annan skulle publicera om dig själv. &lt;/li&gt;
+&lt;li&gt;Fråga alltid de som är med på bild om de är okej med det. &lt;/li&gt;
+&lt;li&gt;Framhäv inte personers sexuella läggning, religiösa identitet eller etniska härkomst i om det inte är relevant i sammanhanget.&lt;/li&gt;
+&lt;li&gt;Låt alltid intervjupersonerna granska sina citat ­– om de ber om det. Ändra alltid om något är felaktigt. &lt;/li&gt;
+&lt;li&gt;Var rädd om dina källor - om de är personer! Publicera ALDRIG uppgifter som kan få din uppgiftslämnare att råka illa ut. Tänk igenom vad en publicering kan få för konsekvenser för dina intervjupersoner innan du publicerar.&lt;/li&gt;
+&lt;li&gt;Intervjua inte människor som befinner sig i chock. Fotografera inte människor som är skadade. Håll diskussionen levande kring uppträdandekoder i mötet med andra i er roll som elevpublicister!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Värna upphovsrätten:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Publicera aldrig bilder som du inte är helt säker på att du får använda. Om du fått tillåtelse, glöm inte att skriva ut upphovspersonens byline i anslutning till bilden, film- eller ljudklippet.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Skriv ut reglerna som en affisch &lt;a href="https://drive.google.com/file/d/1T8h9CjGXBTjwoNZhLChhXB9Uk6PAPYIy/view?usp=sharing"&gt;här&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Senast uppdaterad: 24.02.14&lt;/p&gt;
+</Body>
+    <Article-code></Article-code>
+    <Language>Swedish</Language>
+    <Translation-set-node-ID>0</Translation-set-node-ID>
+    <Type>Info article</Type>
+    <Type-of-article>Legal</Type-of-article>
+    <Summary>&lt;p&gt;Mobile Stories har i samarbete med Medieombudsmannen, MO, tagit fram etiska regler för de som publicerar artiklar på Mobile Stories plattform.&lt;/p&gt;
+</Summary>
+  </node>
+  <node>
     <Nid>17178</Nid>
     <Title>How to write a good introduction</Title>
     <Body>&lt;p&gt;The preamble is the first opening sentences of your article, which are usually in bold. The introduction is your chance to convince the reader in a few seconds that your article is worth reading. It should therefore be short and to the point and preferably evoke emotions.&lt;/p&gt;
@@ -23,8 +60,7 @@
   <node>
     <Nid>17177</Nid>
     <Title>Elevpublicistens ansvar</Title>
-    <Body>&lt;p&gt;Mobile Stories har samma värdegrund som skolan. Den vill vi att du ska hålla dig till när du arbetar med vårt verktyg och publicerar dina arbeten på mobilestories.se.&lt;br /&gt;
- &lt;/p&gt;
+    <Body>&lt;p&gt;Mobile Stories har samma värdegrund som skolan. Den vill vi att du ska hålla dig till när du arbetar med vårt verktyg och publicerar dina arbeten på mobilestories.se.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Värdegrunden omfattar:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;människolivets okränkbarhet&lt;/li&gt;
@@ -107,7 +143,7 @@
   <node>
     <Nid>17173</Nid>
     <Title>5 pro tips from the video reporter on how to make a great interview</Title>
-    <Body>&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/5pOBtm-DxYM?si=iEk3duPZGI54TRQS" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
+    <Body>&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/CuoA5ZsU1ys?si=vfwlI_fSzg2CabmM" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code></Article-code>
     <Language>English</Language>
@@ -710,14 +746,14 @@
   <node>
     <Nid>17126</Nid>
     <Title>TIP_REFERENCE_MISSING</Title>
-    <Body>&lt;p&gt;Du måste lägga till minst en trovärdig källa i boxen, "Källor". En källa kan vara till exempel en nyhetsartikel, en forskningsrapport, en myndighet eller en person.&lt;/p&gt;
+    <Body>&lt;p&gt;Du måste lägga till minst en trovärdig källa i boxen, "Källor". En bra källa kan vara till exempel en nyhetsartikel, en forskningsrapport, en myndighet eller en person.&lt;/p&gt;
 </Body>
     <Article-code>TIP_REFERENCE_MISSING</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
-    <Summary>&lt;p&gt;Du måste lägga till minst en trovärdig källa i boxen, "Källor". En källa kan vara till exempel en nyhetsartikel, en forskningsrapport, en myndighet eller en person.&lt;/p&gt;
+    <Summary>&lt;p&gt;Du måste lägga till minst en trovärdig källa i boxen, "Källor". En bra källa kan vara till exempel en nyhetsartikel, en forskningsrapport, en myndighet eller en person.&lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -1205,14 +1241,14 @@ Do you know that you can use the chat to communicate with your friends who are i
   <node>
     <Nid>17089</Nid>
     <Title>Rubrik</Title>
-    <Body>&lt;p&gt;Skriv en övertygande rubrik som fångar de mest överraskande, intressanta och viktiga aspekterna av din artikel. Utmaningen är att skapa en rubrik som fångar uppmärksamhet och ger information. Du måste locka läsare utan att använda en sensationell rubrik som inte stämmer överens med artikelns innehåll. Läs rubriker på olika nyhetssajter för inspiration. Vilka typer av rubriker får dig att vilja läsa hela historien?&lt;/p&gt;
+    <Body>&lt;p&gt;Skriv en övertygande rubrik som fångar de mest överraskande, intressanta och viktiga aspekterna av din artikel. Utmaningen är att skapa en rubrik som fångar uppmärksamhet och ger information. Du måste locka läsare utan att använda en sensationell rubrik som inte stämmer överens med artikelns innehåll. Läs rubriker på olika nyhetssajter för inspiration. Vilka typer av rubriker får dig att vilja läsa hela artikeln?&lt;/p&gt;
 </Body>
     <Article-code>article.name</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
-    <Summary>&lt;p&gt;Skriv en övertygande rubrik som fångar de mest överraskande, intressanta och viktiga aspekterna av din artikel. Utmaningen är att skapa en rubrik som fångar uppmärksamhet och ger information. Du måste locka läsare utan att använda en sensationell rubrik som inte stämmer överens med artikelns innehåll. Läs rubriker på olika nyhetssajter för inspiration. Vilka typer av rubriker får dig att vilja läsa hela historien?&lt;/p&gt;
+    <Summary>&lt;p&gt;Skriv en övertygande rubrik som fångar de mest överraskande, intressanta och viktiga aspekterna av din artikel. Utmaningen är att skapa en rubrik som fångar uppmärksamhet och ger information. Du måste locka läsare utan att använda en sensationell rubrik som inte stämmer överens med artikelns innehåll. Läs rubriker på olika nyhetssajter för inspiration. Vilka typer av rubriker får dig att vilja läsa hela artikeln?&lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -1470,7 +1506,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>17073</Nid>
     <Title>Elevreporterns etiska regler som affisch</Title>
-    <Body>&lt;p&gt;&lt;a href="https://drive.google.com/drive/folders/1gsuACZRmP8gAumKli8kWla6zEcEcv7sJ?usp=sharing"&gt;Till affischen&lt;/a&gt;&lt;/p&gt;
+    <Body>&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1T8h9CjGXBTjwoNZhLChhXB9Uk6PAPYIy/view?usp=sharing"&gt;Till affischen&lt;/a&gt;&lt;/p&gt;
 </Body>
     <Article-code></Article-code>
     <Language>Swedish</Language>
@@ -1533,20 +1569,6 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
     <Summary>&lt;p&gt;Den här videon handlar om att gå igenom Mobile Stories mest grundläggande delar. För Mobile Stories "classic".&lt;/p&gt;
-</Summary>
-  </node>
-  <node>
-    <Nid>17066</Nid>
-    <Title>Så jobbar en lokaltidningsreporter</Title>
-    <Body>&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/o3ImTBsBiCg" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Senast uppdaterad: 22.10.03&lt;/p&gt;
-</Body>
-    <Article-code></Article-code>
-    <Language>Swedish</Language>
-    <Translation-set-node-ID>0</Translation-set-node-ID>
-    <Type>Info article</Type>
-    <Type-of-article>Open info</Type-of-article>
-    <Summary>&lt;p&gt;&lt;img alt="" src="https://mobilestories.se/sites/default/files/images/Niklas%20Loman.png" style="height:1065px; width:1600px" /&gt;Niklas Loman är reporter på lokaltidningen Mitt i Upplands-Bro. I den här videon berättar han hur journalister arbetar med källkritik och varför han tycker att hans jobb är viktigt.&lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -2110,14 +2132,28 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>17019</Nid>
     <Title>En komplett artikel</Title>
-    <Body>&lt;p&gt;Du har en artikel som verkar vara färdig. Dags att skicka den vidare för granskning i "Granskningsläge" och sedan till "Förfrågan om publicering"? Gör först en "Testartikel" för att se så att allt ser fint ut. Dubbelkolla upphovsrätten till de bilder du använt. Glöm inte att fylla i "Publiceringsplats" och "Taggar" om du vill publicera.&lt;/p&gt;
+    <Body>&lt;p&gt;Bra jobbat! Du har en artikel som verkar vara färdig. &lt;br /&gt;
+1. Gör först en "Testartikel". &lt;br /&gt;
+2. Fyll i "Publiceringsplats”. &lt;br /&gt;
+3. Dubbelkolla upphovsrätten till de bilder du använt. &lt;br /&gt;
+4. Bjud in en vän som kan ge dig feedback under ”Välj ditt team”. &lt;br /&gt;
+5. Lägg artikeln i "Granskningsläge”. &lt;br /&gt;
+6. Öppna checklistan. &lt;br /&gt;
+7. Om allt verkar okej, lägg artikeln i ”Förfrågan om publicering”. &lt;/p&gt;
 </Body>
     <Article-code>ARTICLE_OK</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
-    <Summary>&lt;p&gt;Du har en artikel som verkar vara färdig. Dags att skicka den vidare för granskning i "Granskningsläge" och sedan till "Förfrågan om publicering"? Gör först en "Testartikel" för att se så att allt ser fint ut. Dubbelkolla upphovsrätten till de bilder du använt. Glöm inte att fylla i "Publiceringsplats" och "Taggar" om du vill publicera.&lt;/p&gt;
+    <Summary>&lt;p&gt;Bra jobbat! Du har en artikel som verkar vara färdig. &lt;br /&gt;
+1. Gör först en "Testartikel". &lt;br /&gt;
+2. Fyll i "Publiceringsplats”. &lt;br /&gt;
+3. Dubbelkolla upphovsrätten till de bilder du använt. &lt;br /&gt;
+4. Bjud in en vän som kan ge dig feedback under ”Välj ditt team”. &lt;br /&gt;
+5. Lägg artikeln i "Granskningsläge”. &lt;br /&gt;
+6. Öppna checklistan. &lt;br /&gt;
+7. Om allt verkar okej, lägg artikeln i ”Förfrågan om publicering”. &lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -2420,14 +2456,14 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16990</Nid>
     <Title>The responsibility of the student reporter</Title>
-    <Body>&lt;p dir="ltr"&gt;Through it, the media, but also you as a citizen, can examine those in power and make a difference. But freedom of speech also entails responsibility. These are some things we want you to keep in mind.&lt;/p&gt;
-&lt;p dir="ltr"&gt;Mobile Stories has the same values ​​as the school. We want you to stick to these when you work with our tool and publish your work on "All of Sweden's school channel."&lt;/p&gt;
-&lt;p dir="ltr"&gt;The values ​​include:&lt;/p&gt;
-&lt;p dir="ltr"&gt;the inviolability of human life&lt;/p&gt;
-&lt;p dir="ltr"&gt;the freedom and integrity of the individual&lt;/p&gt;
-&lt;p dir="ltr"&gt;the equal value of all human beings&lt;/p&gt;
-&lt;p dir="ltr"&gt;equality between the sexes&lt;/p&gt;
-&lt;p dir="ltr"&gt;solidarity between people&lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;Through it, the media, but also you as a citizen, can examine those in power and make a difference. But freedom of speech also entails responsibility. These are some things we want you to keep in mind.&lt;br /&gt;
+Mobile Stories has the same values ​​as the school. We want you to stick to these when you work with our tool and publish your work on "All of Sweden's school channel."&lt;/p&gt;
+&lt;p dir="ltr"&gt;The values ​​include:&lt;br /&gt;
+the inviolability of human life&lt;br /&gt;
+the freedom and integrity of the individual&lt;br /&gt;
+the equal value of all human beings&lt;br /&gt;
+equality between the sexes&lt;br /&gt;
+solidarity between people&lt;/p&gt;
 &lt;p dir="ltr"&gt;What you publish on Mobile Stories will be available to everyone. The impact of what you write can be great. Even if you choose to publish only at your school, everyone can read or look at your particular article.&lt;/p&gt;
 &lt;p dir="ltr"&gt;Keep in mind that what you write can be shared and spread in other forums. Comments can appear there. Mobile Stories does not have comment fields on the site.&lt;/p&gt;
 &lt;p dir="ltr"&gt;When you publish articles on Mobile Stories, you are responsible for the content. You are therefore responsible for ensuring that your article does not violate any laws and regulations. What you write must therefore not contain, for example, slander, insult, incitement against ethnic groups, sexualized violence against children or violent pornography. You may also not use material that someone else has the copyright to without that person's permission.&lt;/p&gt;
@@ -3738,37 +3774,6 @@ Discuss. By turning and turning each individual case, you get experience that he
 </Summary>
   </node>
   <node>
-    <Nid>16924</Nid>
-    <Title>Elevpublicistens ansvar</Title>
-    <Body>&lt;p&gt;Genom yttrandefriheten kan media, men också du som medborgare, granska makthavare och göra skillnad. Men friheten medför också ansvar. Det här är några saker som vi vill att du ska tänka på.&lt;/p&gt;
-&lt;p&gt;Mobile Stories har samma värdegrund som skolan. Den vill vi att du ska hålla dig till när du arbetar med vårt verktyg och publicerar dina arbeten på Mobilestories.se &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Värdegrunden omfattar:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;människolivets okränkbarhet&lt;/li&gt;
-&lt;li&gt;individens frihet och integritet&lt;/li&gt;
-&lt;li&gt;alla människors lika värde&lt;/li&gt;
-&lt;li&gt;jämställdhet mellan könen&lt;/li&gt;
-&lt;li&gt;solidaritet mellan människor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;Det du publicerar på Mobile Stories blir tillgängligt för alla. Genomslagskraften av det du skriver kan vara stor. Även om du väljer att publicera endast på din skola så kan alla läsa eller titta på just din artikel.&lt;/li&gt;
-&lt;li&gt;Tänk på att det du skriver kan delas och spridas i andra forum. Där kan kommentarer dyka upp. Mobile Stories har inte kommentarsfält på sajten.&lt;/li&gt;
-&lt;li&gt;När du publicerar artiklar på Mobile Stories så ansvarar du själv för innehållet. Du själv ansvarar alltså för att din artikel inte bryter mot några lagar och regler. Det du skriver får därför inte innehålla t ex förtal, förolämpning, hets mot folkgrupp, sexualiserat våld mot barn eller våldspornografi. Du får inte heller använda material som någon annan har upphovsrätten till utan att den personen har gett sitt tillstånd.                      &lt;/li&gt;
-&lt;li&gt;Undvik att publicera uppgifter som kan leda till att din uppgiftslämnare får problem. Tänk alltid igenom eventuella konsekvenser för den som gett dig uppgifter eller för personer som berörs i ditt material. Publicera inte artiklar med anonyma uppgiftslämnare.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Jag har tagit del av Mobile Stories regler och de lagar som gäller vid publiceringar på nätet.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Grattis! Du är nu elevpublicist och är en del av ett nätverk av unga som skapar genomarbetat innehåll för att inspirera, berätta, förklara, granska och göra skillnad. Lycka till!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Senast uppdaterad: 22.10.03&lt;/p&gt;
-</Body>
-    <Article-code></Article-code>
-    <Language>Swedish</Language>
-    <Translation-set-node-ID>0</Translation-set-node-ID>
-    <Type>Info article</Type>
-    <Type-of-article>Open info</Type-of-article>
-    <Summary>&lt;p&gt;Du bor i ett land där du har rätt att fritt uttrycka dig i tal och skrift. Yttrandefriheten är en av grundstenarna i ett demokratiskt samhälle.&lt;/p&gt;
-</Summary>
-  </node>
-  <node>
     <Nid>16922</Nid>
     <Title>Var vill du publicera?</Title>
     <Body>&lt;p&gt;Om du vill publicera din artikel måste du välja publiceringsplats, det vill säga vilka sajter på  Mobile Stories medieplattform du vill att din artikel ska synas på. Exempel på publiceringsregioner är er skolsida (exempelvis "Storskolan"), er kommunsida (exempelvis "Göteborg") eller Mobile Stories förstasida ("Sweden"). Handlar artikeln om något som främst berör eller kan intressera andra på din skola, eller kan det vara intressant för en publik i hela kommunen, eller i hela Sverige? Kom ihåg också att det är frivilligt att publicera sin artikel. Det är alltid den som är med och skapar artikeln som bestämmer om den ska publiceras så att andra kan se den. Arbetar ni i grupp så är det bra om alla är överens och har pratat igenom redan från början om artikeln ska publiceras eller inte. &lt;/p&gt;
@@ -3784,14 +3789,14 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16921</Nid>
     <Title>Publiceringsregion</Title>
-    <Body>&lt;p&gt;Välj vilken eller vilka sajter du vill publicera på (om du vill publicera din artikel). De flesta kan välja mellan en skolsajt, en kommunsajt samt förstasidan på Mobilestories.se, "Sweden". &lt;/p&gt;
+    <Body>&lt;p&gt;Välj vilken eller vilka sajter du vill publicera på (om du vill publicera din artikel). &lt;/p&gt;
 </Body>
     <Article-code>article.articleRegions</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
-    <Summary>&lt;p&gt;Välj vilken eller vilka sajter du vill publicera på (om du vill publicera din artikel). De flesta kan välja mellan en skolsajt, en kommunsajt samt förstasidan på Mobilestories.se, "Sweden". &lt;/p&gt;
+    <Summary>&lt;p&gt;Välj vilken eller vilka sajter du vill publicera på (om du vill publicera din artikel). &lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -4010,9 +4015,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16901</Nid>
     <Title>Elevpublicistens etiska regler</Title>
-    <Body>&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Reglerna utgår från de Medieetiska reglerna (tidigare Pressetiska reglerna), men har anpassats för dig som är elevpublicist. Läs gärna igenom reglerna då och då. Så småningom kommer de att sitta i ryggraden!&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
+    <Body>&lt;p&gt;Reglerna utgår från de Medieetiska reglerna, men har anpassats för dig som är elevpublicist. Läs gärna igenom reglerna då och då. Så småningom kommer de att sitta i ryggraden!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Håll dig till sanningen:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Undvik att sprida rykten och felaktiga uppgifter. Den som skapar en artikel på Mobile Stories ska så långt det är möjligt kontrollera att alla uppgifter som publiceras är korrekta. Det gäller också bilder, som inte får förvanskas genom bildbehandlingsprogram som Photoshop. Tänk på att sanningskravet gäller både skriven text, bild, film och podd.&lt;br /&gt;
@@ -4027,9 +4030,7 @@ Discuss. By turning and turning each individual case, you get experience that he
 	 &lt;/li&gt;
 &lt;li&gt;Gör inte reklam. Dina artiklar ska inte publiceras för att gynna någon person eller ett företag ekonomiskt. &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Respektera andras integritet&lt;/strong&gt;:&lt;br /&gt;
- &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Respektera andras integritet&lt;/strong&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Publicera inte sådant om andra som du inte vill att någon annan skulle publicera om dig själv. Tänk också på att olika personer har olika gränser för var som upplevs som kränkande.&lt;br /&gt;
 	&lt;em&gt;Undantag: Om personen är offentlig och har mycket makt, till exempel en politiker, har du större frihet att kritisera. Att kritisera till exempel en internationell kändis är också mindre känsligt än att kritisera en enskild person i din närmiljö.&lt;/em&gt;&lt;br /&gt;
@@ -4040,8 +4041,7 @@ Discuss. By turning and turning each individual case, you get experience that he
 	 &lt;/li&gt;
 &lt;li&gt;Låt alltid intervjupersonerna granska sina citat ­– om de ber om det. Ändra alltid om något är felaktigt. &lt;br /&gt;
 	 &lt;/li&gt;
-&lt;li&gt;Var rädd om dina källor - om de är personer! Publicera ALDRIG uppgifter som kan få din uppgiftslämnare att råka illa ut. Tänk igenom vad en publicering kan få för konsekvenser för dina intervjupersoner innan du publicerar.&lt;br /&gt;
-	 &lt;/li&gt;
+&lt;li&gt;Var rädd om dina källor - om de är personer! Publicera ALDRIG uppgifter som kan få din uppgiftslämnare att råka illa ut. Tänk igenom vad en publicering kan få för konsekvenser för dina intervjupersoner innan du publicerar.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Visa särskild hänsyn om du tar bilder eller gör intervjuer i samband med olyckor eller brott. Intervjua inte människor som befinner sig i chock. Fotografera inte människor som är skadade. Håll diskussionen levande kring uppträdandekoder i mötet med andra i er roll som elevpublicister!&lt;/p&gt;
 &lt;/li&gt;
@@ -4049,13 +4049,11 @@ Discuss. By turning and turning each individual case, you get experience that he
 &lt;p&gt;&lt;strong&gt;Värna upphovsrätten:&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Publicera aldrig bilder som du inte är helt säker på att du får använda. Om du fått tillåtelse, glöm inte att skriva ut upphovsmannens byline i anslutning till bilden, film- eller ljudklippet.&lt;/p&gt;
+&lt;p&gt;Publicera aldrig bilder som du inte är helt säker på att du får använda. Om du fått tillåtelse, glöm inte att skriva ut upphovspersonens byline i anslutning till bilden, film- eller ljudklippet.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Skriv ut reglerna som en affisch &lt;a href="https://drive.google.com/file/d/1T8h9CjGXBTjwoNZhLChhXB9Uk6PAPYIy/view?usp=sharing"&gt;här&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Senast uppdaterad: 22.10.03&lt;/p&gt;
+&lt;p&gt;Senast uppdaterad: 24.02.14&lt;/p&gt;
 </Body>
     <Article-code></Article-code>
     <Language>Swedish</Language>
@@ -4120,7 +4118,7 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Open info</Type-of-article>
-    <Summary>&lt;p&gt;Den som publicerar bilder, film eller text på nätet måste följa vissa lagar och regler. Lär dig mer om lagarna så att du vet vad som gäller på nätet.&lt;/p&gt;
+    <Summary>&lt;p&gt;Den som publicerar bilder, film eller text på nätet måste följa vissa lagar och regler. Lär dig mer om lagarna så att du vet vad som gäller.&lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -4192,22 +4190,24 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16893</Nid>
     <Title>Inbäddade objekt</Title>
-    <Body>&lt;p&gt;1. Publicera först videon eller ljudklippet på Vimeo, Youtube, Anchor eller Soundcloud.&lt;br /&gt;
-2. Hitta det som kallas "Inbäddad kod". Spara den i rutan med valfri titel.&lt;br /&gt;
-3. Gå till rutan "Brödtext". Placera markören i texten där klippet ska visas.&lt;br /&gt;
-4. Välj ditt objekt (titeln du väljer) från rullgardinsmenyn "Inbäddade objekt".&lt;br /&gt;
-5. Skapa en testartikel för att se hur ditt klipp ser ut om du skulle publicera det på Mobile Stories plattform.&lt;/p&gt;
+    <Body>&lt;p&gt;Här kan du lägga till video- eller ljudfiler.&lt;br /&gt;
+1. Publicera först video- eller ljudklippet på Vimeo, Youtube, Anchor eller Soundcloud.&lt;br /&gt;
+2. Hitta det som kallas "Embedded code" eller "Inbäddad kod". Spara den i den här boxen med valfri titel. &lt;br /&gt;
+3. Gå vidare till boxen "Brödtext". Ställ markören i texten där klippet ska visas.&lt;br /&gt;
+4. Välj ditt objekt (titeln som du valt) från drop down-menyn "Inbäddade objekt". &lt;br /&gt;
+5. Skapa en testartikel för att se hur ditt klipp ser ut om du skulle publicera det på Mobilestories.se.&lt;/p&gt;
 </Body>
     <Article-code>EmbeddedItems</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
-    <Summary>&lt;p&gt;1. Publicera först videon eller ljudklippet på Vimeo, Youtube, Anchor eller Soundcloud.&lt;br /&gt;
-2. Hitta det som kallas "Inbäddad kod". Spara den i rutan med valfri titel.&lt;br /&gt;
-3. Gå till rutan "Brödtext". Placera markören i texten där klippet ska visas.&lt;br /&gt;
-4. Välj ditt objekt (titeln du väljer) från rullgardinsmenyn "Inbäddade objekt".&lt;br /&gt;
-5. Skapa en testartikel för att se hur ditt klipp ser ut om du skulle publicera det på Mobile Stories plattform.&lt;/p&gt;
+    <Summary>&lt;p&gt;Här kan du lägga till video- eller ljudfiler.&lt;br /&gt;
+1. Publicera först video- eller ljudklippet på Vimeo, Youtube, Anchor eller Soundcloud.&lt;br /&gt;
+2. Hitta det som kallas "Embedded code" eller "Inbäddad kod". Spara den i den här boxen med valfri titel. &lt;br /&gt;
+3. Gå vidare till boxen "Brödtext". Ställ markören i texten där klippet ska visas.&lt;br /&gt;
+4. Välj ditt objekt (titeln som du valt) från drop down-menyn "Inbäddade objekt". &lt;br /&gt;
+5. Skapa en testartikel för att se hur ditt klipp ser ut om du skulle publicera det på Mobilestories.se.&lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -4241,7 +4241,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16888</Nid>
     <Title>Liten bild i text</Title>
-    <Body>&lt;p&gt;Bilder som laddas upp här kommer att visas i din text och vara mindre än de andra bilderna. Du kan använda dem för att lägga till mindre bilder på personer du har intervjuat eller för att lägga till en detalj som säger något om personen, miljön eller ämnet i din berättelse. Observera att din brödtext måste vara minst 230 ord lång innan du kan lägga till bilder i texten. Använd helst egna foton eller illustrationer. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn, datum för fotot, plats och butiken där det publicerades. Se instruktionsvideon för mer information.&lt;/p&gt;
+    <Body>&lt;p&gt;Den här bilden kommer att visas i din text. Det kan vara bilder på personer du har intervjuat eller en detalj som säger något om personen, miljön eller ämnet i din berättelse. Din brödtext måste vara minst 230 ord eller 1500 tecken (inklusive blanksteg) lång innan du kan lägga till en bild i texten! Använd helst en egen bild. Om du använder någon annans bild – tänk på upphovsrätten!&lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/BTMT-q4Ygh8?si=n90pUQNgEjckuhl7" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_bild_i_artikeltext</Article-code>
@@ -4249,7 +4249,7 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
-    <Summary>&lt;p&gt;Bilder som laddas upp här kommer att visas i din text och vara mindre än de andra bilderna. Du kan använda dem för att lägga till mindre bilder på personer du har intervjuat eller för att lägga till en detalj som säger något om personen, miljön eller ämnet i din berättelse. Observera att din brödtext måste vara minst 230 ord lång innan du kan lägga till bilder i texten. Använd helst egna foton eller illustrationer. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn, datum för fotot, plats och butiken där det publicerades. Se instruktionsvideon för mer information.&lt;/p&gt;
+    <Summary>&lt;p&gt;Den här bilden kommer att visas i din text. Det kan vara bilder på personer du har intervjuat eller en detalj som säger något om personen, miljön eller ämnet i din berättelse. Din brödtext måste vara minst 230 ord eller 1500 tecken (inklusive blanksteg) lång innan du kan lägga till en bild i texten! Använd helst en egen bild. Om du använder någon annans bild – tänk på upphovsrätten!&lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/BTMT-q4Ygh8?si=n90pUQNgEjckuhl7" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Summary>
   </node>
@@ -4284,16 +4284,16 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16885</Nid>
     <Title>Roller och möjligheter</Title>
-    <Body>&lt;p&gt;Välj vem som bara kan granska din artikel utan att göra ändringar och vem som också kan redigera och samarbeta. Se instruktionsvideon för mer information.&lt;/p&gt;
-&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/hNFxEZUxANY?si=DVtXI1eNXvZIW_3g" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;
+    <Body>&lt;p&gt;Välj vem som ge feedback på din artikel, utan att göra ändringar och vem eller vilka som också kan redigera och samarbeta. &lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/hNFxEZUxANY?si=DVtXI1eNXvZIW_3g" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>userActionRoles</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
-    <Summary>&lt;p&gt;Välj vem som bara kan granska din artikel utan att göra ändringar och vem som också kan redigera och samarbeta. Se instruktionsvideon för mer information.&lt;/p&gt;
-&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/hNFxEZUxANY?si=DVtXI1eNXvZIW_3g" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;
+    <Summary>&lt;p&gt;Välj vem som ge feedback på din artikel, utan att göra ändringar och vem eller vilka som också kan redigera och samarbeta. &lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/hNFxEZUxANY?si=DVtXI1eNXvZIW_3g" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -4359,47 +4359,47 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16875</Nid>
     <Title>Recension</Title>
-    <Body>&lt;p&gt;Allt kan recenseras! En recension beskriver både det som är bra och det som är dåligt. Syftet är att guida andra. Är det värt att lägga tid på att läsa en viss bok? Är det nya dataspelet värt pengarna? Hur väl står sig en viss film jämfört med andra filmer? Osv.&lt;/p&gt;
-&lt;p&gt;ATT TÄNKA PÅ I EN RECENSION&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rubrik. &lt;/strong&gt;Rubriken får gärna säga något om vad du tycker om det du recenserar, till exempel "En app som ger mersmak" eller "Tummen ner för nya Netflix-serien".&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bild.&lt;/strong&gt; Ta helst egna bilder! Om recensionen gäller en bok behöver du få med lite av omgivningen också i din bild, för att inte riskera att bryta mot upphovsrätten. Om du vill använda förlagets bild på bokomslaget är det alltid bäst att kontakta förlaget och fråga först. De flesta tycker att det är okej!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ingress.&lt;/strong&gt; Ingressen ska sammanfatta och locka in läsaren i texten. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Brödtext.&lt;/strong&gt; I brödtexten berättar du om dina upplevelser av det du recenserar. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Fakta.&lt;/strong&gt; Det är viktigt att ha med faktauppgifter som till exempel namnet på det du recenserar, vilka som medverkar, upphovsmän (det vill säga de som skapat till exempel filmen, dataspelet eller musiken), var den finns att köpa, och så vidare.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Betyg.&lt;/strong&gt; Betygsätt det du recenserar på en skala mellan ett och fem. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Textlängd.&lt;/strong&gt; En recension ska vara minst 1 500 och helst inte längre än 3 500 tecken inklusive blanksteg.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Taggar.&lt;/strong&gt; Välj minst ett ämnesord som passar för din artikel. &lt;/p&gt;
-&lt;p&gt;VALFRITT&lt;/p&gt;
-&lt;p&gt;Du kan välja att lägga till ett bildspel eller ett inbäddat film eller ljudklipp i boxen för "Inbäddat material".&lt;/p&gt;
+    <Body>&lt;p&gt;I en recension beskriver skribenten sina upplevelser av en tjänst, produkt eller upplevelse. Recensionen kan handla om en bok, en Netflix-film eller en konsert, men lika gärna om ett dataspel, en Youtube-kanal eller ett nytt sminkmärke. Allt kan recenseras! En recension beskriver både det som är bra och det som är dåligt. Syftet är att guida andra. Är det värt att lägga tid på att läsa en viss bok? Är det nya dataspelet värt pengarna? Hur väl står sig en viss film jämfört med andra filmer? &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detta ska finnas i en recension&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Rubrik. Rubriken får gärna säga något om vad du tycker om det du recenserar.&lt;br /&gt;
+• Ingress. En ingress består av några meningar som leder läsaren in i texten.  &lt;br /&gt;
+• Brödtext. En recension ska helst vara mellan1 500 och 3 500 tecken (inklusive blanksteg), eller mellan 240 och 560 ord.&lt;br /&gt;
+• Bild. Ta helst egna bilder! Om recensionen gäller en bok behöver du få med lite av omgivningen också i din bild, för att inte riskera att bryta mot upphovsrätten. Om du vill använda förlagets bild på bokomslaget är det alltid bäst att kontakta förlaget och fråga först. De flesta tycker att det är okej!&lt;br /&gt;
+• Fakta. Du behöver ha med fakta, som till exempel titeln på det du recenserar, vilka som medverkar, upphovsmän (det vill säga de som skapat till exempel filmen, dataspelet eller musiken), var den finns att köpa och så vidare.&lt;br /&gt;
+• Källor. Glöm inte att lägga in dina källor i boxen "Källor". &lt;br /&gt;
+• Video- eller ljudklipp (valfritt). Det går också att lägga till ett bildspel eller ett inbäddat film eller ljudklipp i boxen för "Inbäddat material". &lt;/p&gt;
 </Body>
     <Article-code>article.base_article_type_x_244, articleType.Recension, new.article.Recension</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
-    <Summary>&lt;p&gt;I en recension beskriver skribenten sina upplevelser av en tjänst, produkt eller upplevelse. Recensionen kan handla om en bok, en Netflix-film eller en konsert, men lika gärna om ett dataspel, en app eller ett Youtube-klipp.&lt;/p&gt;
+    <Summary>&lt;p&gt;Vill du dela dina åsikter om en ny produkt, tjänst eller upplevelse? Vill du hjälpa andra att fatta beslut om vad de ska köpa, använda eller se? Då är recensionen rätt artikeltyp för dig!&lt;/p&gt;
 </Summary>
   </node>
   <node>
     <Nid>16874</Nid>
     <Title>Video</Title>
-    <Body>&lt;p&gt;Lägg inbäddningskoden i boxen "Inbäddat material". Gå sedan in i boxen "Brödtext" och ställ markören där du vill att videon ska synas. Välj ditt objekt i menyn "Inbäddade objekt" över textfältet i ordbehandlaren. En kod kommer då att synas i ditt textfält. När du sedan skapar en ny testartikel ser du hur videon kommer att visas i din text.&lt;/p&gt;
-&lt;p&gt;ATT TÄNKA PÅ I EN VIDEOARTIKEL:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ett inbäddat videoklipp&lt;/strong&gt; som du laddat upp på Vimeo eller Youtube (dessa tjänster fungerar bäst på Mobilestories.se).&lt;br /&gt;
-&lt;strong&gt;Rubrik.&lt;/strong&gt; Använd gärna ett intresseväckande citat som rubrik!&lt;br /&gt;
-&lt;strong&gt;Ingress.&lt;/strong&gt; Väck intresse för din video! Varför ska andra titta på den? &lt;br /&gt;
-&lt;strong&gt;Bild.&lt;/strong&gt; Ta en stillbild på de som medverkar i videon, gärna under inspelningen! Annars kan en skärmdump från videon fungera.&lt;br /&gt;
-&lt;strong&gt;Bildtext.&lt;/strong&gt; Passa på att berätta något annat än det som redan står i ingress och rubrik. Glöm inte att skriva vilka som är med på bilden!&lt;br /&gt;
-&lt;strong&gt;Taggar.&lt;/strong&gt; Välj minst en tagg som passar ämnet för din artikel.&lt;/p&gt;
-&lt;p&gt;SÅ REDOVISAR DU KÄLLOR I EN VIDEOARTIKEL:&lt;/p&gt;
-&lt;p&gt;Om du har gjort en video som är dokumentär, alltså handlar om verkligheten, så är det viktigt att du berättar varifrån du hämtat faktauppgifter som finns med i videon. Om du eller någon annan påstår något i klippet, så måste du eller personen som pratar i videon alltså berätta var uppgifterna kommer ifrån. Om det finns information i videoklippet behöver du också redovisa dina källor i boxen för källor, som finns i varje artikel. &lt;/p&gt;
+    <Body>&lt;p&gt;I videoartikeln behövs den inbäddade videolänken, en rubrik, en ingress och en bild. Lägg inbäddningskoden i boxen "Inbäddat material". Gå sedan in i boxen "Brödtext" och ställ markören där du vill att videon ska synas. Välj ditt objekt i menyn "Inbäddade objekt" över textfältet i ordbehandlaren. En kod kommer då att synas i ditt textfält. När du sedan skapar en ny testartikel ser du hur videon kommer att visas i din text.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tips för en bra videoartikel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Glöm inte att ange dina källor! Om du har gjort en video som är dokumentär, alltså handlar om verkligheten, så är det viktigt att du berättar varifrån du hämtat faktauppgifter som finns med i videon. Om du eller någon annan påstår något i klippet, så måste du eller personen som pratar i videon alltså berätta var uppgifterna kommer ifrån. &lt;br /&gt;
+• Om du har stativ, mikrofon och en bra kamera – använd det! Annars fungerar även en vanlig mobiltelefon.&lt;br /&gt;
+• Om du intervjuar en person, försök att ta personen till en lugn plats utan störande bakgrundsljud.&lt;br /&gt;
+• Ta gärna många videoklipp, som du kan använda när du sedan redigerar din video. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detta ska finnas i en videoartikel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Ett inbäddat videoklipp som du laddat upp på Vimeo eller Youtube (dessa tjänster fungerar bäst på Mobilestories.se).&lt;br /&gt;
+• Rubrik. Väck intresse för din video! Varför ska andra titta på den? &lt;br /&gt;
+• Ingress. Här kan du berätta lite mer om vad klippet handlar om. Det räcker med några meningar!&lt;br /&gt;
+• Bild. Ta en bild på de som medverkar i videon, gärna under inspelningen! Annars kan en skärmdump från videon fungera.&lt;br /&gt;
+• Bildtext. Passa på att berätta något annat än det som redan står i ingress och rubrik. Glöm inte att skriva vilka som är med på bilden!&lt;br /&gt;
+• Källor. Se till att de källor du använder är trovärdiga och lägg dem i boxen "Källor". Se också till att hänvisa till källor i själva inspelningen. &lt;/p&gt;
 </Body>
     <Article-code>article.base_article_type_x_26, articleType.Film, new.article.Film</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
-    <Summary>&lt;p&gt;I filmartikeln behövs den inbäddade videolänken, en rubrik, en ingress och en bild.&lt;/p&gt;
+    <Summary>&lt;p&gt;Vill du skildra något på ett visuellt och engagerande sätt? Gillar du att berätta genom video snarare än text? Då är videoartikeln rätt artikeltyp för dig!&lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -4444,7 +4444,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16862</Nid>
     <Title>Huvudbild</Title>
-    <Body>&lt;p&gt;Huvudbilden är den första och största bilden i din artikel (med undantag för artikeltypen reportage). Det ska vara en horisontell bild, alltså en bild tagen på bredden. Använd helst din egen bild eller illustration. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Se videon för mer information.&lt;/p&gt;
+    <Body>&lt;p&gt;Huvudbilden är den första och största bilden i din artikel (med undantag för artikeltypen reportage). Det ska vara en horisontell bild, alltså en bild tagen på bredden. Använd helst din egen bild eller illustration. Om du publicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. &lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/nFlcV3x3ij8?si=AAfKrRwnGJ7zEDav" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_puffbild</Article-code>
@@ -4452,7 +4452,7 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
-    <Summary>&lt;p&gt;Huvudbilden är den första och största bilden i din artikel (med undantag för artikeltypen reportage). Det ska vara en horisontell bild, alltså en bild tagen på bredden. Använd helst din egen bild eller illustration. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Se videon för mer information.&lt;/p&gt;
+    <Summary>&lt;p&gt;Huvudbilden är den första och största bilden i din artikel (med undantag för artikeltypen reportage). Det ska vara en horisontell bild, alltså en bild tagen på bredden. Använd helst din egen bild eller illustration. Om du publicerar ett foto som tagits av någon annan, se till att du har tillstånd till det. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. &lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/nFlcV3x3ij8?si=AAfKrRwnGJ7zEDav" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Summary>
   </node>
@@ -4517,7 +4517,7 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16830</Nid>
     <Title>Bildspel</Title>
-    <Body>&lt;p&gt;Du behöver minst tre bilder för att skapa ett galleri. Maxstorleken på bilderna är 5 MB i JPG- eller PNG-format. Du bör välja samma format för alla bilder - liggande (horisontellt) eller stående (vertikalt). Inkludera alltid namnen på personerna i bilderna i bildtexten och lägg till namnet på fotografen. Se instruktionsvideon för mer information. &lt;/p&gt;
+    <Body>&lt;p&gt;Du behöver minst två bilder för att skapa ett galleri. Maxstorleken på bilderna är 5 MB i JPG- eller PNG-format. Du bör välja samma format för alla bilder - liggande (horisontellt) eller stående (vertikalt). Inkludera alltid namnen på personerna i bilderna i bildtexten och lägg till namnet på fotografen. &lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/_FIT_fjb2IU?si=jcd4s7CT9w2EJ2LT" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_slideshowcomplete_bilder</Article-code>
@@ -4525,23 +4525,21 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
-    <Summary>&lt;p&gt;Du behöver minst tre bilder för att skapa ett galleri. Maxstorleken på bilderna är 5 MB i JPG- eller PNG-format. Du bör välja samma format för alla bilder - liggande (horisontellt) eller stående (vertikalt). Inkludera alltid namnen på personerna i bilderna i bildtexten och lägg till namnet på fotografen. Se instruktionsvideon för mer information. &lt;/p&gt;
+    <Summary>&lt;p&gt;Du behöver minst två bilder för att skapa ett galleri. Maxstorleken på bilderna är 5 MB i JPG- eller PNG-format. Du bör välja samma format för alla bilder - liggande (horisontellt) eller stående (vertikalt). Inkludera alltid namnen på personerna i bilderna i bildtexten och lägg till namnet på fotografen. &lt;/p&gt;
 &lt;p&gt;&lt;iframe frameborder="0" height="315" src="https://www.youtube.com/embed/_FIT_fjb2IU?si=jcd4s7CT9w2EJ2LT" title="YouTube video player" width="560"&gt;&lt;/iframe&gt;&lt;/p&gt;
 </Summary>
   </node>
   <node>
     <Nid>16826</Nid>
     <Title>Reportage, bakgrundsbild</Title>
-    <Body>&lt;p&gt;För att ett reportage ska bli komplett behöver du minst en bakgrundsbild. Den här bilden kommer synas som en bakgrund till ditt reportage, bakom rubriken. Du kan återanvända samma bild som du använde för rutan "huvudbild". Det behöver vara en horisontell bild, alltså en bild i liggande format. Använd i första hand en egen bild eller illustration. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
+    <Body>&lt;p&gt;För att ett reportage ska bli komplett behöver du minst en bakgrundsbild. Den här bilden kommer synas som en bakgrund till ditt reportage, bakom rubriken. Du kan återanvända samma bild som du använde för rutan "huvudbild". Det behöver vara en horisontell bild, alltså en bild i liggande format. Använd i första hand en egen bild eller illustration. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Om du publicerar ett foto som tagits av någon annan, se till att du har tillstånd till det.&lt;/p&gt;
 </Body>
     <Article-code>imageList.field_storytelling_bilder</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>help tip</Type>
     <Type-of-article></Type-of-article>
-    <Summary>&lt;p&gt;För att ett reportage ska bli komplett behöver du minst en bakgrundsbild. Den här bilden kommer synas som en bakgrund till ditt reportage, bakom rubriken. Du kan återanvända samma bild som du använde för rutan "huvudbild". Det behöver vara en horisontell bild, alltså en bild i liggande format. Använd i första hand en egen bild eller illustration. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Om du återpublicerar ett foto som tagits av någon annan, se till att du har tillstånd till det.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
+    <Summary>&lt;p&gt;För att ett reportage ska bli komplett behöver du minst en bakgrundsbild. Den här bilden kommer synas som en bakgrund till ditt reportage, bakom rubriken. Du kan återanvända samma bild som du använde för rutan "huvudbild". Det behöver vara en horisontell bild, alltså en bild i liggande format. Använd i första hand en egen bild eller illustration. Lägg till en beskrivning i bildtexten och inkludera fotografens namn. Om du publicerar ett foto som tagits av någon annan, se till att du har tillstånd till det.&lt;/p&gt;
 </Summary>
   </node>
   <node>
@@ -4604,12 +4602,12 @@ Discuss. By turning and turning each individual case, you get experience that he
     <Nid>16814</Nid>
     <Title>Välkommen du som är ung!</Title>
     <Body>&lt;p&gt;Att arbeta med Mobile Stories publiceringsverktyg och medieplattform kan vara ett kraftfullt sätt att påverka samhället. Därför vill vi gärna att du läser på lite innan du börjar. &lt;/p&gt;
-&lt;p&gt;Vi vill till exempel gärna att du först ska lära dig om Mobile Stories etiska regler för de som arbetar med vårt verktyg och publicerar artiklar på elevernas egen medieplattform Mobilestories.se. Ta del av de etiska reglerna här: &lt;a href="https://app.mobilestories.se/content/info_article_x_16901"&gt;Elevpublicistens etiska regler&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Vi vill till exempel gärna att du först ska lära dig om Mobile Stories etiska regler för de som arbetar med vårt verktyg och publicerar artiklar på elevernas egen medieplattform Mobilestories.se. Ta del av de &lt;a href="https://newsroom.mobilestories.se/openarticle/16901"&gt;etiska reglerna.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Fler tipsartiklar som gör att dina artiklar blir ännu bättre kan du hitta under innehåll (i)-tecknen i boxarna och även i gruppens nyhetsrum.&lt;/p&gt;
 &lt;p&gt;Alla elevpublicisters artiklar skapar tillsammans en helt ny och unik produkt. Tänk dig ett Instagram eller Youtube, fast där alla inlägg består av proffsiga artiklar av ungdomar, som vem som helst kan ta del av. Det blir du och dina kompisar som kan känna er stolta över innehållet på den gemensamma skolsajten. Ert skolarbete stannar inte längre hos läraren utan tar sig vidare ut i samhället —kanske skapar debatt i kommunen där du bor? Din artikel kan till och med bli en riksnyhet om du väljer att lyfta ett angeläget ämne!&lt;/p&gt;
 &lt;p&gt;Ta gärna chansen att samarbeta med andra! Kanske är din klasskompis duktig på att fotografera. Eller vill du hellre teckna något själv? Är du osäker på om du har förstått statistiken rätt? Bjud in klasskompisarna att granska dina fakta och kolla stavningen! Varje elev som varit delaktig i skapandet av en artikel kan få sin byline, alltså sitt namn, i den publicerade artikeln. Någon kanske varit fotograf, en annan har skrivit och en tredje letat efter information. Vi hoppas att du vill testa flera olika roller i skaparprocessen och på så vis utveckla olika förmågor och talanger!&lt;/p&gt;
 &lt;p&gt;Välkommen till din nya mediekanal!&lt;/p&gt;
-&lt;p&gt;Senast uppdaterad: 22.10.03&lt;/p&gt;
+&lt;p&gt;Senast uppdaterad: 24.02.14&lt;/p&gt;
 </Body>
     <Article-code></Article-code>
     <Language>Swedish</Language>
@@ -4695,70 +4693,72 @@ Discuss. By turning and turning each individual case, you get experience that he
   <node>
     <Nid>16810</Nid>
     <Title>Krönika</Title>
-    <Body>&lt;p dir="ltr"&gt;Skriv gärna om ett ämne som känns aktuellt, antingen på skolan eller i samhällsdebatten. Krönikan blir bäst om du själv är intresserad av ämnet du skriver om. &lt;/p&gt;
-&lt;p dir="ltr"&gt; &lt;/p&gt;
-&lt;p dir="ltr"&gt;ATT TÄNKA PÅ I EN KRÖNIKA:&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Rubrik. &lt;/strong&gt;Rubriken ska vara intresseväckande och få människor att klicka och läsa din artikel! Samtidigt får läsaren inte känna sig lurad av rubriken.&lt;br /&gt;
-&lt;strong&gt;Bild.&lt;/strong&gt; Använd en bild av dig själv i krönikan – ett foto eller illustration (selfie eller ett tecknat självporträtt fungerar bra). &lt;br /&gt;
-&lt;strong&gt;Textlängd:&lt;/strong&gt; Minst 1 500 och helst inte längre än 4 000 tecken inklusive blanksteg. &lt;br /&gt;
-&lt;strong&gt;Taggar.&lt;/strong&gt; Välj minst ett ord som passar för ditt artikel och gör att den blir lättare att hitta på internet. Vilka ord tror du att människor som du vill ska hitta artikeln söker på? Använd gärna dessa sökord som taggar. &lt;/p&gt;
-&lt;p dir="ltr"&gt;Läs mer om hur du skriver en krönika på Mediekompass skrivarskola. Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branchorganisationen TU – Medier i Sverige.&lt;br /&gt;
-&lt;a href="https://mediekompass.se/wp-content/uploads/2014/09/Kronika.pdf" target="_blank"&gt;Krönikan | Mediekompass skrivarskola (PDF) &lt;/a&gt;&lt;/p&gt;
-&lt;p dir="ltr"&gt;SÅ ANGER DU KÄLLOR I EN KRÖNIKA&lt;/p&gt;
-&lt;p dir="ltr"&gt;Om du skriver om en egen upplevelse behöver du förstås inte hänvisa till någon källa i texten (men ange gärna dig själv som källa i boxen "Källor"). Men om du skriver om en undersökning eller har med andra faktauppgifter måste du redovisa för dina läsare varifrån du hämtat uppgifterna! Så här gör du:&lt;/p&gt;
-&lt;p dir="ltr"&gt;• Har du hämtat dina uppgifter från en text som någon annan har skrivit – till exempel en forskningsrapport eller undersökning? Då kan skriva på det här sättet: &lt;strong&gt;"&lt;em&gt;Åtta av tio personer vet inte vart de ska vända sig om de vill påverka ett politiskt beslut i kommunen, enligt en undersökning från Myndigheten för Civilsamhällesfrågor, MUCF."&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
-• En källhänvisning kan också se ut så här: &lt;strong&gt;"&lt;/strong&gt;&lt;em&gt;&lt;strong&gt;Enligt statistik från SCB &lt;/strong&gt;har män kortare medellivslängd….&lt;/em&gt; “ eller&lt;em&gt; “Svenska elever har blivit bättre på matte, &lt;strong&gt;enligt en kartläggning som Myndigheten XX gjort.&lt;/strong&gt;"&lt;/em&gt; &lt;br /&gt;
-• Lägg slutligen in länkarna till alla dina källor i boxen "Källor", som finns i alla artikeltyper.&lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;En krönika är en personligt hållen artikel, där skribenten reflekterar kring egna erfarenheter eller upplevelser.  Skriv gärna om ett ämne som känns aktuellt, antingen på skolan eller i samhällsdebatten. Krönikan blir bäst om du själv är intresserad av ämnet du skriver om. &lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Tips för en bra krönika&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;• Använd egna erfarenheter och upplevelser!&lt;br /&gt;
+• Knyt an till någonting som kan vara viktigt för andra att ta del av!&lt;br /&gt;
+• Väv gärna in fakta för att göra krönikan mer trovärdig. &lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Detta ska finnas i en krönika&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;• Rubrik. Rubriken ska locka till läsning, men samtidigt inte var felaktig eller allt för tillspetsad. &lt;br /&gt;
+• Ingress. En ingress består av några meningar som leder läsaren in i texten.  &lt;br /&gt;
+• Brödtext: Minst 1 500 och helst inte längre än 4 000 tecken (inklusive blanksteg) eller mellan 240 och 960 ord. &lt;br /&gt;
+• Bild. Använd en bild av dig själv i krönikan – ett foto eller illustration (selfie eller ett tecknat självporträtt fungerar bra). &lt;br /&gt;
+• Källor. Glöm inte att lägga in dina källor i boxen "Källor". &lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Lär dig mer om hur du skriver en bra krönika&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;• Läs gärna mer om hur du skriver en krönika på Mediekompass skrivarskola! Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branschorganisationen TU – Medier i Sverige.&lt;br /&gt;
+&lt;a href="https://mediekompass.se/wp-content/uploads/2014/09/Kronika.pdf" target="_blank"&gt;Krönikan | Mediekompass skrivarskola (PDF)&lt;/a&gt;&lt;br /&gt;
+• Vill du hellre skissa på din krönika med papper och penna? Då kan du ladda ner &lt;a href="https://drive.google.com/drive/folders/1gsuACZRmP8gAumKli8kWla6zEcEcv7sJ"&gt;Mobile Stories mall för artikeltypen Krönika&lt;/a&gt;.&lt;/p&gt;
 </Body>
     <Article-code>article.base_article_type_x_23, articleType.Krönika, new.article.Krönika</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
-    <Summary>&lt;p&gt;En krönika är en personligt hållen artikel, där skribenten reflekterar kring egna erfarenheter eller upplevelser. &lt;/p&gt;
+    <Summary>&lt;p&gt;Har du varit med om något som väckt tankar och reflektioner? Känner du ett behov av att "skriva av dig" och berätta om dina tankar för andra? Då är krönikan rätt artikeltyp för dig!&lt;/p&gt;
 </Summary>
   </node>
   <node>
     <Nid>16809</Nid>
-    <Title>Debattartikel/Insändare</Title>
-    <Body>&lt;p&gt;Att skriva en debattartikel är ett sätt att påverka och väcka diskussion. Till skillnad från i en nyhetsartikel så ska du här lyfta fram dina egna åsikter ooch argumentera för dem. Försök att hitta minst tre argument som stärker din tes.  Glöm inte att förankra i fakta – då kommer fler att ta din åsikt på allvar. &lt;/p&gt;
-&lt;p&gt;Så här brukar en debattartikel vara uppbyggd: 1. Din tes. 2. Tre argument som underbyggs med fakta. 3. Din uppmaning till någon som har möjlighet att förändra.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1. Din tes. &lt;/strong&gt;Inled med att berätta för läsaren vilken fråga du tänker skriva om. Lyft fram din åsikt!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2. Argumentera för din sak. &lt;/strong&gt;Ta reda på vilka olika ståndpunkter (åsikter) det finns i frågan. Bemöt dem i din artikel! Använd några argument, gärna tre, som stärker din tes. Det är viktigt för trovärdigheten att förankra sina argument i fakta: Finns det undersökningar eller statistik som stärker dina argument? Hänvisa till dem i din text. Glöm inte att länka så att läsaren kan kontrollera att det du skriver stämmer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3. Vem bör agera? &lt;/strong&gt;Fundera också över vem som bär ansvar för problemet du beskriver i din text. Vem har makten att förändra det som du tycker är fel? Är det en politiker? Andra ungdomar? I slutet av artikeln kan det vara effektivt med en uppmaning till den eller de personerna. Vad vill du att de ska göra?&lt;/p&gt;
-&lt;p&gt;Läs mer om hur du skriver din debattartikel eller insändare på Mediekompass skrivarskola. Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branchorganisationen TU – Medier i Sverige.&lt;br /&gt;
-&lt;a href="https://mediekompass.se/wp-content/uploads/2014/08/Insandare.pdf" target="_blank"&gt;Debattartikeln/Insändaren | Mediekompass skrivarskola (PDF) &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;SÅ ANGER DU KÄLLOR I EN DEBATTARTIKEL&lt;/p&gt;
-&lt;p&gt;För att din debattartikel ska tas på allvar är det viktigt att alltid ange källor till de faktauppgifter som finns i artikeln. Så här kan du göra:&lt;/p&gt;
-&lt;p&gt;• Vill du hänvisa till en text – till exempel en forskningsrapport eller undersökning – som någon annan har skrivit? Då kan referera på det här sättet: "&lt;em&gt;De flesta unga vet till exempel inte vart de ska vända sig om de vill påverka ett politiskt beslut i kommunen, &lt;strong&gt;enligt en undersökning som gjorts av Myndigheten för Civilsamhällesfrågor, MUCF".&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
-• Skriv också in källorna i den löpande texten. Exempel: &lt;strong&gt;"&lt;/strong&gt;&lt;em&gt;&lt;strong&gt;Enligt statistik från SCB&lt;/strong&gt; har män kortare medellivslängd…. “&lt;/em&gt;  eller &lt;em&gt;“Svenska elever har blivit bättre på matte, &lt;strong&gt;enligt en kartläggning som Myndigheten XX gjort."&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt;  &lt;/strong&gt;&lt;br /&gt;
-• Lägg också in länkarna till alla dina källor i fältet för källor som finns till varje artikel. &lt;/p&gt;
+    <Title>Debattartikel</Title>
+    <Body>&lt;p&gt;Att skriva en debattartikel är ett sätt att påverka och väcka debatt. Till skillnad från i en nyhetsartikel så ska du här lyfta fram dina egna åsikter och argumentera för dem. Försök att hitta minst tre argument som stärker din tes. Glöm inte att backa upp dina argument med fakta – då kommer fler att ta din åsikt på allvar. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tips för en bra debattartikel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1. Inled med din tes. Beskriv problemet för din läsare! Vad behöver lösas och varför? Håll det kort och koncist.&lt;br /&gt;
+2. Argumentera! Använd några argument, gärna tre, som stärker din tes. Du kan också plocka in ett motargument – vad skulle någon som inte håller med dig säga? Fånga in det och förklara varför de har fel. Det är viktigt för trovärdigheten att förankra sina argument i fakta: Finns det forskning eller statistik som stärker dina argument? Hänvisa till dem i din text. &lt;br /&gt;
+3. Vem bör agera?&lt;strong&gt; &lt;/strong&gt;Avsluta gärna med en uppmaning till någon som har makten att förändra det du tycker är fel. Är det en politiker? Andra ungdomar? Vad vill du att de ska göra?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detta ska finnas i en debattartikel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Rubrik. Rubriken ska locka till läsning, men samtidigt inte var felaktig eller allt för tillspetsad. &lt;br /&gt;
+• Ingress. En ingress består av några meningar som leder läsaren in i texten.  &lt;br /&gt;
+• Brödtext: Minst 1 500 och helst inte längre än 4 000 tecken (inklusive blanksteg) eller mellan 240 och 960 ord. &lt;br /&gt;
+• Bild. Ta helst en egen bild eller illustrera! Annars behöver du se till att du verkligen får använda bilden. &lt;br /&gt;
+• Källor. Se till att de källor du använder är trovärdiga och lägg dem i boxen "Källor".&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lär dig mer om hur du skriver en bra debattartikel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• På Mediekompass skrivarskola kan du läsa mer om artikeltypen Debatt. Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branschorganisationen TU – Medier i Sverige. Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branschorganisationen TU – Medier i Sverige.&lt;br /&gt;
+&lt;a href="https://mediekompass.se/wp-content/uploads/2014/08/Insandare.pdf" target="_blank"&gt;Debattartikeln/Insändaren | Mediekompass skrivarskola (PDF) &lt;/a&gt;&lt;br /&gt;
+• Vill du hellre skissa på din krönika med papper och penna? Då kan du ladda ner &lt;a href="https://drive.google.com/file/d/1TLwqbb1LGXHqU0fb1no-rT_X0j8RC6Vy/view?usp=sharing"&gt;Mobile Stories mall för artikeltypen Debatt&lt;/a&gt;.&lt;/p&gt;
 </Body>
     <Article-code>article.base_article_type_x_28, articleType.Debatt, new.article.Debatt</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
-    <Summary>&lt;p&gt;Att skriva en debattartikel är ett sätt att påverka och väcka diskussion. Till skillnad från i en nyhetsartikel så ska du här lyfta fram dina egna åsikter ooch argumentera för dem. Försök att hitta minst tre argument som stärker din tes.  Glöm inte att förankra i fakta – då kommer fler att ta din åsikt på allvar. &lt;/p&gt;
-&lt;p&gt;Så här brukar en debattartikel vara uppbyggd: 1. Din tes. 2. Tre argument som underbyggs med fakta. 3. Din uppmaning till någon som har möjlighet att förändra.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1. Din tes. &lt;/strong&gt;Inled med att berätta för läsaren vilken fråga du tänker skriva om. Lyft fram din åsikt!&lt;/p&gt;</Summary>
+    <Summary>&lt;p&gt;Har du en stark åsikt om något? Kanske vill du förändra saker hemma, i skolan eller till och med i den stora världen? Kanske har du en bra idé om hur man kan göra saker bättre? Då är debattartikeln rätt artikeltyp för dig!&lt;/p&gt;
+</Summary>
   </node>
   <node>
     <Nid>16808</Nid>
     <Title>Podd</Title>
     <Body>&lt;p&gt;Skriv en rubrik på ditt klipp. Gå sedan in i boxen "Brödtext", ställ markören där du vill att ljudklippet ska visas. Gå upp till menyn för "Inbäddade objekt" i ordbehandlarens verktygsfält och välj objeket du vill bädda in. En kod kommer synas i ditt textfält. När du skapar en ny testartikel ser du hur klippet kommer visas i texten, när artikeln är publicerad.&lt;/p&gt;
-&lt;p&gt;DETTA SKA EN PODDARTIKEL INNEHÅLLA:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ljud: &lt;/strong&gt;Den inbäddade koden från din ljudfil på Soundcloud.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rubrik.&lt;/strong&gt; Rubriken ska få andra att vilja lyssna! Plocka gärna upp det mest intressanta eller överraskande citatet i rubriken!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ingress.&lt;/strong&gt; Väck intresse för podden! Varför ska andra lyssna på den?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bild.&lt;/strong&gt; Ta gärna en bild på de som medverkar i podden, eller en bild som knyter an till det ämne som diskuteras. Lägg bilden i boxen "Huvudbild". &lt;/p&gt;
-&lt;p&gt;
-&lt;strong&gt;Bildtext.&lt;/strong&gt; Är deltagarna i podden med på bild? Glöm då inte att tala om vad de heter i bildtexten! Beskriv gärna vad podden handlar om i bildtexten. Passa på att berätta någonting mer än det som redan står i ingress och rubrik. Glöm inte att skriva namnet på den som har upphovsrätten till bilden (oftast den som tagit bilden).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Taggar.&lt;/strong&gt; Välj minst en tagg som passar för ditt ämne.&lt;/p&gt;
-&lt;p&gt;SÅ ANGER DU KÄLLOR I EN PODDARTIKEL&lt;/p&gt;
-&lt;p&gt;Om det finns faktauppgifter i poddinspelningen är det viktigt att det framgår varifrån uppgifterna kommer. Någon måste informera om det i själva inspelningen, antingen i slutet av inspelningen eller direkt när någon påstår något. &lt;br /&gt;
-Exempel: &lt;em&gt;&lt;strong&gt;Enligt statistik från SCB&lt;/strong&gt; lever kvinnor längre än män"…&lt;/em&gt;. “ eller&lt;em&gt; “Svenska elever har blivit bättre på matte, &lt;strong&gt;enligt en undersökning som Myndigheten XX gjort. &lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;
-Lägg också in länkarna till alla digitala källor i fältet för källor, som finns i varje artikel. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tips för en bra podd&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Skriv ett manus! Utan manus riskerar podden att bli för pratig och ointressant. &lt;br /&gt;
+• Lägg lite tid på ljudet! Om du inte har tillgång till en poddstudio – hitta ett rum utan eko. För att göra ljudet mer dämpat kan du använda textilier, till exempel filtar och jackor som du lägger i närheten av inspelningsutrustningen. Har du en mikrofon är det bra, annars funkar en vanlig mobiltelefon. &lt;br /&gt;
+• Hänvisa gärna till trovärdiga källor när någon påstår något i podden. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detta ska en poddartikel innehålla&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Rubrik. Plocka gärna upp det mest intressanta eller överraskande citatet i rubriken.&lt;br /&gt;
+• Ljud:&lt;strong&gt; &lt;/strong&gt;Den inbäddade koden från din ljudfil på till exempel Soundcloud eller Spotify.&lt;br /&gt;
+• Ingress. Väck intresse för podden! Varför ska andra lyssna på den?&lt;br /&gt;
+• Bild. Ta gärna en bild på de som medverkar i podden, eller en bild som knyter an till det ämne som diskuteras. Lägg bilden i boxen "Huvudbild". &lt;br /&gt;
+• Bildtext. Är deltagarna i podden med på bild? Glöm då inte att tala om vad de heter i bildtexten! &lt;br /&gt;
+• Källor. Glöm inte att lägga in dina källor i boxen "Källor". &lt;/p&gt;
 </Body>
     <Article-code>article.base_article_type_x_22, articleType.Podd, new.article.Podd</Article-code>
     <Language>Swedish</Language>
@@ -4771,58 +4771,47 @@ Lägg också in länkarna till alla digitala källor i fältet för källor, s
   <node>
     <Nid>16807</Nid>
     <Title>Reportage</Title>
-    <Body>&lt;p dir="ltr"&gt;I ett reportage finns plats för ett målande språk och stora bilder. Du som skriver ska ta med din läsare till platsen! Det gör du genom att förmedla dina egna intryck. Hur doftar det? Hur låter det? Hur beter sig människor på platsen? Men kom ihåg att reportaget också är en faktatext, precis som nyhetsartikeln och ska alltså inte innehålla skribentens egna åsikter i sakfrågor!&lt;/p&gt;
-&lt;p dir="ltr"&gt;I ett reportage kan texten vara lite längre. 3000 - 7000 tecken, inklusive blanksteg, brukar vara lagom. Du bör ha två stora bilder, helst en eller flera små och gärna en ljudfil eller ett videoklipp. Det går utmärkt att stoppa in ett bildspel också, om du har många bra bilder! Ljudfilen eller videoklippet ska du ladda upp i Soundcloud, Vimeo eller Youtube. Därefter klipps det in den inbäddade länken i boxen för inbäddat material. Gå sedan in i boxen för brödtext, ställ markören där du vill att klippet ska hamna och välj ditt klipp från drop down-menyn. En kod kommer synas i ditt textfält. Det är först när du gör en renderad testartikel som du kommer se hur det inbäddade klippet ser ut i ditt reportage.&lt;/p&gt;
-&lt;p dir="ltr"&gt;Tips för ett bra reportage:&lt;/p&gt;
-&lt;p dir="ltr"&gt;• Ta med läsaren till platsen! Beskriv miljöer, människor, doft och ljud. &lt;/p&gt;
-&lt;p dir="ltr"&gt;• Undvik att använda ordet "jag" i texten. Det kan lätt stå i vägen för läsarens egen upplevelse. &lt;/p&gt;
-&lt;p dir="ltr"&gt;• Inled gärna med att beskriva något som händer eller med ett citat! Det fångar läsarens intresse.&lt;/p&gt;
-&lt;p dir="ltr"&gt;DETTA SKA FINNAS I ETT REPORTAGE&lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Rubrik. &lt;/strong&gt;Reportagerubriken behöver inte vara lika fokuserad på vad som har hänt som om du hade skrivit en nyhetsartikel.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ingress/pufftext. &lt;/strong&gt;Ingressen är de första raderna av en artikel, som är lite större. Den ska helst vara två till tre meningar lång. Den ska beskriva vad artikeln handlar om, men inte avslöja för mycket! Den ska leda in läsaren i texten! På Mobile Stories elevsajt blir ingressen också ”pufftext”, det vill säga den text som syns på förstasidan under rubriken. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Brödtext. &lt;/strong&gt;Varva gärna kortare och längre meningar och fakta med miljöbeskrivningar. Låt läsaren ”vara med” på platsen du skriver om. Hur ser det ut? Hur doftar det? Beskriv gärna intervjupersonerna. Hur rör de sig när de pratar? Vad har de på sig? Väv in fakta som ger tyngd åt texten! &lt;/p&gt;
-&lt;p dir="ltr"&gt;&lt;strong&gt;Textlängd:&lt;/strong&gt; Ett reportage ska vara minst 3000 tecken inklusive blanksteg. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Reportagebilder.&lt;/strong&gt; Satsa på bilderna! Ditt reportage blir mer läst om du funderar några varv extra över hur du kan få till bra bilder. Om möjligt, se till att det finns bilder på alla intervjupersoner, gärna i den miljö som reportaget handlar om. Bilder på detaljer kan vara ett sätt att föra berättelsen framåt. En detalj kan vara till exempel ett föremål som säger något om en person i reportaget, eller om det ämne som reportaget handlar om. En bild ska ligga i boxen "Puffbild". Lägg även in en bild i "Bildspelsbild till ettan". Det kan vara samma bild som du använder i "Puffbild".&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Taggar.&lt;/strong&gt; Välj minst ett ord som passar för ditt ämne. Taggar gör att din artikel blir lättare att hitta på internet. &lt;/p&gt;
-&lt;p dir="ltr"&gt;VALFRITT&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Faktarutor.&lt;/strong&gt; Här har du chans att lyfta fram faktauppgifter eller tips till läsaren. Kan läggas in som en bild i texten.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Statistik.&lt;/strong&gt; Kan också vara ett bra komplement. Kan läggas in som en bild i texten.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Videoklipp eller ljudklipp. &lt;/strong&gt;Ska tillföra något till din berättelse. Kan till exempel vara ett kort klipp när någon visar eller berättar något. &lt;/p&gt;
-&lt;p&gt;SÅ REDOVISAR DU KÄLLOR I ETT REPORTAGE:&lt;/p&gt;
-&lt;p&gt;När du publicerar en artikel på Mobilestories.se måste du alltid berätta för läsaren var informationen kommer från. Det gör du i den löpande texten (se nedan) samt i fältet för källor. &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Vill du hänvisa till en text – till exempel en forskningsrapport, bok eller undersökning – som någon annan har skrivit? Då kan skriva på det här sättet: &lt;em&gt;Åtta av tio vet inte vart de ska vända sig om de vill påverka ett politiskt beslut i kommunen, &lt;strong&gt;enligt en undersökning som gjorts av Myndigheten för Civilsamhällesfrågor, MUCF.  &lt;/strong&gt;&lt;/em&gt;Du kan också skriva såhär: &lt;em&gt;&lt;strong&gt;Enligt statistik från SCB har män kortare medellivslängd&lt;/strong&gt;…. “ eller “Svenska elever har blivit bättre på matte, &lt;strong&gt;enligt en kartläggning som Myndigheten XX gjort.&lt;/strong&gt;&lt;/em&gt;  Lägg gärna även in källorna som hyperlänkar i själva texten (det vill säga länka från namnet på källan i din text till den webbsida där du hämtat dina uppgifter).&lt;/li&gt;
-&lt;li&gt;Om källan är en person som du pratat med använder du i stället ett talstreck, enligt den här modellen: &lt;em&gt;– Som nyhetsreporter gäller att hela tiden leta i sin omgivning efter sådant som går utanför det vanliga, &lt;strong&gt;säger nyhetsreporter Förnamn Efternamn på tidningen Dagbladet.&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Lägg slutligen in länkarna till alla dina källor i boxen "Källor".&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Läs mer om hur du skriver ditt reportage på Mediekompass skrivarskola. Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branchorganisationen TU – Medier i Sverige.&lt;/p&gt;
+    <Body>&lt;p dir="ltr"&gt;I ett reportage finns plats för ett målande språk och stora bilder. Du som skriver ska ta med din läsare till platsen! Det gör du genom att förmedla dina egna intryck. Hur doftar det? Hur låter det? Hur beter sig människor på platsen? Men kom ihåg att reportaget också är en faktatext, precis som nyhetsartikeln och ska alltså inte innehålla skribentens egna åsikter. Lyft gärna in fakta för att ge tyngd åt din text!&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Tips för ett bra reportage&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Ta med läsaren till platsen! Beskriv miljöer, människor, doft och ljud. &lt;br /&gt;
+• Undvik att använda ordet "jag" i texten. Det kan lätt stå i vägen för läsarens egen upplevelse. &lt;br /&gt;
+• Varva långa och korta meningar. Det gör din text mer levande. &lt;br /&gt;
+• Inled gärna med att ta med läsaren till något som händer här och nu. Skriv gärna i presens för att det ska kännas som att läsaren är med när det händer! &lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Detta ska finnas i ett reportage&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Rubrik. Reportagerubriken behöver inte vara lika fokuserad på vad som har hänt som om du hade skrivit en nyhetsartikel.&lt;br /&gt;
+• Ingress.&lt;strong&gt; &lt;/strong&gt;En ingress består av några meningar som leder läsaren in i texten.  &lt;br /&gt;
+• Brödtext. Brödtexten, eller huvudtexten, i ett reportage ska vara mellan 3000 och 7000 tecken (inklusive blanksteg) eller mellan 480 och 1120 ord.&lt;br /&gt;
+• Reportagebilder. I ett reportage på Mobile Stories behöver du minst en bild, som är "liggande", det vill säga mer bred än hög. &lt;br /&gt;
+• Videoklipp eller ljudklipp (valfritt). Kortare ljud- eller videoklipp kan bäddas också bäddas in i texten, till exempel miljöljud från plats eller kanske något citat från personer du intervjuat. &lt;br /&gt;
+• Källor. Se till att de källor du använder är trovärdiga och lägg dem i boxen "Källor".&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Lär dig mer om hur du skriver ett bra reportage&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;• På Mediekompass skrivarskola kan du läsa mer om artikeltypen reportage. Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branschorganisationen TU – Medier i Sverige.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mediekompass.se/wp-content/uploads/2014/09/Reportaget.pdf"&gt;Reportage | Mediekompass skrivarskola (PDF) &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h4 dir="ltr"&gt; &lt;/h4&gt;
 </Body>
     <Article-code>article.base_article_type_x_27, articleType.Reportage, new.article.Reportage</Article-code>
     <Language>Swedish</Language>
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
-    <Summary>&lt;p&gt;I Reportaget eller Storytelling-artikeln skapar bild, text, ljud och film en sammanhängande helhet.&lt;/p&gt;
+    <Summary>&lt;p&gt;Vill du berätta om verkliga händelser eller personer på ett engagerande och målande sätt? Då är reportaget rätt artikeltyp för dig!&lt;/p&gt;
 </Summary>
   </node>
   <node>
     <Nid>16806</Nid>
-    <Title>Nyhetsartikel/standardartikel</Title>
-    <Body>&lt;p&gt;I en nyhetsartikel ska reportern vara saklig och korrekt. Eventuella åsikter om eller analyser av nyheten ska komma fram genom intervjupersoner. En nyhet ska vara:&lt;/p&gt;
+    <Title>Nyhetsartikel/Standardartikel</Title>
+    <Body>&lt;p&gt;En nyhetsartikel ska vara en informerande text som handlar om någonting som hänt eller om nya uppgifter har kommit fram. I en nyhetsartikel ska reportern vara saklig och korrekt och undvika värdeladdade ord. Eventuella åsikter om eller analyser av nyheten ska komma fram genom intervjupersoner. En nyhet ska vara:&lt;/p&gt;
 &lt;p&gt;1. Sann (kontrollerade källor).&lt;/p&gt;
 &lt;p&gt;2. Relevant (viktigt för människor att känna till).&lt;/p&gt;
 &lt;p&gt;3. Ny, det vill säga något som inte tidigare är allmänt känt. &lt;/p&gt;
 &lt;p&gt;Mobile Stories mall för Nyhetsartikel eller Standardartikel kan också användas för intervjuer, personporträtt eller enklare reportage. &lt;/p&gt;
-&lt;p&gt;Frågor som kan hjälpa dig att komma igång med din nyhetsartikel:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1. Vad är ”grejen”? &lt;/strong&gt;Fundera över vad i din artikel som är nytt, överraskande och intressant för dina läsare. Med andra ord: Vad är själva nyheten? Är det något som har hänt? Nya uppgifter som kommit fram? Eller bara något som du tycker att fler borde få veta? Kanske har du en glad nyhet att berätta om.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2. Vem är ”caset”?&lt;/strong&gt; För att en artikel ska beröra läsaren är det bra att ha ett ”case”. Ett case är den enskilda människan eller människorna som drabbas av ett visst beslut eller berörs på annat sätt av det du skriver om. Det kan också vara någon som gjort någonting bra som behöver lyftas fram och kanske inspirera andra! &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3. Vem är expert?&lt;/strong&gt; Låt gärna en expert på ämnet förklara och nyansera de faktauppgifter som du presenterar för läsaren. En expert kan vara en forskare, en myndighetsperson eller någon annan som är specialinsatt i den fråga som artikeln handlar om. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;4. Vilka tycker något?&lt;/strong&gt; Finns det personer som har olika åsikter om det du skriver om? Låt dem föra fram sina olika ståndpunkter (åsikter). Om någon blir kritiserad i texten eller av de intervjupersoner som uttalar sig i texten måste även den person som blir kritiserad få komma till tals.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;5. Vem kan ställas till svars?&lt;/strong&gt; Om du skriver om någonting som gått fel bör du låta den som är ansvarig komma till tals. Ställ kritiska frågor!&lt;/p&gt;
-&lt;p&gt;Fler instruktioner för hur du skriver din nyhetsartikeln hittar du på Mediekompass skrivarskola i länken nedan. Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branchorganisationen TU – Medier i Sverige.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tips för en bra nyhetsartikel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Vad är ”grejen”? Fundera över vad i din artikel som är nytt, överraskande och intressant för dina läsare. Med andra ord: Vad är själva nyheten? &lt;br /&gt;
+• Vem är ”caset”? För att en artikel ska beröra läsaren är det bra att ha ett ”case”. Ett case är den enskilda människan eller människorna som drabbas av ett visst beslut eller berörs på annat sätt av det du skriver om. &lt;br /&gt;
+• Vem är expert? Låt gärna en expert, som kan mycket om ämnet du skriver om förklara och nyansera de faktauppgifter som du presenterar för läsaren. En expert kan till exempel vara en forskare eller person som arbetar på en myndighet. &lt;br /&gt;
+• Vilka tycker något? Finns det personer som har olika åsikter om det du skriver om? Låt dem föra fram sina olika ståndpunkter (åsikter). Om någon blir kritiserad i texten eller av de intervjupersoner som uttalar sig i texten måste även den person som blir kritiserad få komma till tals.&lt;br /&gt;
+• Vem kan ställas till svars? Om du skriver om någonting som gått fel bör du låta den som är ansvarig komma till tals. Ställ kritiska frågor!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lär dig mer om hur du skriver en bra nyhetsartikel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;På Mediekompass skrivarskola kan du läsa mer om &lt;a href="http://mediekompass.se/wp-content/uploads/2014/09/Nyhetsartikel.pdf"&gt;artikeltypen Nyhetsartikel&lt;/a&gt;. Mediekompass är ett hjälpmedel för lärare som vill använda tidningar i undervisningen. Bakom Mediekompass står branchorganisationen TU – Medier i Sverige.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mediekompass.se/wp-content/uploads/2014/09/Nyhetsartikel.pdf"&gt;Nyhetsartikeln | Mediekompass skrivarskola (PDF)&lt;/a&gt; &lt;/p&gt;
 </Body>
     <Article-code>article.base_article_type_x_25, articleType.Nyhetsartikel, new.article.Nyhetsartikel</Article-code>
@@ -4830,7 +4819,7 @@ Lägg också in länkarna till alla digitala källor i fältet för källor, s
     <Translation-set-node-ID>0</Translation-set-node-ID>
     <Type>Info article</Type>
     <Type-of-article>Help text</Type-of-article>
-    <Summary>&lt;p&gt;En nyhetsartikel ska vara en informerande text som handlar om någonting som hänt eller om nya uppgifter har kommit fram.&lt;/p&gt;
+    <Summary>&lt;p&gt;Vill du rapportera om en aktuell händelse – något som hänt på din skola, i ditt område eller i världen? Vill du också låta olika personer kommentera det som hänt i din artikel? Då är nyhetsartikel rätt artikeltyp för dig!&lt;/p&gt;
 </Summary>
   </node>
   <node>

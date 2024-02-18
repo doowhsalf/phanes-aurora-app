@@ -365,6 +365,7 @@ const convertXmlToJsonAndSave = async () => {
             weight: modifiedNode["weight"],
             articleCode: modifiedNode["articleCode"],
             translationStatus: "translated",
+            updateMode: "agent", // "agent" or "human"
           },
         ];
 
@@ -377,6 +378,7 @@ const convertXmlToJsonAndSave = async () => {
               updatedAt: modifiedNode["updatedAt"],
               updatedBy: modifiedNode["updatedBy"],
               version: modifiedNode["version"],
+              updateMode: "agent", // "agent" or "human"
               status: modifiedNode["status"],
               published_status: modifiedNode["published_status"],
               language: lang.code,
