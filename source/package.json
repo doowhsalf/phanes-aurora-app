@@ -1,8 +1,8 @@
 {
   "name": "aurora",
-  "version": "0.5.17",
+  "version": "0.5.18",
   "version_focus": "Pod",
-  "version_build_date": "20240212",
+  "version_build_date": "20240219",
   "description": "Aurora POD - Translation and Localization Management System",
   "scripts": {
     "lint": "eslint ./lib ./client ./server --ext .js --ext .jsx",
