@@ -101,4 +101,47 @@ export default function () {
       return updateCount; // Returns the number of documents updated
     },
   });
+  Meteor.methods({
+    "content.getTypeOfArticles": function () {
+      if (!this.userId) {
+        throw new Meteor.Error(
+          401,
+          "You must be logged in to access content types"
+        );
+      }
+
+      // Define the pipeline array within the method
+      const pipeline = [
+        {
+          $group: {
+            _id: null,
+            distinctTypes: {
+              $addToSet: "$typeOfArticle",
+            },
+          },
+        },
+        {
+          $project: {
+            _id: 0,
+            distinctTypes: 1,
+          },
+        },
+      ];
+
+      const rawCollection = Contents.rawCollection();
+
+      return new Promise((resolve, reject) => {
+        rawCollection
+          .aggregate(pipeline, { cursor: {} })
+          .toArray((error, result) => {
+            if (error) {
+              reject(new Meteor.Error("aggregation-error", error.message));
+            } else {
+              // Assuming the result is an array with one document containing the distinctTypes array
+              resolve(result.length > 0 ? result[0].distinctTypes : []);
+            }
+          });
+      });
+    },
+  });
 }

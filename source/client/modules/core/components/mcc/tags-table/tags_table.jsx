@@ -139,11 +139,11 @@ class SearchlistHead extends React.Component {
 
       case "status":
         label = i18n.__("Label_podview_articles_master_status");
-        break;;
+        break;
 
       case "publish_status":
         label = i18n.__("Label_podview_articles_master_publish_status");
-        break;;
+        break;
       case "updatedAt":
         label = i18n.__("Label_podview_articles_master_updatedAt");
         break;
@@ -239,18 +239,6 @@ const styles = (theme) => ({
   root: {
     width: "100%",
     marginTop: theme.spacing(3),
-  },
-  rowActive: {
-    color: theme.palette.success.main, // Use main for a darker shade if preferred
-  },
-  rowArchived: {
-    color: theme.palette.warning.main,
-  },
-  textActive: {
-    color: theme.palette.success.main, // Use main for a darker shade if preferred
-  },
-  textArchived: {
-    color: theme.palette.warning.main,
   },
   paper: {
     padding: theme.spacing(2),
@@ -433,7 +421,7 @@ class Searchlist extends React.Component {
     DEFCON5 && console.log(nodeConfigs);
 
     nodeConfigs.forEach((article) => {
-      DEFCON7 && console.log(article);
+      DEFCON5 && console.log(article);
       if (nodeConfigs.revisions !== undefined) {
         article.revisions.forEach((revision) => {
           // check if masterLanguage is equal to the language of the revision and then set the title to the revision title
@@ -489,45 +477,79 @@ class Searchlist extends React.Component {
               {stableSort(nodeConfigs, getSorting(order, orderBy))
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((n) => {
-                  // Determine the text color class based on the status
                   const textColorClass =
-                    n.status === "active"
-                      ? classes.textActive
-                      : n.status === "archived"
-                      ? classes.textArchived
-                      : "";
+                    n.status === "draft"
+                      ? classes.tableRowApproved
+                      : n.status === "published"
+                      ? classes.tableRowProposed
+                      : n.status === "review"
+                      ? classes.tableRowSuspenced
+                      : classes.tableRowRequested;
+                  // get the revision title if the mainLanguage is equal to the revision language
+                  let renderTitle = "-"; // Default value
+                  DEFCON5 && console.log(n.masterLanguage);
+
+                  for (const revision of n.revisions) {
+                    DEFCON5 && console.log(revision.language);
+                    if (n.masterLanguage === revision.language) {
+                      renderTitle = revision.title;
+                      break; // Exit the loop once the matching language is found
+                    }
+                  }
+
+                  DEFCON5 && console.log(renderTitle);
+                  renderTitle = renderTitle || "-"; // This line might be redundant if '-' is already the default
 
                   return (
                     <TableRow
+                      //className={classNames(textColorClass)}
                       hover
                       onClick={(event) => this.handleClick(event, n._id)}
                       tabIndex={-1}
                       key={_uniqueKey()}
+                      // className={getRowClassNameByPrio(n.priority, classes)}
                     >
-                      {/* Apply the textColorClass to each TableCell */}
-                      <TableCell align="left" className={textColorClass}>
-                        {getField(n, "_id") || "-"}
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getField(n, "_id") || "-"}
+                        </span>
                       </TableCell>
-                      <TableCell align="left" className={textColorClass}>
-                        {getField(n, "typeOfArticle") || "-"}
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getField(n, "typeOfArticle") || "-"}
+                        </span>
                       </TableCell>
-                      <TableCell align="left" className={textColorClass}>
-                        {getField(n, "title") || "-"}
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {renderTitle}
+                        </span>
                       </TableCell>
-                      <TableCell align="left" className={textColorClass}>
-                        {getField(n, "masterLanguage") || "-"}
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getField(n, "masterLanguage") || "-"}
+                        </span>
                       </TableCell>
-                      <TableCell align="left" className={textColorClass}>
-                        {getField(n, "version") || "-"}
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getFieldDate(n, "version") || "-"}
+                        </span>
                       </TableCell>
-                      <TableCell align="left" className={textColorClass}>
-                        {getField(n, "publish_status") || "-"}
+
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getField(n, "publish_status") || "-"}
+                        </span>
                       </TableCell>
-                      <TableCell align="left" className={textColorClass}>
-                        {getField(n, "status") || "-"}
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getField(n, "status") || "-"}
+                        </span>
                       </TableCell>
-                      <TableCell align="left" className={textColorClass}>
-                        {getFieldDate(n, "updatedAt") || "-"}
+
+                      <TableCell align="left">
+                        <span className={classNames(textColorClass)}>
+                          {getFieldDate(n, "updatedAt") || "-"}
+                        </span>
                       </TableCell>
                     </TableRow>
                   );

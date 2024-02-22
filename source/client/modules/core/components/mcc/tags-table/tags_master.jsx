@@ -1,56 +1,73 @@
 import React from "react";
-import { DEFCON7, DEFCON5 } from "/debug.json";
+import { FlowRouter } from "meteor/ostrio:flow-router-extra";
+import {
+  DEFCON9,
+  DEFCON7,
+  DEFCON5,
+  DEFCON4,
+  DEFCON3,
+  DEFCON2,
+  DEFCON1,
+} from "/debug.json";
+import ReactDom from "react-dom";
 import PropTypes from "prop-types";
 import withStyles from "@mui/styles/withStyles";
+import Box from "@mui/material/Box";
+import AppBar from "@mui/material/AppBar";
+import CssBaseline from "@mui/material/CssBaseline";
 
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
+import SnackBarMessage from "../../fields/snackbar-message";
+import Container from "@mui/material/Container";
+import Card from "@mui/material/Card";
+import CardActionArea from "@mui/material/CardActionArea";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
 import i18n from "meteor/universe:i18n";
+import DateStringTransformer from "/lib/transformers/dateStringTransformer";
+import BottomNavigation from "@mui/material/BottomNavigation";
+import BottomNavigationAction from "@mui/material/BottomNavigationAction";
+import FolderIcon from "@mui/icons-material/Folder";
+import RestoreIcon from "@mui/icons-material/Restore";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
+import ListItemSecondaryAction from "@mui/material/ListItemSecondaryAction";
 import Avatar from "@mui/material/Avatar";
 import Paper from "@mui/material/Paper";
 import DebouncedTextField from "../../fields/debouncedtextfield";
-import Proxy from "./mcc_podview_articles_proxy";
+import Proxy from "./tags_proxy";
 
 import { grey } from "@mui/material/colors";
 import IconButton from "@mui/material/IconButton";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import TextField from "@mui/material/TextField";
+import Snackbar from "@mui/material/Snackbar";
+import Button from "@mui/material/Button";
+import BackIcon from "@mui/icons-material/NavigateNext";
+import CreateIcon from "@mui/icons-material/Create";
 import TimeAgo from "javascript-time-ago";
 import en from "javascript-time-ago/locale/sv";
+import TimeAgoLive from "../../fields/timeagolive/timeagolive";
+import sv from "../../fields/timeagolive/timeagolive_sv";
+import Toolbar from "@mui/material/Toolbar";
 // import Card from "@mui/material/Card";
 // import CardHeader from "@mui/material/CardHeader";
 // import CardMedia from "@mui/material/CardMedia";
 // import CardContent from "@mui/material/CardContent";
-import { _getLogoUrl } from "../../helpers/app-logo";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
-import FormGroup from "@mui/material/FormGroup";
+import Drawer from "@mui/material/Drawer";
+import Hidden from "@mui/material/Hidden";
+import { renderLogo, _getLogoUrl } from "../../helpers/app-logo";
 
 TimeAgo.locale(en);
 
 const styles = (theme) => ({
   root: {
     flexGrow: 1,
-  },
-  tagsStatus: {
-    color: theme.palette.secondary.light,
-    "&.Mui-checked": {
-      // Style for checked state
-      color: theme.palette.secondary.light,
-    },
-  },
-  tagsTypeOfArticle: {
-    color: theme.palette.primary.main, // Default color
-    "&.Mui-checked": {
-      // Style for checked state
-      color: theme.palette.primary.main,
-    },
-  },
-  customCheckbox: {
-    color: theme.palette.primary.main, // Default color
-    "&.Mui-checked": {
-      // Style for checked state
-      color: theme.palette.secondary.main,
-    },
   },
   appBar: {
     top: "auto",
@@ -179,146 +196,8 @@ class MccPodviewDataMaster extends React.Component {
       line: "",
       error: undefined,
       saving: false,
-      statusFilters: {
-        active: false,
-        archived: false,
-      },
-      typeOfArticleFilters: {},
-      loading: true,
     };
   }
-  componentDidMount() {
-    this.initializeFilters();
-  }
-
-  // Assuming this function fetches or receives your articles data
-  initializeFilters = () => {
-    Meteor.call("content.getTypeOfArticles", (error, response) => {
-      if (error) {
-        console.error("Error getting the type of articles:", error);
-      } else {
-        // Assuming the server returns an array of distinct types
-        // Convert the array to an object with keys as the typeOfArticles and values as false (unchecked)
-        const filters = response.reduce((acc, type) => {
-          acc[type] = false; // Initialize each filter as unchecked
-          return acc;
-        }, {});
-
-        this.setState({
-          typeOfArticleFilters: filters,
-        });
-        // get the saved filters from the SystemConfig
-        // the key shall using user id + articleFilters
-        let key = Meteor.userId() + ".articleFilters";
-        Meteor.call("systemconfig.get", key, (error, response) => {
-          if (error) {
-            console.error("Error getting the system config:", error);
-          } else {
-            this.setState({
-              ...response,
-              loading: false, // Data loaded, stop loading
-            });
-          }
-        });
-      }
-    });
-  };
-
-  toggleFilter = (filterType, value) => {
-    DEFCON5 && console.log("Toogle filter: ", filterType, value);
-
-    this.setState((prevState) => ({
-      ...prevState,
-      [filterType]: {
-        ...prevState[filterType],
-        [value]: !prevState[filterType][value],
-      },
-    }));
-    // save the selected filter to the SystemConfig
-    // the key shall using user id + articleFilters
-    DEFCON5 && console.log("Save filter: ", filterType, value);
-
-    let key = Meteor.userId() + ".articleFilters";
-
-    // set fields to update to the current state but with the updated filter
-    const fieldsToUpdate = {
-      [filterType]: {
-        ...this.state[filterType],
-        [value]: !this.state[filterType][value],
-      },
-    };
-    Meteor.call("systemconfig.put", key, fieldsToUpdate, (error, response) => {
-      if (error) {
-        console.error("Error updating the system config:", error);
-      }
-    });
-  };
-
-  renderFilters = () => {
-    const { statusFilters, typeOfArticleFilters, loading } = this.state;
-    const { classes } = this.props;
-    if (loading) {
-      return null;
-    }
-    // Wrap the entire filters section in a Grid container
-    return (
-      <Grid container justifyContent="flex-end" spacing={2}>
-        {/* Status Filters Block */}
-        <Grid item>
-          <Typography
-            variant="caption"
-            style={{ fontSize: 8, textTransform: "uppercase" }}
-          >
-            Status
-          </Typography>
-          <FormGroup row>
-            {Object.keys(statusFilters).map((status) => (
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    checked={statusFilters[status]}
-                    onChange={() => this.toggleFilter("statusFilters", status)}
-                    name={status}
-                    className={classes.tagsStatus}
-                  />
-                }
-                label={status.charAt(0).toUpperCase() + status.slice(1)}
-                key={status}
-              />
-            ))}
-          </FormGroup>
-        </Grid>
-
-        {/* Type Of Article Filters Block */}
-        <Grid item>
-          <Typography
-            variant="caption"
-            style={{ fontSize: 8, textTransform: "uppercase" }}
-          >
-            Type of Article
-          </Typography>
-          <FormGroup row>
-            {Object.keys(typeOfArticleFilters).map((typeOfArticle) => (
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    checked={typeOfArticleFilters[typeOfArticle]}
-                    onChange={() =>
-                      this.toggleFilter("typeOfArticleFilters", typeOfArticle)
-                    }
-                    name={typeOfArticle}
-                    className={classes.tagsTypeOfArticle}
-                  />
-                }
-                label={typeOfArticle}
-                key={typeOfArticle}
-              />
-            ))}
-          </FormGroup>
-        </Grid>
-      </Grid>
-    );
-  };
 
   getAvatar(listItem) {
     return listItem.avatar ? (
@@ -365,20 +244,14 @@ class MccPodviewDataMaster extends React.Component {
       ? JSON.parse(localStorage.getItem("themeMode"))
       : true;
 
-    DEFCON5 && console.log(this.state);
+    DEFCON5 && console.log(mccConfigs);
 
     return (
       <div className={classes.root}>
-        <Grid container justifyContent="space-between" alignItems="center">
-          <Grid xs={3} item>
-            <Typography variant="h4">
-              {i18n.__("Label_podview_articles_master_title")}
-            </Typography>
-          </Grid>
-          <Grid item xs={9}>
-            {this.renderFilters()}
-          </Grid>
-        </Grid>
+        <Typography variant="h4">
+          {i18n.__("Label_podview_articles_master_title")}
+        </Typography>
+
         <Grid container spacing={2}>
           <Grid item xs={12} md={12}>
             <Paper variant="outlined" className={classes.card}>
@@ -397,11 +270,7 @@ class MccPodviewDataMaster extends React.Component {
           </Grid>
           <Grid item xs={12} md={12}>
             <Paper variant="outlined" className={classes.card}>
-              <Proxy
-                searchText={this.state.filter}
-                statusFilters={this.state.statusFilters}
-                typeOfArticleFilters={this.state.typeOfArticleFilters}
-              ></Proxy>
+              <Proxy searchText={this.state.filter}></Proxy>
             </Paper>
           </Grid>
         </Grid>

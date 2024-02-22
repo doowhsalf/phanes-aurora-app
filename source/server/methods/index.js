@@ -13,6 +13,7 @@ import chatrooms from "./chatrooms";
 import events from "./events";
 import workorders from "./workorders";
 import notices from "./notices";
+import systemconfig from "./systemconfig";
 export default function() {
   _users();
   chatlinelists();
@@ -28,4 +29,5 @@ export default function() {
   events();
   workorders();
   notices();
+  systemconfig();
 }

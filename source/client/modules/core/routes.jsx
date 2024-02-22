@@ -47,7 +47,7 @@ export default function (injectDeps, { FlowRouter }) {
     name: "root",
     action() {
       mount(MainLayoutCtx, {
-        content: () => <Start />,
+        content: () => <MccMaster />,
       });
     },
   });

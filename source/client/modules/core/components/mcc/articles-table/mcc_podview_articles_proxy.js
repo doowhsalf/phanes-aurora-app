@@ -11,68 +11,81 @@ import {
   DEFCON1,
 } from "/debug.json";
 
-DEFCON5 && console.log("In meters component, kicknodesing stuff");
+DEFCON5 && console.log("In meters ");
 /* 
-    "_id" : "fibaro-tritonite-proxima-east/switch/33/events/fibaro => home assistant/power",
-    "topic" : "fibaro-tritonite-proxima-east/switch/33/events/fibaro => home assistant/power",
-    "sensorClass" : "power_sensor",
-    "created" : "2023-09-10T14:53:54.928Z",
-    "status" : "proposed",
-    "context" : "CONTEXT: fibaro-tritonite-proxima-east/switch/33/events/fibaro => home assistant/power Device information: drencher.television with a value of 167.7"
+    searchText={this.state.filter}
+                statusFilters={this.statusFilters}
+                typeOfArticleFilters={this.typeOfArticleFilters}
 }*/
-export const composer = ({ context, searchText }, onData) => {
+export const composer = (
+  { context, searchText, statusFilters, typeOfArticleFilters },
+  onData
+) => {
   const { Meteor, Collections } = context();
-  DEFCON5 && console.log("In nodes meters composer");
+  DEFCON5 &&
+    console.log(
+      "Incomming filter data: ",
+      searchText,
+      statusFilters,
+      typeOfArticleFilters
+    );
 
-  this.filter = (articles, searchText) => {
-    if (articles) {
-      const regex = new RegExp(".*" + searchText + ".*", "i");
+  const filterArticles = (
+    articles,
+    searchText = "",
+    statusFilters = {},
+    typeOfArticleFilters = {}
+  ) => {
+    // Convert filter objects to arrays of active filter names
+    const activeStatusFilters = Object.keys(statusFilters).filter(
+      (key) => statusFilters[key]
+    );
+    const activeTypeOfArticleFilters = Object.keys(typeOfArticleFilters).filter(
+      (key) => typeOfArticleFilters[key]
+    );
 
-      const filtered = articles.filter((article) => {
-        DEFCON5 && console.log(article);
-        // check if description is defined, if not set to empty string
-
-        // let descriptionSearch =
-        //   article.description !== undefined
-        //     ? article.description.en !== undefined
-        //       ? article.description.en
-        //       : ""
-        //     : "";
-        // let nameSearch = article.name.en !== undefined ? article.name.en : "";
-
-        // create a search string from revision data add add it to the search string
-        var revisionSearch = "";
-        if (article.revisions !== undefined) {
-          article.revisions.forEach((revision) => {
-            revisionSearch += revision.description;
-            revisionSearch += revision.title;
-            revisionSearch += revision.body;
-            revisionSearch += revision.subheader;
-            revisionSearch += revision.summary;
-          });
-        }
-
-        const searchString = `${revisionSearch} ${article._id} ${article.ingress} ${article.status} ${article.status} ${article.languge} ${article.originalLanguage} ${article.originalLanguage} ${article.title} ${article.title} ${article.body} ${article.body} ${article.subheader} ${article.subheader} ${article.weight} ${article.weight} ${article.articleCode} ${article.articleCode} ${article.typeOfArticle} ${article.typeOfArticle} ${article.contentType} ${article.contentType} ${article._id} ${article._id} ${article.nid} `;
-        return regex.test(searchString);
-      });
-      return filtered;
-    }
+    return articles.filter((article) => {
+      // Apply status filter if any status filter is active
+      const statusMatch =
+        !activeStatusFilters.length ||
+        activeStatusFilters.includes(
+          article.status.toLowerCase().replace(/\s/g, "")
+        );
+      // Apply type of article filter if any type of article filter is active
+      const typeOfArticleMatch =
+        !activeTypeOfArticleFilters.length ||
+        activeTypeOfArticleFilters.includes(
+          article.typeOfArticle.toLowerCase().replace(/\s/g, "")
+        );
+      // Apply text search filter
+      const regex = new RegExp(searchText, "i");
+      // Simplify search string creation
+      const searchString = `${article.revisions
+        ?.map(
+          (rev) =>
+            `${rev.description} ${rev.title} ${rev.body} ${rev.subheader} ${rev.summary}`
+        )
+        .join(" ")} ${article._id} ${article.ingress} ${article.status} ${
+        article.language
+      } ${article.originalLanguage} ${article.title} ${article.body} ${
+        article.subheader
+      } ${article.weight} ${article.articleCode} ${article.typeOfArticle} ${
+        article.contentType
+      } ${article.nid}`;
+      // Return articles that match all active filters
+      return statusMatch && typeOfArticleMatch && regex.test(searchString);
+    });
   };
 
   if (Meteor.subscribe("contents.all").ready()) {
-    const Selector = {};
-
-    const nodes = Collections.Contents.find(Selector).fetch();
-
-    let nodeConfigs =
-      searchText !== undefined ? filter(nodes, searchText) : nodes;
-    DEFCON3 && console.log(nodeConfigs);
-
-    try {
-      onData(null, { nodeConfigs });
-    } catch (err) {
-      DEFCON5 && console.log(err);
-    }
+    const articles = Collections.Contents.find({}).fetch();
+    const filteredArticles = filterArticles(
+      articles,
+      searchText,
+      statusFilters,
+      typeOfArticleFilters
+    );
+    onData(null, { nodeConfigs: filteredArticles });
   }
 };
 

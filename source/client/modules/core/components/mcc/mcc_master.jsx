@@ -79,10 +79,12 @@ import PowerSettingsNewIcon from "@mui/icons-material/PowerSettingsNew";
 import DataObjectIcon from "@mui/icons-material/DataObject";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import EditIcon from "@mui/icons-material/Edit";
-
+import ArticleIcon from "@mui/icons-material/Article";
 import EditModel from "../../containers/edit_model_master.js";
 import SensorMasterMaster from "./mcc_podview_sensormapping_master";
 import ArticlesMaster from "./articles-table/mcc_podview_articles_master";
+import TagMaster from "./tags-table/tags_master";
+import TagIcon from "@mui/icons-material/Tag";
 TimeAgo.locale(en);
 const drawerWidth = 240;
 function _uniqueKey() {
@@ -238,37 +240,37 @@ const menuItems = [
   },
   { divider: true },
   {
-    id: 3,
+    id: 2,
     name: "Nav_DropDownItem_Articles",
-    icon: <RouterIcon />,
+    icon: <ArticleIcon />,
     component: <ArticlesMaster />,
-    link: "/mcc/articles",
+    link: "/articles",
     method: "internal",
   },
   {
-    id: 4,
-    name: "Nav_DropDownItem_Snippets",
-    icon: <CloudIcon />,
-    component: <ArticlesMaster />,
-    link: "/edit",
+    id: 3,
+    name: "Nav_DropDownItem_Tags",
+    icon: <TagIcon />,
+    component: <TagMaster />,
+    link: "/tags",
     method: "internal",
   },
-  {
-    id: 5,
-    name: "Nav_DropDownItem_Labels",
-    icon: <SensorIcon />,
-    component: <ArticlesMaster />,
-    link: "/mcc/events",
-    method: "internal",
-  },
-  {
-    id: 6,
-    name: "Nav_DropDownItem_Configuration",
-    icon: <BatteryChargingFullIcon />,
-    component: <ArticlesMaster />,
-    link: "/mcc/energy",
-    method: "internal",
-  },
+  // {
+  //   id: 4,
+  //   name: "Nav_DropDownItem_Labels",
+  //   icon: <SensorIcon />,
+  //   component: <ArticlesMaster />,
+  //   link: "/mcc/events",
+  //   method: "internal",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Nav_DropDownItem_Configuration",
+  //   icon: <BatteryChargingFullIcon />,
+  //   component: <ArticlesMaster />,
+  //   link: "/mcc/energy",
+  //   method: "internal",
+  // },
 ];
 
 class MccMaster extends React.Component {
@@ -279,7 +281,7 @@ class MccMaster extends React.Component {
       line: "",
       error: undefined,
       saving: false,
-      selectedIndex: 1,
+      selectedIndex: 2,
     };
   }
 

@@ -30,4 +30,7 @@ export const KeyValueContexts = new Mongo.Collection("keyvalueContexts");
 export const Contents = new Mongo.Collection("contents");
 export const WorkOrders = new Mongo.Collection("workorders");
 
+export const TagClasses = new Mongo.Collection("tagclasses");
+export const Tags = new Mongo.Collection("tags");
+
 DEFCON5 && console.log("Fixing collections...");
