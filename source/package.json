@@ -1,6 +1,6 @@
 {
   "name": "aurora",
-  "version": "0.5.20",
+  "version": "0.5.21",
   "version_focus": "Pod",
   "version_build_date": "20240222",
   "description": "Aurora POD - Translation and Localization Management System",
