@@ -2,25 +2,25 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "7ddda99627b278807f6200187324d14aea9acdcd.js",
+      "path": "ecc3ea82d7990a39c9e8d5452dab5532640c4caa.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/7ddda99627b278807f6200187324d14aea9acdcd.js?meteor_js_resource=true",
+      "url": "/ecc3ea82d7990a39c9e8d5452dab5532640c4caa.js?meteor_js_resource=true",
       "replaceable": false,
       "size": 17116850,
-      "hash": "7ddda99627b278807f6200187324d14aea9acdcd",
-      "sri": "db7UWUF3FCSRXmmUnJ132NqusXhsW76fLXmYsDTxt4SrBAncfE0qSMBBNbKhaApooCXWgzM2ben6AJKSiQ3rcg=="
+      "hash": "ecc3ea82d7990a39c9e8d5452dab5532640c4caa",
+      "sri": "shFe4NXPLu02b6CADOVDIaaZztyN/rFCB6+mBvKvk+FBG8NB+w2lazbKwWPoQU58FB8ZFjiEoqeuNm8UKYcuBA=="
     },
     {
-      "path": "7ddda99627b278807f6200187324d14aea9acdcd.stats.json",
+      "path": "ecc3ea82d7990a39c9e8d5452dab5532640c4caa.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/7ddda99627b278807f6200187324d14aea9acdcd.stats.json?meteor_js_resource=true",
+      "url": "/ecc3ea82d7990a39c9e8d5452dab5532640c4caa.stats.json?meteor_js_resource=true",
       "size": 724640,
-      "hash": "cda47771acf7f3087518e0867dbd51dd5ed02f38",
-      "sri": "FG6EJGX8e6W5AKqMbe5hHcPOqoqfolgxgT1hPBiL0qF0+ZzSo/wOru5cy+9wQIMuojm7UKdaCCvy7ECUbSJpWQ=="
+      "hash": "a159f957d91315c9eb65ead83ae2c5709a7bb6d3",
+      "sri": "7+0yoIN2M+9LlAk8aG4eK5y4y9WUPms4SkXCgTVmHb4ED9h0An3L7z9FziQJUhIXsDjlX7yVdP1+Nw4BOjFfXg=="
     },
     {
       "path": "9bfe412163d4640209bac0e2210dd98960b3e0c2.css",
@@ -119,7 +119,7 @@
       "cacheable": false,
       "url": "/buildstuff/tri_build_meta.txt",
       "size": 130,
-      "hash": "d5281e7a0dd79477ddec47dc27e5fedbd75658d2",
+      "hash": "ea21de64d78764fb1fc5478cea9d79228b9a47d4",
       "sri": null
     },
     {
@@ -129,7 +129,7 @@
       "cacheable": false,
       "url": "/buildstuff/tri_build_number.txt",
       "size": 11,
-      "hash": "70124ce549d8c39e10f6cb5e9be863cfd5670349",
+      "hash": "53ec3c9b97de3e74de92d0ed7e6fadd200bdc6d0",
       "sri": null
     },
     {
