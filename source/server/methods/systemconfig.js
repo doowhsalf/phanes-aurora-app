@@ -18,8 +18,10 @@ export default function () {
       DEFCON5 && console.log("Method systemconfig.get");
 
       const response = SystemConfig.findOne({ _id: key });
+      // if there is no response the key is not founb but we don't throw an error just return null
+
       if (!response) {
-        throw new Meteor.Error("not-found", "System-config not found");
+        DEFCON5 && console.log(`No system config found with key: ${key}`);
       }
 
       return response;
