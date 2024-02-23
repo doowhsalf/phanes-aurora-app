@@ -107,6 +107,7 @@ export default class Constants {
 
   static NotiseClass = {
     CONTENT_UPDATED: "content_updated",
+    CONTENT_CLONED: "content_cloned",
     ARTICLE_ACTION_CONTENT_UPDATE: "article_action_content_update",
     ARTICLE_STATUS_OPEN: "article_status_open",
     ARTICLE_STATUS_REVIEW: "article_status_review",

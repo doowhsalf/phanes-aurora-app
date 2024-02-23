@@ -32,13 +32,78 @@ DEFCON5 && console.log("In Search server part");
 
 export default function () {
   Meteor.methods({
+    "content.cloneArticle": function (_id, context) {
+      check(_id, String);
+      check(context, String);
+
+      console.log("content.cloneArticle");
+
+      // Optional: Add additional security checks here, e.g., this.userId to ensure user is logged in
+      if (!this.userId) {
+        throw new Meteor.Error(401, "You must be logged in to clone content");
+      }
+
+      // Assuming you have a collection for your content objects, e.g., Contents
+      const documentToClone = Contents.findOne({ _id: _id });
+
+      if (!documentToClone) {
+        throw new Meteor.Error(404, "Document not found");
+      }
+
+      // Ensure revisions exist
+      if (documentToClone.revisions && documentToClone.revisions.length > 0) {
+        documentToClone.revisions = documentToClone.revisions.map(
+          (revision) => {
+            // Check if masterLanguage is equal to the language of the revision
+            if (documentToClone.masterLanguage === revision.language) {
+              // Prepend "Clone of " to the title of the matching revision
+              return {
+                ...revision,
+                title: `Clone of ${revision.title}`,
+              };
+            }
+            return revision;
+          }
+        );
+      }
+
+      // Remove the _id property to ensure MongoDB generates a new one for the clone
+      delete documentToClone._id;
+      // get the highest number of the id and add 1
+    
+
+      // Clone the document
+      const cloneId = Contents.insert(documentToClone);
+
+      // Optional: Log the cloning action or notify the user
+      const message =
+        "Document cloned successfully. New document ID: " + cloneId;
+      console.log(message);
+
+      // Add a notice about the cloning action
+      notices.addNoticeByFields(
+        Constants.NotiseClass.CONTENT_CLONED,
+        "Cloned content",
+        message,
+        "contents",
+        cloneId, // Use cloneId for the link to the cloned content
+        "/content/" + cloneId,
+        context,
+        [this.userId]
+      );
+
+      return cloneId; // Returns the _id of the cloned document
+    },
+  });
+
+
+  Meteor.methods({
     async "content.getArticle"(query) {
       check(query, Object);
 
       DEFCON5 && console.log("content.getArticle");
 
       const doWork = async () => {
-        //TODO: Articles should be possible to access anytime
         // if (!this.userId) {
         //   DEFCON5 && console.log("content.getArticle - Access denied");
         //   throw new Meteor.Error(401, 'Access denied');

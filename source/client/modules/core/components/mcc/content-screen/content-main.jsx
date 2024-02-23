@@ -25,7 +25,7 @@ import {
 import { Switch, FormControlLabel } from "@mui/material";
 import OrderTable from "./workorder/workOrdersCustomerOrder";
 import RequestTranslationOrder from "./workorder/order-workorder-proxy";
-
+import CloneDocumentButton from "./content-clone-document";
 import {
   DEFCON9,
   DEFCON7,
@@ -130,6 +130,9 @@ function ContentScreen(data) {
               <Button variant="outlined" color="primary">
                 New revision
               </Button>
+              <CloneDocumentButton
+                contentId={data.contentNode._id}
+              ></CloneDocumentButton>
             </CardActions>
           </Grid>
 
