@@ -85,6 +85,9 @@ import SensorMasterMaster from "./mcc_podview_sensormapping_master";
 import ArticlesMaster from "./articles-table/mcc_podview_articles_master";
 import TagMaster from "./tags-table/tags_master";
 import TagIcon from "@mui/icons-material/Tag";
+import NoteAddIcon from "@mui/icons-material/NoteAdd";
+import NewArticleForm from "./new-article/new-article-master.jsx";
+
 TimeAgo.locale(en);
 const drawerWidth = 240;
 function _uniqueKey() {
@@ -255,6 +258,15 @@ const menuItems = [
     link: "/tags",
     method: "internal",
   },
+  {
+    id: 4,
+    name: "Nav_DropDownItem_NewDocument",
+    icon: <NoteAddIcon />,
+    component: <NewArticleForm />,
+    link: "/tags",
+    method: "internal",
+  },
+  //
   // {
   //   id: 4,
   //   name: "Nav_DropDownItem_Labels",

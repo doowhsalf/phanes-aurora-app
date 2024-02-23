@@ -127,7 +127,6 @@ function ContentScreen(data) {
                 contentId={data.contentNode._id}
                 status={data.contentNode.status}
               ></UpdateStatusToArchiveOrActive>
-
               <Button variant="outlined" color="primary">
                 New revision
               </Button>
@@ -280,7 +279,6 @@ function ContentScreen(data) {
                       </div>
                     </Typography>
                   </Paper>
-                  
                   <Typography variant="h6">Meta</Typography>
                   <Divider
                     style={{
@@ -399,7 +397,7 @@ function ContentScreen(data) {
                       borderColor: "rgba(128, 128, 128, 0.21)",
                     }}
                   />
-                  <OrderTable contentId={data.contentNode.nid}></OrderTable>
+                  <OrderTable contentId={data.contentNode._id}></OrderTable>
                 </Paper>
               </Grid>
               <Grid item xs={12}>

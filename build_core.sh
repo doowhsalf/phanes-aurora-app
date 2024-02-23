@@ -13,6 +13,6 @@ meteor yarn
 # meteor yarn add react-spring --allow-superuser 
 # meteor yarn add animate.css react-gravatar --allow-superuser
 # meteor yarn add @mui/material @mui/styles @mui/lab @mui/icons-material @emotion/react @emotion/styled react-tiny-link node-fetch --allow-superuser
-meteor yarn add @emotion/react @emotion/styled xlsx file-saver react-syntax-highlighter react-trianglify trianglify  showdown rss-parser --allow-superuser
+meteor yarn add @emotion/react @emotion/styled xlsx file-saver react-syntax-highlighter react-trianglify trianglify  showdown rss-parser formik --allow-superuser
 npx browserslist@latest --update-db
 echo "Generic Build done"
