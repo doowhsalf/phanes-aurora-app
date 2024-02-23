@@ -434,11 +434,15 @@ class Searchlist extends React.Component {
 
     nodeConfigs.forEach((article) => {
       DEFCON7 && console.log(article);
-      if (nodeConfigs.revisions !== undefined) {
+      // Corrected: Access `revisions` directly on each `article`, not on `nodeConfigs`
+      if (article.revisions !== undefined) {
         article.revisions.forEach((revision) => {
-          // check if masterLanguage is equal to the language of the revision and then set the title to the revision title
-          if (article.mainLanguage === revision.language) {
-            article.title = revision.title;
+          // Check if masterLanguage is equal to the language of the revision
+          if (article.masterLanguage === revision.language) {
+            article.title = revision.title; // Set the article title to the revision title
+            DEFCON5 &&
+              console.log("Setting title to revision title for:", article._id);
+            DEFCON5 && console.log(revision.title);
           }
         });
       }
