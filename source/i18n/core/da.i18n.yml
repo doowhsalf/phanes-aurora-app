@@ -109,7 +109,7 @@
 "Label_podview_articles_master_version": "Version"
 "Label_podview_articles_master_publish_status": "Udgiv status"
 "Nav_DropDownItem_Tags": "Tags"
-"Label_podview_articles_master_status5": "Dokumentstatus"
+"Nav_DropDownItem_NewDocument": "Nyt dokument"
 "Label_podview_articles_master_status6": "Status"
 "Label_podview_articles_master_status7": "Status"
 "Label_podview_articles_master_status8": "Status"
@@ -152,7 +152,7 @@
 "Entity_Label_FieldCountryOfJurisdiction_Norway": "Norge"
 "Entity_Label_FieldCountryOfJurisdiction_Finland": "Finland"
 "Entity_Label_Field_is_active_role": "Er aktiv rolle"
-"Label_Button_NewRole": "Tilføj en ny rolle"
+#VALUE! (Google Translate internal error.)
 "Label_Button_RemoveRole": "Slet"
 "Entity_Label_Item_id": "Id"
 "Entity_Label_Field_Role_remove_item": "Fjerne rolle fra orden?"

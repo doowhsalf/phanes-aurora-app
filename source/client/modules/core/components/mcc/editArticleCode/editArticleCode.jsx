@@ -81,6 +81,7 @@ const EditArticleCode = ({ existingCodes, onUpdate }) => {
           label="Code"
           variant="outlined"
           size="small"
+          fullWidth
         />
         <Button
           variant="outlined"

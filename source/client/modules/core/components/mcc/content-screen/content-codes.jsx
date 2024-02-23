@@ -54,8 +54,6 @@ const DocumentRenderer = ({ contentNode }) => {
 
   return (
     <Box>
-      <Typography variant="h6">Document Details</Typography>
-      <Divider style={{ marginBottom: "20px", marginTop: "10px" }} />
       {/* Other content details */}
       <Typography variant="subtitle1">Article Codes:</Typography>
       <EditArticleCode
