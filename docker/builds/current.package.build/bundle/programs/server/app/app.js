@@ -7471,7 +7471,7 @@ module.exports = {
                                                                                                                     //
 module.exports = {
   "name": "aurora",
-  "version": "0.5.22",
+  "version": "0.5.24",
   "version_focus": "Pod",
   "version_build_date": "20240223",
   "description": "Aurora POD - Translation and Localization Management System",
@@ -7514,6 +7514,7 @@ module.exports = {
     "echarts-for-react": "^3.0.2",
     "es6-promisify": "^7.0.0",
     "file-saver": "^2.0.5",
+    "formik": "^2.4.5",
     "immutability-helper": "^3.0.1",
     "intl": "^1.2.5",
     "intl-locales-supported": "^1.0.0",
