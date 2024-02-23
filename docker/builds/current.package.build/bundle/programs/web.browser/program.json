@@ -2,25 +2,25 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "ecc3ea82d7990a39c9e8d5452dab5532640c4caa.js",
+      "path": "de1e9ede5ad4aa745ec7f600c424da4ea01d903d.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/ecc3ea82d7990a39c9e8d5452dab5532640c4caa.js?meteor_js_resource=true",
+      "url": "/de1e9ede5ad4aa745ec7f600c424da4ea01d903d.js?meteor_js_resource=true",
       "replaceable": false,
-      "size": 17116850,
-      "hash": "ecc3ea82d7990a39c9e8d5452dab5532640c4caa",
-      "sri": "shFe4NXPLu02b6CADOVDIaaZztyN/rFCB6+mBvKvk+FBG8NB+w2lazbKwWPoQU58FB8ZFjiEoqeuNm8UKYcuBA=="
+      "size": 17116937,
+      "hash": "de1e9ede5ad4aa745ec7f600c424da4ea01d903d",
+      "sri": "hpwmGgZoDLJWuGlnvuSnVynIKbdQtOtk3f9GQ8kYqjtcdOZgn4iAmxyub0vSiZQijxK/Zz0dOEYApQXZJ+uVuw=="
     },
     {
-      "path": "ecc3ea82d7990a39c9e8d5452dab5532640c4caa.stats.json",
+      "path": "de1e9ede5ad4aa745ec7f600c424da4ea01d903d.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/ecc3ea82d7990a39c9e8d5452dab5532640c4caa.stats.json?meteor_js_resource=true",
+      "url": "/de1e9ede5ad4aa745ec7f600c424da4ea01d903d.stats.json?meteor_js_resource=true",
       "size": 724640,
-      "hash": "a159f957d91315c9eb65ead83ae2c5709a7bb6d3",
-      "sri": "7+0yoIN2M+9LlAk8aG4eK5y4y9WUPms4SkXCgTVmHb4ED9h0An3L7z9FziQJUhIXsDjlX7yVdP1+Nw4BOjFfXg=="
+      "hash": "433f81514e8b6789d4b272793a27c8b8d37d95a8",
+      "sri": "YCHqHXR1lSTd5TsUW3W8uCxI+5U+uOPaP6cDp7SwMeR5a7OfQlkg5TvRGmx1HN6XPzrYB+wTean6YF9ei5H78g=="
     },
     {
       "path": "9bfe412163d4640209bac0e2210dd98960b3e0c2.css",
@@ -119,7 +119,7 @@
       "cacheable": false,
       "url": "/buildstuff/tri_build_meta.txt",
       "size": 130,
-      "hash": "ea21de64d78764fb1fc5478cea9d79228b9a47d4",
+      "hash": "bed44e96a7fb81b55164ea862a97bed055370a53",
       "sri": null
     },
     {
@@ -129,7 +129,7 @@
       "cacheable": false,
       "url": "/buildstuff/tri_build_number.txt",
       "size": 11,
-      "hash": "53ec3c9b97de3e74de92d0ed7e6fadd200bdc6d0",
+      "hash": "60ed601d728c9e56193ff9d25cef00a01800f984",
       "sri": null
     },
     {
