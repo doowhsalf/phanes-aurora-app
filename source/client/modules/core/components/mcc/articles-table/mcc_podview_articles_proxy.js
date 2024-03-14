@@ -57,6 +57,8 @@ export const composer = (
         activeTypeOfArticleFilters.includes(
           article.typeOfArticle.toLowerCase().replace(/\s/g, "")
         );
+        // create a string of all articlecodes 
+        let articleCodesString = article.articleCodes.join(" ");
       // Apply text search filter
       const regex = new RegExp(searchText, "i");
       // Simplify search string creation
@@ -69,7 +71,7 @@ export const composer = (
         article.language
       } ${article.originalLanguage} ${article.title} ${article.body} ${
         article.subheader
-      } ${article.weight} ${article.articleCode} ${article.typeOfArticle} ${
+      } ${article.weight} ${articleCodesString} ${article.typeOfArticle} ${
         article.contentType
       } ${article.nid}`;
       // Return articles that match all active filters

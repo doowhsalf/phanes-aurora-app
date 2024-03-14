@@ -15,13 +15,13 @@ import {
 
 const DocumentRenderer = ({ contentNode }) => {
   const [articleCodes, setArticleCodes] = useState(
-    contentNode.articleCode || []
+    contentNode.articleCodes || []
   );
 
   const handleUpdateArticleCodes = (newCodes) => {
     DEFCON5 && console.log("Updating article codes", newCodes);
     setArticleCodes(newCodes); // This updates the state asynchronously
-    const fieldsToUpdate = { articleCode: newCodes }; // Use newCodes directly
+    const fieldsToUpdate = { articleCodes: newCodes }; // Use newCodes directly
 
     Meteor.call(
       "content.update",
@@ -55,6 +55,7 @@ const DocumentRenderer = ({ contentNode }) => {
   return (
     <Box>
       {/* Other content details */}
+      <Divider />
       <Typography variant="subtitle1">Article Codes:</Typography>
       <EditArticleCode
         existingCodes={articleCodes}

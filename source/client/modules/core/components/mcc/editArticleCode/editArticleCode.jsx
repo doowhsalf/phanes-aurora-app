@@ -62,7 +62,7 @@ const EditArticleCode = ({ existingCodes, onUpdate }) => {
 
   return (
     <>
-      <Stack direction="row" spacing={1} marginBottom={2}>
+      <Stack spacing={1} marginBottom={2}>
         {existingCodes.map((code, index) => (
           <Chip
             key={code}
