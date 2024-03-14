@@ -7528,9 +7528,9 @@ module.exports = {
                                                                                                                       //
 module.exports = {
   "name": "aurora",
-  "version": "0.5.26",
+  "version": "0.5.27",
   "version_focus": "Pod",
-  "version_build_date": "20240223",
+  "version_build_date": "20240314",
   "description": "Aurora POD - Translation and Localization Management System",
   "scripts": {
     "lint": "eslint ./lib ./client ./server --ext .js --ext .jsx",
@@ -7546,7 +7546,7 @@ module.exports = {
     "@date-io/date-fns": "^2.16.0",
     "@date-io/luxon": "^1.3.6",
     "@date-io/moment": "^1.0.2",
-    "@emotion/react": "^11.11.3",
+    "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",

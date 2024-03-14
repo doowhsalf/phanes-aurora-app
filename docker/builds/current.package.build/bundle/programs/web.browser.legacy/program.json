@@ -2,25 +2,25 @@
   "format": "web-program-pre1",
   "manifest": [
     {
-      "path": "97fb64763d20f4b1a0f97ad35dd694ada3089fc2.js",
+      "path": "3af4efb619e5b160e6917b84b6e19c2a4685e6ce.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/97fb64763d20f4b1a0f97ad35dd694ada3089fc2.js?meteor_js_resource=true",
+      "url": "/3af4efb619e5b160e6917b84b6e19c2a4685e6ce.js?meteor_js_resource=true",
       "replaceable": false,
-      "size": 20231712,
-      "hash": "97fb64763d20f4b1a0f97ad35dd694ada3089fc2",
-      "sri": "S8q4DZZE6juATFtbnvhHWfHAzdPzAqEZdx0mMBa4QpxFFwpAPtv/LiFNp298FUkUJL5fv/duKZMnZlF+HBDRwA=="
+      "size": 20250731,
+      "hash": "3af4efb619e5b160e6917b84b6e19c2a4685e6ce",
+      "sri": "mWaww2lJloABTwxAdK60brrx/tJIMasR39774fIfeQLYlcbsY7BvyD/OKJ1QIoxRaUv3n4pfz8hWQOWCH1q5pg=="
     },
     {
-      "path": "97fb64763d20f4b1a0f97ad35dd694ada3089fc2.stats.json",
+      "path": "3af4efb619e5b160e6917b84b6e19c2a4685e6ce.stats.json",
       "where": "client",
       "type": "json",
       "cacheable": true,
-      "url": "/97fb64763d20f4b1a0f97ad35dd694ada3089fc2.stats.json?meteor_js_resource=true",
-      "size": 729448,
-      "hash": "18eddd784368a7a2d6894eca82564b738a412bde",
-      "sri": "W9b6p4NJYgKUaAKgmIYRhoTI7Ra6wkzmwky+xbEH/FsoWR4KcwCDTWC/pg3HBVZxqcGHeNxgmoGN5tehndNVcw=="
+      "url": "/3af4efb619e5b160e6917b84b6e19c2a4685e6ce.stats.json?meteor_js_resource=true",
+      "size": 730248,
+      "hash": "9f6083021ab2b4297343552242894852fc9e6372",
+      "sri": "6oHKLNNvXQYEYAHu2EBQK7AgpP/jrTIbEE7M0FF1LoL71YRzJsxEwMhfqXWS/ZisM2Be6R0GRWnkhhxKBr7JOA=="
     },
     {
       "path": "9bfe412163d4640209bac0e2210dd98960b3e0c2.css",
@@ -119,7 +119,7 @@
       "cacheable": false,
       "url": "/buildstuff/tri_build_meta.txt",
       "size": 130,
-      "hash": "1035ae349169abee2c7e933563126970fd31545f",
+      "hash": "adc6c53ccaecc2f6c76e66e28b98fad5d61745dd",
       "sri": null
     },
     {
@@ -129,7 +129,7 @@
       "cacheable": false,
       "url": "/buildstuff/tri_build_number.txt",
       "size": 11,
-      "hash": "406aba11b431bded9837dce065d74acbdc0bcceb",
+      "hash": "57bb0dff16bc25f2b57faf90c53cabb6f7519442",
       "sri": null
     },
     {
